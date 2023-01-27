@@ -1,0 +1,115 @@
+2023-01-24 10:26:13,955	Logging set up	post_bibs	migration_task_base.py:214
+2023-01-24 10:26:13,956	Mapping files folder is /home/theodor/client_data/migration_ic-migration-test/mapping_files	post_bibs	folder_structure.py:47
+2023-01-24 10:26:13,956	Git ignore is set up correctly	post_bibs	folder_structure.py:48
+2023-01-24 10:26:13,956	Base folder is /home/theodor/client_data/migration_ic-migration-test	post_bibs	folder_structure.py:49
+2023-01-24 10:26:13,956	Reports and logs folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports	post_bibs	folder_structure.py:50
+2023-01-24 10:26:13,956	Results folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results	post_bibs	folder_structure.py:51
+2023-01-24 10:26:13,956	Data folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/source_data	post_bibs	folder_structure.py:52
+2023-01-24 10:26:13,957	Source records files folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/source_data	post_bibs	folder_structure.py:53
+2023-01-24 10:26:13,957	Log file will be located at /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports/log_other_post_bibs.log	post_bibs	folder_structure.py:54
+2023-01-24 10:26:13,957	Extra data will be stored at/home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/extradata_post_bibs.extradata	post_bibs	folder_structure.py:55
+2023-01-24 10:26:13,957	Data issue reports /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports/data_issues_log_post_bibs.tsv	post_bibs	folder_structure.py:56
+2023-01-24 10:26:13,957	Created objects will be stored at  /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/folio_other_post_bibs.json	post_bibs	folder_structure.py:57
+2023-01-24 10:26:13,958	Migration report file will be saved at /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports/report_post_bibs.md	post_bibs	folder_structure.py:58
+2023-01-24 10:26:13,958	MigrationTaskBase init done	post_bibs	migration_task_base.py:78
+2023-01-24 10:26:13,958	Batch size is 1	post_bibs	batch_poster.py:75
+2023-01-24 10:26:13,959	Running /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/failed_records_post_bibs_20230124-102611.txt	post_bibs	batch_poster.py:94
+2023-01-24 10:26:13,960	{
+ "metadata": {
+  "createdDate": "2023-01-20T13:42:19.321",
+  "createdByUserId": "bb78777e-d13b-4612-9383-54d2b17f6d5d",
+  "updatedDate": "2023-01-20T13:42:19.321",
+  "updatedByUserId": "bb78777e-d13b-4612-9383-54d2b17f6d5d"
+ },
+ "id": "fd9cfdd2-13db-5c9c-a4d8-6dd21d0cab4a",
+ "hrid": "7611780",
+ "administrativeNotes": [
+  "Identifier(s) from previous system: 7611780"
+ ],
+ "identifiers": [
+  {
+   "identifierTypeId": "8261054f-be78-422d-bd51-4ed9f33c3422",
+   "value": "91-7158-022-0"
+  }
+ ],
+ "classifications": [
+  {
+   "classificationTypeId": "42471af9-7d25-4f3a-bf78-60d29dcf463b",
+   "classificationNumber": "550"
+  }
+ ],
+ "contributors": [
+  {
+   "contributorNameTypeId": "2b94c631-fca9-4892-a730-03ee529ffe2a",
+   "contributorTypeId": "9f0a2cf0-7a9b-45a2-a403-f68d2850d07c",
+   "contributorTypeText": "Contributor",
+   "primary": true,
+   "name": "De Geer, Jan, 1918-2007"
+  }
+ ],
+ "title": "Do\u0308da fallen i Avesta.",
+ "indexTitle": "Do\u0308da fallen i avesta.",
+ "publication": [
+  {
+   "place": "Stockholm",
+   "publisher": "",
+   "dateOfPublication": "1973"
+  }
+ ],
+ "physicalDescriptions": [
+  "37 s. + 1 karta"
+ ],
+ "notes": [
+  {
+   "instanceNoteTypeId": "7356cde5-ec6b-4961-9cb0-961c48a37af4",
+   "note": "Summary: The \"Dead Falls\" of Dala\u0308lven at Avesta, central Sweden",
+   "staffOnly": false
+  }
+ ],
+ "source": "MARC",
+ "instanceFormatIds": [],
+ "instanceTypeId": "30fffe0e-e985-4144-b2e2-1e8179bdb41f",
+ "modeOfIssuanceId": "9d18a02f-5897-4c31-9106-c9abb5c7ae8b",
+ "languages": [
+  "eng",
+  "swe"
+ ],
+ "discoverySuppress": false,
+ "staffSuppress": false
+}	post_bibs	batch_poster.py:113
+2023-01-24 10:26:14,738	ERROR: Cannot update record fd9cfdd2-13db-5c9c-a4d8-6dd21d0cab4a because it has been changed (optimistic locking): Stored _version is 1, _version of request is <NULL> (23F09)	post_bibs	batch_poster.py:325
+2023-01-24 10:26:14,738	Critical data issue. Record needs fixing		HTTP 409	Request size: 1.96KB2023-01-24T09:26:14.738708 UTC
+	<Response [409]>	post_bibs	batch_poster.py:211
+2023-01-24 10:26:14,739	Resetting batch...Number of failed batches: 1	post_bibs	batch_poster.py:217
+2023-01-24 10:26:15,475	ERROR: Cannot update record dd3ce27e-8f65-5392-9ed1-d9e324518689 because it has been changed (optimistic locking): Stored _version is 1, _version of request is <NULL> (23F09)	post_bibs	batch_poster.py:325
+2023-01-24 10:26:15,476	Critical data issue. Record needs fixing		HTTP 409	Request size: 2.72KB2023-01-24T09:26:15.476020 UTC
+	<Response [409]>	post_bibs	batch_poster.py:211
+2023-01-24 10:26:15,476	Resetting batch...Number of failed batches: 2	post_bibs	batch_poster.py:217
+2023-01-24 10:26:16,217	ERROR: Cannot update record 4ab1a8d9-adf4-5033-a562-aed7d9593c04 because it has been changed (optimistic locking): Stored _version is 1, _version of request is <NULL> (23F09)	post_bibs	batch_poster.py:325
+2023-01-24 10:26:16,218	Critical data issue. Record needs fixing		HTTP 409	Request size: 5.33KB2023-01-24T09:26:16.218132 UTC
+	<Response [409]>	post_bibs	batch_poster.py:211
+2023-01-24 10:26:16,218	Resetting batch...Number of failed batches: 3	post_bibs	batch_poster.py:217
+2023-01-24 10:26:16,955	ERROR: Cannot update record da3ed3e9-751a-594b-b042-cdf2d5d2a550 because it has been changed (optimistic locking): Stored _version is 1, _version of request is <NULL> (23F09)	post_bibs	batch_poster.py:325
+2023-01-24 10:26:16,956	Critical data issue. Record needs fixing		HTTP 409	Request size: 5.32KB2023-01-24T09:26:16.956239 UTC
+	<Response [409]>	post_bibs	batch_poster.py:211
+2023-01-24 10:26:16,956	Resetting batch...Number of failed batches: 4	post_bibs	batch_poster.py:217
+2023-01-24 10:26:17,703	ERROR: Cannot update record 4d363f4a-8015-5f90-b8cb-3dd361e5af6f because it has been changed (optimistic locking): Stored _version is 1, _version of request is <NULL> (23F09)	post_bibs	batch_poster.py:325
+2023-01-24 10:26:17,703	Critical data issue. Record needs fixing		HTTP 409	Request size: 5.44KB2023-01-24T09:26:17.703478 UTC
+	<Response [409]>	post_bibs	batch_poster.py:211
+2023-01-24 10:26:17,703	Resetting batch...Number of failed batches: 5	post_bibs	batch_poster.py:217
+2023-01-24 10:26:18,430	ERROR: Cannot update record 45ca14ce-e1b3-52d7-bb16-99db0a32d1ee because it has been changed (optimistic locking): Stored _version is 1, _version of request is <NULL> (23F09)	post_bibs	batch_poster.py:325
+2023-01-24 10:26:18,430	Critical data issue. Record needs fixing		HTTP 409	Request size: 4.33KB2023-01-24T09:26:18.430936 UTC
+	<Response [409]>	post_bibs	batch_poster.py:211
+2023-01-24 10:26:18,431	Resetting batch...Number of failed batches: 6	post_bibs	batch_poster.py:217
+2023-01-24 10:26:19,158	ERROR: Cannot update record 6a7425ed-aa9d-5f0e-87db-b43a0563dc18 because it has been changed (optimistic locking): Stored _version is 1, _version of request is <NULL> (23F09)	post_bibs	batch_poster.py:325
+2023-01-24 10:26:19,158	Critical data issue. Record needs fixing		HTTP 409	Request size: 5.13KB2023-01-24T09:26:19.158490 UTC
+	<Response [409]>	post_bibs	batch_poster.py:211
+2023-01-24 10:26:19,158	Resetting batch...Number of failed batches: 7	post_bibs	batch_poster.py:217
+2023-01-24 10:26:19,894	ERROR: Cannot update record 6e26a392-b7c4-5fa1-b90f-c17fa30de0d0 because it has been changed (optimistic locking): Stored _version is 1, _version of request is <NULL> (23F09)	post_bibs	batch_poster.py:325
+2023-01-24 10:26:19,895	Critical data issue. Record needs fixing		HTTP 409	Request size: 5.19KB2023-01-24T09:26:19.895379 UTC
+	<Response [409]>	post_bibs	batch_poster.py:211
+2023-01-24 10:26:19,895	Resetting batch...Number of failed batches: 8	post_bibs	batch_poster.py:217
+2023-01-24 10:26:20,633	ERROR: Cannot update record 244de9b1-3b97-5fa0-b02b-f40db0bf2dbc because it has been changed (optimistic locking): Stored _version is 1, _version of request is <NULL> (23F09)	post_bibs	batch_poster.py:325
+2023-01-24 10:26:20,634	Critical data issue. Record needs fixing		HTTP 409	Request size: 5.01KB2023-01-24T09:26:20.634550 UTC
+	<Response [409]>	post_bibs	batch_poster.py:211
+2023-01-24 10:26:20,634	Resetting batch...Number of failed batches: 9	post_bibs	batch_poster.py:217

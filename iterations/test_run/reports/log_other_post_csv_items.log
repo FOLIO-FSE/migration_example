@@ -1,0 +1,47 @@
+2023-01-18 13:01:18,547	Logging set up	post_csv_items	migration_task_base.py:214
+2023-01-18 13:01:18,548	Mapping files folder is /home/theodor/client_data/migration_ic-migration-test/mapping_files	post_csv_items	folder_structure.py:47
+2023-01-18 13:01:18,548	Git ignore is set up correctly	post_csv_items	folder_structure.py:48
+2023-01-18 13:01:18,548	Base folder is /home/theodor/client_data/migration_ic-migration-test	post_csv_items	folder_structure.py:49
+2023-01-18 13:01:18,548	Reports and logs folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports	post_csv_items	folder_structure.py:50
+2023-01-18 13:01:18,548	Results folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results	post_csv_items	folder_structure.py:51
+2023-01-18 13:01:18,548	Data folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/source_data	post_csv_items	folder_structure.py:52
+2023-01-18 13:01:18,548	Source records files folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/source_data	post_csv_items	folder_structure.py:53
+2023-01-18 13:01:18,548	Log file will be located at /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports/log_other_post_csv_items.log	post_csv_items	folder_structure.py:54
+2023-01-18 13:01:18,548	Extra data will be stored at/home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/extradata_post_csv_items.extradata	post_csv_items	folder_structure.py:55
+2023-01-18 13:01:18,548	Data issue reports /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports/data_issues_log_post_csv_items.tsv	post_csv_items	folder_structure.py:56
+2023-01-18 13:01:18,549	Created objects will be stored at  /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/folio_other_post_csv_items.json	post_csv_items	folder_structure.py:57
+2023-01-18 13:01:18,549	Migration report file will be saved at /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports/report_post_csv_items.md	post_csv_items	folder_structure.py:58
+2023-01-18 13:01:18,549	MigrationTaskBase init done	post_csv_items	migration_task_base.py:78
+2023-01-18 13:01:18,549	Batch size is 250	post_csv_items	batch_poster.py:75
+2023-01-18 13:01:18,549	Running /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/folio_items_transform_csv_items.json	post_csv_items	batch_poster.py:94
+2023-01-18 13:01:18,550	{
+ "id": "69e0aa66-1a4d-51cf-b2a9-bb2b38a01056",
+ "metadata": {
+  "createdDate": "2023-01-18T11:47:16.724",
+  "createdByUserId": "bb78777e-d13b-4612-9383-54d2b17f6d5d",
+  "updatedDate": "2023-01-18T11:47:16.724",
+  "updatedByUserId": "bb78777e-d13b-4612-9383-54d2b17f6d5d"
+ },
+ "hrid": "000000950000010",
+ "holdingsRecordId": "0ea781ef-9ed4-5d82-bf48-e4415820ca90",
+ "formerIds": [
+  "7611780"
+ ],
+ "barcode": "950-10                        ",
+ "enumeration": "A B",
+ "status": {
+  "name": "Available",
+  "date": "2023-01-18T11:47:16.735336"
+ },
+ "materialTypeId": "4eea3f27-8910-46fc-9666-e2b44326c2b8",
+ "permanentLoanTypeId": "2e48e713-17f3-4c13-a9f8-23845bb210a4"
+}	post_csv_items	batch_poster.py:113
+2023-01-18 13:01:19,340	Posting successful! Total rows: 3 Total failed: 0 in 0.787277s Batch Size: 3 Request size: 2.40KB 	post_csv_items	batch_poster.py:243
+2023-01-18 13:01:19,340	Done posting 3 records. 	post_csv_items	batch_poster.py:148
+2023-01-18 13:01:19,340	Done. Wrapping up	post_csv_items	batch_poster.py:355
+2023-01-18 13:01:19,341	Removing extradata file since it is empty	post_csv_items	extradata_writer.py:46
+2023-01-18 13:01:19,341	Failed records: 0 failed records in 0 failed batches. Failed records saved to /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/failed_records_post_csv_items_20230118-130118.txt	post_csv_items	batch_poster.py:360
+2023-01-18 13:01:19,341	Elapsed time: 0:00:01.625785	post_csv_items	migration_report.py:74
+2023-01-18 13:01:19,341	Removing data issues file since it is empty	post_csv_items	migration_task_base.py:89
+2023-01-18 13:01:19,342	Removed data issues file since it was empty	post_csv_items	migration_task_base.py:91
+2023-01-18 13:01:19,343	Work done. Shutting down	post_csv_items	__main__.py:98

@@ -1,0 +1,93 @@
+2023-01-18 12:46:29,344	Logging set up	transform_csv_holdings	migration_task_base.py:214
+2023-01-18 12:46:29,345	Mapping files folder is /home/theodor/client_data/migration_ic-migration-test/mapping_files	transform_csv_holdings	folder_structure.py:47
+2023-01-18 12:46:29,345	Git ignore is set up correctly	transform_csv_holdings	folder_structure.py:48
+2023-01-18 12:46:29,345	Base folder is /home/theodor/client_data/migration_ic-migration-test	transform_csv_holdings	folder_structure.py:49
+2023-01-18 12:46:29,345	Reports and logs folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports	transform_csv_holdings	folder_structure.py:50
+2023-01-18 12:46:29,345	Results folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results	transform_csv_holdings	folder_structure.py:51
+2023-01-18 12:46:29,345	Data folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/source_data	transform_csv_holdings	folder_structure.py:52
+2023-01-18 12:46:29,345	Source records files folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/source_data/holdings	transform_csv_holdings	folder_structure.py:53
+2023-01-18 12:46:29,345	Log file will be located at /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports/log_holdings_transform_csv_holdings.log	transform_csv_holdings	folder_structure.py:54
+2023-01-18 12:46:29,346	Extra data will be stored at/home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/extradata_transform_csv_holdings.extradata	transform_csv_holdings	folder_structure.py:55
+2023-01-18 12:46:29,346	Data issue reports /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports/data_issues_log_transform_csv_holdings.tsv	transform_csv_holdings	folder_structure.py:56
+2023-01-18 12:46:29,346	Created objects will be stored at  /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/folio_holdings_transform_csv_holdings.json	transform_csv_holdings	folder_structure.py:57
+2023-01-18 12:46:29,346	Migration report file will be saved at /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports/report_transform_csv_holdings.md	transform_csv_holdings	folder_structure.py:58
+2023-01-18 12:46:29,346	MigrationTaskBase init done	transform_csv_holdings	migration_task_base.py:78
+2023-01-18 12:46:29,346	46 fields in holdings mapping file map	transform_csv_holdings	holdings_csv_transformer.py:179
+2023-01-18 12:46:29,346	8 mapped fields in holdings mapping file map	transform_csv_holdings	holdings_csv_transformer.py:183
+2023-01-18 12:46:29,347	Found 5 rows in location map	transform_csv_holdings	holdings_csv_transformer.py:171
+2023-01-18 12:46:29,347	Found 2 rows in call number type map	transform_csv_holdings	holdings_csv_transformer.py:171
+2023-01-18 12:46:29,347	Loaded 14 migrated IDs	transform_csv_holdings	migration_task_base.py:153
+2023-01-18 12:46:29,347	Using GITHB_TOKEN environment variable for Gihub API Access	transform_csv_holdings	FolioClient.py:229
+2023-01-18 12:46:30,041	MapperBase initiating	transform_csv_holdings	mapper_base.py:35
+2023-01-18 12:46:30,041	Legacy identifier will be mapped from Z30_REC_KEY	transform_csv_holdings	mapping_file_mapper_base.py:147
+2023-01-18 12:46:30,041	Mapped values:
+{
+    "notes[0].holdingsNoteTypeId": "f453de0f-8b54-4e99-9180-52932529e3a6",
+    "notes[0].staffOnly": true
+}	transform_csv_holdings	mapping_file_mapper_base.py:71
+2023-01-18 12:46:30,041	Statistical codes map is not set up	transform_csv_holdings	mapping_file_mapper_base.py:120
+2023-01-18 12:46:30,042	Mapped legacy fields:
+[
+    "holdings_stmt",
+    "Z30_REC_KEY",
+    "PERM_LOCATION",
+    "fake_instance_id",
+    "holdings_note"
+]	transform_csv_holdings	mapping_file_mapper_base.py:97
+2023-01-18 12:46:30,042	Mapped FOLIO fields:
+[
+    "legacyIdentifier",
+    "formerIds[0]",
+    "holdingsStatements[0].statement",
+    "instanceId",
+    "notes[0].holdingsNoteTypeId",
+    "notes[0].note",
+    "notes[0].staffOnly",
+    "permanentLocationId"
+]	transform_csv_holdings	mapping_file_mapper_base.py:101
+2023-01-18 12:46:30,042	locations reference data mapping. Initializing	transform_csv_holdings	ref_data_mapping.py:23
+2023-01-18 12:46:30,042	Fetching locations reference data from FOLIO	transform_csv_holdings	ref_data_mapping.py:24
+2023-01-18 12:46:31,515	Set migration as default locations mapping	transform_csv_holdings	ref_data_mapping.py:56
+2023-01-18 12:46:31,515	Loaded 2 mappings for 5 locations in FOLIO	transform_csv_holdings	ref_data_mapping.py:89
+2023-01-18 12:46:31,515	loaded 2 hybrid mappings for 5 locations in FOLIO	transform_csv_holdings	ref_data_mapping.py:93
+2023-01-18 12:46:31,515	locations reference data mapping. Done init	transform_csv_holdings	ref_data_mapping.py:35
+2023-01-18 12:46:31,515	callNumberTypes reference data mapping. Initializing	transform_csv_holdings	ref_data_mapping.py:23
+2023-01-18 12:46:31,515	Fetching callNumberTypes reference data from FOLIO	transform_csv_holdings	ref_data_mapping.py:24
+2023-01-18 12:46:32,980	Values from callNumberTypes ref data in FOLIO that are not in the map: ['Shelving control number', 'Title', 'Library of Congress classification', 'Superintendent of Documents classification', 'UDC', 'Shelved separately', 'Source specified in subfield $2', 'National Library of Medicine classification', 'MOYS', 'LC Modified']	transform_csv_holdings	ref_data_mapping.py:158
+2023-01-18 12:46:32,980	Set Other scheme as default callNumberTypes mapping	transform_csv_holdings	ref_data_mapping.py:56
+2023-01-18 12:46:32,980	Loaded 1 mappings for 12 callNumberTypes in FOLIO	transform_csv_holdings	ref_data_mapping.py:89
+2023-01-18 12:46:32,980	loaded 0 hybrid mappings for 12 callNumberTypes in FOLIO	transform_csv_holdings	ref_data_mapping.py:93
+2023-01-18 12:46:32,980	callNumberTypes reference data mapping. Done init	transform_csv_holdings	ref_data_mapping.py:35
+2023-01-18 12:46:32,981	Loaded 4 migrated IDs	transform_csv_holdings	migration_task_base.py:153
+2023-01-18 12:46:34,454	Fetched 2 holdingsRecordsSources from tenant	transform_csv_holdings	holdings_csv_transformer.py:463
+2023-01-18 12:46:34,455	{
+    "FOLIO": "f32d531e-df79-46b3-8932-cdd35f7a2264",
+    "MARC": "036ee84a-6afd-4c3c-9ad3-4a12ab875f59"
+}	transform_csv_holdings	holdings_csv_transformer.py:469
+2023-01-18 12:46:35,950	7	holdings types in tenant	transform_csv_holdings	holdings_csv_transformer.py:91
+2023-01-18 12:46:35,950	Using GITHB_TOKEN environment variable for Gihub API Access	transform_csv_holdings	FolioClient.py:229
+2023-01-18 12:46:36,336	dict_keys(['id', '_version', 'hrid', 'holdingsTypeId', 'formerIds', 'instanceId', 'permanentLocationId', 'permanentLocation', 'temporaryLocationId', 'effectiveLocationId', 'electronicAccess', 'callNumberTypeId', 'callNumberPrefix', 'callNumber', 'callNumberSuffix', 'shelvingTitle', 'acquisitionFormat', 'acquisitionMethod', 'receiptStatus', 'administrativeNotes', 'notes', 'illPolicyId', 'illPolicy', 'retentionPolicy', 'digitizationPolicy', 'holdingsStatements', 'holdingsStatementsForIndexes', 'holdingsStatementsForSupplements', 'copyNumber', 'numberOfItems', 'receivingHistory', 'discoverySuppress', 'statisticalCodeIds', 'holdingsItems', 'bareHoldingsItems', 'holdingsInstance', 'tags', 'metadata', 'sourceId'])	transform_csv_holdings	holdings_csv_transformer.py:261
+2023-01-18 12:46:36,337	['instanceId', 'permanentLocationId', 'callNumber']	transform_csv_holdings	holdings_csv_transformer.py:262
+2023-01-18 12:46:36,337	Files to process:	transform_csv_holdings	migration_task_base.py:130
+2023-01-18 12:46:36,337		/home/theodor/client_data/migration_ic-migration-test/iterations/test_run/source_data/items/csv_items.tsv	transform_csv_holdings	migration_task_base.py:132
+2023-01-18 12:46:36,337	Monograph will be used as default holdings type	transform_csv_holdings	holdings_csv_transformer.py:110
+2023-01-18 12:46:36,337	Processing folio_holdings_transform_mfhd.json	transform_csv_holdings	holdings_csv_transformer.py:116
+2023-01-18 12:46:36,337	Holdings type id to exclude is set to 072cf64f-1fbe-4bb4-bdee-2d72453aefad	transform_csv_holdings	holdings_helper.py:72
+2023-01-18 12:46:36,338	Init done	transform_csv_holdings	holdings_csv_transformer.py:148
+2023-01-18 12:46:36,338	Starting....	transform_csv_holdings	holdings_csv_transformer.py:202
+2023-01-18 12:46:36,338	Processing csv_items.tsv	transform_csv_holdings	holdings_csv_transformer.py:204
+2023-01-18 12:46:36,340	Source data file contains 3 rows	transform_csv_holdings	mapping_file_mapper_base.py:577
+2023-01-18 12:46:36,340	Source data file contains 0 empty rows	transform_csv_holdings	mapping_file_mapper_base.py:578
+2023-01-18 12:46:36,341	All maped legacy fields are in the legacy object	transform_csv_holdings	mapping_file_mapper_base.py:654
+2023-01-18 12:46:36,342	fetching current user..	transform_csv_holdings	FolioClient.py:37
+2023-01-18 12:46:37,110	Done processing csv_items.tsv containing 3 records. Total records processed: 3	transform_csv_holdings	holdings_csv_transformer.py:302
+2023-01-18 12:46:37,110	processed 3 records in 1 files	transform_csv_holdings	holdings_csv_transformer.py:215
+2023-01-18 12:46:37,110	Done. Transformer wrapping up...	transform_csv_holdings	holdings_csv_transformer.py:220
+2023-01-18 12:46:37,110	Removing extradata file since it is empty	transform_csv_holdings	extradata_writer.py:46
+2023-01-18 12:46:37,111	Saving holdings created to /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/folio_holdings_transform_csv_holdings.json	transform_csv_holdings	holdings_csv_transformer.py:223
+2023-01-18 12:46:37,111	Wrote legacy id map to /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/holdings_id_map.json	transform_csv_holdings	mapper_base.py:316
+2023-01-18 12:46:37,111	Elapsed time: 0:00:07.070588	transform_csv_holdings	migration_report.py:74
+2023-01-18 12:46:37,112	All done!	transform_csv_holdings	holdings_csv_transformer.py:255
+2023-01-18 12:46:37,112	Removing data issues file since it is empty	transform_csv_holdings	migration_task_base.py:89
+2023-01-18 12:46:37,112	Removed data issues file since it was empty	transform_csv_holdings	migration_task_base.py:91
+2023-01-18 12:46:37,112	Work done. Shutting down	transform_csv_holdings	__main__.py:98

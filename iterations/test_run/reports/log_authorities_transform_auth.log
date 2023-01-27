@@ -1,0 +1,56 @@
+2023-01-18 12:27:45,479	Logging set up	transform_auth	migration_task_base.py:214
+2023-01-18 12:27:45,479	Mapping files folder is /home/theodor/client_data/migration_ic-migration-test/mapping_files	transform_auth	folder_structure.py:47
+2023-01-18 12:27:45,480	Git ignore is set up correctly	transform_auth	folder_structure.py:48
+2023-01-18 12:27:45,480	Base folder is /home/theodor/client_data/migration_ic-migration-test	transform_auth	folder_structure.py:49
+2023-01-18 12:27:45,480	Reports and logs folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports	transform_auth	folder_structure.py:50
+2023-01-18 12:27:45,480	Results folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results	transform_auth	folder_structure.py:51
+2023-01-18 12:27:45,480	Data folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/source_data	transform_auth	folder_structure.py:52
+2023-01-18 12:27:45,480	Source records files folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/source_data/authorities	transform_auth	folder_structure.py:53
+2023-01-18 12:27:45,480	Log file will be located at /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports/log_authorities_transform_auth.log	transform_auth	folder_structure.py:54
+2023-01-18 12:27:45,480	Extra data will be stored at/home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/extradata_transform_auth.extradata	transform_auth	folder_structure.py:55
+2023-01-18 12:27:45,480	Data issue reports /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports/data_issues_log_transform_auth.tsv	transform_auth	folder_structure.py:56
+2023-01-18 12:27:45,481	Created objects will be stored at  /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/folio_authorities_transform_auth.json	transform_auth	folder_structure.py:57
+2023-01-18 12:27:45,481	Migration report file will be saved at /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports/report_transform_auth.md	transform_auth	folder_structure.py:58
+2023-01-18 12:27:45,481	MigrationTaskBase init done	transform_auth	migration_task_base.py:78
+2023-01-18 12:27:45,481	Files to process:	transform_auth	migration_task_base.py:130
+2023-01-18 12:27:45,481		/home/theodor/client_data/migration_ic-migration-test/iterations/test_run/source_data/authorities/libris_auth_50k.mrc	transform_auth	migration_task_base.py:132
+2023-01-18 12:27:45,481		/home/theodor/client_data/migration_ic-migration-test/iterations/test_run/source_data/authorities/NLA_sample_AuthorityRecordsPostJan2019.mrc	transform_auth	migration_task_base.py:132
+2023-01-18 12:27:45,481	Using GITHB_TOKEN environment variable for Gihub API Access	transform_auth	FolioClient.py:229
+2023-01-18 12:27:47,696	1 	Authority note types	transform_auth	conditions.py:160
+2023-01-18 12:27:49,178	27 	identifier types	transform_auth	conditions.py:161
+2023-01-18 12:27:49,179	MapperBase initiating	transform_auth	mapper_base.py:35
+2023-01-18 12:27:49,179	fetching current user..	transform_auth	FolioClient.py:37
+2023-01-18 12:27:49,983	Current user id is bb78777e-d13b-4612-9383-54d2b17f6d5d	transform_auth	rules_mapper_base.py:59
+2023-01-18 12:27:49,984	Fetching mapping rules from the tenant	transform_auth	rules_mapper_authorities.py:64
+2023-01-18 12:27:50,741	Init done	transform_auth	authority_transformer.py:58
+2023-01-18 12:27:50,741	Starting....	transform_auth	migration_task_base.py:249
+2023-01-18 12:27:50,745	Running libris_auth_50k.mrc	transform_auth	marc_reader_wrapper.py:34
+2023-01-18 12:27:55,597	779.1 (avg. 1030) records/sec.		5,000 records processed	transform_auth	rules_mapper_base.py:69
+2023-01-18 12:27:59,902	1162 (avg. 1092) records/sec.		10,000 records processed	transform_auth	rules_mapper_base.py:69
+2023-01-18 12:28:04,329	1130 (avg. 1104) records/sec.		15,000 records processed	transform_auth	rules_mapper_base.py:69
+2023-01-18 12:28:08,488	1202 (avg. 1127) records/sec.		20,000 records processed	transform_auth	rules_mapper_base.py:69
+2023-01-18 12:28:14,400	845.8 (avg. 1057) records/sec.		25,000 records processed	transform_auth	rules_mapper_base.py:69
+2023-01-18 12:28:19,392	1002 (avg. 1047) records/sec.		30,000 records processed	transform_auth	rules_mapper_base.py:69
+2023-01-18 12:28:24,537	971.8 (avg. 1036) records/sec.		35,000 records processed	transform_auth	rules_mapper_base.py:69
+2023-01-18 12:28:29,541	999.4 (avg. 1031) records/sec.		40,000 records processed	transform_auth	rules_mapper_base.py:69
+2023-01-18 12:28:33,786	1178 (avg. 1045) records/sec.		45,000 records processed	transform_auth	rules_mapper_base.py:69
+2023-01-18 12:28:36,148	Done reading 47778 records from file	transform_auth	marc_reader_wrapper.py:79
+2023-01-18 12:28:36,149	Running NLA_sample_AuthorityRecordsPostJan2019.mrc	transform_auth	marc_reader_wrapper.py:34
+2023-01-18 12:28:38,798	997.7 (avg. 1040) records/sec.		50,000 records processed	transform_auth	rules_mapper_base.py:69
+2023-01-18 12:28:46,104	684.3 (avg. 993.4) records/sec.		55,000 records processed	transform_auth	rules_mapper_base.py:69
+2023-01-18 12:28:46,690	Done reading 7642 records from file	transform_auth	marc_reader_wrapper.py:79
+2023-01-18 12:28:46,695	Done. Transformer Wrapping up...	transform_auth	authority_transformer.py:64
+2023-01-18 12:28:46,697	Removing extradata file since it is empty	transform_auth	extradata_writer.py:46
+2023-01-18 12:28:46,698	Saving map of 55420 old and new IDs to /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/authorities_id_map.json	transform_auth	marc_file_processor.py:228
+2023-01-18 12:28:47,151	Wrote legacy id map to /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/authorities_id_map.json	transform_auth	mapper_base.py:316
+2023-01-18 12:28:47,151	55420 records processed	transform_auth	marc_file_processor.py:234
+2023-01-18 12:28:47,152	Elapsed time: 0:00:57.972982	transform_auth	migration_report.py:74
+2023-01-18 12:28:47,166	Mapper wrapping up	transform_auth	rules_mapper_authorities.py:160
+2023-01-18 12:28:47,166	Transformation report written to /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports/report_transform_auth.md	transform_auth	marc_file_processor.py:248
+2023-01-18 12:28:47,167	Processor is done.	transform_auth	marc_file_processor.py:249
+2023-01-18 12:28:47,169	Elapsed time: 0:01:02.552645	transform_auth	migration_report.py:74
+2023-01-18 12:28:47,173	Done. Transformation report written to report_transform_auth.md	transform_auth	authority_transformer.py:79
+2023-01-18 12:28:47,173	Removing data issues file since it is empty	transform_auth	migration_task_base.py:89
+2023-01-18 12:28:47,173	Removed data issues file since it was empty	transform_auth	migration_task_base.py:91
+2023-01-18 12:28:47,174	Removed empty failed marc records file since it was empty	transform_auth	migration_task_base.py:98
+2023-01-18 12:28:47,174	Work done. Shutting down	transform_auth	__main__.py:98

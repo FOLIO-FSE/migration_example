@@ -1,0 +1,49 @@
+2023-01-18 12:45:35,093	Logging set up	post_holdingsrecords_from_mfhd	migration_task_base.py:214
+2023-01-18 12:45:35,093	Mapping files folder is /home/theodor/client_data/migration_ic-migration-test/mapping_files	post_holdingsrecords_from_mfhd	folder_structure.py:47
+2023-01-18 12:45:35,093	Git ignore is set up correctly	post_holdingsrecords_from_mfhd	folder_structure.py:48
+2023-01-18 12:45:35,093	Base folder is /home/theodor/client_data/migration_ic-migration-test	post_holdingsrecords_from_mfhd	folder_structure.py:49
+2023-01-18 12:45:35,093	Reports and logs folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports	post_holdingsrecords_from_mfhd	folder_structure.py:50
+2023-01-18 12:45:35,094	Results folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results	post_holdingsrecords_from_mfhd	folder_structure.py:51
+2023-01-18 12:45:35,094	Data folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/source_data	post_holdingsrecords_from_mfhd	folder_structure.py:52
+2023-01-18 12:45:35,094	Source records files folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/source_data	post_holdingsrecords_from_mfhd	folder_structure.py:53
+2023-01-18 12:45:35,094	Log file will be located at /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports/log_other_post_holdingsrecords_from_mfhd.log	post_holdingsrecords_from_mfhd	folder_structure.py:54
+2023-01-18 12:45:35,094	Extra data will be stored at/home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/extradata_post_holdingsrecords_from_mfhd.extradata	post_holdingsrecords_from_mfhd	folder_structure.py:55
+2023-01-18 12:45:35,094	Data issue reports /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports/data_issues_log_post_holdingsrecords_from_mfhd.tsv	post_holdingsrecords_from_mfhd	folder_structure.py:56
+2023-01-18 12:45:35,094	Created objects will be stored at  /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/folio_other_post_holdingsrecords_from_mfhd.json	post_holdingsrecords_from_mfhd	folder_structure.py:57
+2023-01-18 12:45:35,094	Migration report file will be saved at /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports/report_post_holdingsrecords_from_mfhd.md	post_holdingsrecords_from_mfhd	folder_structure.py:58
+2023-01-18 12:45:35,094	MigrationTaskBase init done	post_holdingsrecords_from_mfhd	migration_task_base.py:78
+2023-01-18 12:45:35,094	Batch size is 250	post_holdingsrecords_from_mfhd	batch_poster.py:75
+2023-01-18 12:45:35,095	Running /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/folio_holdings_transform_mfhd.json	post_holdingsrecords_from_mfhd	batch_poster.py:94
+2023-01-18 12:45:35,095	{
+ "metadata": {
+  "createdDate": "2023-01-18T11:45:12.561",
+  "createdByUserId": "bb78777e-d13b-4612-9383-54d2b17f6d5d",
+  "updatedDate": "2023-01-18T11:45:12.561",
+  "updatedByUserId": "bb78777e-d13b-4612-9383-54d2b17f6d5d"
+ },
+ "id": "0ea781ef-9ed4-5d82-bf48-e4415820ca90",
+ "administrativeNotes": [
+  "Identifier(s) from previous system: 000000167"
+ ],
+ "formerIds": [
+  "000000167",
+  "Bib id: 7611780"
+ ],
+ "instanceId": "fd9cfdd2-13db-5c9c-a4d8-6dd21d0cab4a",
+ "hrid": "000000167",
+ "callNumberTypeId": "95467209-6d7b-468b-94df-0f5d7ad2747d",
+ "permanentLocationId": "d5426636-1ab7-4339-ad49-4e0e10385b63",
+ "callNumber": "QB611 .C44",
+ "holdingsTypeId": "03c9c400-b9e3-4a07-ac0e-05ab470233ed",
+ "discoverySuppress": false,
+ "sourceId": "036ee84a-6afd-4c3c-9ad3-4a12ab875f59"
+}	post_holdingsrecords_from_mfhd	batch_poster.py:113
+2023-01-18 12:45:35,858	Posting successful! Total rows: 4 Total failed: 0 in 0.760774s Batch Size: 4 Request size: 3.47KB 	post_holdingsrecords_from_mfhd	batch_poster.py:243
+2023-01-18 12:45:35,858	Done posting 4 records. 	post_holdingsrecords_from_mfhd	batch_poster.py:148
+2023-01-18 12:45:35,859	Done. Wrapping up	post_holdingsrecords_from_mfhd	batch_poster.py:355
+2023-01-18 12:45:35,859	Removing extradata file since it is empty	post_holdingsrecords_from_mfhd	extradata_writer.py:46
+2023-01-18 12:45:35,859	Failed records: 0 failed records in 0 failed batches. Failed records saved to /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/failed_records_post_holdingsrecords_from_mfhd_20230118-124535.txt	post_holdingsrecords_from_mfhd	batch_poster.py:360
+2023-01-18 12:45:35,861	Elapsed time: 0:00:01.520877	post_holdingsrecords_from_mfhd	migration_report.py:74
+2023-01-18 12:45:35,861	Removing data issues file since it is empty	post_holdingsrecords_from_mfhd	migration_task_base.py:89
+2023-01-18 12:45:35,862	Removed data issues file since it was empty	post_holdingsrecords_from_mfhd	migration_task_base.py:91
+2023-01-18 12:45:35,862	Work done. Shutting down	post_holdingsrecords_from_mfhd	__main__.py:98

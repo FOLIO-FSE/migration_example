@@ -1,0 +1,181 @@
+2022-12-15 13:46:23,493	Logging set up	post_srs_auth	migration_task_base.py:214
+2022-12-15 13:46:23,493	Mapping files folder is /home/theodor/client_data/migration_ic-migration-test/mapping_files	post_srs_auth	folder_structure.py:47
+2022-12-15 13:46:23,493	Git ignore is set up correctly	post_srs_auth	folder_structure.py:48
+2022-12-15 13:46:23,493	Base folder is /home/theodor/client_data/migration_ic-migration-test	post_srs_auth	folder_structure.py:49
+2022-12-15 13:46:23,493	Reports and logs folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports	post_srs_auth	folder_structure.py:50
+2022-12-15 13:46:23,493	Results folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results	post_srs_auth	folder_structure.py:51
+2022-12-15 13:46:23,493	Data folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/source_data	post_srs_auth	folder_structure.py:52
+2022-12-15 13:46:23,493	Source records files folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/source_data	post_srs_auth	folder_structure.py:53
+2022-12-15 13:46:23,493	Log file will be located at /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports/log_other_post_srs_auth.log	post_srs_auth	folder_structure.py:54
+2022-12-15 13:46:23,494	Extra data will be stored at/home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/extradata_post_srs_auth.extradata	post_srs_auth	folder_structure.py:55
+2022-12-15 13:46:23,494	Data issue reports /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports/data_issues_log_post_srs_auth.tsv	post_srs_auth	folder_structure.py:56
+2022-12-15 13:46:23,494	Created objects will be stored at  /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/folio_other_post_srs_auth.json	post_srs_auth	folder_structure.py:57
+2022-12-15 13:46:23,494	Migration report file will be saved at /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports/report_post_srs_auth.md	post_srs_auth	folder_structure.py:58
+2022-12-15 13:46:23,494	MigrationTaskBase init done	post_srs_auth	migration_task_base.py:78
+2022-12-15 13:46:23,494	Batch size is 250	post_srs_auth	batch_poster.py:75
+2022-12-15 13:46:24,534	Posted Snapshot to FOLIO: {
+    "jobExecutionId": "d5d917b3-75eb-447c-82fc-8b73f2187256",
+    "status": "PARSING_IN_PROGRESS",
+    "processingStartedDate": "2022-12-15T12:46:23.494"
+}	post_srs_auth	batch_poster.py:428
+2022-12-15 13:46:24,534	Sleeping while waiting for the snapshot to get created	post_srs_auth	batch_poster.py:432
+2022-12-15 13:46:30,463	Running /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/folio_srs_authorities_transform_auth.json	post_srs_auth	batch_poster.py:94
+2022-12-15 13:46:30,464	{
+ "id": "58ac1bb8-5865-5db1-9939-66e14098e5c3",
+ "deleted": false,
+ "matchedId": "58ac1bb8-5865-5db1-9939-66e14098e5c3",
+ "generation": 0,
+ "recordType": "MARC_AUTHORITY",
+ "rawRecord": {
+  "id": "58ac1bb8-5865-5db1-9939-66e14098e5c3",
+  "content": "{\"leader\": \"00359nz  a2200121n  4500\", \"fields\": [{\"001\": \"383378\"}, {\"005\": \"20150317145226.0\"}, {\"008\": \"150317n| az|nnbabn          |n ana    ||\"}, {\"035\": {\"subfields\": [{\"a\": \"383378\"}], \"ind1\": \" \", \"ind2\": \" \"}}, {\"040\": {\"subfields\": [{\"a\": \"NB\"}, {\"b\": \"swe\"}, {\"f\": \"sao\"}], \"ind1\": \" \", \"ind2\": \" \"}}, {\"042\": {\"subfields\": [{\"9\": \"Fack\"}], \"ind1\": \" \", \"ind2\": \" \"}}, {\"150\": {\"subfields\": [{\"a\": \"Ryska resena\\u0308rer\"}], \"ind1\": \" \", \"ind2\": \" \"}}, {\"550\": {\"subfields\": [{\"w\": \"g\"}, {\"a\": \"Resena\\u0308rer\"}], \"ind1\": \" \", \"ind2\": \" \"}}, {\"887\": {\"subfields\": [{\"a\": \"{\\\"@id\\\":\\\"qn25df782dg40bx\\\",\\\"modified\\\":\\\"2015-03-17T14:52:26+01:00\\\",\\\"checksum\\\":\\\"120922200243\\\"}\"}, {\"2\": \"librisxl\"}], \"ind1\": \" \", \"ind2\": \" \"}}, {\"999\": {\"subfields\": [{\"i\": \"d477d9cb-32af-50e0-9232-55e9916195a8\"}, {\"s\": \"58ac1bb8-5865-5db1-9939-66e14098e5c3\"}], \"ind1\": \"f\", \"ind2\": \"f\"}}]}"
+ },
+ "parsedRecord": {
+  "id": "58ac1bb8-5865-5db1-9939-66e14098e5c3",
+  "content": {
+   "leader": "00359nz  a2200121n  4500",
+   "fields": [
+    {
+     "001": "383378"
+    },
+    {
+     "005": "20150317145226.0"
+    },
+    {
+     "008": "150317n| az|nnbabn          |n ana    ||"
+    },
+    {
+     "035": {
+      "subfields": [
+       {
+        "a": "383378"
+       }
+      ],
+      "ind1": " ",
+      "ind2": " "
+     }
+    },
+    {
+     "040": {
+      "subfields": [
+       {
+        "a": "NB"
+       },
+       {
+        "b": "swe"
+       },
+       {
+        "f": "sao"
+       }
+      ],
+      "ind1": " ",
+      "ind2": " "
+     }
+    },
+    {
+     "042": {
+      "subfields": [
+       {
+        "9": "Fack"
+       }
+      ],
+      "ind1": " ",
+      "ind2": " "
+     }
+    },
+    {
+     "150": {
+      "subfields": [
+       {
+        "a": "Ryska resena\u0308rer"
+       }
+      ],
+      "ind1": " ",
+      "ind2": " "
+     }
+    },
+    {
+     "550": {
+      "subfields": [
+       {
+        "w": "g"
+       },
+       {
+        "a": "Resena\u0308rer"
+       }
+      ],
+      "ind1": " ",
+      "ind2": " "
+     }
+    },
+    {
+     "887": {
+      "subfields": [
+       {
+        "a": "{\"@id\":\"qn25df782dg40bx\",\"modified\":\"2015-03-17T14:52:26+01:00\",\"checksum\":\"120922200243\"}"
+       },
+       {
+        "2": "librisxl"
+       }
+      ],
+      "ind1": " ",
+      "ind2": " "
+     }
+    },
+    {
+     "999": {
+      "subfields": [
+       {
+        "i": "d477d9cb-32af-50e0-9232-55e9916195a8"
+       },
+       {
+        "s": "58ac1bb8-5865-5db1-9939-66e14098e5c3"
+       }
+      ],
+      "ind1": "f",
+      "ind2": "f"
+     }
+    }
+   ]
+  }
+ },
+ "additionalInfo": {
+  "suppressDiscovery": false
+ },
+ "externalIdsHolder": {
+  "authorityId": "d477d9cb-32af-50e0-9232-55e9916195a8",
+  "authorityHrid": "383378"
+ },
+ "metadata": {
+  "createdDate": "2022-12-15T12:43:57.507",
+  "createdByUserId": "bb78777e-d13b-4612-9383-54d2b17f6d5d",
+  "updatedDate": "2022-12-15T12:43:57.507",
+  "updatedByUserId": "bb78777e-d13b-4612-9383-54d2b17f6d5d"
+ },
+ "state": "ACTUAL",
+ "leaderRecordStatus": "n",
+ "snapshotId": "d5d917b3-75eb-447c-82fc-8b73f2187256"
+}	post_srs_auth	batch_poster.py:113
+2022-12-15 13:46:40,033	Posting successful! Total rows: 250 Total failed: 0 in 7.551286s Batch Size: 250 Request size: 920.75KB 	post_srs_auth	batch_poster.py:243
+2022-12-15 13:46:46,335	Posting successful! Total rows: 500 Total failed: 0 in 4.607907s Batch Size: 250 Request size: 914.83KB 	post_srs_auth	batch_poster.py:243
+2022-12-15 13:46:52,611	Posting successful! Total rows: 750 Total failed: 0 in 4.114333s Batch Size: 250 Request size: 945.97KB 	post_srs_auth	batch_poster.py:243
+2022-12-15 13:47:00,253	Posting successful! Total rows: 1000 Total failed: 0 in 5.776995s Batch Size: 250 Request size: 932.26KB 	post_srs_auth	batch_poster.py:243
+2022-12-15 13:47:06,040	Posting successful! Total rows: 1250 Total failed: 0 in 3.566264s Batch Size: 250 Request size: 981.53KB 	post_srs_auth	batch_poster.py:243
+2022-12-15 13:47:11,538	Posting successful! Total rows: 1500 Total failed: 0 in 3.858805s Batch Size: 250 Request size: 911.98KB 	post_srs_auth	batch_poster.py:243
+2022-12-15 13:47:16,915	Posting successful! Total rows: 1750 Total failed: 0 in 3.627738s Batch Size: 250 Request size: 929.72KB 	post_srs_auth	batch_poster.py:243
+2022-12-15 13:47:21,771	Posting successful! Total rows: 2000 Total failed: 0 in 3.237436s Batch Size: 250 Request size: 937.33KB 	post_srs_auth	batch_poster.py:243
+2022-12-15 13:47:27,199	Posting successful! Total rows: 2250 Total failed: 0 in 3.763133s Batch Size: 250 Request size: 917.10KB 	post_srs_auth	batch_poster.py:243
+2022-12-15 13:47:34,463	Posting successful! Total rows: 2500 Total failed: 0 in 5.557408s Batch Size: 250 Request size: 895.44KB 	post_srs_auth	batch_poster.py:243
+2022-12-15 13:47:40,942	Posting successful! Total rows: 2750 Total failed: 0 in 4.875038s Batch Size: 250 Request size: 891.44KB 	post_srs_auth	batch_poster.py:243
+2022-12-15 13:47:45,917	Posting successful! Total rows: 3000 Total failed: 0 in 4.070383s Batch Size: 250 Request size: 902.00KB 	post_srs_auth	batch_poster.py:243
+2022-12-15 13:47:49,716	Posting successful! Total rows: 3250 Total failed: 0 in 3.300725s Batch Size: 250 Request size: 890.76KB 	post_srs_auth	batch_poster.py:243
+2022-12-15 13:47:55,826	Posting successful! Total rows: 3500 Total failed: 0 in 4.260625s Batch Size: 250 Request size: 916.54KB 	post_srs_auth	batch_poster.py:243
+2022-12-15 13:48:01,335	Posting successful! Total rows: 3750 Total failed: 0 in 3.950746s Batch Size: 250 Request size: 907.43KB 	post_srs_auth	batch_poster.py:243
+2022-12-15 13:48:09,710	Posting successful! Total rows: 4000 Total failed: 0 in 6.223861s Batch Size: 250 Request size: 916.76KB 	post_srs_auth	batch_poster.py:243
+2022-12-15 13:48:17,046	Posting successful! Total rows: 4250 Total failed: 0 in 6.009298s Batch Size: 250 Request size: 906.38KB 	post_srs_auth	batch_poster.py:243
+2022-12-15 13:48:24,880	Posting successful! Total rows: 4500 Total failed: 0 in 6.194868s Batch Size: 250 Request size: 942.95KB 	post_srs_auth	batch_poster.py:243
+2022-12-15 13:48:33,130	Posting successful! Total rows: 4750 Total failed: 0 in 6.623166s Batch Size: 250 Request size: 947.67KB 	post_srs_auth	batch_poster.py:243
+2022-12-15 13:48:39,495	Posting successful! Total rows: 5000 Total failed: 0 in 4.787236s Batch Size: 250 Request size: 873.21KB 	post_srs_auth	batch_poster.py:243
+2022-12-15 13:48:45,512	Posting successful! Total rows: 5250 Total failed: 0 in 4.588068s Batch Size: 250 Request size: 893.28KB 	post_srs_auth	batch_poster.py:243
+2022-12-15 13:48:55,539	Posting successful! Total rows: 5500 Total failed: 0 in 6.228955s Batch Size: 250 Request size: 907.09KB 	post_srs_auth	batch_poster.py:243
+2022-12-15 13:49:17,738	Posting successful! Total rows: 5750 Total failed: 0 in 17.975815s Batch Size: 250 Request size: 893.53KB 	post_srs_auth	batch_poster.py:243

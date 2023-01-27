@@ -1,0 +1,422 @@
+{
+    "libraryInformation": {
+        "tenantId": "icmigtst00",
+        "multiFieldDelimiter": "<^>",
+        "okapiUrl": "https://okapi-ic-migration-test.int.aws.folio.org",
+        "okapiUsername": "datamigration_manual",
+        "libraryName": "FOLIO Reference env",
+        "logLevelDebug": false,
+        "folioRelease": "morning-glory",
+        "addTimeStampToFileNames": false,
+        "iterationIdentifier": "test_run"
+    },
+    "migrationTasks": [
+        {
+            "name": "transform_auth",
+            "migrationTaskType": "AuthorityTransformer",
+            "ilsFlavour": "tag001",
+            "tags_to_delete": [
+                "841",
+                "852"
+            ],
+            "files": [
+                {
+                    "file_name": "libris_auth_50k.mrc"
+                },
+                {
+                    "file_name": "NLA_sample_AuthorityRecordsPostJan2019.mrc"
+                }
+            ]
+        },
+        {
+            "name": "post_srs_auth",
+            "migrationTaskType": "BatchPoster",
+            "objectType": "SRS",
+            "batchSize": 250,
+            "files": [
+                {
+                    "file_name": "folio_srs_authorities_transform_auth.json"
+                }
+            ]
+        },
+        {
+            "name": "post_auth",
+            "migrationTaskType": "BatchPoster",
+            "objectType": "Authorities",
+            "batchSize": 250,
+            "files": [
+                {
+                    "file_name": "folio_authorities_transform_auth.json"
+                }
+            ]
+        },
+        {
+            "name": "transform_bibs",
+            "reset_hrid_settings": true,
+            "addAdministrativeNotesWithLegacyIds": true,
+            "migrationTaskType": "BibsTransformer",
+            "ilsFlavour": "tag001",
+            "tags_to_delete": [
+                "841",
+                "852"
+            ],
+            "files": [
+                {
+                    "file_name": "bibs.mrc",
+                    "suppressed": false
+                }
+            ],
+            "neverUpdateHridSettings": false,
+            "hridHandling": "preserve001"
+        },
+        {
+            "name": "post_bibs",
+            "migrationTaskType": "BatchPoster",
+            "objectType": "Instances",
+            "batchSize": 250,
+            "files": [
+                {
+                    "file_name": "folio_instances_transform_bibs.json"
+                }
+            ]
+        },
+        {
+            "name": "post_srs_bibs",
+            "migrationTaskType": "BatchPoster",
+            "objectType": "SRS",
+            "batchSize": 250,
+            "files": [
+                {
+                    "file_name": "folio_srs_instances_transform_bibs.json"
+                }
+            ]
+        },
+        {
+            "name": "transform_mfhd",
+            "legacyIdMarcPath": "001",
+            "migrationTaskType": "HoldingsMarcTransformer",
+            "locationMapFileName": "locations.tsv",
+            "defaultCallNumberTypeName": "Library of Congress classification",
+            "fallbackHoldingsTypeId": "03c9c400-b9e3-4a07-ac0e-05ab470233ed",
+            "hridHandling": "preserve001",
+            "createSourceRecords": true,
+            "files": [
+                {
+                    "file_name": "holding.mrc",
+                    "suppressed": false
+                }
+            ],
+            "neverUpdateHridSettings": true
+        },
+        {
+            "name": "post_holdingsrecords_from_mfhd",
+            "migrationTaskType": "BatchPoster",
+            "objectType": "Holdings",
+            "batchSize": 250,
+            "files": [
+                {
+                    "file_name": "folio_holdings_transform_mfhd.json"
+                }
+            ]
+        },
+        {
+            "name": "post_srs_mfhds",
+            "migrationTaskType": "BatchPoster",
+            "objectType": "SRS",
+            "batchSize": 250,
+            "files": [
+                {
+                    "file_name": "folio_srs_holdings_transform_mfhd.json"
+                }
+            ]
+        },
+        {
+            "name": "transform_csv_holdings",
+            "migrationTaskType": "HoldingsCsvTransformer",
+            "holdingsMapFileName": "holdingsrecord_mapping.json",
+            "locationMapFileName": "locations.tsv",
+            "defaultCallNumberTypeName": "Library of Congress classification",
+            "callNumberTypeMapFileName": "call_number_type_mapping.tsv",
+            "holdingsTypeUuidForBoundwiths": "072cf64f-1fbe-4bb4-bdee-2d72453aefad",
+            "previouslyGeneratedHoldingsFiles": [
+                "folio_holdings_transform_mfhd.json"
+            ],
+            "holdingsMergeCriteria": [
+                "instanceId",
+                "permanentLocationId",
+                "callNumber"
+            ],
+            "fallbackHoldingsTypeId": "03c9c400-b9e3-4a07-ac0e-05ab470233ed",
+            "hridHandling": "default",
+            "files": [
+                {
+                    "file_name": "csv_items.tsv"
+                }
+            ],
+            "neverUpdateHridSettings": true
+        },
+        {
+            "name": "post_csv_holdings",
+            "migrationTaskType": "BatchPoster",
+            "objectType": "Holdings",
+            "batchSize": 250,
+            "files": [
+                {
+                    "file_name": "folio_holdings_transform_csv_holdings.json"
+                }
+            ],
+            "neverUpdateHridSettings": true
+        },
+        {
+            "name": "transform_csv_items",
+            "migrationTaskType": "ItemsTransformer",
+            "locationMapFileName": "locations.tsv",
+            "itemsMappingFileName": "item_mapping_for_csv_items.json",
+            "defaultCallNumberTypeName": "Library of Congress classification",
+            "callNumberTypeMapFileName": "call_number_type_mapping.tsv",
+            "materialTypesMapFileName": "material_types_csv.tsv",
+            "loanTypesMapFileName": "loan_types_csv.tsv",
+            "itemStatusesMapFileName": "item_statuses.tsv",
+            "fallbackHoldingsTypeId": "03c9c400-b9e3-4a07-ac0e-05ab470233ed",
+            "hridHandling": "default",
+            "files": [
+                {
+                    "file_name": "csv_items.tsv"
+                }
+            ],
+            "neverUpdateHridSettings": true
+        },
+        {
+            "name": "post_csv_items",
+            "migrationTaskType": "BatchPoster",
+            "objectType": "Items",
+            "batchSize": 250,
+            "files": [
+                {
+                    "file_name": "folio_items_transform_csv_items.json"
+                }
+            ]
+        },
+        {
+            "name": "transform_mfhd_items",
+            "migrationTaskType": "ItemsTransformer",
+            "defaultCallNumberTypeName": "Library of Congress classification",
+            "itemsMappingFileName": "item_mapping_for_mfhd_attached_items.json",
+            "locationMapFileName": "locations.tsv",
+            "materialTypesMapFileName": "material_types.tsv",
+            "loanTypesMapFileName": "loan_types.tsv",
+            "itemStatusesMapFileName": "item_statuses.tsv",
+            "statisticalCodesMapFileName": "statcodes.tsv",
+            "callNumberTypeMapFileName": "call_number_type_mapping.tsv",
+            "hridHandling": "default",
+            "files": [
+                {
+                    "file_name": "items_linked_to_mfhds.csv"
+                }
+            ],
+            "neverUpdateHridSettings": true
+        },
+        {
+            "name": "post_mfhd_items",
+            "migrationTaskType": "BatchPoster",
+            "objectType": "Items",
+            "batchSize": 250,
+            "files": [
+                {
+                    "file_name": "folio_items_transform_mfhd_items.json"
+                }
+            ]
+        },
+        {
+            "name": "user_transform",
+            "migrationTaskType": "UserTransformer",
+            "groupMapPath": "user_groups.tsv",
+            "userMappingFileName": "user_mapping.json",
+            "useGroupMap": true,
+            "userFile": {
+                "file_name": "staff.tsv"
+            }
+        },
+        {
+            "name": "transform_bw_holdings",
+            "holdingsTypeUuidForBoundwiths": "072cf64f-1fbe-4bb4-bdee-2d72453aefad",
+            "migrationTaskType": "HoldingsCsvTransformer",
+            "holdingsMapFileName": "holdingsrecord_mapping_for_bw_items.json",
+            "locationMapFileName": "locations_bw.tsv",
+            "defaultCallNumberTypeName": "Library of Congress classification",
+            "callNumberTypeMapFileName": "call_number_type_mapping.tsv",
+            "holdingsMergeCriteria": [
+                "instanceId",
+                "permanentLocationId",
+                "callNumber"
+            ],
+            "fallbackHoldingsTypeId": "03c9c400-b9e3-4a07-ac0e-05ab470233ed",
+            "hridHandling": "default",
+            "files": [
+                {
+                    "file_name": "bw_items.tsv"
+                }
+            ],
+            "neverUpdateHridSettings": true
+        },
+        {
+            "name": "post_bw_holdings",
+            "migrationTaskType": "BatchPoster",
+            "objectType": "Holdings",
+            "batchSize": 250,
+            "files": [
+                {
+                    "file_name": "folio_holdings_transform_bw_holdings.json"
+                }
+            ]
+        },
+        {
+            "name": "transform_bw_items",
+            "migrationTaskType": "ItemsTransformer",
+            "locationMapFileName": "locations_bw.tsv",
+            "itemsMappingFileName": "item_mapping_for_bw_items.json",
+            "defaultCallNumberTypeName": "Library of Congress classification",
+            "callNumberTypeMapFileName": "call_number_type_mapping.tsv",
+            "materialTypesMapFileName": "material_types_bw.tsv",
+            "loanTypesMapFileName": "loan_types_bw.tsv",
+            "itemStatusesMapFileName": "item_statuses.tsv",
+            "fallbackHoldingsTypeId": "03c9c400-b9e3-4a07-ac0e-05ab470233ed",
+            "hridHandling": "default",
+            "files": [
+                {
+                    "file_name": "bw_items.tsv"
+                }
+            ],
+            "neverUpdateHridSettings": true
+        },
+        {
+            "name": "post_bw_items",
+            "migrationTaskType": "BatchPoster",
+            "objectType": "Items",
+            "batchSize": 250,
+            "files": [
+                {
+                    "file_name": "folio_items_transform_bw_items.json"
+                }
+            ]
+        },
+        {
+            "name": "post_extradata",
+            "migrationTaskType": "BatchPoster",
+            "objectType": "Extradata",
+            "batchSize": 250,
+            "files": [
+                {
+                    "file_name": "extradata_transform_bw_holdings.extradata"
+                },
+                {
+                    "file_name": "extradata_user_transform.extradata"
+                }
+            ]
+        },
+        {
+            "name": "post_users",
+            "migrationTaskType": "BatchPoster",
+            "objectType": "Users",
+            "batchSize": 250,
+            "files": [
+                {
+                    "file_name": "folio_users_user_transform.json"
+                }
+            ]
+        },
+        {
+            "name": "migrate_open_loans",
+            "migrationTaskType": "LoansMigrator",
+            "fallbackServicePointId": "a77b55e7-f9f3-40a1-83e0-241bc606a826",
+            "openLoansFiles": [
+                {
+                    "file_name": "loans.tsv",
+                    "service_point_id": ""
+                }
+            ],
+            "startingRow": 1,
+            "item_files": [
+                {
+                    "file_name": "folio_items_transform_csv_items.json"
+                },
+                {
+                    "file_name": "folio_items_transform_bw_items.json"
+                },
+                {
+                    "file_name": "folio_items_transform_mfhd_items.json"
+                }
+            ],
+            "patron_files": [
+                {
+                    "file_name": "folio_users_user_transform.json"
+                }
+            ]
+        },
+        {
+            "name": "migrate_open_requests",
+            "migrationTaskType": "RequestsMigrator",
+            "openRequestsFile": {
+                "file_name": "open_requests.tsv"
+            },
+            "item_files": [
+                {
+                    "file_name": "folio_items_transform_csv_items.json"
+                },
+                {
+                    "file_name": "folio_items_transform_bw_items.json"
+                },
+                {
+                    "file_name": "folio_items_transform_mfhd_items.json"
+                }
+            ],
+            "patron_files": [
+                {
+                    "file_name": "folio_users_user_transform.json"
+                }
+            ]
+        },
+        {
+            "name": "migrate_courses",
+            "migrationTaskType": "CoursesMigrator",
+            "compositeCourseMapPath": "course_mapping.json",
+            "coursesFile": {
+                "fileName": "legacy_courses.tsv"
+            },
+            "termsMapPath": "terms_map.tsv"
+        },
+        {
+            "name": "post_courses",
+            "migrationTaskType": "BatchPoster",
+            "objectType": "Extradata",
+            "batchSize": 1,
+            "files": [
+                {
+                    "file_name": "extradata_migrate_courses.extradata"
+                }
+            ]
+        },
+        {
+            "name": "transform_orgs",
+            "migrationTaskType": "OrganizationTransformer",
+            "organizationMapPath": "organization_mapping.json",
+            "organizationTypesMapPath": "organization_types.tsv",
+            "addressCategoriesMapPath": "address_categories.tsv",
+            "emailCategoriesMapPath": "email_categories.tsv",
+            "phoneCategoriesMapPath": "phone_categories.tsv",
+            "files": [
+                {
+                    "file_name": "example_organizations.tsv"
+                }
+            ]
+        },
+        {
+            "name": "migrate_reserves",
+            "migrationTaskType": "ReservesMigrator",
+            "locationMapPath": "reserve_locations.tsv",
+            "courseReserveFilePath": {
+                "fileName": "folio_course_reserve_item_barcode.tsv"
+            }
+        }
+    ]
+}

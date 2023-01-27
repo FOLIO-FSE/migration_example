@@ -1,0 +1,6 @@
+SUB_LIBRARY	PERM_LOCATION	legacy_code	folio_code
+msl	infoOff	infoOff	InOFF
+msl	jnlDesk	*	JOURDESK
+*	maps	maps	MAPZ
+*	maps	cd	CeeDee
+*	*	*	migration

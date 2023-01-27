@@ -1,0 +1,113 @@
+2023-01-18 12:45:44,145	Logging set up	post_srs_mfhds	migration_task_base.py:214
+2023-01-18 12:45:44,145	Mapping files folder is /home/theodor/client_data/migration_ic-migration-test/mapping_files	post_srs_mfhds	folder_structure.py:47
+2023-01-18 12:45:44,145	Git ignore is set up correctly	post_srs_mfhds	folder_structure.py:48
+2023-01-18 12:45:44,145	Base folder is /home/theodor/client_data/migration_ic-migration-test	post_srs_mfhds	folder_structure.py:49
+2023-01-18 12:45:44,145	Reports and logs folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports	post_srs_mfhds	folder_structure.py:50
+2023-01-18 12:45:44,145	Results folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results	post_srs_mfhds	folder_structure.py:51
+2023-01-18 12:45:44,145	Data folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/source_data	post_srs_mfhds	folder_structure.py:52
+2023-01-18 12:45:44,145	Source records files folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/source_data	post_srs_mfhds	folder_structure.py:53
+2023-01-18 12:45:44,146	Log file will be located at /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports/log_other_post_srs_mfhds.log	post_srs_mfhds	folder_structure.py:54
+2023-01-18 12:45:44,146	Extra data will be stored at/home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/extradata_post_srs_mfhds.extradata	post_srs_mfhds	folder_structure.py:55
+2023-01-18 12:45:44,146	Data issue reports /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports/data_issues_log_post_srs_mfhds.tsv	post_srs_mfhds	folder_structure.py:56
+2023-01-18 12:45:44,146	Created objects will be stored at  /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/folio_other_post_srs_mfhds.json	post_srs_mfhds	folder_structure.py:57
+2023-01-18 12:45:44,146	Migration report file will be saved at /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports/report_post_srs_mfhds.md	post_srs_mfhds	folder_structure.py:58
+2023-01-18 12:45:44,146	MigrationTaskBase init done	post_srs_mfhds	migration_task_base.py:78
+2023-01-18 12:45:44,146	Batch size is 250	post_srs_mfhds	batch_poster.py:75
+2023-01-18 12:45:44,976	Posted Snapshot to FOLIO: {
+    "jobExecutionId": "09d9d778-971e-4906-8470-8b89100805dd",
+    "status": "PARSING_IN_PROGRESS",
+    "processingStartedDate": "2023-01-18T11:45:44.146"
+}	post_srs_mfhds	batch_poster.py:428
+2023-01-18 12:45:44,977	Sleeping while waiting for the snapshot to get created	post_srs_mfhds	batch_poster.py:432
+2023-01-18 12:45:50,720	Running /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/folio_srs_holdings_transform_mfhd.json	post_srs_mfhds	batch_poster.py:94
+2023-01-18 12:45:50,721	{
+ "id": "ee3c84dd-71d7-5519-9313-5bfa975e9091",
+ "deleted": false,
+ "matchedId": "ee3c84dd-71d7-5519-9313-5bfa975e9091",
+ "generation": 0,
+ "recordType": "MARC_HOLDING",
+ "rawRecord": {
+  "id": "ee3c84dd-71d7-5519-9313-5bfa975e9091",
+  "content": "{\"leader\": \"00179nx  a22000854n 4500\", \"fields\": [{\"001\": \"000000167\"}, {\"004\": \"7611780\"}, {\"005\": \"20190827122500.0\"}, {\"008\": \"1601264|00008|||1001|||||0901128\"}, {\"852\": {\"subfields\": [{\"b\": \"migration\"}, {\"h\": \"QB611\"}, {\"i\": \".C44\"}], \"ind1\": \"0\", \"ind2\": \" \"}}, {\"999\": {\"subfields\": [{\"i\": \"0ea781ef-9ed4-5d82-bf48-e4415820ca90\"}, {\"s\": \"ee3c84dd-71d7-5519-9313-5bfa975e9091\"}], \"ind1\": \"f\", \"ind2\": \"f\"}}]}"
+ },
+ "parsedRecord": {
+  "id": "ee3c84dd-71d7-5519-9313-5bfa975e9091",
+  "content": {
+   "leader": "00179nx  a22000854n 4500",
+   "fields": [
+    {
+     "001": "000000167"
+    },
+    {
+     "004": "7611780"
+    },
+    {
+     "005": "20190827122500.0"
+    },
+    {
+     "008": "1601264|00008|||1001|||||0901128"
+    },
+    {
+     "852": {
+      "subfields": [
+       {
+        "b": "migration"
+       },
+       {
+        "h": "QB611"
+       },
+       {
+        "i": ".C44"
+       }
+      ],
+      "ind1": "0",
+      "ind2": " "
+     }
+    },
+    {
+     "999": {
+      "subfields": [
+       {
+        "i": "0ea781ef-9ed4-5d82-bf48-e4415820ca90"
+       },
+       {
+        "s": "ee3c84dd-71d7-5519-9313-5bfa975e9091"
+       }
+      ],
+      "ind1": "f",
+      "ind2": "f"
+     }
+    }
+   ]
+  }
+ },
+ "additionalInfo": {
+  "suppressDiscovery": false
+ },
+ "externalIdsHolder": {
+  "holdingsId": "0ea781ef-9ed4-5d82-bf48-e4415820ca90",
+  "holdingsHrid": "000000167"
+ },
+ "metadata": {
+  "createdDate": "2023-01-18T11:45:19.515",
+  "createdByUserId": "bb78777e-d13b-4612-9383-54d2b17f6d5d",
+  "updatedDate": "2023-01-18T11:45:19.515",
+  "updatedByUserId": "bb78777e-d13b-4612-9383-54d2b17f6d5d"
+ },
+ "state": "ACTUAL",
+ "leaderRecordStatus": "n",
+ "snapshotId": "09d9d778-971e-4906-8470-8b89100805dd"
+}	post_srs_mfhds	batch_poster.py:113
+2023-01-18 12:45:51,759	Posting successful! Total rows: 4 Total failed: 0 in 1.035753s Batch Size: 4 Request size: 7.10KB 	post_srs_mfhds	batch_poster.py:243
+2023-01-18 12:45:51,759	Done posting 4 records. 	post_srs_mfhds	batch_poster.py:148
+2023-01-18 12:45:51,759	Done. Wrapping up	post_srs_mfhds	batch_poster.py:355
+2023-01-18 12:45:51,760	Removing extradata file since it is empty	post_srs_mfhds	extradata_writer.py:46
+2023-01-18 12:45:52,497	Posted Committed snapshot to FOLIO: {
+    "jobExecutionId": "09d9d778-971e-4906-8470-8b89100805dd",
+    "status": "COMMITTED"
+}	post_srs_mfhds	batch_poster.py:451
+2023-01-18 12:45:52,498	Failed records: 0 failed records in 0 failed batches. Failed records saved to /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/failed_records_post_srs_mfhds_20230118-124544.txt	post_srs_mfhds	batch_poster.py:360
+2023-01-18 12:45:52,498	Elapsed time: 0:00:09.103467	post_srs_mfhds	migration_report.py:74
+2023-01-18 12:45:52,498	Removing data issues file since it is empty	post_srs_mfhds	migration_task_base.py:89
+2023-01-18 12:45:52,498	Removed data issues file since it was empty	post_srs_mfhds	migration_task_base.py:91
+2023-01-18 12:45:52,498	Work done. Shutting down	post_srs_mfhds	__main__.py:98
