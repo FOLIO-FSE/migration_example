@@ -4,9 +4,9 @@
    
 Measure | Value   
 --- | ---:   
-Time Started: | 2023-01-20T13:42:03.402808+00:00   
-Time Finished: | 2023-01-20T13:42:23.810109+00:00   
-Elapsed time: | 0:00:20.407301   
+Time Started: | 2023-01-31T12:49:57.408611+00:00   
+Time Finished: | 2023-01-31T12:50:18.570354+00:00   
+Elapsed time: | 0:00:21.161743   
    
 ##     
     
@@ -239,7 +239,7 @@ electronicAccess.uri | 11 (79%) | 3 (21%)
 holdingsRecords2 | 0 (0%) | 14 (100%) 
 hrid | 14 (100%) | 0 (0%) 
 id | 14 (100%) | 0 (0%) 
-identifiers | 13 (93%) | 1 (7%) 
+identifiers | 14 (100%) | 0 (0%) 
 identifiers.identifierTypeId | 13 (93%) | 1 (7%) 
 identifiers.value | 13 (93%) | 1 (7%) 
 indexTitle | 14 (100%) | 0 (0%) 

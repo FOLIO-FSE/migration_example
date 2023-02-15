@@ -1,0 +1,19 @@
+2023-02-15 14:03:52,278	Logging set up	transform_composite_orders	migration_task_base.py:214
+2023-02-15 14:03:52,279	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	transform_composite_orders	folder_structure.py:47
+2023-02-15 14:03:52,279	Git ignore is set up correctly	transform_composite_orders	folder_structure.py:48
+2023-02-15 14:03:52,279	Base folder is /home/theodor/client_data/migration_example	transform_composite_orders	folder_structure.py:49
+2023-02-15 14:03:52,279	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	transform_composite_orders	folder_structure.py:50
+2023-02-15 14:03:52,279	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	transform_composite_orders	folder_structure.py:51
+2023-02-15 14:03:52,280	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	transform_composite_orders	folder_structure.py:52
+2023-02-15 14:03:52,280	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data/orders	transform_composite_orders	folder_structure.py:53
+2023-02-15 14:03:52,280	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_orders_transform_composite_orders.log	transform_composite_orders	folder_structure.py:54
+2023-02-15 14:03:52,280	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_transform_composite_orders.extradata	transform_composite_orders	folder_structure.py:55
+2023-02-15 14:03:52,280	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_transform_composite_orders.tsv	transform_composite_orders	folder_structure.py:56
+2023-02-15 14:03:52,280	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_orders_transform_composite_orders.json	transform_composite_orders	folder_structure.py:57
+2023-02-15 14:03:52,280	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_transform_composite_orders.md	transform_composite_orders	folder_structure.py:58
+2023-02-15 14:03:52,280	MigrationTaskBase init done	transform_composite_orders	migration_task_base.py:78
+2023-02-15 14:03:52,280	Files to process:	transform_composite_orders	orders_transformer.py:152
+2023-02-15 14:03:52,281		/home/theodor/client_data/migration_example/iterations/test_run/source_data/orders/sierra_orders.tsv	transform_composite_orders	orders_transformer.py:154
+2023-02-15 14:03:52,281	9 fields in mapping file map	transform_composite_orders	migration_task_base.py:219
+2023-02-15 14:03:52,281	8 Mapped fields in mapping file map	transform_composite_orders	migration_task_base.py:225
+2023-02-15 14:03:52,281	orderType not mapped in legacy->folio mapping file (/home/theodor/client_data/migration_example/mapping_files) ([Errno 21] Is a directory: '/home/theodor/client_data/migration_example/mapping_files'). Did you map this field, but forgot to add a mapping file?	transform_composite_orders	__main__.py:78

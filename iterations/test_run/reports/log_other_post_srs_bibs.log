@@ -1,0 +1,423 @@
+2023-01-31 13:55:06,171	Logging set up	post_srs_bibs	migration_task_base.py:214
+2023-01-31 13:55:06,172	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	post_srs_bibs	folder_structure.py:47
+2023-01-31 13:55:06,172	Git ignore is set up correctly	post_srs_bibs	folder_structure.py:48
+2023-01-31 13:55:06,172	Base folder is /home/theodor/client_data/migration_example	post_srs_bibs	folder_structure.py:49
+2023-01-31 13:55:06,172	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	post_srs_bibs	folder_structure.py:50
+2023-01-31 13:55:06,172	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	post_srs_bibs	folder_structure.py:51
+2023-01-31 13:55:06,172	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	post_srs_bibs	folder_structure.py:52
+2023-01-31 13:55:06,172	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	post_srs_bibs	folder_structure.py:53
+2023-01-31 13:55:06,172	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_other_post_srs_bibs.log	post_srs_bibs	folder_structure.py:54
+2023-01-31 13:55:06,173	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_post_srs_bibs.extradata	post_srs_bibs	folder_structure.py:55
+2023-01-31 13:55:06,173	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_post_srs_bibs.tsv	post_srs_bibs	folder_structure.py:56
+2023-01-31 13:55:06,173	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_other_post_srs_bibs.json	post_srs_bibs	folder_structure.py:57
+2023-01-31 13:55:06,173	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_post_srs_bibs.md	post_srs_bibs	folder_structure.py:58
+2023-01-31 13:55:06,173	MigrationTaskBase init done	post_srs_bibs	migration_task_base.py:78
+2023-01-31 13:55:06,173	Batch size is 250	post_srs_bibs	batch_poster.py:75
+2023-01-31 13:55:06,937	Posted Snapshot to FOLIO: {
+    "jobExecutionId": "db4c9fa2-f891-4026-92c6-7b51d2aa0aad",
+    "status": "PARSING_IN_PROGRESS",
+    "processingStartedDate": "2023-01-31T12:55:06.173"
+}	post_srs_bibs	batch_poster.py:428
+2023-01-31 13:55:06,937	Sleeping while waiting for the snapshot to get created	post_srs_bibs	batch_poster.py:432
+2023-01-31 13:55:12,704	Running /home/theodor/client_data/migration_example/iterations/test_run/results/folio_srs_instances_transform_bibs.json	post_srs_bibs	batch_poster.py:94
+2023-01-31 13:55:12,710	{
+ "id": "8c437245-cf04-5e86-b594-54a443a805e6",
+ "deleted": false,
+ "matchedId": "8c437245-cf04-5e86-b594-54a443a805e6",
+ "generation": 0,
+ "recordType": "MARC_BIB",
+ "rawRecord": {
+  "id": "8c437245-cf04-5e86-b594-54a443a805e6",
+  "content": "{\"leader\": \"01891cam a22005173  4500\", \"fields\": [{\"001\": \"7611780\"}, {\"003\": \"SE-LIBR\"}, {\"005\": \"20180307171531.0\"}, {\"008\": \"011211s1973    sw            000 0 swe c\"}, {\"020\": {\"subfields\": [{\"a\": \"91-7158-022-0\"}], \"ind1\": \" \", \"ind2\": \" \"}}, {\"035\": {\"subfields\": [{\"9\": \"9171580220\"}], \"ind1\": \" \", \"ind2\": \" \"}}, {\"040\": {\"subfields\": [{\"a\": \"U\"}], \"ind1\": \" \", \"ind2\": \" \"}}, {\"041\": {\"subfields\": [{\"a\": \"swe\"}, {\"b\": \"eng\"}], \"ind1\": \"0\", \"ind2\": \" \"}}, {\"042\": {\"subfields\": [{\"9\": \"DALA\"}], \"ind1\": \" \", \"ind2\": \" \"}}, {\"082\": {\"subfields\": [{\"a\": \"550\"}, {\"2\": \"22 (machine generated)\"}], \"ind1\": \"0\", \"ind2\": \"4\"}}, {\"084\": {\"subfields\": [{\"a\": \"Udc-c\"}, {\"2\": \"kssb\"}], \"ind1\": \" \", \"ind2\": \" \"}}, {\"100\": {\"subfields\": [{\"a\": \"De Geer, Jan,\"}, {\"d\": \"1918-2007\"}, {\"0\": \"280552\"}], \"ind1\": \"1\", \"ind2\": \" \"}}, {\"245\": {\"subfields\": [{\"a\": \"Do\\u0308da fallen i Avesta.\"}], \"ind1\": \"1\", \"ind2\": \"0\"}}, {\"260\": {\"subfields\": [{\"a\": \"Stockholm,\"}, {\"c\": \"1973 ;\"}, {\"e\": \"(Va\\u0308xjo\\u0308 :\"}, {\"f\": \"Davidson)\"}], \"ind1\": \" \", \"ind2\": \" \"}}, {\"300\": {\"subfields\": [{\"a\": \"37 s. +\"}, {\"e\": \"1 karta\"}], \"ind1\": \" \", \"ind2\": \" \"}}, {\"440\": {\"subfields\": [{\"a\": \"A\\u030arsbok / Sveriges geologiska underso\\u0308kning,\"}, {\"x\": \"0082-0016 ;\"}, {\"v\": \"67:1\"}, {\"9\": \"67\"}, {\"9\": \"1\"}], \"ind1\": \" \", \"ind2\": \"0\"}}, {\"440\": {\"subfields\": [{\"a\": \"Sveriges geologiska underso\\u0308kning.\"}, {\"p\": \"Serie C, Avhandlingar och uppsatser,\"}, {\"x\": \"0082-0024 ;\"}, {\"v\": \"682\"}], \"ind1\": \" \", \"ind2\": \"0\"}}, {\"546\": {\"subfields\": [{\"a\": \"Summary: The \\\"Dead Falls\\\" of Dala\\u0308lven at Avesta, central Sweden\"}], \"ind1\": \" \", \"ind2\": \" \"}}, {\"900\": {\"subfields\": [{\"6\": \"100\"}, {\"a\": \"Geer, Jan de,\"}, {\"d\": \"1918-2007\"}, {\"u\": \"De Geer, Jan,\"}, {\"d\": \"1918-2007\"}], \"ind1\": \"1\", \"ind2\": \"s\"}}, {\"976\": {\"subfields\": [{\"a\": \"Udc-caf\"}, {\"b\": \"Geologi Paleontologi Dalarna\"}], \"ind1\": \" \", \"ind2\": \"2\"}}, {\"084\": {\"subfields\": [{\"5\": \"DALA\"}, {\"a\": \"Udac\"}, {\"2\": \"kssb\"}], \"ind1\": \" \", \"ind2\": \" \"}}, {\"599\": {\"subfields\": [{\"5\": \"DALA\"}, {\"a\": \"Udad\"}], \"ind1\": \" \", \"ind2\": \" \"}}, {\"653\": {\"subfields\": [{\"5\": \"DALA\"}, {\"a\": \"Dalarna\"}, {\"a\": \"Geologi\"}, {\"a\": \"Do\\u0308da fallen\"}, {\"a\": \"Avesta\"}], \"ind1\": \" \", \"ind2\": \" \"}}, {\"084\": {\"subfields\": [{\"5\": \"S\"}, {\"a\": \"Udc-c\"}, {\"2\": \"kssb\"}], \"ind1\": \" \", \"ind2\": \" \"}}, {\"084\": {\"subfields\": [{\"5\": \"U\"}, {\"a\": \"Udc-caf\"}, {\"2\": \"kssb/5\"}], \"ind1\": \" \", \"ind2\": \" \"}}, {\"999\": {\"subfields\": [{\"i\": \"fd9cfdd2-13db-5c9c-a4d8-6dd21d0cab4a\"}, {\"s\": \"8c437245-cf04-5e86-b594-54a443a805e6\"}], \"ind1\": \"f\", \"ind2\": \"f\"}}]}"
+ },
+ "parsedRecord": {
+  "id": "8c437245-cf04-5e86-b594-54a443a805e6",
+  "content": {
+   "leader": "01891cam a22005173  4500",
+   "fields": [
+    {
+     "001": "7611780"
+    },
+    {
+     "003": "SE-LIBR"
+    },
+    {
+     "005": "20180307171531.0"
+    },
+    {
+     "008": "011211s1973    sw            000 0 swe c"
+    },
+    {
+     "020": {
+      "subfields": [
+       {
+        "a": "91-7158-022-0"
+       }
+      ],
+      "ind1": " ",
+      "ind2": " "
+     }
+    },
+    {
+     "035": {
+      "subfields": [
+       {
+        "9": "9171580220"
+       }
+      ],
+      "ind1": " ",
+      "ind2": " "
+     }
+    },
+    {
+     "040": {
+      "subfields": [
+       {
+        "a": "U"
+       }
+      ],
+      "ind1": " ",
+      "ind2": " "
+     }
+    },
+    {
+     "041": {
+      "subfields": [
+       {
+        "a": "swe"
+       },
+       {
+        "b": "eng"
+       }
+      ],
+      "ind1": "0",
+      "ind2": " "
+     }
+    },
+    {
+     "042": {
+      "subfields": [
+       {
+        "9": "DALA"
+       }
+      ],
+      "ind1": " ",
+      "ind2": " "
+     }
+    },
+    {
+     "082": {
+      "subfields": [
+       {
+        "a": "550"
+       },
+       {
+        "2": "22 (machine generated)"
+       }
+      ],
+      "ind1": "0",
+      "ind2": "4"
+     }
+    },
+    {
+     "084": {
+      "subfields": [
+       {
+        "a": "Udc-c"
+       },
+       {
+        "2": "kssb"
+       }
+      ],
+      "ind1": " ",
+      "ind2": " "
+     }
+    },
+    {
+     "100": {
+      "subfields": [
+       {
+        "a": "De Geer, Jan,"
+       },
+       {
+        "d": "1918-2007"
+       },
+       {
+        "0": "280552"
+       }
+      ],
+      "ind1": "1",
+      "ind2": " "
+     }
+    },
+    {
+     "245": {
+      "subfields": [
+       {
+        "a": "Do\u0308da fallen i Avesta."
+       }
+      ],
+      "ind1": "1",
+      "ind2": "0"
+     }
+    },
+    {
+     "260": {
+      "subfields": [
+       {
+        "a": "Stockholm,"
+       },
+       {
+        "c": "1973 ;"
+       },
+       {
+        "e": "(Va\u0308xjo\u0308 :"
+       },
+       {
+        "f": "Davidson)"
+       }
+      ],
+      "ind1": " ",
+      "ind2": " "
+     }
+    },
+    {
+     "300": {
+      "subfields": [
+       {
+        "a": "37 s. +"
+       },
+       {
+        "e": "1 karta"
+       }
+      ],
+      "ind1": " ",
+      "ind2": " "
+     }
+    },
+    {
+     "440": {
+      "subfields": [
+       {
+        "a": "A\u030arsbok / Sveriges geologiska underso\u0308kning,"
+       },
+       {
+        "x": "0082-0016 ;"
+       },
+       {
+        "v": "67:1"
+       },
+       {
+        "9": "67"
+       },
+       {
+        "9": "1"
+       }
+      ],
+      "ind1": " ",
+      "ind2": "0"
+     }
+    },
+    {
+     "440": {
+      "subfields": [
+       {
+        "a": "Sveriges geologiska underso\u0308kning."
+       },
+       {
+        "p": "Serie C, Avhandlingar och uppsatser,"
+       },
+       {
+        "x": "0082-0024 ;"
+       },
+       {
+        "v": "682"
+       }
+      ],
+      "ind1": " ",
+      "ind2": "0"
+     }
+    },
+    {
+     "546": {
+      "subfields": [
+       {
+        "a": "Summary: The \"Dead Falls\" of Dala\u0308lven at Avesta, central Sweden"
+       }
+      ],
+      "ind1": " ",
+      "ind2": " "
+     }
+    },
+    {
+     "900": {
+      "subfields": [
+       {
+        "6": "100"
+       },
+       {
+        "a": "Geer, Jan de,"
+       },
+       {
+        "d": "1918-2007"
+       },
+       {
+        "u": "De Geer, Jan,"
+       },
+       {
+        "d": "1918-2007"
+       }
+      ],
+      "ind1": "1",
+      "ind2": "s"
+     }
+    },
+    {
+     "976": {
+      "subfields": [
+       {
+        "a": "Udc-caf"
+       },
+       {
+        "b": "Geologi Paleontologi Dalarna"
+       }
+      ],
+      "ind1": " ",
+      "ind2": "2"
+     }
+    },
+    {
+     "084": {
+      "subfields": [
+       {
+        "5": "DALA"
+       },
+       {
+        "a": "Udac"
+       },
+       {
+        "2": "kssb"
+       }
+      ],
+      "ind1": " ",
+      "ind2": " "
+     }
+    },
+    {
+     "599": {
+      "subfields": [
+       {
+        "5": "DALA"
+       },
+       {
+        "a": "Udad"
+       }
+      ],
+      "ind1": " ",
+      "ind2": " "
+     }
+    },
+    {
+     "653": {
+      "subfields": [
+       {
+        "5": "DALA"
+       },
+       {
+        "a": "Dalarna"
+       },
+       {
+        "a": "Geologi"
+       },
+       {
+        "a": "Do\u0308da fallen"
+       },
+       {
+        "a": "Avesta"
+       }
+      ],
+      "ind1": " ",
+      "ind2": " "
+     }
+    },
+    {
+     "084": {
+      "subfields": [
+       {
+        "5": "S"
+       },
+       {
+        "a": "Udc-c"
+       },
+       {
+        "2": "kssb"
+       }
+      ],
+      "ind1": " ",
+      "ind2": " "
+     }
+    },
+    {
+     "084": {
+      "subfields": [
+       {
+        "5": "U"
+       },
+       {
+        "a": "Udc-caf"
+       },
+       {
+        "2": "kssb/5"
+       }
+      ],
+      "ind1": " ",
+      "ind2": " "
+     }
+    },
+    {
+     "999": {
+      "subfields": [
+       {
+        "i": "fd9cfdd2-13db-5c9c-a4d8-6dd21d0cab4a"
+       },
+       {
+        "s": "8c437245-cf04-5e86-b594-54a443a805e6"
+       }
+      ],
+      "ind1": "f",
+      "ind2": "f"
+     }
+    }
+   ]
+  }
+ },
+ "additionalInfo": {
+  "suppressDiscovery": false
+ },
+ "externalIdsHolder": {
+  "instanceId": "fd9cfdd2-13db-5c9c-a4d8-6dd21d0cab4a",
+  "instanceHrid": "7611780"
+ },
+ "metadata": {
+  "createdDate": "2023-01-31T12:50:16.792",
+  "createdByUserId": "bb78777e-d13b-4612-9383-54d2b17f6d5d",
+  "updatedDate": "2023-01-31T12:50:16.792",
+  "updatedByUserId": "bb78777e-d13b-4612-9383-54d2b17f6d5d"
+ },
+ "state": "ACTUAL",
+ "leaderRecordStatus": "c",
+ "snapshotId": "db4c9fa2-f891-4026-92c6-7b51d2aa0aad"
+}	post_srs_bibs	batch_poster.py:113
+2023-01-31 13:55:14,265	Posting successful! Total rows: 14 Total failed: 0 in 1.379693s Batch Size: 14 Request size: 129.63KB 	post_srs_bibs	batch_poster.py:243
+2023-01-31 13:55:14,266	Done posting 14 records. 	post_srs_bibs	batch_poster.py:148
+2023-01-31 13:55:14,266	Done. Wrapping up	post_srs_bibs	batch_poster.py:355
+2023-01-31 13:55:14,266	Removing extradata file since it is empty	post_srs_bibs	extradata_writer.py:46
+2023-01-31 13:55:15,005	Posted Committed snapshot to FOLIO: {
+    "jobExecutionId": "db4c9fa2-f891-4026-92c6-7b51d2aa0aad",
+    "status": "COMMITTED"
+}	post_srs_bibs	batch_poster.py:451
+2023-01-31 13:55:15,005	Failed records: 0 failed records in 0 failed batches. Failed records saved to /home/theodor/client_data/migration_example/iterations/test_run/results/failed_records_post_srs_bibs_20230131-135506.txt	post_srs_bibs	batch_poster.py:360
+2023-01-31 13:55:15,006	Elapsed time: 0:00:09.649899	post_srs_bibs	migration_report.py:74
+2023-01-31 13:55:15,006	Removing data issues file since it is empty	post_srs_bibs	migration_task_base.py:89
+2023-01-31 13:55:15,007	Removed data issues file since it was empty	post_srs_bibs	migration_task_base.py:91
+2023-01-31 13:55:15,008	Work done. Shutting down	post_srs_bibs	__main__.py:102

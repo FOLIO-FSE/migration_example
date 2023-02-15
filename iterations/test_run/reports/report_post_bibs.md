@@ -4,9 +4,9 @@
    
 Measure | Value   
 --- | ---:   
-Time Started: | 2023-01-20T13:53:25.524017+00:00   
-Time Finished: | 2023-01-20T13:53:30.172098+00:00   
-Elapsed time: | 0:00:04.648081   
+Time Started: | 2023-01-31T14:15:29.385949+00:00   
+Time Finished: | 2023-01-31T14:15:42.563998+00:00   
+Elapsed time: | 0:00:13.178049   
    
 ## Details    
     
@@ -14,7 +14,7 @@ Elapsed time: | 0:00:04.648081
    
 Measure | Count   
 --- | ---:   
-Generic exceptions (see log for details) | 3   
+Generic exceptions (see log for details) | 15   
 </details>   
    
 ##     
@@ -24,7 +24,7 @@ Generic exceptions (see log for details) | 3
 Measure | Count   
 --- | ---:   
 Failed to post first time | 14   
-Failed to post second time | 15   
+Failed to post second time | 14   
 Records posted first time | 0   
 Records posted second time | 0   
 Records processed first time | 14   

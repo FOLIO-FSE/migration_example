@@ -1,59 +1,60 @@
-2023-01-20 14:42:04,319	Logging set up	transform_bibs	migration_task_base.py:214
-2023-01-20 14:42:04,321	Mapping files folder is /home/theodor/client_data/migration_ic-migration-test/mapping_files	transform_bibs	folder_structure.py:47
-2023-01-20 14:42:04,321	Git ignore is set up correctly	transform_bibs	folder_structure.py:48
-2023-01-20 14:42:04,321	Base folder is /home/theodor/client_data/migration_ic-migration-test	transform_bibs	folder_structure.py:49
-2023-01-20 14:42:04,321	Reports and logs folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports	transform_bibs	folder_structure.py:50
-2023-01-20 14:42:04,321	Results folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results	transform_bibs	folder_structure.py:51
-2023-01-20 14:42:04,321	Data folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/source_data	transform_bibs	folder_structure.py:52
-2023-01-20 14:42:04,322	Source records files folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/source_data/instances	transform_bibs	folder_structure.py:53
-2023-01-20 14:42:04,322	Log file will be located at /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports/log_instances_transform_bibs.log	transform_bibs	folder_structure.py:54
-2023-01-20 14:42:04,322	Extra data will be stored at/home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/extradata_transform_bibs.extradata	transform_bibs	folder_structure.py:55
-2023-01-20 14:42:04,322	Data issue reports /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports/data_issues_log_transform_bibs.tsv	transform_bibs	folder_structure.py:56
-2023-01-20 14:42:04,322	Created objects will be stored at  /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/folio_instances_transform_bibs.json	transform_bibs	folder_structure.py:57
-2023-01-20 14:42:04,322	Migration report file will be saved at /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports/report_transform_bibs.md	transform_bibs	folder_structure.py:58
-2023-01-20 14:42:04,322	MigrationTaskBase init done	transform_bibs	migration_task_base.py:78
-2023-01-20 14:42:04,322	Files to process:	transform_bibs	migration_task_base.py:130
-2023-01-20 14:42:04,322		/home/theodor/client_data/migration_ic-migration-test/iterations/test_run/source_data/instances/bibs.mrc	transform_bibs	migration_task_base.py:132
-2023-01-20 14:42:04,323	Fetching Instance schema...	transform_bibs	rules_mapper_bibs.py:174
-2023-01-20 14:42:04,323	Using GITHB_TOKEN environment variable for Gihub API Access	transform_bibs	FolioClient.py:229
-2023-01-20 14:42:06,560	10	class_types	transform_bibs	conditions.py:136
-2023-01-20 14:42:08,054	5	electronic_access_relationships	transform_bibs	conditions.py:137
-2023-01-20 14:42:09,536	28 	statistical_codes	transform_bibs	conditions.py:141
-2023-01-20 14:42:09,537	Setting up reference data for bib transformation	transform_bibs	conditions.py:56
-2023-01-20 14:42:11,009	3	contrib_name_types	transform_bibs	conditions.py:57
-2023-01-20 14:42:12,506	268	contributor_types	transform_bibs	conditions.py:58
-2023-01-20 14:42:13,980	13	alt_title_types	transform_bibs	conditions.py:59
-2023-01-20 14:42:15,457	27	identifier_types	transform_bibs	conditions.py:60
-2023-01-20 14:42:15,457	Setting defaults	transform_bibs	conditions.py:72
-2023-01-20 14:42:15,457	Contributor name type:	2e48e713-17f3-4c13-a9f8-23845bb210aa	transform_bibs	conditions.py:74
-2023-01-20 14:42:15,457	Contributor type:	9f0a2cf0-7a9b-45a2-a403-f68d2850d07c	transform_bibs	conditions.py:78
-2023-01-20 14:42:15,457	MapperBase initiating	transform_bibs	mapper_base.py:34
-2023-01-20 14:42:16,199	HRID handling is set to: 'preserve001'	transform_bibs	hrid_handler.py:40
-2023-01-20 14:42:16,199	fetching current user..	transform_bibs	FolioClient.py:37
-2023-01-20 14:42:17,023	Current user id is bb78777e-d13b-4612-9383-54d2b17f6d5d	transform_bibs	rules_mapper_base.py:59
-2023-01-20 14:42:17,023	Fetching mapping rules from the tenant	transform_bibs	rules_mapper_bibs.py:49
-2023-01-20 14:42:17,773	Fetching valid language codes...	transform_bibs	rules_mapper_bibs.py:52
-2023-01-20 14:42:19,313	Resetting Instances HRID settings to 1	transform_bibs	hrid_handler.py:176
-2023-01-20 14:42:19,314	Setting HRID counter to current	transform_bibs	hrid_handler.py:149
-2023-01-20 14:42:19,314	NOT POSTing HRID settings, since did not change.	transform_bibs	hrid_handler.py:153
-2023-01-20 14:42:19,314	Init done	transform_bibs	bibs_transformer.py:72
-2023-01-20 14:42:19,315	Starting....	transform_bibs	migration_task_base.py:249
-2023-01-20 14:42:19,318	Running bibs.mrc	transform_bibs	marc_reader_wrapper.py:34
-2023-01-20 14:42:23,801	Done reading 14 records from file	transform_bibs	marc_reader_wrapper.py:79
-2023-01-20 14:42:23,802	Done. Transformer wrapping up...	transform_bibs	bibs_transformer.py:78
-2023-01-20 14:42:23,803	Removing extradata file since it is empty	transform_bibs	extradata_writer.py:46
-2023-01-20 14:42:23,803	Saving map of 14 old and new IDs to /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/instances_id_map.json	transform_bibs	marc_file_processor.py:205
-2023-01-20 14:42:23,805	Wrote legacy id map to /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/instances_id_map.json	transform_bibs	mapper_base.py:291
-2023-01-20 14:42:23,805	14 records processed	transform_bibs	marc_file_processor.py:211
-2023-01-20 14:42:23,806	Elapsed time: 0:00:08.348229	transform_bibs	migration_report.py:74
-2023-01-20 14:42:23,809	Mapper wrapping up	transform_bibs	rules_mapper_bibs.py:207
-2023-01-20 14:42:23,809	Setting HRID counter to current	transform_bibs	hrid_handler.py:149
-2023-01-20 14:42:23,809	NOT POSTing HRID settings, since did not change.	transform_bibs	hrid_handler.py:153
-2023-01-20 14:42:23,809	Transformation report written to /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports/report_transform_bibs.md	transform_bibs	marc_file_processor.py:225
-2023-01-20 14:42:23,809	Processor is done.	transform_bibs	marc_file_processor.py:226
-2023-01-20 14:42:23,810	Elapsed time: 0:00:20.407301	transform_bibs	migration_report.py:74
-2023-01-20 14:42:23,811	Done. Transformation report written to report_transform_bibs.md	transform_bibs	bibs_transformer.py:94
-2023-01-20 14:42:23,811	Removing data issues file since it is empty	transform_bibs	migration_task_base.py:89
-2023-01-20 14:42:23,812	Removed data issues file since it was empty	transform_bibs	migration_task_base.py:91
-2023-01-20 14:42:23,812	Removed empty failed marc records file since it was empty	transform_bibs	migration_task_base.py:98
-2023-01-20 14:42:23,812	Work done. Shutting down	transform_bibs	__main__.py:102
+2023-01-31 13:49:58,340	Logging set up	transform_bibs	migration_task_base.py:214
+2023-01-31 13:49:58,341	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	transform_bibs	folder_structure.py:47
+2023-01-31 13:49:58,341	Git ignore is set up correctly	transform_bibs	folder_structure.py:48
+2023-01-31 13:49:58,341	Base folder is /home/theodor/client_data/migration_example	transform_bibs	folder_structure.py:49
+2023-01-31 13:49:58,341	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	transform_bibs	folder_structure.py:50
+2023-01-31 13:49:58,341	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	transform_bibs	folder_structure.py:51
+2023-01-31 13:49:58,342	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	transform_bibs	folder_structure.py:52
+2023-01-31 13:49:58,342	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data/instances	transform_bibs	folder_structure.py:53
+2023-01-31 13:49:58,342	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_instances_transform_bibs.log	transform_bibs	folder_structure.py:54
+2023-01-31 13:49:58,342	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_transform_bibs.extradata	transform_bibs	folder_structure.py:55
+2023-01-31 13:49:58,342	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_transform_bibs.tsv	transform_bibs	folder_structure.py:56
+2023-01-31 13:49:58,342	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_instances_transform_bibs.json	transform_bibs	folder_structure.py:57
+2023-01-31 13:49:58,342	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_transform_bibs.md	transform_bibs	folder_structure.py:58
+2023-01-31 13:49:58,342	MigrationTaskBase init done	transform_bibs	migration_task_base.py:78
+2023-01-31 13:49:58,343	Files to process:	transform_bibs	migration_task_base.py:130
+2023-01-31 13:49:58,343		/home/theodor/client_data/migration_example/iterations/test_run/source_data/instances/bibs.mrc	transform_bibs	migration_task_base.py:132
+2023-01-31 13:49:58,343	Fetching Instance schema...	transform_bibs	rules_mapper_bibs.py:174
+2023-01-31 13:49:58,343	Using GITHB_TOKEN environment variable for Gihub API Access	transform_bibs	FolioClient.py:229
+2023-01-31 13:50:00,498	10	class_types	transform_bibs	conditions.py:136
+2023-01-31 13:50:02,107	5	electronic_access_relationships	transform_bibs	conditions.py:137
+2023-01-31 13:50:03,618	28 	statistical_codes	transform_bibs	conditions.py:141
+2023-01-31 13:50:03,618	Setting up reference data for bib transformation	transform_bibs	conditions.py:56
+2023-01-31 13:50:05,147	3	contrib_name_types	transform_bibs	conditions.py:57
+2023-01-31 13:50:06,680	268	contributor_types	transform_bibs	conditions.py:58
+2023-01-31 13:50:08,180	13	alt_title_types	transform_bibs	conditions.py:59
+2023-01-31 13:50:09,710	27	identifier_types	transform_bibs	conditions.py:60
+2023-01-31 13:50:09,711	Setting defaults	transform_bibs	conditions.py:72
+2023-01-31 13:50:09,711	Contributor name type:	2e48e713-17f3-4c13-a9f8-23845bb210aa	transform_bibs	conditions.py:74
+2023-01-31 13:50:09,711	Contributor type:	9f0a2cf0-7a9b-45a2-a403-f68d2850d07c	transform_bibs	conditions.py:78
+2023-01-31 13:50:09,712	MapperBase initiating	transform_bibs	mapper_base.py:34
+2023-01-31 13:50:10,506	HRID handling is set to: 'preserve001'	transform_bibs	hrid_handler.py:40
+2023-01-31 13:50:10,506	fetching current user..	transform_bibs	FolioClient.py:37
+2023-01-31 13:50:11,348	Current user id is bb78777e-d13b-4612-9383-54d2b17f6d5d	transform_bibs	rules_mapper_base.py:59
+2023-01-31 13:50:11,348	Fetching mapping rules from the tenant	transform_bibs	rules_mapper_bibs.py:49
+2023-01-31 13:50:12,148	Fetching valid language codes...	transform_bibs	rules_mapper_bibs.py:52
+2023-01-31 13:50:13,720	Resetting Instances HRID settings to 1	transform_bibs	hrid_handler.py:176
+2023-01-31 13:50:13,720	Setting HRID counter to current	transform_bibs	hrid_handler.py:149
+2023-01-31 13:50:13,720	NOT POSTing HRID settings, since did not change.	transform_bibs	hrid_handler.py:153
+2023-01-31 13:50:13,720	Init done	transform_bibs	bibs_transformer.py:72
+2023-01-31 13:50:13,721	Starting....	transform_bibs	migration_task_base.py:249
+2023-01-31 13:50:13,722	Removed failed marc records file to prevent duplicating data	transform_bibs	migration_task_base.py:252
+2023-01-31 13:50:13,723	Running bibs.mrc	transform_bibs	marc_reader_wrapper.py:34
+2023-01-31 13:50:18,542	Done reading 14 records from file	transform_bibs	marc_reader_wrapper.py:79
+2023-01-31 13:50:18,543	Done. Transformer wrapping up...	transform_bibs	bibs_transformer.py:78
+2023-01-31 13:50:18,544	Removing extradata file since it is empty	transform_bibs	extradata_writer.py:46
+2023-01-31 13:50:18,544	Saving map of 14 old and new IDs to /home/theodor/client_data/migration_example/iterations/test_run/results/instances_id_map.json	transform_bibs	marc_file_processor.py:205
+2023-01-31 13:50:18,547	Wrote legacy id map to /home/theodor/client_data/migration_example/iterations/test_run/results/instances_id_map.json	transform_bibs	mapper_base.py:291
+2023-01-31 13:50:18,550	14 records processed	transform_bibs	marc_file_processor.py:211
+2023-01-31 13:50:18,553	Elapsed time: 0:00:08.840718	transform_bibs	migration_report.py:74
+2023-01-31 13:50:18,561	Mapper wrapping up	transform_bibs	rules_mapper_bibs.py:207
+2023-01-31 13:50:18,561	Setting HRID counter to current	transform_bibs	hrid_handler.py:149
+2023-01-31 13:50:18,562	NOT POSTing HRID settings, since did not change.	transform_bibs	hrid_handler.py:153
+2023-01-31 13:50:18,562	Transformation report written to /home/theodor/client_data/migration_example/iterations/test_run/reports/report_transform_bibs.md	transform_bibs	marc_file_processor.py:225
+2023-01-31 13:50:18,566	Processor is done.	transform_bibs	marc_file_processor.py:226
+2023-01-31 13:50:18,570	Elapsed time: 0:00:21.161743	transform_bibs	migration_report.py:74
+2023-01-31 13:50:18,575	Done. Transformation report written to report_transform_bibs.md	transform_bibs	bibs_transformer.py:94
+2023-01-31 13:50:18,576	Removing data issues file since it is empty	transform_bibs	migration_task_base.py:89
+2023-01-31 13:50:18,577	Removed data issues file since it was empty	transform_bibs	migration_task_base.py:91
+2023-01-31 13:50:18,578	Removed empty failed marc records file since it was empty	transform_bibs	migration_task_base.py:98
+2023-01-31 13:50:18,579	Work done. Shutting down	transform_bibs	__main__.py:102

@@ -4,9 +4,9 @@
    
 Measure | Value   
 --- | ---:   
-Time Started: | 2023-01-18T11:46:30.041222+00:00   
-Time Finished: | 2023-01-18T11:46:37.111810+00:00   
-Elapsed time: | 0:00:07.070588   
+Time Started: | 2023-01-31T08:10:53.570656+00:00   
+Time Finished: | 2023-01-31T08:11:00.667095+00:00   
+Elapsed time: | 0:00:07.096439   
    
 ## Holdings Merging    
     

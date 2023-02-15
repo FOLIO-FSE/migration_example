@@ -1,0 +1,15 @@
+2023-01-31 09:13:09,153	Logging set up	transform_orgs	migration_task_base.py:214
+2023-01-31 09:13:09,153	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	transform_orgs	folder_structure.py:47
+2023-01-31 09:13:09,153	Git ignore is set up correctly	transform_orgs	folder_structure.py:48
+2023-01-31 09:13:09,153	Base folder is /home/theodor/client_data/migration_example	transform_orgs	folder_structure.py:49
+2023-01-31 09:13:09,154	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	transform_orgs	folder_structure.py:50
+2023-01-31 09:13:09,154	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	transform_orgs	folder_structure.py:51
+2023-01-31 09:13:09,154	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	transform_orgs	folder_structure.py:52
+2023-01-31 09:13:09,154	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data/organizations	transform_orgs	folder_structure.py:53
+2023-01-31 09:13:09,154	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_organizations_transform_orgs.log	transform_orgs	folder_structure.py:54
+2023-01-31 09:13:09,154	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_transform_orgs.extradata	transform_orgs	folder_structure.py:55
+2023-01-31 09:13:09,154	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_transform_orgs.tsv	transform_orgs	folder_structure.py:56
+2023-01-31 09:13:09,154	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_organizations_transform_orgs.json	transform_orgs	folder_structure.py:57
+2023-01-31 09:13:09,154	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_transform_orgs.md	transform_orgs	folder_structure.py:58
+2023-01-31 09:13:09,155	MigrationTaskBase init done	transform_orgs	migration_task_base.py:78
+2023-01-31 09:13:09,155	Critical Process issue. Transformation failed.	transform_orgs	__main__.py:78
