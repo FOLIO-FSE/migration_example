@@ -73,6 +73,7 @@
             "name": "post_bibs",
             "migrationTaskType": "BatchPoster",
             "objectType": "Instances",
+            "useSafeInventoryEndpoints": false,
             "batchSize": 250,
             "files": [
                 {
@@ -417,6 +418,26 @@
             "courseReserveFilePath": {
                 "fileName": "folio_course_reserve_item_barcode.tsv"
             }
+        },
+        {
+            "name": "transform_composite_orders",
+            "migrationTaskType": "OrdersTransformer",
+            "files": [
+                {
+                    "fileName": "sierra_orders.tsv"
+                }
+            ],
+            "ordersMappingFileName": "composite_order_mapping.json",
+            "orderTypeMapFile_name": "",
+            "acquisition_methodMapFileName": "",
+            "orderFormatMapFileName": "",
+            "paymentStatusMapFileName": "",
+            "receiptStatusMapFileName": "",
+            "workflowStatusMapFileName": "",
+            "locationMapFileName": "",
+            "fundsExpenseClassMapFileName": "",
+            "fundsMapFileName": "",
+            "organizationMapFileName": ""
         }
     ]
 }

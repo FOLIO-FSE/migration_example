@@ -1,0 +1,58 @@
+{
+    "data": [
+        {
+            "folio_field": "legacyIdentifier",
+            "legacy_field": "order_number",
+            "value": "",
+            "description": ""
+        },
+        {
+            "folio_field": "poNumber",
+            "legacy_field": "order_number",
+            "value": "",
+            "description": ""
+        },
+        {
+            "folio_field": "vendor",
+            "legacy_field": "vendor",
+            "value": "",
+            "description": ""
+        },
+        {
+            "folio_field": "orderType",
+            "legacy_field": "type",
+            "value": "",
+            "description": ""
+        },
+        {
+            "folio_field": "compositePoLines[0].titleOrPackage",
+            "legacy_field": "title",
+            "value": "",
+            "description": ""
+        },
+        {
+            "folio_field": "compositePoLines[0].source",
+            "legacy_field": "",
+            "value": "API",
+            "description": ""
+        },
+        {
+            "folio_field": "compositePoLines[0].orderFormat",
+            "legacy_field": "format",
+            "value": "",
+            "description": ""
+        },
+        {
+            "folio_field": "compositePoLines[0].acquisitionMethod",
+            "legacy_field": "acqmethod",
+            "value": "",
+            "description": ""
+        },
+        {
+            "folio_field": "compositePoLines[0].cost",
+            "legacy_field": "price",
+            "value": "",
+            "description": ""
+        }
+    ]
+}
