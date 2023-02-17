@@ -4,17 +4,18 @@
    
 Measure | Value   
 --- | ---:   
-Time Started: | 2023-02-17T16:58:43.436637+00:00   
-Time Finished: | 2023-02-17T17:00:09.888009+00:00   
-Elapsed time: | 0:01:26.451372   
+Time Started: | 2023-02-17T17:13:48.468540+00:00   
+Time Finished: | 2023-02-17T17:15:27.397409+00:00   
+Elapsed time: | 0:01:38.928869   
    
 ## General statistics    
 A list of general counters to outline the transformation as a whole.    
-<details><summary>Click to expand all 5 things</summary>     
+<details><summary>Click to expand all 6 things</summary>     
    
 Measure | Count   
 --- | ---:   
 Empty rows in sierra_orders.tsv | 0   
+Instance ID mapped from previously migrated bib records | 2   
 Number of files processed | 1   
 Number of objects in source data file | 1   
 Total rows in sierra_orders.tsv | 1   

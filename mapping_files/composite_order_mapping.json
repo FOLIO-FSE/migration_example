@@ -37,6 +37,12 @@
             "description": ""
         },
         {
+            "folio_field": "compositePoLines[0].instanceId",
+            "legacy_field": "RECORD #(Bibliographic)",
+            "value": "",
+            "description": ""
+        },
+        {
             "folio_field": "compositePoLines[0].source",
             "legacy_field": "",
             "value": "API",
