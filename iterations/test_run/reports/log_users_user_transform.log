@@ -1,26 +1,26 @@
-2023-01-31 09:12:20,515	Logging set up	user_transform	migration_task_base.py:214
-2023-01-31 09:12:20,517	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	user_transform	folder_structure.py:47
-2023-01-31 09:12:20,518	Git ignore is set up correctly	user_transform	folder_structure.py:48
-2023-01-31 09:12:20,519	Base folder is /home/theodor/client_data/migration_example	user_transform	folder_structure.py:49
-2023-01-31 09:12:20,519	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	user_transform	folder_structure.py:50
-2023-01-31 09:12:20,519	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	user_transform	folder_structure.py:51
-2023-01-31 09:12:20,519	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	user_transform	folder_structure.py:52
-2023-01-31 09:12:20,519	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data/users	user_transform	folder_structure.py:53
-2023-01-31 09:12:20,519	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_users_user_transform.log	user_transform	folder_structure.py:54
-2023-01-31 09:12:20,520	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_user_transform.extradata	user_transform	folder_structure.py:55
-2023-01-31 09:12:20,520	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_user_transform.tsv	user_transform	folder_structure.py:56
-2023-01-31 09:12:20,520	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_users_user_transform.json	user_transform	folder_structure.py:57
-2023-01-31 09:12:20,520	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_user_transform.md	user_transform	folder_structure.py:58
-2023-01-31 09:12:20,520	MigrationTaskBase init done	user_transform	migration_task_base.py:78
-2023-01-31 09:12:20,521	45 fields in mapping file map	user_transform	migration_task_base.py:219
-2023-01-31 09:12:20,522	23 Mapped fields in mapping file map	user_transform	migration_task_base.py:225
-2023-01-31 09:12:20,523	Found 2 rows in patronGroup map	user_transform	migration_task_base.py:280
-2023-01-31 09:12:20,524	TYPE,folio_group will be used for determinig patronGroup	user_transform	migration_task_base.py:285
-2023-01-31 09:12:20,524	/home/theodor/client_data/migration_example/mapping_files not found. No departments mapping will be performed	user_transform	user_transformer.py:78
-2023-01-31 09:12:20,525	Using GITHB_TOKEN environment variable for Gihub API Access	user_transform	FolioClient.py:229
-2023-01-31 09:12:21,195	MapperBase initiating	user_transform	mapper_base.py:34
-2023-01-31 09:12:21,196	Legacy identifier will be mapped from PATRONID	user_transform	mapping_file_mapper_base.py:147
-2023-01-31 09:12:21,196	Mapped values:
+2023-02-16 22:53:22,191	Logging set up	user_transform	migration_task_base.py:214
+2023-02-16 22:53:22,191	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	user_transform	folder_structure.py:47
+2023-02-16 22:53:22,192	Git ignore is set up correctly	user_transform	folder_structure.py:48
+2023-02-16 22:53:22,192	Base folder is /home/theodor/client_data/migration_example	user_transform	folder_structure.py:49
+2023-02-16 22:53:22,192	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	user_transform	folder_structure.py:50
+2023-02-16 22:53:22,192	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	user_transform	folder_structure.py:51
+2023-02-16 22:53:22,192	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	user_transform	folder_structure.py:52
+2023-02-16 22:53:22,192	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data/users	user_transform	folder_structure.py:53
+2023-02-16 22:53:22,192	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_users_user_transform.log	user_transform	folder_structure.py:54
+2023-02-16 22:53:22,192	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_user_transform.extradata	user_transform	folder_structure.py:55
+2023-02-16 22:53:22,192	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_user_transform.tsv	user_transform	folder_structure.py:56
+2023-02-16 22:53:22,192	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_users_user_transform.json	user_transform	folder_structure.py:57
+2023-02-16 22:53:22,192	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_user_transform.md	user_transform	folder_structure.py:58
+2023-02-16 22:53:22,193	MigrationTaskBase init done	user_transform	migration_task_base.py:78
+2023-02-16 22:53:22,193	45 fields in mapping file map	user_transform	migration_task_base.py:219
+2023-02-16 22:53:22,194	23 Mapped fields in mapping file map	user_transform	migration_task_base.py:225
+2023-02-16 22:53:22,194	Found 2 rows in patronGroup map	user_transform	migration_task_base.py:280
+2023-02-16 22:53:22,194	TYPE,folio_group will be used for determinig patronGroup	user_transform	migration_task_base.py:285
+2023-02-16 22:53:22,195	/home/theodor/client_data/migration_example/mapping_files not found. No departments mapping will be performed	user_transform	user_transformer.py:78
+2023-02-16 22:53:22,935	Using GITHB_TOKEN environment variable for Gihub API Access	user_transform	FolioClient.py:257
+2023-02-16 22:53:23,291	MapperBase initiating	user_transform	mapper_base.py:34
+2023-02-16 22:53:23,292	Legacy identifier will be mapped from PATRONID	user_transform	mapping_file_mapper_base.py:147
+2023-02-16 22:53:23,292	Mapped values:
 {
     "notes[0].domain": "users",
     "notes[0].popUpOnCheckOut": true,
@@ -36,35 +36,35 @@
     "notes[2].typeId": "4745c93f-855c-4c4f-bdab-71b4581ceccf",
     "personal.addresses[0].primaryAddress": true
 }	user_transform	mapping_file_mapper_base.py:71
-2023-01-31 09:12:21,197	Statistical codes map is not set up	user_transform	mapping_file_mapper_base.py:120
-2023-01-31 09:12:21,198	Mapped legacy fields:
+2023-02-16 22:53:23,292	Statistical codes map is not set up	user_transform	mapping_file_mapper_base.py:120
+2023-02-16 22:53:23,293	Mapped legacy fields:
 [
     "",
-    "HOMEZIP",
-    "some_other_note_title",
-    "EMAIL",
-    "BARCODE",
-    "PATRONID",
-    "NOTE_CONTENT",
-    "HOMEADDRESS3",
-    "LASTNAME",
-    "TYPE",
-    "third_note_content",
-    "HOMEADDRESS1",
-    "HOMEADDRESS2",
-    "FIRSTNAME",
-    "HOMESTATE",
     "Not mapped",
+    "some_other_note_title",
+    "FIRSTNAME",
+    "NOTE_TITLE",
+    "PATRONID",
+    "EMAIL",
     "MIDDLE",
-    "USERNAME",
+    "third_note_title",
+    "HOMEADDRESS2",
+    "TYPE",
+    "BARCODE",
+    "some_other_note",
+    "third_note_content",
+    "HOMEADDRESS3",
     "HOMECITY",
     "PHONE",
-    "some_other_note",
-    "third_note_title",
-    "NOTE_TITLE",
-    "MOBILEPHONE"
+    "NOTE_CONTENT",
+    "HOMEZIP",
+    "HOMESTATE",
+    "MOBILEPHONE",
+    "LASTNAME",
+    "HOMEADDRESS1",
+    "USERNAME"
 ]	user_transform	mapping_file_mapper_base.py:97
-2023-01-31 09:12:21,198	Mapped FOLIO fields:
+2023-02-16 22:53:23,293	Mapped FOLIO fields:
 [
     "barcode",
     "externalSystemId",
@@ -103,10 +103,10 @@
     "notes[2].popUpOnCheckOut",
     "notes[2].popUpOnUser"
 ]	user_transform	mapping_file_mapper_base.py:101
-2023-01-31 09:12:21,198	Using GITHB_TOKEN environment variable for Gihub API Access	user_transform	FolioClient.py:229
-2023-01-31 09:12:21,815	Using GITHB_TOKEN environment variable for Gihub API Access	user_transform	FolioClient.py:229
-2023-01-31 09:12:22,428	MapperBase initiating	user_transform	mapper_base.py:34
-2023-01-31 09:12:22,429	Mapped values:
+2023-02-16 22:53:23,293	Using GITHB_TOKEN environment variable for Gihub API Access	user_transform	FolioClient.py:257
+2023-02-16 22:53:23,599	Using GITHB_TOKEN environment variable for Gihub API Access	user_transform	FolioClient.py:257
+2023-02-16 22:53:23,856	MapperBase initiating	user_transform	mapper_base.py:34
+2023-02-16 22:53:23,857	Mapped values:
 {
     "notes[0].domain": "users",
     "notes[0].popUpOnCheckOut": true,
@@ -122,35 +122,35 @@
     "notes[2].typeId": "4745c93f-855c-4c4f-bdab-71b4581ceccf",
     "personal.addresses[0].primaryAddress": true
 }	user_transform	mapping_file_mapper_base.py:71
-2023-01-31 09:12:22,429	Statistical codes map is not set up	user_transform	mapping_file_mapper_base.py:120
-2023-01-31 09:12:22,430	Mapped legacy fields:
+2023-02-16 22:53:23,857	Statistical codes map is not set up	user_transform	mapping_file_mapper_base.py:120
+2023-02-16 22:53:23,857	Mapped legacy fields:
 [
     "",
-    "HOMEZIP",
-    "some_other_note_title",
-    "EMAIL",
-    "BARCODE",
-    "PATRONID",
-    "NOTE_CONTENT",
-    "HOMEADDRESS3",
-    "LASTNAME",
-    "TYPE",
-    "third_note_content",
-    "HOMEADDRESS1",
-    "HOMEADDRESS2",
-    "FIRSTNAME",
-    "HOMESTATE",
     "Not mapped",
+    "some_other_note_title",
+    "FIRSTNAME",
+    "NOTE_TITLE",
+    "PATRONID",
+    "EMAIL",
     "MIDDLE",
-    "USERNAME",
+    "third_note_title",
+    "HOMEADDRESS2",
+    "TYPE",
+    "BARCODE",
+    "some_other_note",
+    "third_note_content",
+    "HOMEADDRESS3",
     "HOMECITY",
     "PHONE",
-    "some_other_note",
-    "third_note_title",
-    "NOTE_TITLE",
-    "MOBILEPHONE"
+    "NOTE_CONTENT",
+    "HOMEZIP",
+    "HOMESTATE",
+    "MOBILEPHONE",
+    "LASTNAME",
+    "HOMEADDRESS1",
+    "USERNAME"
 ]	user_transform	mapping_file_mapper_base.py:97
-2023-01-31 09:12:22,430	Mapped FOLIO fields:
+2023-02-16 22:53:23,857	Mapped FOLIO fields:
 [
     "barcode",
     "externalSystemId",
@@ -189,21 +189,21 @@
     "notes[2].popUpOnCheckOut",
     "notes[2].popUpOnUser"
 ]	user_transform	mapping_file_mapper_base.py:101
-2023-01-31 09:12:22,430	Set 18 props used for note mapping	user_transform	notes_mapper.py:39
-2023-01-31 09:12:22,430	Initiated mapper for Notes	user_transform	notes_mapper.py:40
-2023-01-31 09:12:22,431	usergroups reference data mapping. Initializing	user_transform	ref_data_mapping.py:23
-2023-01-31 09:12:22,431	Fetching usergroups reference data from FOLIO	user_transform	ref_data_mapping.py:24
-2023-01-31 09:12:23,894	Values from usergroups ref data in FOLIO that are not in the map: ['Leeds Student', 'Poplar Student', 'Manchester Student', 'zEBSCO Support Group', 'Unmapped']	user_transform	ref_data_mapping.py:158
-2023-01-31 09:12:23,895	Set undergrad as default usergroups mapping	user_transform	ref_data_mapping.py:56
-2023-01-31 09:12:23,895	Loaded 1 mappings for 7 usergroups in FOLIO	user_transform	ref_data_mapping.py:89
-2023-01-31 09:12:23,895	loaded 0 hybrid mappings for 7 usergroups in FOLIO	user_transform	ref_data_mapping.py:93
-2023-01-31 09:12:23,895	usergroups reference data mapping. Done init	user_transform	ref_data_mapping.py:35
-2023-01-31 09:12:23,896	Init done.	user_transform	user_mapper.py:66
-2023-01-31 09:12:23,896	UserTransformer init done	user_transform	user_transformer.py:97
-2023-01-31 09:12:23,896	Starting....	user_transform	user_transformer.py:100
-2023-01-31 09:12:23,897	processing /home/theodor/client_data/migration_example/iterations/test_run/source_data/users/staff.tsv	user_transform	user_transformer.py:112
-2023-01-31 09:12:23,897	First Legacy  user	user_transform	user_transformer.py:119
-2023-01-31 09:12:23,897	{
+2023-02-16 22:53:23,858	Set 18 props used for note mapping	user_transform	notes_mapper.py:39
+2023-02-16 22:53:23,858	Initiated mapper for Notes	user_transform	notes_mapper.py:40
+2023-02-16 22:53:23,858	usergroups reference data mapping. Initializing	user_transform	ref_data_mapping.py:23
+2023-02-16 22:53:23,858	Fetching usergroups reference data from FOLIO	user_transform	ref_data_mapping.py:24
+2023-02-16 22:53:25,339	Values from usergroups ref data in FOLIO that are not in the map: ['Leeds Student', 'zEBSCO Support Group', 'Manchester Student', 'Poplar Student', 'Unmapped']	user_transform	ref_data_mapping.py:158
+2023-02-16 22:53:25,340	Set undergrad as default usergroups mapping	user_transform	ref_data_mapping.py:56
+2023-02-16 22:53:25,340	Loaded 1 mappings for 7 usergroups in FOLIO	user_transform	ref_data_mapping.py:89
+2023-02-16 22:53:25,340	loaded 0 hybrid mappings for 7 usergroups in FOLIO	user_transform	ref_data_mapping.py:93
+2023-02-16 22:53:25,341	usergroups reference data mapping. Done init	user_transform	ref_data_mapping.py:35
+2023-02-16 22:53:25,341	Init done.	user_transform	user_mapper.py:66
+2023-02-16 22:53:25,341	UserTransformer init done	user_transform	user_transformer.py:97
+2023-02-16 22:53:25,341	Starting....	user_transform	user_transformer.py:100
+2023-02-16 22:53:25,342	processing /home/theodor/client_data/migration_example/iterations/test_run/source_data/users/staff.tsv	user_transform	user_transformer.py:112
+2023-02-16 22:53:25,343	First Legacy  user	user_transform	user_transformer.py:119
+2023-02-16 22:53:25,344	{
     "PATRONID": "1",
     "FACSTAFFDATE": "07/14/2022",
     "BARCODE": "123456789",
@@ -228,9 +228,9 @@
     "third_note_title": "third note",
     "third_note_content": "third"
 }	user_transform	user_transformer.py:120
-2023-01-31 09:12:23,898	fetching current user..	user_transform	FolioClient.py:37
-2023-01-31 09:12:24,676	## First FOLIO  user	user_transform	user_transformer.py:133
-2023-01-31 09:12:24,676	{
+2023-02-16 22:53:25,345	fetching current user..	user_transform	FolioClient.py:37
+2023-02-16 22:53:29,941	## First FOLIO  user	user_transform	user_transformer.py:133
+2023-02-16 22:53:29,942	{
     "active": true,
     "barcode": "123456789",
     "externalSystemId": "tolya12",
@@ -261,8 +261,8 @@
     },
     "username": "tolya12"
 }	user_transform	user_transformer.py:134
-2023-01-31 09:12:24,677	Elapsed time: 0:00:03.480978	user_transform	migration_report.py:74
-2023-01-31 09:12:24,677	All done!	user_transform	user_transformer.py:179
-2023-01-31 09:12:24,677	Removing data issues file since it is empty	user_transform	migration_task_base.py:89
-2023-01-31 09:12:24,677	Removed data issues file since it was empty	user_transform	migration_task_base.py:91
-2023-01-31 09:12:24,678	Work done. Shutting down	user_transform	__main__.py:102
+2023-02-16 22:53:29,943	Elapsed time: 0:00:06.651603	user_transform	migration_report.py:74
+2023-02-16 22:53:29,944	All done!	user_transform	user_transformer.py:179
+2023-02-16 22:53:29,945	Removing data issues file since it is empty	user_transform	migration_task_base.py:89
+2023-02-16 22:53:29,945	Removed data issues file since it was empty	user_transform	migration_task_base.py:91
+2023-02-16 22:53:29,945	Work done. Shutting down	user_transform	__main__.py:102

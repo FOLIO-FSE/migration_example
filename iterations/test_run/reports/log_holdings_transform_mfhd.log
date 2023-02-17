@@ -1,57 +1,57 @@
-2023-01-31 09:09:56,379	Logging set up	transform_mfhd	migration_task_base.py:214
-2023-01-31 09:09:56,379	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	transform_mfhd	folder_structure.py:47
-2023-01-31 09:09:56,379	Git ignore is set up correctly	transform_mfhd	folder_structure.py:48
-2023-01-31 09:09:56,379	Base folder is /home/theodor/client_data/migration_example	transform_mfhd	folder_structure.py:49
-2023-01-31 09:09:56,379	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	transform_mfhd	folder_structure.py:50
-2023-01-31 09:09:56,379	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	transform_mfhd	folder_structure.py:51
-2023-01-31 09:09:56,380	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	transform_mfhd	folder_structure.py:52
-2023-01-31 09:09:56,380	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data/holdings	transform_mfhd	folder_structure.py:53
-2023-01-31 09:09:56,380	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_holdings_transform_mfhd.log	transform_mfhd	folder_structure.py:54
-2023-01-31 09:09:56,380	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_transform_mfhd.extradata	transform_mfhd	folder_structure.py:55
-2023-01-31 09:09:56,380	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_transform_mfhd.tsv	transform_mfhd	folder_structure.py:56
-2023-01-31 09:09:56,380	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_holdings_transform_mfhd.json	transform_mfhd	folder_structure.py:57
-2023-01-31 09:09:56,380	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_transform_mfhd.md	transform_mfhd	folder_structure.py:58
-2023-01-31 09:09:56,380	MigrationTaskBase init done	transform_mfhd	migration_task_base.py:78
-2023-01-31 09:09:57,857	Monograph will be used as default holdings type	transform_mfhd	holdings_marc_transformer.py:73
-2023-01-31 09:09:57,858	Locations in map: 5	transform_mfhd	holdings_marc_transformer.py:82
-2023-01-31 09:09:57,859	Files to process:	transform_mfhd	migration_task_base.py:130
-2023-01-31 09:09:57,859		/home/theodor/client_data/migration_example/iterations/test_run/source_data/holdings/holding.mrc	transform_mfhd	migration_task_base.py:132
-2023-01-31 09:09:57,859	Loaded 14 migrated IDs	transform_mfhd	migration_task_base.py:153
-2023-01-31 09:09:59,344	10	class_types	transform_mfhd	conditions.py:136
-2023-01-31 09:10:00,821	5	electronic_access_relationships	transform_mfhd	conditions.py:137
-2023-01-31 09:10:02,324	28 	statistical_codes	transform_mfhd	conditions.py:141
-2023-01-31 09:10:03,798	6	locations	transform_mfhd	conditions.py:81
-2023-01-31 09:10:05,262	7	holding_note_types	transform_mfhd	conditions.py:83
-2023-01-31 09:10:06,721	12	call_number_types	transform_mfhd	conditions.py:84
-2023-01-31 09:10:08,176	7	holdings types	transform_mfhd	conditions.py:132
-2023-01-31 09:10:08,177	Defaults	transform_mfhd	conditions.py:95
-2023-01-31 09:10:08,177	Default Callnumber type Name:	Library of Congress classification	transform_mfhd	conditions.py:113
-2023-01-31 09:10:08,178	Fetching HoldingsRecord schema...	transform_mfhd	rules_mapper_holdings.py:313
-2023-01-31 09:10:08,178	Using GITHB_TOKEN environment variable for Gihub API Access	transform_mfhd	FolioClient.py:229
-2023-01-31 09:10:08,788	MapperBase initiating	transform_mfhd	mapper_base.py:34
-2023-01-31 09:10:09,534	HRID handling is set to: 'preserve001'	transform_mfhd	hrid_handler.py:40
-2023-01-31 09:10:09,534	fetching current user..	transform_mfhd	FolioClient.py:37
-2023-01-31 09:10:10,292	Current user id is bb78777e-d13b-4612-9383-54d2b17f6d5d	transform_mfhd	rules_mapper_base.py:59
-2023-01-31 09:10:11,777	Fetched 2 holdingsRecordsSources from tenant	transform_mfhd	rules_mapper_holdings.py:191
-2023-01-31 09:10:11,777	Fetching mapping rules from the tenant	transform_mfhd	rules_mapper_holdings.py:60
-2023-01-31 09:10:12,519	14 Instance ids in map	transform_mfhd	holdings_marc_transformer.py:100
-2023-01-31 09:10:12,520	Init done	transform_mfhd	holdings_marc_transformer.py:101
-2023-01-31 09:10:12,520	Starting....	transform_mfhd	migration_task_base.py:249
-2023-01-31 09:10:12,521	Loading Parent HRID map for SRS creation	transform_mfhd	marc_file_processor.py:42
-2023-01-31 09:10:12,522	Running holding.mrc	transform_mfhd	marc_reader_wrapper.py:34
-2023-01-31 09:10:12,530	Done reading 4 records from file	transform_mfhd	marc_reader_wrapper.py:79
-2023-01-31 09:10:12,531	Done. Transformer Wrapping up...	transform_mfhd	holdings_marc_transformer.py:107
-2023-01-31 09:10:12,532	Removing extradata file since it is empty	transform_mfhd	extradata_writer.py:46
-2023-01-31 09:10:12,532	Saving map of 4 old and new IDs to /home/theodor/client_data/migration_example/iterations/test_run/results/holdings_id_map.json	transform_mfhd	marc_file_processor.py:205
-2023-01-31 09:10:12,533	Wrote legacy id map to /home/theodor/client_data/migration_example/iterations/test_run/results/holdings_id_map.json	transform_mfhd	mapper_base.py:291
-2023-01-31 09:10:12,533	4 records processed	transform_mfhd	marc_file_processor.py:211
-2023-01-31 09:10:12,534	Elapsed time: 0:00:03.745755	transform_mfhd	migration_report.py:74
-2023-01-31 09:10:12,538	Mapper wrapping up	transform_mfhd	rules_mapper_holdings.py:304
-2023-01-31 09:10:12,539	Transformation report written to /home/theodor/client_data/migration_example/iterations/test_run/reports/report_transform_mfhd.md	transform_mfhd	marc_file_processor.py:225
-2023-01-31 09:10:12,539	Processor is done.	transform_mfhd	marc_file_processor.py:226
-2023-01-31 09:10:12,540	Elapsed time: 0:00:16.955944	transform_mfhd	migration_report.py:74
-2023-01-31 09:10:12,541	Done. Transformation report written to report_transform_mfhd.md	transform_mfhd	holdings_marc_transformer.py:123
-2023-01-31 09:10:12,541	Removing data issues file since it is empty	transform_mfhd	migration_task_base.py:89
-2023-01-31 09:10:12,541	Removed data issues file since it was empty	transform_mfhd	migration_task_base.py:91
-2023-01-31 09:10:12,542	Removed empty failed marc records file since it was empty	transform_mfhd	migration_task_base.py:98
-2023-01-31 09:10:12,542	Work done. Shutting down	transform_mfhd	__main__.py:102
+2023-02-16 22:50:24,263	Logging set up	transform_mfhd	migration_task_base.py:214
+2023-02-16 22:50:24,263	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	transform_mfhd	folder_structure.py:47
+2023-02-16 22:50:24,263	Git ignore is set up correctly	transform_mfhd	folder_structure.py:48
+2023-02-16 22:50:24,263	Base folder is /home/theodor/client_data/migration_example	transform_mfhd	folder_structure.py:49
+2023-02-16 22:50:24,263	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	transform_mfhd	folder_structure.py:50
+2023-02-16 22:50:24,263	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	transform_mfhd	folder_structure.py:51
+2023-02-16 22:50:24,263	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	transform_mfhd	folder_structure.py:52
+2023-02-16 22:50:24,264	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data/holdings	transform_mfhd	folder_structure.py:53
+2023-02-16 22:50:24,264	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_holdings_transform_mfhd.log	transform_mfhd	folder_structure.py:54
+2023-02-16 22:50:24,264	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_transform_mfhd.extradata	transform_mfhd	folder_structure.py:55
+2023-02-16 22:50:24,264	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_transform_mfhd.tsv	transform_mfhd	folder_structure.py:56
+2023-02-16 22:50:24,264	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_holdings_transform_mfhd.json	transform_mfhd	folder_structure.py:57
+2023-02-16 22:50:24,264	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_transform_mfhd.md	transform_mfhd	folder_structure.py:58
+2023-02-16 22:50:24,264	MigrationTaskBase init done	transform_mfhd	migration_task_base.py:78
+2023-02-16 22:50:25,756	Monograph will be used as default holdings type	transform_mfhd	holdings_marc_transformer.py:73
+2023-02-16 22:50:25,758	Locations in map: 5	transform_mfhd	holdings_marc_transformer.py:82
+2023-02-16 22:50:25,759	Files to process:	transform_mfhd	migration_task_base.py:130
+2023-02-16 22:50:25,759		/home/theodor/client_data/migration_example/iterations/test_run/source_data/holdings/holding.mrc	transform_mfhd	migration_task_base.py:132
+2023-02-16 22:50:25,759	Loaded 14 migrated IDs	transform_mfhd	migration_task_base.py:153
+2023-02-16 22:50:27,274	10	class_types	transform_mfhd	conditions.py:136
+2023-02-16 22:50:28,731	5	electronic_access_relationships	transform_mfhd	conditions.py:137
+2023-02-16 22:50:30,235	28 	statistical_codes	transform_mfhd	conditions.py:141
+2023-02-16 22:50:31,745	7	locations	transform_mfhd	conditions.py:81
+2023-02-16 22:50:33,233	7	holding_note_types	transform_mfhd	conditions.py:83
+2023-02-16 22:50:34,718	12	call_number_types	transform_mfhd	conditions.py:84
+2023-02-16 22:50:36,182	7	holdings types	transform_mfhd	conditions.py:132
+2023-02-16 22:50:36,182	Defaults	transform_mfhd	conditions.py:95
+2023-02-16 22:50:36,183	Default Callnumber type Name:	Library of Congress classification	transform_mfhd	conditions.py:113
+2023-02-16 22:50:36,183	Fetching HoldingsRecord schema...	transform_mfhd	rules_mapper_holdings.py:312
+2023-02-16 22:50:36,922	Using GITHB_TOKEN environment variable for Gihub API Access	transform_mfhd	FolioClient.py:257
+2023-02-16 22:50:37,179	MapperBase initiating	transform_mfhd	mapper_base.py:34
+2023-02-16 22:50:37,924	HRID handling is set to: 'preserve001'	transform_mfhd	hrid_handler.py:40
+2023-02-16 22:50:37,925	fetching current user..	transform_mfhd	FolioClient.py:37
+2023-02-16 22:50:38,699	Current user id is bb78777e-d13b-4612-9383-54d2b17f6d5d	transform_mfhd	rules_mapper_base.py:59
+2023-02-16 22:50:40,182	Fetched 2 holdingsRecordsSources from tenant	transform_mfhd	rules_mapper_holdings.py:191
+2023-02-16 22:50:40,182	Fetching mapping rules from the tenant	transform_mfhd	rules_mapper_holdings.py:60
+2023-02-16 22:50:40,944	14 Instance ids in map	transform_mfhd	holdings_marc_transformer.py:100
+2023-02-16 22:50:40,944	Init done	transform_mfhd	holdings_marc_transformer.py:101
+2023-02-16 22:50:40,944	Starting....	transform_mfhd	migration_task_base.py:249
+2023-02-16 22:50:40,944	Loading Parent HRID map for SRS creation	transform_mfhd	marc_file_processor.py:42
+2023-02-16 22:50:40,945	Running holding.mrc	transform_mfhd	marc_reader_wrapper.py:34
+2023-02-16 22:50:40,954	Done reading 4 records from file	transform_mfhd	marc_reader_wrapper.py:79
+2023-02-16 22:50:40,956	Done. Transformer Wrapping up...	transform_mfhd	holdings_marc_transformer.py:107
+2023-02-16 22:50:40,957	Removing extradata file since it is empty	transform_mfhd	extradata_writer.py:46
+2023-02-16 22:50:40,957	Saving map of 4 old and new IDs to /home/theodor/client_data/migration_example/iterations/test_run/results/holdings_id_map.json	transform_mfhd	marc_file_processor.py:205
+2023-02-16 22:50:40,957	Wrote legacy id map to /home/theodor/client_data/migration_example/iterations/test_run/results/holdings_id_map.json	transform_mfhd	mapper_base.py:291
+2023-02-16 22:50:40,957	4 records processed	transform_mfhd	marc_file_processor.py:211
+2023-02-16 22:50:40,958	Elapsed time: 0:00:03.778466	transform_mfhd	migration_report.py:74
+2023-02-16 22:50:40,958	Mapper wrapping up	transform_mfhd	rules_mapper_holdings.py:304
+2023-02-16 22:50:40,959	Transformation report written to /home/theodor/client_data/migration_example/iterations/test_run/reports/report_transform_mfhd.md	transform_mfhd	marc_file_processor.py:225
+2023-02-16 22:50:40,959	Processor is done.	transform_mfhd	marc_file_processor.py:226
+2023-02-16 22:50:40,959	Elapsed time: 0:00:17.456817	transform_mfhd	migration_report.py:74
+2023-02-16 22:50:40,959	Done. Transformation report written to report_transform_mfhd.md	transform_mfhd	holdings_marc_transformer.py:123
+2023-02-16 22:50:40,959	Removing data issues file since it is empty	transform_mfhd	migration_task_base.py:89
+2023-02-16 22:50:40,960	Removed data issues file since it was empty	transform_mfhd	migration_task_base.py:91
+2023-02-16 22:50:40,960	Removed empty failed marc records file since it was empty	transform_mfhd	migration_task_base.py:98
+2023-02-16 22:50:40,960	Work done. Shutting down	transform_mfhd	__main__.py:102

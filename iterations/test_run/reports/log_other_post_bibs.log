@@ -1,24 +1,24 @@
-2023-01-31 15:15:32,107	Logging set up	post_bibs	migration_task_base.py:214
-2023-01-31 15:15:32,107	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	post_bibs	folder_structure.py:47
-2023-01-31 15:15:32,107	Git ignore is set up correctly	post_bibs	folder_structure.py:48
-2023-01-31 15:15:32,108	Base folder is /home/theodor/client_data/migration_example	post_bibs	folder_structure.py:49
-2023-01-31 15:15:32,108	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	post_bibs	folder_structure.py:50
-2023-01-31 15:15:32,108	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	post_bibs	folder_structure.py:51
-2023-01-31 15:15:32,108	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	post_bibs	folder_structure.py:52
-2023-01-31 15:15:32,108	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	post_bibs	folder_structure.py:53
-2023-01-31 15:15:32,108	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_other_post_bibs.log	post_bibs	folder_structure.py:54
-2023-01-31 15:15:32,109	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_post_bibs.extradata	post_bibs	folder_structure.py:55
-2023-01-31 15:15:32,109	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_post_bibs.tsv	post_bibs	folder_structure.py:56
-2023-01-31 15:15:32,109	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_other_post_bibs.json	post_bibs	folder_structure.py:57
-2023-01-31 15:15:32,110	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_post_bibs.md	post_bibs	folder_structure.py:58
-2023-01-31 15:15:32,110	MigrationTaskBase init done	post_bibs	migration_task_base.py:78
-2023-01-31 15:15:32,110	Batch size is 1	post_bibs	batch_poster.py:90
-2023-01-31 15:15:32,111	Running /home/theodor/client_data/migration_example/iterations/test_run/results/failed_records_post_bibs_20230131-151530.txt	post_bibs	batch_poster.py:109
-2023-01-31 15:15:32,111	{
+2023-02-16 22:49:51,124	Logging set up	post_bibs	migration_task_base.py:214
+2023-02-16 22:49:51,125	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	post_bibs	folder_structure.py:47
+2023-02-16 22:49:51,125	Git ignore is set up correctly	post_bibs	folder_structure.py:48
+2023-02-16 22:49:51,125	Base folder is /home/theodor/client_data/migration_example	post_bibs	folder_structure.py:49
+2023-02-16 22:49:51,125	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	post_bibs	folder_structure.py:50
+2023-02-16 22:49:51,125	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	post_bibs	folder_structure.py:51
+2023-02-16 22:49:51,125	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	post_bibs	folder_structure.py:52
+2023-02-16 22:49:51,125	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	post_bibs	folder_structure.py:53
+2023-02-16 22:49:51,126	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_other_post_bibs.log	post_bibs	folder_structure.py:54
+2023-02-16 22:49:51,126	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_post_bibs.extradata	post_bibs	folder_structure.py:55
+2023-02-16 22:49:51,126	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_post_bibs.tsv	post_bibs	folder_structure.py:56
+2023-02-16 22:49:51,126	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_other_post_bibs.json	post_bibs	folder_structure.py:57
+2023-02-16 22:49:51,126	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_post_bibs.md	post_bibs	folder_structure.py:58
+2023-02-16 22:49:51,126	MigrationTaskBase init done	post_bibs	migration_task_base.py:78
+2023-02-16 22:49:51,126	Batch size is 250	post_bibs	batch_poster.py:90
+2023-02-16 22:49:51,126	Running /home/theodor/client_data/migration_example/iterations/test_run/results/folio_instances_transform_bibs.json	post_bibs	batch_poster.py:109
+2023-02-16 22:49:51,127	{
  "metadata": {
-  "createdDate": "2023-01-31T12:50:13.725",
+  "createdDate": "2023-02-16T21:49:29.607",
   "createdByUserId": "bb78777e-d13b-4612-9383-54d2b17f6d5d",
-  "updatedDate": "2023-01-31T12:50:13.725",
+  "updatedDate": "2023-02-16T21:49:29.607",
   "updatedByUserId": "bb78777e-d13b-4612-9383-54d2b17f6d5d"
  },
  "id": "fd9cfdd2-13db-5c9c-a4d8-6dd21d0cab4a",
@@ -71,257 +71,19 @@
  "instanceTypeId": "30fffe0e-e985-4144-b2e2-1e8179bdb41f",
  "modeOfIssuanceId": "9d18a02f-5897-4c31-9106-c9abb5c7ae8b",
  "languages": [
-  "eng",
-  "swe"
+  "swe",
+  "eng"
  ],
  "discoverySuppress": false,
- "staffSuppress": false
+ "staffSuppress": false,
+ "_version": -1
 }	post_bibs	batch_poster.py:172
-2023-01-31 15:15:32,902	Critical data issue. Record needs fixing		HTTP 422	Request size: 1.95KB2023-01-31T14:15:32.902215 UTC
-	{
-    "errors": [
-        {
-            "message": "id value already exists in table instance: fd9cfdd2-13db-5c9c-a4d8-6dd21d0cab4a",
-            "type": "1",
-            "code": "-1",
-            "parameters": [
-                {
-                    "key": "id",
-                    "value": "fd9cfdd2-13db-5c9c-a4d8-6dd21d0cab4a"
-                }
-            ]
-        }
-    ]
-}	post_bibs	batch_poster.py:235
-2023-01-31 15:15:32,903	Resetting batch...Number of failed batches: 1	post_bibs	batch_poster.py:241
-2023-01-31 15:15:33,652	Critical data issue. Record needs fixing		HTTP 422	Request size: 2.65KB2023-01-31T14:15:33.652050 UTC
-	{
-    "errors": [
-        {
-            "message": "id value already exists in table instance: dd3ce27e-8f65-5392-9ed1-d9e324518689",
-            "type": "1",
-            "code": "-1",
-            "parameters": [
-                {
-                    "key": "id",
-                    "value": "dd3ce27e-8f65-5392-9ed1-d9e324518689"
-                }
-            ]
-        }
-    ]
-}	post_bibs	batch_poster.py:235
-2023-01-31 15:15:33,652	Resetting batch...Number of failed batches: 2	post_bibs	batch_poster.py:241
-2023-01-31 15:15:34,388	Critical data issue. Record needs fixing		HTTP 422	Request size: 5.21KB2023-01-31T14:15:34.388742 UTC
-	{
-    "errors": [
-        {
-            "message": "id value already exists in table instance: 4ab1a8d9-adf4-5033-a562-aed7d9593c04",
-            "type": "1",
-            "code": "-1",
-            "parameters": [
-                {
-                    "key": "id",
-                    "value": "4ab1a8d9-adf4-5033-a562-aed7d9593c04"
-                }
-            ]
-        }
-    ]
-}	post_bibs	batch_poster.py:235
-2023-01-31 15:15:34,389	Resetting batch...Number of failed batches: 3	post_bibs	batch_poster.py:241
-2023-01-31 15:15:35,127	Critical data issue. Record needs fixing		HTTP 422	Request size: 5.20KB2023-01-31T14:15:35.127703 UTC
-	{
-    "errors": [
-        {
-            "message": "id value already exists in table instance: da3ed3e9-751a-594b-b042-cdf2d5d2a550",
-            "type": "1",
-            "code": "-1",
-            "parameters": [
-                {
-                    "key": "id",
-                    "value": "da3ed3e9-751a-594b-b042-cdf2d5d2a550"
-                }
-            ]
-        }
-    ]
-}	post_bibs	batch_poster.py:235
-2023-01-31 15:15:35,128	Resetting batch...Number of failed batches: 4	post_bibs	batch_poster.py:241
-2023-01-31 15:15:35,869	Critical data issue. Record needs fixing		HTTP 422	Request size: 5.28KB2023-01-31T14:15:35.869138 UTC
-	{
-    "errors": [
-        {
-            "message": "id value already exists in table instance: 4d363f4a-8015-5f90-b8cb-3dd361e5af6f",
-            "type": "1",
-            "code": "-1",
-            "parameters": [
-                {
-                    "key": "id",
-                    "value": "4d363f4a-8015-5f90-b8cb-3dd361e5af6f"
-                }
-            ]
-        }
-    ]
-}	post_bibs	batch_poster.py:235
-2023-01-31 15:15:35,870	Resetting batch...Number of failed batches: 5	post_bibs	batch_poster.py:241
-2023-01-31 15:15:36,613	Critical data issue. Record needs fixing		HTTP 422	Request size: 4.28KB2023-01-31T14:15:36.613115 UTC
-	{
-    "errors": [
-        {
-            "message": "id value already exists in table instance: 45ca14ce-e1b3-52d7-bb16-99db0a32d1ee",
-            "type": "1",
-            "code": "-1",
-            "parameters": [
-                {
-                    "key": "id",
-                    "value": "45ca14ce-e1b3-52d7-bb16-99db0a32d1ee"
-                }
-            ]
-        }
-    ]
-}	post_bibs	batch_poster.py:235
-2023-01-31 15:15:36,614	Resetting batch...Number of failed batches: 6	post_bibs	batch_poster.py:241
-2023-01-31 15:15:37,364	Critical data issue. Record needs fixing		HTTP 422	Request size: 5.01KB2023-01-31T14:15:37.363897 UTC
-	{
-    "errors": [
-        {
-            "message": "id value already exists in table instance: 6a7425ed-aa9d-5f0e-87db-b43a0563dc18",
-            "type": "1",
-            "code": "-1",
-            "parameters": [
-                {
-                    "key": "id",
-                    "value": "6a7425ed-aa9d-5f0e-87db-b43a0563dc18"
-                }
-            ]
-        }
-    ]
-}	post_bibs	batch_poster.py:235
-2023-01-31 15:15:37,365	Resetting batch...Number of failed batches: 7	post_bibs	batch_poster.py:241
-2023-01-31 15:15:38,104	Critical data issue. Record needs fixing		HTTP 422	Request size: 5.07KB2023-01-31T14:15:38.104279 UTC
-	{
-    "errors": [
-        {
-            "message": "id value already exists in table instance: 6e26a392-b7c4-5fa1-b90f-c17fa30de0d0",
-            "type": "1",
-            "code": "-1",
-            "parameters": [
-                {
-                    "key": "id",
-                    "value": "6e26a392-b7c4-5fa1-b90f-c17fa30de0d0"
-                }
-            ]
-        }
-    ]
-}	post_bibs	batch_poster.py:235
-2023-01-31 15:15:38,104	Resetting batch...Number of failed batches: 8	post_bibs	batch_poster.py:241
-2023-01-31 15:15:38,853	Critical data issue. Record needs fixing		HTTP 422	Request size: 4.89KB2023-01-31T14:15:38.853427 UTC
-	{
-    "errors": [
-        {
-            "message": "id value already exists in table instance: 244de9b1-3b97-5fa0-b02b-f40db0bf2dbc",
-            "type": "1",
-            "code": "-1",
-            "parameters": [
-                {
-                    "key": "id",
-                    "value": "244de9b1-3b97-5fa0-b02b-f40db0bf2dbc"
-                }
-            ]
-        }
-    ]
-}	post_bibs	batch_poster.py:235
-2023-01-31 15:15:38,854	Resetting batch...Number of failed batches: 9	post_bibs	batch_poster.py:241
-2023-01-31 15:15:39,593	Critical data issue. Record needs fixing		HTTP 422	Request size: 4.91KB2023-01-31T14:15:39.593401 UTC
-	{
-    "errors": [
-        {
-            "message": "id value already exists in table instance: 46602343-32d8-513d-9be0-0d995a9ad262",
-            "type": "1",
-            "code": "-1",
-            "parameters": [
-                {
-                    "key": "id",
-                    "value": "46602343-32d8-513d-9be0-0d995a9ad262"
-                }
-            ]
-        }
-    ]
-}	post_bibs	batch_poster.py:235
-2023-01-31 15:15:39,594	Resetting batch...Number of failed batches: 10	post_bibs	batch_poster.py:241
-2023-01-31 15:15:40,337	Critical data issue. Record needs fixing		HTTP 422	Request size: 4.81KB2023-01-31T14:15:40.337535 UTC
-	{
-    "errors": [
-        {
-            "message": "id value already exists in table instance: dd3805eb-fa80-5ce0-8e8a-c15943bb2f9b",
-            "type": "1",
-            "code": "-1",
-            "parameters": [
-                {
-                    "key": "id",
-                    "value": "dd3805eb-fa80-5ce0-8e8a-c15943bb2f9b"
-                }
-            ]
-        }
-    ]
-}	post_bibs	batch_poster.py:235
-2023-01-31 15:15:40,338	Resetting batch...Number of failed batches: 11	post_bibs	batch_poster.py:241
-2023-01-31 15:15:41,081	Critical data issue. Record needs fixing		HTTP 422	Request size: 4.66KB2023-01-31T14:15:41.081489 UTC
-	{
-    "errors": [
-        {
-            "message": "id value already exists in table instance: e8138988-bf8c-5d74-973f-968e817bc3ce",
-            "type": "1",
-            "code": "-1",
-            "parameters": [
-                {
-                    "key": "id",
-                    "value": "e8138988-bf8c-5d74-973f-968e817bc3ce"
-                }
-            ]
-        }
-    ]
-}	post_bibs	batch_poster.py:235
-2023-01-31 15:15:41,082	Resetting batch...Number of failed batches: 12	post_bibs	batch_poster.py:241
-2023-01-31 15:15:41,811	Critical data issue. Record needs fixing		HTTP 422	Request size: 1.92KB2023-01-31T14:15:41.811463 UTC
-	{
-    "errors": [
-        {
-            "message": "id value already exists in table instance: 54f3de88-5808-50a6-9c78-c34156b26e08",
-            "type": "1",
-            "code": "-1",
-            "parameters": [
-                {
-                    "key": "id",
-                    "value": "54f3de88-5808-50a6-9c78-c34156b26e08"
-                }
-            ]
-        }
-    ]
-}	post_bibs	batch_poster.py:235
-2023-01-31 15:15:41,812	Resetting batch...Number of failed batches: 13	post_bibs	batch_poster.py:241
-2023-01-31 15:15:42,557	Critical data issue. Record needs fixing		HTTP 422	Request size: 2.62KB2023-01-31T14:15:42.556577 UTC
-	{
-    "errors": [
-        {
-            "message": "id value already exists in table instance: 92838d3e-7996-5a10-b703-4b9e75329a5f",
-            "type": "1",
-            "code": "-1",
-            "parameters": [
-                {
-                    "key": "id",
-                    "value": "92838d3e-7996-5a10-b703-4b9e75329a5f"
-                }
-            ]
-        }
-    ]
-}	post_bibs	batch_poster.py:235
-2023-01-31 15:15:42,557	Resetting batch...Number of failed batches: 14	post_bibs	batch_poster.py:241
-2023-01-31 15:15:42,557	Done posting 14 records. 	post_bibs	batch_poster.py:155
-2023-01-31 15:15:42,558	Done. Wrapping up	post_bibs	batch_poster.py:384
-2023-01-31 15:15:42,560	Removing extradata file since it is empty	post_bibs	extradata_writer.py:46
-2023-01-31 15:15:42,560	Failed records: 14 failed records in 14 failed batches. Failed records saved to /home/theodor/client_data/migration_example/iterations/test_run/results/failed_records_post_bibs_20230131-151532.txt	post_bibs	batch_poster.py:389
-2023-01-31 15:15:42,561	Elapsed time: 0:00:13.175430	post_bibs	migration_report.py:74
-2023-01-31 15:15:42,562	Removing data issues file since it is empty	post_bibs	migration_task_base.py:89
-2023-01-31 15:15:42,563	Removed data issues file since it was empty	post_bibs	migration_task_base.py:91
-2023-01-31 15:15:42,563	Done rerunning the posting	post_bibs	batch_poster.py:440
-2023-01-31 15:15:42,564	Elapsed time: 0:00:13.178049	post_bibs	migration_report.py:74
-2023-01-31 15:15:42,564	Work done. Shutting down	post_bibs	__main__.py:102
+2023-02-16 22:49:52,268	Posting successful! Total rows: 14 Total failed: 0 in 1.136705s Batch Size: 14 Request size: 51.80KB 	post_bibs	batch_poster.py:267
+2023-02-16 22:49:52,268	Done posting 14 records. 	post_bibs	batch_poster.py:155
+2023-02-16 22:49:52,269	Done. Wrapping up	post_bibs	batch_poster.py:384
+2023-02-16 22:49:52,269	Removing extradata file since it is empty	post_bibs	extradata_writer.py:46
+2023-02-16 22:49:52,269	Failed records: 0 failed records in 0 failed batches. Failed records saved to /home/theodor/client_data/migration_example/iterations/test_run/results/failed_records_post_bibs_20230216-224951.txt	post_bibs	batch_poster.py:389
+2023-02-16 22:49:52,269	Elapsed time: 0:00:01.905691	post_bibs	migration_report.py:74
+2023-02-16 22:49:52,270	Removing data issues file since it is empty	post_bibs	migration_task_base.py:89
+2023-02-16 22:49:52,270	Removed data issues file since it was empty	post_bibs	migration_task_base.py:91
+2023-02-16 22:49:52,270	Work done. Shutting down	post_bibs	__main__.py:102

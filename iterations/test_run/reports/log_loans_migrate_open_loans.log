@@ -1,72 +1,33 @@
-2023-01-31 15:32:12,614	Logging set up	migrate_open_loans	migration_task_base.py:214
-2023-01-31 15:32:12,614	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	migrate_open_loans	folder_structure.py:47
-2023-01-31 15:32:12,614	Git ignore is set up correctly	migrate_open_loans	folder_structure.py:48
-2023-01-31 15:32:12,614	Base folder is /home/theodor/client_data/migration_example	migrate_open_loans	folder_structure.py:49
-2023-01-31 15:32:12,615	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	migrate_open_loans	folder_structure.py:50
-2023-01-31 15:32:12,615	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	migrate_open_loans	folder_structure.py:51
-2023-01-31 15:32:12,615	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	migrate_open_loans	folder_structure.py:52
-2023-01-31 15:32:12,615	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data/loans	migrate_open_loans	folder_structure.py:53
-2023-01-31 15:32:12,615	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_loans_migrate_open_loans.log	migrate_open_loans	folder_structure.py:54
-2023-01-31 15:32:12,615	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_migrate_open_loans.extradata	migrate_open_loans	folder_structure.py:55
-2023-01-31 15:32:12,615	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_migrate_open_loans.tsv	migrate_open_loans	folder_structure.py:56
-2023-01-31 15:32:12,615	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_loans_migrate_open_loans.json	migrate_open_loans	folder_structure.py:57
-2023-01-31 15:32:12,615	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_migrate_open_loans.md	migrate_open_loans	folder_structure.py:58
-2023-01-31 15:32:12,616	MigrationTaskBase init done	migrate_open_loans	migration_task_base.py:78
-2023-01-31 15:32:12,616	Check that SMTP is disabled before migrating loans	migrate_open_loans	loans_migrator.py:70
-2023-01-31 15:32:13,440	SMTP connection not disabled...	migrate_open_loans	loans_migrator.py:147
-2023-01-31 15:32:23,455	Proceeding with loans migration	migrate_open_loans	loans_migrator.py:72
-2023-01-31 15:32:23,456	Attempting to retrieve tenant timezone configuration...	migrate_open_loans	loans_migrator.py:73
-2023-01-31 15:32:24,201	Tenant timezone is: UTC	migrate_open_loans	loans_migrator.py:79
-2023-01-31 15:32:24,205	Source data file contains 17 rows	migrate_open_loans	loans_migrator.py:91
-2023-01-31 15:32:24,205	Source data file contains 0 empty rows	migrate_open_loans	loans_migrator.py:92
-2023-01-31 15:32:24,205	Validating legacy loans in file...	migrate_open_loans	loans_migrator.py:308
-2023-01-31 15:32:24,215	Done validating 17 legacy loans out of which 5 where discarded.	migrate_open_loans	loans_migrator.py:334
-2023-01-31 15:32:24,216	Loaded and validated 12 loans in file from loans.tsv	migrate_open_loans	loans_migrator.py:110
-2023-01-31 15:32:24,216	Loaded and validated 12 loans in total	migrate_open_loans	loans_migrator.py:115
-2023-01-31 15:32:24,217	Loaded 16 barcodes from items	migrate_open_loans	circulation_helper.py:270
-2023-01-31 15:32:24,218	Loaded 1 barcodes from users	migrate_open_loans	circulation_helper.py:260
-2023-01-31 15:32:24,218	Loaded and validated 9 loans against barcodes	migrate_open_loans	loans_migrator.py:118
-2023-01-31 15:32:24,219	Starting row number is 1	migrate_open_loans	loans_migrator.py:128
-2023-01-31 15:32:24,219	Init completed	migrate_open_loans	loans_migrator.py:129
-2023-01-31 15:32:24,219	Starting	migrate_open_loans	loans_migrator.py:155
-2023-01-31 15:33:28,638	Error in row 1  Item barcode: 1-6073090204 Patron barcode: 123456789 500 Server Error: Internal Server Error for url: https://okapi-ic-migration-test.int.aws.folio.org/circulation/loans/6a843b87-f7ea-48d2-88ef-462d97d27c1b	migrate_open_loans	loans_migrator.py:169
-Traceback (most recent call last):
-  File "/home/theodor/code/folio_migration_tools/src/folio_migration_tools/migration_tasks/loans_migrator.py", line 167, in do_work
-    self.checkout_single_loan(legacy_loan)
-  File "/home/theodor/code/folio_migration_tools/src/folio_migration_tools/migration_tasks/loans_migrator.py", line 187, in checkout_single_loan
-    self.set_renewal_count(legacy_loan, res_checkout)
-  File "/home/theodor/code/folio_migration_tools/src/folio_migration_tools/migration_tasks/loans_migrator.py", line 237, in set_renewal_count
-    self.update_open_loan(res_checkout.folio_loan, legacy_loan)
-  File "/home/theodor/code/folio_migration_tools/src/folio_migration_tools/migration_tasks/loans_migrator.py", line 462, in update_open_loan
-    req.raise_for_status()
-  File "/home/theodor/code/folio_migration_tools/.venv/lib/python3.10/site-packages/requests/models.py", line 960, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://okapi-ic-migration-test.int.aws.folio.org/circulation/loans/6a843b87-f7ea-48d2-88ef-462d97d27c1b
-2023-01-31 15:34:18,841	Error in row 2  Item barcode: 2-6073090204 Patron barcode: 123456789 500 Server Error: Internal Server Error for url: https://okapi-ic-migration-test.int.aws.folio.org/circulation/loans/11aceed2-ccc3-4782-a492-2245cecfddb1	migrate_open_loans	loans_migrator.py:169
-Traceback (most recent call last):
-  File "/home/theodor/code/folio_migration_tools/src/folio_migration_tools/migration_tasks/loans_migrator.py", line 167, in do_work
-    self.checkout_single_loan(legacy_loan)
-  File "/home/theodor/code/folio_migration_tools/src/folio_migration_tools/migration_tasks/loans_migrator.py", line 187, in checkout_single_loan
-    self.set_renewal_count(legacy_loan, res_checkout)
-  File "/home/theodor/code/folio_migration_tools/src/folio_migration_tools/migration_tasks/loans_migrator.py", line 237, in set_renewal_count
-    self.update_open_loan(res_checkout.folio_loan, legacy_loan)
-  File "/home/theodor/code/folio_migration_tools/src/folio_migration_tools/migration_tasks/loans_migrator.py", line 462, in update_open_loan
-    req.raise_for_status()
-  File "/home/theodor/code/folio_migration_tools/.venv/lib/python3.10/site-packages/requests/models.py", line 960, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://okapi-ic-migration-test.int.aws.folio.org/circulation/loans/11aceed2-ccc3-4782-a492-2245cecfddb1
-2023-01-31 15:36:45,715	Error in row 5  Item barcode: 6073090103 Patron barcode: 123456789 500 Server Error: Internal Server Error for url: https://okapi-ic-migration-test.int.aws.folio.org/circulation/loans/1b168c14-d4d5-43bc-a82e-ee8d6ddbd7ce	migrate_open_loans	loans_migrator.py:169
-Traceback (most recent call last):
-  File "/home/theodor/code/folio_migration_tools/src/folio_migration_tools/migration_tasks/loans_migrator.py", line 167, in do_work
-    self.checkout_single_loan(legacy_loan)
-  File "/home/theodor/code/folio_migration_tools/src/folio_migration_tools/migration_tasks/loans_migrator.py", line 187, in checkout_single_loan
-    self.set_renewal_count(legacy_loan, res_checkout)
-  File "/home/theodor/code/folio_migration_tools/src/folio_migration_tools/migration_tasks/loans_migrator.py", line 237, in set_renewal_count
-    self.update_open_loan(res_checkout.folio_loan, legacy_loan)
-  File "/home/theodor/code/folio_migration_tools/src/folio_migration_tools/migration_tasks/loans_migrator.py", line 462, in update_open_loan
-    req.raise_for_status()
-  File "/home/theodor/code/folio_migration_tools/.venv/lib/python3.10/site-packages/requests/models.py", line 960, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://okapi-ic-migration-test.int.aws.folio.org/circulation/loans/1b168c14-d4d5-43bc-a82e-ee8d6ddbd7ce
-2023-01-31 15:39:20,407	Elapsed time: 0:07:08.628276	migrate_open_loans	migration_report.py:74
-2023-01-31 15:39:20,408	Work done. Shutting down	migrate_open_loans	__main__.py:102
+2023-02-16 22:54:22,861	Logging set up	migrate_open_loans	migration_task_base.py:214
+2023-02-16 22:54:22,861	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	migrate_open_loans	folder_structure.py:47
+2023-02-16 22:54:22,861	Git ignore is set up correctly	migrate_open_loans	folder_structure.py:48
+2023-02-16 22:54:22,861	Base folder is /home/theodor/client_data/migration_example	migrate_open_loans	folder_structure.py:49
+2023-02-16 22:54:22,862	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	migrate_open_loans	folder_structure.py:50
+2023-02-16 22:54:22,862	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	migrate_open_loans	folder_structure.py:51
+2023-02-16 22:54:22,862	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	migrate_open_loans	folder_structure.py:52
+2023-02-16 22:54:22,862	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data/loans	migrate_open_loans	folder_structure.py:53
+2023-02-16 22:54:22,862	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_loans_migrate_open_loans.log	migrate_open_loans	folder_structure.py:54
+2023-02-16 22:54:22,862	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_migrate_open_loans.extradata	migrate_open_loans	folder_structure.py:55
+2023-02-16 22:54:22,862	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_migrate_open_loans.tsv	migrate_open_loans	folder_structure.py:56
+2023-02-16 22:54:22,863	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_loans_migrate_open_loans.json	migrate_open_loans	folder_structure.py:57
+2023-02-16 22:54:22,863	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_migrate_open_loans.md	migrate_open_loans	folder_structure.py:58
+2023-02-16 22:54:22,863	MigrationTaskBase init done	migrate_open_loans	migration_task_base.py:78
+2023-02-16 22:54:22,863	Check that SMTP is disabled before migrating loans	migrate_open_loans	loans_migrator.py:70
+2023-02-16 22:54:23,622	SMTP connection not disabled...	migrate_open_loans	loans_migrator.py:147
+2023-02-16 22:54:33,638	Proceeding with loans migration	migrate_open_loans	loans_migrator.py:72
+2023-02-16 22:54:33,639	Attempting to retrieve tenant timezone configuration...	migrate_open_loans	loans_migrator.py:73
+2023-02-16 22:54:34,380	Tenant timezone is: UTC	migrate_open_loans	loans_migrator.py:79
+2023-02-16 22:54:34,383	Source data file contains 17 rows	migrate_open_loans	loans_migrator.py:91
+2023-02-16 22:54:34,383	Source data file contains 0 empty rows	migrate_open_loans	loans_migrator.py:92
+2023-02-16 22:54:34,384	Validating legacy loans in file...	migrate_open_loans	loans_migrator.py:317
+2023-02-16 22:54:34,394	Done validating 17 legacy loans out of which 5 where discarded.	migrate_open_loans	loans_migrator.py:343
+2023-02-16 22:54:34,395	Loaded and validated 12 loans in file from loans.tsv	migrate_open_loans	loans_migrator.py:110
+2023-02-16 22:54:34,395	Loaded and validated 12 loans in total	migrate_open_loans	loans_migrator.py:115
+2023-02-16 22:54:34,397	Loaded 16 barcodes from items	migrate_open_loans	circulation_helper.py:303
+2023-02-16 22:54:34,397	Loaded 1 barcodes from users	migrate_open_loans	circulation_helper.py:293
+2023-02-16 22:54:34,398	Loaded and validated 9 loans against barcodes	migrate_open_loans	loans_migrator.py:118
+2023-02-16 22:54:34,398	Starting row number is 1	migrate_open_loans	loans_migrator.py:128
+2023-02-16 22:54:34,398	Init completed	migrate_open_loans	loans_migrator.py:129
+2023-02-16 22:54:34,398	Starting	migrate_open_loans	loans_migrator.py:155
+2023-02-16 22:54:51,546	Elapsed time: 0:00:29.448630	migrate_open_loans	migration_report.py:74
+2023-02-16 22:54:51,546	Work done. Shutting down	migrate_open_loans	__main__.py:102

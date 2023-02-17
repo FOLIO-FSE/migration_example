@@ -4,9 +4,9 @@
    
 Measure | Value   
 --- | ---:   
-Time Started: | 2023-01-31T14:32:11.778609+00:00   
-Time Finished: | 2023-01-31T14:39:20.406885+00:00   
-Elapsed time: | 0:07:08.628276   
+Time Started: | 2023-02-16T21:54:22.097835+00:00   
+Time Finished: | 2023-02-16T21:54:51.546465+00:00   
+Elapsed time: | 0:00:29.448630   
    
 ##     
     
@@ -21,12 +21,12 @@ Loans verified against migrated user and item | 9
 Processed pre-validated loans | 9   
 Successfully checked out | 9   
 Total rows in loans.tsv | 17   
-Updated renewal count for loan | 6   
+Updated renewal count for loan | 9   
 </details>   
    
 ## Details    
     
-<details><summary>Click to expand all 7 things</summary>     
+<details><summary>Click to expand all 6 things</summary>     
    
 Measure | Count   
 --- | ---:   
@@ -34,8 +34,7 @@ Checked out on first try | 9
 Hour and minute not specified for due date. Assuming end of local calendar day (23:59)... | 1   
 Provided due_date is not UTC, setting tzinfo to tenant timezone (UTC) | 17   
 Provided out_date is not UTC, setting tzinfo to tenant timezone (UTC) | 17   
-Successfully updated open loan (204) | 6   
-Update open loan error http status: 500 | 3   
+Successfully updated open loan (204) | 9   
 </details>   
    
 ## Discarded loans    

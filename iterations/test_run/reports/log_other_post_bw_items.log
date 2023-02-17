@@ -1,25 +1,25 @@
-2023-01-31 13:56:54,755	Logging set up	post_bw_items	migration_task_base.py:214
-2023-01-31 13:56:54,756	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	post_bw_items	folder_structure.py:47
-2023-01-31 13:56:54,756	Git ignore is set up correctly	post_bw_items	folder_structure.py:48
-2023-01-31 13:56:54,756	Base folder is /home/theodor/client_data/migration_example	post_bw_items	folder_structure.py:49
-2023-01-31 13:56:54,756	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	post_bw_items	folder_structure.py:50
-2023-01-31 13:56:54,757	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	post_bw_items	folder_structure.py:51
-2023-01-31 13:56:54,757	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	post_bw_items	folder_structure.py:52
-2023-01-31 13:56:54,757	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	post_bw_items	folder_structure.py:53
-2023-01-31 13:56:54,757	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_other_post_bw_items.log	post_bw_items	folder_structure.py:54
-2023-01-31 13:56:54,757	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_post_bw_items.extradata	post_bw_items	folder_structure.py:55
-2023-01-31 13:56:54,757	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_post_bw_items.tsv	post_bw_items	folder_structure.py:56
-2023-01-31 13:56:54,758	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_other_post_bw_items.json	post_bw_items	folder_structure.py:57
-2023-01-31 13:56:54,758	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_post_bw_items.md	post_bw_items	folder_structure.py:58
-2023-01-31 13:56:54,758	MigrationTaskBase init done	post_bw_items	migration_task_base.py:78
-2023-01-31 13:56:54,759	Batch size is 250	post_bw_items	batch_poster.py:75
-2023-01-31 13:56:54,760	Running /home/theodor/client_data/migration_example/iterations/test_run/results/folio_items_transform_bw_items.json	post_bw_items	batch_poster.py:94
-2023-01-31 13:56:54,760	{
+2023-02-16 22:53:11,430	Logging set up	post_bw_items	migration_task_base.py:214
+2023-02-16 22:53:11,430	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	post_bw_items	folder_structure.py:47
+2023-02-16 22:53:11,430	Git ignore is set up correctly	post_bw_items	folder_structure.py:48
+2023-02-16 22:53:11,430	Base folder is /home/theodor/client_data/migration_example	post_bw_items	folder_structure.py:49
+2023-02-16 22:53:11,430	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	post_bw_items	folder_structure.py:50
+2023-02-16 22:53:11,430	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	post_bw_items	folder_structure.py:51
+2023-02-16 22:53:11,431	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	post_bw_items	folder_structure.py:52
+2023-02-16 22:53:11,431	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	post_bw_items	folder_structure.py:53
+2023-02-16 22:53:11,431	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_other_post_bw_items.log	post_bw_items	folder_structure.py:54
+2023-02-16 22:53:11,431	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_post_bw_items.extradata	post_bw_items	folder_structure.py:55
+2023-02-16 22:53:11,431	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_post_bw_items.tsv	post_bw_items	folder_structure.py:56
+2023-02-16 22:53:11,431	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_other_post_bw_items.json	post_bw_items	folder_structure.py:57
+2023-02-16 22:53:11,431	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_post_bw_items.md	post_bw_items	folder_structure.py:58
+2023-02-16 22:53:11,431	MigrationTaskBase init done	post_bw_items	migration_task_base.py:78
+2023-02-16 22:53:11,431	Batch size is 250	post_bw_items	batch_poster.py:90
+2023-02-16 22:53:11,432	Running /home/theodor/client_data/migration_example/iterations/test_run/results/folio_items_transform_bw_items.json	post_bw_items	batch_poster.py:109
+2023-02-16 22:53:11,432	{
  "id": "03c81431-7c4d-5659-b95c-74a6b4dc24a8",
  "metadata": {
-  "createdDate": "2023-01-31T08:12:10.862",
+  "createdDate": "2023-02-16T21:52:51.448",
   "createdByUserId": "bb78777e-d13b-4612-9383-54d2b17f6d5d",
-  "updatedDate": "2023-01-31T08:12:10.862",
+  "updatedDate": "2023-02-16T21:52:51.448",
   "updatedByUserId": "bb78777e-d13b-4612-9383-54d2b17f6d5d"
  },
  "hrid": "i10001037",
@@ -31,17 +31,17 @@
  "barcode": "1-6073090204",
  "status": {
   "name": "Available",
-  "date": "2023-01-31T08:12:10.863907"
+  "date": "2023-02-16T21:52:51.449867"
  },
  "materialTypeId": "4eea3f27-8910-46fc-9666-e2b44326c2b8",
  "permanentLoanTypeId": "2b94c631-fca9-4892-a730-03ee529ffe27"
-}	post_bw_items	batch_poster.py:113
-2023-01-31 13:56:55,544	Posting successful! Total rows: 10 Total failed: 0 in 0.779001s Batch Size: 10 Request size: 6.70KB 	post_bw_items	batch_poster.py:243
-2023-01-31 13:56:55,544	Done posting 10 records. 	post_bw_items	batch_poster.py:148
-2023-01-31 13:56:55,545	Done. Wrapping up	post_bw_items	batch_poster.py:355
-2023-01-31 13:56:55,545	Removing extradata file since it is empty	post_bw_items	extradata_writer.py:46
-2023-01-31 13:56:55,546	Failed records: 0 failed records in 0 failed batches. Failed records saved to /home/theodor/client_data/migration_example/iterations/test_run/results/failed_records_post_bw_items_20230131-135654.txt	post_bw_items	batch_poster.py:360
-2023-01-31 13:56:55,546	Elapsed time: 0:00:01.561484	post_bw_items	migration_report.py:74
-2023-01-31 13:56:55,547	Removing data issues file since it is empty	post_bw_items	migration_task_base.py:89
-2023-01-31 13:56:55,547	Removed data issues file since it was empty	post_bw_items	migration_task_base.py:91
-2023-01-31 13:56:55,547	Work done. Shutting down	post_bw_items	__main__.py:102
+}	post_bw_items	batch_poster.py:172
+2023-02-16 22:53:12,184	Posting successful! Total rows: 10 Total failed: 0 in 0.747719s Batch Size: 10 Request size: 6.69KB 	post_bw_items	batch_poster.py:267
+2023-02-16 22:53:12,184	Done posting 10 records. 	post_bw_items	batch_poster.py:155
+2023-02-16 22:53:12,185	Done. Wrapping up	post_bw_items	batch_poster.py:384
+2023-02-16 22:53:12,185	Removing extradata file since it is empty	post_bw_items	extradata_writer.py:46
+2023-02-16 22:53:12,185	Failed records: 0 failed records in 0 failed batches. Failed records saved to /home/theodor/client_data/migration_example/iterations/test_run/results/failed_records_post_bw_items_20230216-225311.txt	post_bw_items	batch_poster.py:389
+2023-02-16 22:53:12,186	Elapsed time: 0:00:01.523049	post_bw_items	migration_report.py:74
+2023-02-16 22:53:12,186	Removing data issues file since it is empty	post_bw_items	migration_task_base.py:89
+2023-02-16 22:53:12,186	Removed data issues file since it was empty	post_bw_items	migration_task_base.py:91
+2023-02-16 22:53:12,186	Work done. Shutting down	post_bw_items	__main__.py:102
