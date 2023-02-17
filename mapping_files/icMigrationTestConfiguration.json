@@ -1,7 +1,7 @@
 {
     "libraryInformation": {
         "tenantId": "icmigtst00",
-        "multiFieldDelimiter": "<^>",
+        "multiFieldDelimiter": ";",
         "okapiUrl": "https://okapi-ic-migration-test.int.aws.folio.org",
         "okapiUsername": "datamigration_manual",
         "libraryName": "FOLIO Reference env",
@@ -428,16 +428,10 @@
                 }
             ],
             "ordersMappingFileName": "composite_order_mapping.json",
-            "orderTypeMapFile_name": "",
-            "acquisition_methodMapFileName": "",
-            "orderFormatMapFileName": "",
-            "paymentStatusMapFileName": "",
-            "receiptStatusMapFileName": "",
-            "workflowStatusMapFileName": "",
-            "locationMapFileName": "",
-            "fundsExpenseClassMapFileName": "",
-            "fundsMapFileName": "",
-            "organizationMapFileName": ""
+            "orderTypeMapFileName": "orderTypeMap.tsv",
+            "acquisitionMethodMapFileName": "acquisitionMethodMap.tsv",
+            "orderFormatMapFileName": "orderFormatMap.tsv",
+            "organizationsCodeMapFileName": "organizationCodeMap.tsv"
         }
     ]
 }

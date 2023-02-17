@@ -1,19 +1,355 @@
-2023-02-15 14:03:52,278	Logging set up	transform_composite_orders	migration_task_base.py:214
-2023-02-15 14:03:52,279	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	transform_composite_orders	folder_structure.py:47
-2023-02-15 14:03:52,279	Git ignore is set up correctly	transform_composite_orders	folder_structure.py:48
-2023-02-15 14:03:52,279	Base folder is /home/theodor/client_data/migration_example	transform_composite_orders	folder_structure.py:49
-2023-02-15 14:03:52,279	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	transform_composite_orders	folder_structure.py:50
-2023-02-15 14:03:52,279	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	transform_composite_orders	folder_structure.py:51
-2023-02-15 14:03:52,280	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	transform_composite_orders	folder_structure.py:52
-2023-02-15 14:03:52,280	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data/orders	transform_composite_orders	folder_structure.py:53
-2023-02-15 14:03:52,280	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_orders_transform_composite_orders.log	transform_composite_orders	folder_structure.py:54
-2023-02-15 14:03:52,280	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_transform_composite_orders.extradata	transform_composite_orders	folder_structure.py:55
-2023-02-15 14:03:52,280	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_transform_composite_orders.tsv	transform_composite_orders	folder_structure.py:56
-2023-02-15 14:03:52,280	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_orders_transform_composite_orders.json	transform_composite_orders	folder_structure.py:57
-2023-02-15 14:03:52,280	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_transform_composite_orders.md	transform_composite_orders	folder_structure.py:58
-2023-02-15 14:03:52,280	MigrationTaskBase init done	transform_composite_orders	migration_task_base.py:78
-2023-02-15 14:03:52,280	Files to process:	transform_composite_orders	orders_transformer.py:152
-2023-02-15 14:03:52,281		/home/theodor/client_data/migration_example/iterations/test_run/source_data/orders/sierra_orders.tsv	transform_composite_orders	orders_transformer.py:154
-2023-02-15 14:03:52,281	9 fields in mapping file map	transform_composite_orders	migration_task_base.py:219
-2023-02-15 14:03:52,281	8 Mapped fields in mapping file map	transform_composite_orders	migration_task_base.py:225
-2023-02-15 14:03:52,281	orderType not mapped in legacy->folio mapping file (/home/theodor/client_data/migration_example/mapping_files) ([Errno 21] Is a directory: '/home/theodor/client_data/migration_example/mapping_files'). Did you map this field, but forgot to add a mapping file?	transform_composite_orders	__main__.py:78
+2023-02-17 16:48:00,478	Logging set up	transform_composite_orders	migration_task_base.py:214
+2023-02-17 16:48:00,478	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	transform_composite_orders	folder_structure.py:47
+2023-02-17 16:48:00,478	Git ignore is set up correctly	transform_composite_orders	folder_structure.py:48
+2023-02-17 16:48:00,478	Base folder is /home/theodor/client_data/migration_example	transform_composite_orders	folder_structure.py:49
+2023-02-17 16:48:00,478	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	transform_composite_orders	folder_structure.py:50
+2023-02-17 16:48:00,478	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	transform_composite_orders	folder_structure.py:51
+2023-02-17 16:48:00,479	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	transform_composite_orders	folder_structure.py:52
+2023-02-17 16:48:00,479	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data/orders	transform_composite_orders	folder_structure.py:53
+2023-02-17 16:48:00,479	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_orders_transform_composite_orders.log	transform_composite_orders	folder_structure.py:54
+2023-02-17 16:48:00,479	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_transform_composite_orders.extradata	transform_composite_orders	folder_structure.py:55
+2023-02-17 16:48:00,479	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_transform_composite_orders.tsv	transform_composite_orders	folder_structure.py:56
+2023-02-17 16:48:00,479	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_orders_transform_composite_orders.json	transform_composite_orders	folder_structure.py:57
+2023-02-17 16:48:00,479	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_transform_composite_orders.md	transform_composite_orders	folder_structure.py:58
+2023-02-17 16:48:00,479	MigrationTaskBase init done	transform_composite_orders	migration_task_base.py:78
+2023-02-17 16:48:00,479	Files to process:	transform_composite_orders	orders_transformer.py:149
+2023-02-17 16:48:00,480		/home/theodor/client_data/migration_example/iterations/test_run/source_data/orders/sierra_orders.tsv	transform_composite_orders	orders_transformer.py:151
+2023-02-17 16:48:00,480	9 fields in mapping file map	transform_composite_orders	migration_task_base.py:219
+2023-02-17 16:48:00,480	7 Mapped fields in mapping file map	transform_composite_orders	migration_task_base.py:225
+2023-02-17 16:48:00,481	Found 2 rows in vendor map	transform_composite_orders	migration_task_base.py:282
+2023-02-17 16:48:00,481	VENDOR, folio_code will be used for determinig vendor	transform_composite_orders	migration_task_base.py:296
+2023-02-17 16:48:00,481	Found 2 rows in acquisitionMethod map	transform_composite_orders	migration_task_base.py:282
+2023-02-17 16:48:00,481	ORD TYPE, folio_value will be used for determinig acquisitionMethod	transform_composite_orders	migration_task_base.py:296
+2023-02-17 16:48:00,481	No mapping setup for paymentStatus	transform_composite_orders	migration_task_base.py:306
+2023-02-17 16:48:00,482	paymentStatus will have default mapping if any 	transform_composite_orders	migration_task_base.py:307
+2023-02-17 16:48:00,482	Add a file named /home/theodor/client_data/migration_example/mapping_files and add the field to the item.mapping.json file.	transform_composite_orders	migration_task_base.py:308
+2023-02-17 16:48:00,482	No mapping setup for receiptStatus	transform_composite_orders	migration_task_base.py:306
+2023-02-17 16:48:00,482	receiptStatus will have default mapping if any 	transform_composite_orders	migration_task_base.py:307
+2023-02-17 16:48:00,482	Add a file named /home/theodor/client_data/migration_example/mapping_files and add the field to the item.mapping.json file.	transform_composite_orders	migration_task_base.py:308
+2023-02-17 16:48:00,483	No mapping setup for workflowStatus	transform_composite_orders	migration_task_base.py:306
+2023-02-17 16:48:00,483	workflowStatus will have default mapping if any 	transform_composite_orders	migration_task_base.py:307
+2023-02-17 16:48:00,483	Add a file named /home/theodor/client_data/migration_example/mapping_files and add the field to the item.mapping.json file.	transform_composite_orders	migration_task_base.py:308
+2023-02-17 16:48:00,484	No mapping setup for locationMap	transform_composite_orders	migration_task_base.py:306
+2023-02-17 16:48:00,484	locationMap will have default mapping if any 	transform_composite_orders	migration_task_base.py:307
+2023-02-17 16:48:00,484	Add a file named /home/theodor/client_data/migration_example/mapping_files and add the field to the item.mapping.json file.	transform_composite_orders	migration_task_base.py:308
+2023-02-17 16:48:00,484	No mapping setup for fundsMap	transform_composite_orders	migration_task_base.py:306
+2023-02-17 16:48:00,484	fundsMap will have default mapping if any 	transform_composite_orders	migration_task_base.py:307
+2023-02-17 16:48:00,485	Add a file named /home/theodor/client_data/migration_example/mapping_files and add the field to the item.mapping.json file.	transform_composite_orders	migration_task_base.py:308
+2023-02-17 16:48:00,485	No mapping setup for fundsExpenseClassMap	transform_composite_orders	migration_task_base.py:306
+2023-02-17 16:48:00,485	fundsExpenseClassMap will have default mapping if any 	transform_composite_orders	migration_task_base.py:307
+2023-02-17 16:48:00,485	Add a file named /home/theodor/client_data/migration_example/mapping_files and add the field to the item.mapping.json file.	transform_composite_orders	migration_task_base.py:308
+2023-02-17 16:48:00,486	Using GITHB_TOKEN environment variable for Gihub API Access	transform_composite_orders	order_mapper.py:106
+2023-02-17 16:48:00,769	Using schemas from latest mod-orders release: v12.5.4	transform_composite_orders	order_mapper.py:176
+2023-02-17 16:48:01,694	Fecthing referenced schema for object id	transform_composite_orders	order_mapper.py:282
+2023-02-17 16:48:01,942	Fecthing referenced schema for object approvedById	transform_composite_orders	order_mapper.py:248
+2023-02-17 16:48:02,000	Fecthing referenced schema for object assignedTo	transform_composite_orders	order_mapper.py:282
+2023-02-17 16:48:02,057	Fecthing referenced schema for object billTo	transform_composite_orders	order_mapper.py:282
+2023-02-17 16:48:02,116	Fecthing referenced schema for object closeReason	transform_composite_orders	order_mapper.py:248
+2023-02-17 16:48:02,526	Fecthing referenced schema for object ongoing	transform_composite_orders	order_mapper.py:248
+2023-02-17 16:48:02,770	Fecthing referenced schema for object shipTo	transform_composite_orders	order_mapper.py:282
+2023-02-17 16:48:02,828	Fecthing referenced schema for object template	transform_composite_orders	order_mapper.py:282
+2023-02-17 16:48:02,887	Fecthing referenced schema for object vendor	transform_composite_orders	order_mapper.py:282
+2023-02-17 16:48:02,944	Fecthing referenced schema for object workflowStatus	transform_composite_orders	order_mapper.py:282
+2023-02-17 16:48:03,171	Fetching referenced schema for array object compositePoLines	transform_composite_orders	order_mapper.py:267
+2023-02-17 16:48:03,412	Fecthing referenced schema for object acquisitionMethod	transform_composite_orders	order_mapper.py:282
+2023-02-17 16:48:03,470	Fetching referenced schema for array object alerts	transform_composite_orders	order_mapper.py:267
+2023-02-17 16:48:03,759	Fetching referenced schema for array object claims	transform_composite_orders	order_mapper.py:267
+2023-02-17 16:48:04,000	Fetching referenced schema for array object contributors	transform_composite_orders	order_mapper.py:267
+2023-02-17 16:48:04,262	Fecthing referenced schema for object cost	transform_composite_orders	order_mapper.py:248
+2023-02-17 16:48:04,523	Fecthing referenced schema for object details	transform_composite_orders	order_mapper.py:248
+2023-02-17 16:48:04,867	Fetching referenced schema for array object productIds	transform_composite_orders	order_mapper.py:267
+2023-02-17 16:48:05,100	Property not yet supported: productIdType	transform_composite_orders	order_mapper.py:242
+2023-02-17 16:48:05,100	Property not yet supported: subscriptionFrom	transform_composite_orders	order_mapper.py:242
+2023-02-17 16:48:05,100	Property not yet supported: subscriptionTo	transform_composite_orders	order_mapper.py:242
+2023-02-17 16:48:05,100	Fecthing referenced schema for object eresource	transform_composite_orders	order_mapper.py:248
+2023-02-17 16:48:05,343	Fecthing referenced schema for object license	transform_composite_orders	order_mapper.py:248
+2023-02-17 16:48:05,570	Fetching referenced schema for array object fundDistribution	transform_composite_orders	order_mapper.py:267
+2023-02-17 16:48:05,889	Property not yet supported: code	transform_composite_orders	order_mapper.py:242
+2023-02-17 16:48:05,889	Property not yet supported: encumbrance	transform_composite_orders	order_mapper.py:242
+2023-02-17 16:48:05,889	Property not yet supported: fundId	transform_composite_orders	order_mapper.py:242
+2023-02-17 16:48:05,890	Property not yet supported: expenseClassId	transform_composite_orders	order_mapper.py:242
+2023-02-17 16:48:05,890	Fetching referenced schema for array object locations	transform_composite_orders	order_mapper.py:267
+2023-02-17 16:48:06,139	Fecthing referenced schema for object holdingId	transform_composite_orders	order_mapper.py:282
+2023-02-17 16:48:06,196	Fecthing referenced schema for object orderFormat	transform_composite_orders	order_mapper.py:248
+2023-02-17 16:48:06,449	Property not yet supported: packagePoLineId	transform_composite_orders	order_mapper.py:242
+2023-02-17 16:48:06,449	Fecthing referenced schema for object paymentStatus	transform_composite_orders	order_mapper.py:282
+2023-02-17 16:48:06,686	Fecthing referenced schema for object physical	transform_composite_orders	order_mapper.py:248
+2023-02-17 16:48:06,915	Property not yet supported: expectedReceiptDate	transform_composite_orders	order_mapper.py:242
+2023-02-17 16:48:06,915	Property not yet supported: receiptDue	transform_composite_orders	order_mapper.py:242
+2023-02-17 16:48:06,915	Property not yet supported: receiptDate	transform_composite_orders	order_mapper.py:242
+2023-02-17 16:48:06,915	Fecthing referenced schema for object receiptStatus	transform_composite_orders	order_mapper.py:248
+2023-02-17 16:48:07,140	Fetching referenced schema for array object reportingCodes	transform_composite_orders	order_mapper.py:267
+2023-02-17 16:48:07,375	Fecthing referenced schema for object source	transform_composite_orders	order_mapper.py:248
+2023-02-17 16:48:07,621	Fecthing referenced schema for object tags	transform_composite_orders	order_mapper.py:248
+2023-02-17 16:48:07,863	Fecthing referenced schema for object vendorDetail	transform_composite_orders	order_mapper.py:248
+2023-02-17 16:48:08,113	Property not yet supported: referenceNumbers	transform_composite_orders	order_mapper.py:242
+2023-02-17 16:48:08,113	Fecthing referenced schema for object metadata	transform_composite_orders	order_mapper.py:248
+2023-02-17 16:48:08,342	Fetching referenced schema for array object acqUnitIds	transform_composite_orders	order_mapper.py:267
+2023-02-17 16:48:08,410	Fecthing referenced schema for object tags	transform_composite_orders	order_mapper.py:248
+2023-02-17 16:48:08,469	Fecthing referenced schema for object metadata	transform_composite_orders	order_mapper.py:248
+2023-02-17 16:48:08,523	MapperBase initiating	transform_composite_orders	mapper_base.py:34
+2023-02-17 16:48:08,524	Legacy identifier will be mapped from RECORD #(Order)	transform_composite_orders	mapping_file_mapper_base.py:146
+2023-02-17 16:48:08,524	Mapped values:
+{
+    "compositePoLines[0].cost.currency": "USD",
+    "compositePoLines[0].source": "API"
+}	transform_composite_orders	mapping_file_mapper_base.py:70
+2023-02-17 16:48:08,524	Statistical codes map is not set up	transform_composite_orders	mapping_file_mapper_base.py:119
+2023-02-17 16:48:08,524	Mapped legacy fields:
+[
+    "",
+    "VENDOR",
+    "ORD TYPE",
+    "TITLE",
+    "RECORD #(Order)"
+]	transform_composite_orders	mapping_file_mapper_base.py:96
+2023-02-17 16:48:08,525	Mapped FOLIO fields:
+[
+    "legacyIdentifier",
+    "poNumber",
+    "vendor",
+    "orderType",
+    "compositePoLines[0].titleOrPackage",
+    "compositePoLines[0].source",
+    "compositePoLines[0].orderFormat",
+    "compositePoLines[0].acquisitionMethod",
+    "compositePoLines[0].cost.currency"
+]	transform_composite_orders	mapping_file_mapper_base.py:100
+2023-02-17 16:48:08,525	organizations reference data mapping. Initializing	transform_composite_orders	ref_data_mapping.py:23
+2023-02-17 16:48:08,525	Fetching organizations reference data from FOLIO	transform_composite_orders	ref_data_mapping.py:24
+2023-02-17 16:48:10,069	Values from organizations ref data in FOLIO that are not in the map: ['SHCD', 'DM', 'BAE', 'test2', 'KoninklijkeBrillNV', 'TestDefault', 'AcademicInternationalPress', 'AbeBooks']	transform_composite_orders	ref_data_mapping.py:158
+2023-02-17 16:48:10,070	Set Theo as default organizations mapping	transform_composite_orders	ref_data_mapping.py:56
+2023-02-17 16:48:10,070	Loaded 1 mappings for 10 organizations in FOLIO	transform_composite_orders	ref_data_mapping.py:89
+2023-02-17 16:48:10,071	loaded 0 hybrid mappings for 10 organizations in FOLIO	transform_composite_orders	ref_data_mapping.py:93
+2023-02-17 16:48:10,071	organizations reference data mapping. Done init	transform_composite_orders	ref_data_mapping.py:35
+2023-02-17 16:48:10,071	acquisitionMethods reference data mapping. Initializing	transform_composite_orders	ref_data_mapping.py:23
+2023-02-17 16:48:10,071	Fetching acquisitionMethods reference data from FOLIO	transform_composite_orders	ref_data_mapping.py:24
+2023-02-17 16:48:11,628	Values from acquisitionMethods ref data in FOLIO that are not in the map: ['Evidence Based Acquisitions (EBA)', 'Approval Plan', 'Demand Driven Acquisitions (DDA)', 'Internal transfer', 'Purchase At Vendor System', 'Technical', 'Exchange', 'Gift', 'Depository', 'Free', 'Membership']	transform_composite_orders	ref_data_mapping.py:158
+2023-02-17 16:48:11,628	Set Other as default acquisitionMethods mapping	transform_composite_orders	ref_data_mapping.py:56
+2023-02-17 16:48:11,629	Loaded 1 mappings for 13 acquisitionMethods in FOLIO	transform_composite_orders	ref_data_mapping.py:89
+2023-02-17 16:48:11,629	loaded 0 hybrid mappings for 13 acquisitionMethods in FOLIO	transform_composite_orders	ref_data_mapping.py:93
+2023-02-17 16:48:11,629	acquisitionMethods reference data mapping. Done init	transform_composite_orders	ref_data_mapping.py:35
+2023-02-17 16:48:11,629	Init done	transform_composite_orders	order_mapper.py:67
+2023-02-17 16:48:11,629	Getting started!	transform_composite_orders	orders_transformer.py:206
+2023-02-17 16:48:11,629	Processing /home/theodor/client_data/migration_example/iterations/test_run/source_data/orders/sierra_orders.tsv	transform_composite_orders	orders_transformer.py:208
+2023-02-17 16:48:11,633	Source data file contains 1 rows	transform_composite_orders	mapping_file_mapper_base.py:642
+2023-02-17 16:48:11,633	Source data file contains 0 empty rows	transform_composite_orders	mapping_file_mapper_base.py:643
+2023-02-17 16:48:11,634	First legacy record:	transform_composite_orders	orders_transformer.py:167
+2023-02-17 16:48:11,635	{
+    "RECORD #(Order)": "o12999x",
+    "RECORD #(Bibliographic)": "7611780",
+    "TITLE": "Do\\u0308da fallen i Avesta.",
+    "MAT TYPE": "a",
+    "CREATED": "06-27-2019",
+    "UPDATED": "06-07-2022",
+    "ODATE": "06-27-2019",
+    "ORD TYPE": "s",
+    "STATUS": "z",
+    "ORD NOTE": "-",
+    "E PRICE": "0",
+    "UNKNOWN": "mper",
+    "SELECTOR": "",
+    "VENDOR": "ebsco",
+    "NOTE": "Another note. Here it is",
+    "INT. NOTE": "John dropped the book and damaged the cover",
+    "PAID": "",
+    "PAID DATE": "11-17-2022",
+    "INVOICE DATE": "11-07-2022",
+    "INVOICE NUMBER": "12345",
+    "AMT PAID": "26.91",
+    "VOUCHER #": "1313",
+    "COPIES": "1",
+    "SUB FROM": "- -",
+    "SUB TO": "- -"
+}	transform_composite_orders	orders_transformer.py:168
+2023-02-17 16:48:11,637	fetching current user..	transform_composite_orders	FolioClient.py:37
+2023-02-17 16:48:12,487	No refdata mapping. just returning the value for closeReason.reason	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:12,487	No refdata mapping. just returning the value for closeReason.note	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:12,488	No refdata mapping. just returning the value for poNumber	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:12,488	No refdata mapping. just returning the value for orderType	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:12,488	No refdata mapping. just returning the value for ongoing.interval	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:12,489	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:12,489	No refdata mapping. just returning the value for ongoing.isSubscription	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:12,489	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:12,489	No refdata mapping. just returning the value for ongoing.manualRenewal	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:12,489	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:12,490	No refdata mapping. just returning the value for ongoing.notes	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:12,490	No refdata mapping. just returning the value for ongoing.reviewPeriod	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:12,490	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:12,490	No refdata mapping. just returning the value for ongoing.renewalDate	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:12,491	No refdata mapping. just returning the value for ongoing.reviewDate	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,469	Weird	transform_composite_orders	mapping_file_mapper_base.py:523
+2023-02-17 16:48:16,470	No refdata mapping. just returning the value for compositePoLines[0].cost.listUnitPrice	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,470	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,471	No refdata mapping. just returning the value for compositePoLines[0].cost.listUnitPriceElectronic	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,471	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,471	No refdata mapping. just returning the value for compositePoLines[0].cost.currency	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,472	No refdata mapping. just returning the value for compositePoLines[0].cost.additionalCost	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,472	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,472	No refdata mapping. just returning the value for compositePoLines[0].cost.discount	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,472	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,473	No refdata mapping. just returning the value for compositePoLines[0].cost.discountType	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,473	No refdata mapping. just returning the value for compositePoLines[0].cost.exchangeRate	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,473	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,474	No refdata mapping. just returning the value for compositePoLines[0].cost.quantityPhysical	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,474	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,474	No refdata mapping. just returning the value for compositePoLines[0].cost.quantityElectronic	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,475	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,475	No refdata mapping. just returning the value for compositePoLines[0].cost.poLineEstimatedPrice	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,475	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,476	No refdata mapping. just returning the value for compositePoLines[0].cost.fyroAdjustmentAmount	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,476	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,476	Weird	transform_composite_orders	mapping_file_mapper_base.py:523
+2023-02-17 16:48:16,477	No refdata mapping. just returning the value for compositePoLines[0].details.receivingNote	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,477	No refdata mapping. just returning the value for compositePoLines[0].details.subscriptionFrom	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,477	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,478	No refdata mapping. just returning the value for compositePoLines[0].details.subscriptionInterval	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,478	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,478	No refdata mapping. just returning the value for compositePoLines[0].details.subscriptionTo	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,479	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,479	Weird	transform_composite_orders	mapping_file_mapper_base.py:523
+2023-02-17 16:48:16,480	No refdata mapping. just returning the value for compositePoLines[0].eresource.activated	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,480	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,480	No refdata mapping. just returning the value for compositePoLines[0].eresource.activationDue	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,481	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,481	No refdata mapping. just returning the value for compositePoLines[0].eresource.createInventory	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,481	No refdata mapping. just returning the value for compositePoLines[0].eresource.trial	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,482	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,482	No refdata mapping. just returning the value for compositePoLines[0].eresource.expectedActivation	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,482	No refdata mapping. just returning the value for compositePoLines[0].eresource.userLimit	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,483	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,483	No refdata mapping. just returning the value for compositePoLines[0].eresource.accessProvider	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,484	No refdata mapping. just returning the value for compositePoLines[0].eresource.license.code	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,484	No refdata mapping. just returning the value for compositePoLines[0].eresource.license.description	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,484	No refdata mapping. just returning the value for compositePoLines[0].eresource.license.reference	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,485	No refdata mapping. just returning the value for compositePoLines[0].eresource.materialType	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,485	No refdata mapping. just returning the value for compositePoLines[0].eresource.resourceUrl	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,486	No refdata mapping. just returning the value for compositePoLines[0].orderFormat	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,486	Weird	transform_composite_orders	mapping_file_mapper_base.py:523
+2023-02-17 16:48:16,486	No refdata mapping. just returning the value for compositePoLines[0].physical.createInventory	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,487	No refdata mapping. just returning the value for compositePoLines[0].physical.materialType	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,487	No refdata mapping. just returning the value for compositePoLines[0].physical.materialSupplier	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,487	No refdata mapping. just returning the value for compositePoLines[0].physical.expectedReceiptDate	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,488	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,488	No refdata mapping. just returning the value for compositePoLines[0].physical.receiptDue	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,488	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,489	No refdata mapping. just returning the value for compositePoLines[0].source	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,489	Weird	transform_composite_orders	mapping_file_mapper_base.py:523
+2023-02-17 16:48:16,490	No refdata mapping. just returning the value for compositePoLines[0].titleOrPackage	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,490	Weird	transform_composite_orders	mapping_file_mapper_base.py:523
+2023-02-17 16:48:16,490	No refdata mapping. just returning the value for compositePoLines[0].vendorDetail.instructions	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,490	No refdata mapping. just returning the value for compositePoLines[0].vendorDetail.noteFromVendor	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,490	No refdata mapping. just returning the value for compositePoLines[0].vendorDetail.vendorAccount	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,491	No refdata mapping. just returning the value for compositePoLines[0].vendorDetail.referenceNumbers	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,491	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,491	Weird	transform_composite_orders	mapping_file_mapper_base.py:523
+2023-02-17 16:48:16,491	No refdata mapping. just returning the value for compositePoLines[0].metadata.createdDate	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,491	No refdata mapping. just returning the value for compositePoLines[0].metadata.createdByUserId	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,492	No refdata mapping. just returning the value for compositePoLines[0].metadata.createdByUsername	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,492	No refdata mapping. just returning the value for compositePoLines[0].metadata.updatedDate	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,492	No refdata mapping. just returning the value for compositePoLines[0].metadata.updatedByUserId	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,492	No refdata mapping. just returning the value for compositePoLines[0].metadata.updatedByUsername	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,492	Weird	transform_composite_orders	mapping_file_mapper_base.py:523
+2023-02-17 16:48:16,493	No refdata mapping. just returning the value for compositePoLines[0].cost.listUnitPrice	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,493	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,493	No refdata mapping. just returning the value for compositePoLines[0].cost.listUnitPriceElectronic	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,493	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,493	No refdata mapping. just returning the value for compositePoLines[0].cost.currency	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,493	No refdata mapping. just returning the value for compositePoLines[0].cost.additionalCost	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,493	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,494	No refdata mapping. just returning the value for compositePoLines[0].cost.discount	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,494	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,494	No refdata mapping. just returning the value for compositePoLines[0].cost.discountType	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,494	No refdata mapping. just returning the value for compositePoLines[0].cost.exchangeRate	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,494	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,494	No refdata mapping. just returning the value for compositePoLines[0].cost.quantityPhysical	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,494	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,495	No refdata mapping. just returning the value for compositePoLines[0].cost.quantityElectronic	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,495	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,495	No refdata mapping. just returning the value for compositePoLines[0].cost.poLineEstimatedPrice	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,495	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,495	No refdata mapping. just returning the value for compositePoLines[0].cost.fyroAdjustmentAmount	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,496	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,496	Weird	transform_composite_orders	mapping_file_mapper_base.py:523
+2023-02-17 16:48:16,496	No refdata mapping. just returning the value for compositePoLines[0].details.receivingNote	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,496	No refdata mapping. just returning the value for compositePoLines[0].details.subscriptionFrom	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,496	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,497	No refdata mapping. just returning the value for compositePoLines[0].details.subscriptionInterval	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,497	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,497	No refdata mapping. just returning the value for compositePoLines[0].details.subscriptionTo	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,497	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,497	Weird	transform_composite_orders	mapping_file_mapper_base.py:523
+2023-02-17 16:48:16,497	No refdata mapping. just returning the value for compositePoLines[0].eresource.activated	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,497	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,498	No refdata mapping. just returning the value for compositePoLines[0].eresource.activationDue	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,498	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,498	No refdata mapping. just returning the value for compositePoLines[0].eresource.createInventory	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,498	No refdata mapping. just returning the value for compositePoLines[0].eresource.trial	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,498	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,498	No refdata mapping. just returning the value for compositePoLines[0].eresource.expectedActivation	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,499	No refdata mapping. just returning the value for compositePoLines[0].eresource.userLimit	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,499	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,499	No refdata mapping. just returning the value for compositePoLines[0].eresource.accessProvider	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,499	No refdata mapping. just returning the value for compositePoLines[0].eresource.license.code	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,499	No refdata mapping. just returning the value for compositePoLines[0].eresource.license.description	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,499	No refdata mapping. just returning the value for compositePoLines[0].eresource.license.reference	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,499	No refdata mapping. just returning the value for compositePoLines[0].eresource.materialType	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,500	No refdata mapping. just returning the value for compositePoLines[0].eresource.resourceUrl	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,500	No refdata mapping. just returning the value for compositePoLines[0].orderFormat	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,500	Weird	transform_composite_orders	mapping_file_mapper_base.py:523
+2023-02-17 16:48:16,500	No refdata mapping. just returning the value for compositePoLines[0].physical.createInventory	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,500	No refdata mapping. just returning the value for compositePoLines[0].physical.materialType	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,500	No refdata mapping. just returning the value for compositePoLines[0].physical.materialSupplier	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,501	No refdata mapping. just returning the value for compositePoLines[0].physical.expectedReceiptDate	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,501	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,501	No refdata mapping. just returning the value for compositePoLines[0].physical.receiptDue	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,501	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,501	No refdata mapping. just returning the value for compositePoLines[0].source	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,501	Weird	transform_composite_orders	mapping_file_mapper_base.py:523
+2023-02-17 16:48:16,502	No refdata mapping. just returning the value for compositePoLines[0].titleOrPackage	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,502	Weird	transform_composite_orders	mapping_file_mapper_base.py:523
+2023-02-17 16:48:16,502	No refdata mapping. just returning the value for compositePoLines[0].vendorDetail.instructions	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,502	No refdata mapping. just returning the value for compositePoLines[0].vendorDetail.noteFromVendor	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,502	No refdata mapping. just returning the value for compositePoLines[0].vendorDetail.vendorAccount	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,503	No refdata mapping. just returning the value for compositePoLines[0].vendorDetail.referenceNumbers	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,503	Edge	transform_composite_orders	mapping_file_mapper_base.py:435
+2023-02-17 16:48:16,503	Weird	transform_composite_orders	mapping_file_mapper_base.py:523
+2023-02-17 16:48:16,504	No refdata mapping. just returning the value for compositePoLines[0].metadata.createdDate	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,504	No refdata mapping. just returning the value for compositePoLines[0].metadata.createdByUserId	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,504	No refdata mapping. just returning the value for compositePoLines[0].metadata.createdByUsername	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,504	No refdata mapping. just returning the value for compositePoLines[0].metadata.updatedDate	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,505	No refdata mapping. just returning the value for compositePoLines[0].metadata.updatedByUserId	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,505	No refdata mapping. just returning the value for compositePoLines[0].metadata.updatedByUsername	transform_composite_orders	order_mapper.py:78
+2023-02-17 16:48:16,505	First FOLIO record:	transform_composite_orders	orders_transformer.py:173
+2023-02-17 16:48:16,506	{
+    "id": "3899e069-5cdc-5590-a28e-bbfd70d1702d",
+    "metadata": {
+        "createdDate": "2023-02-17T15:48:12.487",
+        "createdByUserId": "bb78777e-d13b-4612-9383-54d2b17f6d5d",
+        "updatedDate": "2023-02-17T15:48:12.487",
+        "updatedByUserId": "bb78777e-d13b-4612-9383-54d2b17f6d5d"
+    },
+    "approved": false,
+    "poNumber": "o12999x",
+    "orderType": "One-Time",
+    "reEncumber": false,
+    "vendor": "df26d81b-9d63-4ff8-bf41-49bf75cfa70e",
+    "workflowStatus": "Pending",
+    "compositePoLines": [
+        {
+            "acquisitionMethod": "df26d81b-9d63-4ff8-bf41-49bf75cfa70e",
+            "cost": {
+                "currency": "USD"
+            },
+            "orderFormat": "Electronic Resource",
+            "source": "API",
+            "titleOrPackage": "Do\\u0308da fallen i Avesta."
+        }
+    ]
+}	transform_composite_orders	orders_transformer.py:174
+2023-02-17 16:48:16,511	Done processing /home/theodor/client_data/migration_example/iterations/test_run/source_data/orders/sierra_orders.tsv containing 1 records. Total records processed: 1	transform_composite_orders	orders_transformer.py:200
+2023-02-17 16:48:16,512	Done. Wrapping up...	transform_composite_orders	orders_transformer.py:222
+2023-02-17 16:48:16,513	Writing migration- and mapping report to /home/theodor/client_data/migration_example/iterations/test_run/reports/report_transform_composite_orders.md	transform_composite_orders	orders_transformer.py:224
+2023-02-17 16:48:16,513	Elapsed time: 0:00:17.030293	transform_composite_orders	migration_report.py:74
+2023-02-17 16:48:16,514	All done!	transform_composite_orders	orders_transformer.py:240
+2023-02-17 16:48:16,515	Work done. Shutting down	transform_composite_orders	__main__.py:102
