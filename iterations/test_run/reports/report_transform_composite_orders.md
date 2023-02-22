@@ -4,21 +4,22 @@
    
 Measure | Value   
 --- | ---:   
-Time Started: | 2023-02-17T17:13:48.468540+00:00   
-Time Finished: | 2023-02-17T17:15:27.397409+00:00   
-Elapsed time: | 0:01:38.928869   
+Time Started: | 2023-02-22T18:52:05.572314+00:00   
+Time Finished: | 2023-02-22T18:52:14.804935+00:00   
+Elapsed time: | 0:00:09.232621   
    
 ## General statistics    
 A list of general counters to outline the transformation as a whole.    
-<details><summary>Click to expand all 6 things</summary>     
+<details><summary>Click to expand all 7 things</summary>     
    
 Measure | Count   
 --- | ---:   
 Empty rows in sierra_orders.tsv | 0   
-Instance ID mapped from previously migrated bib records | 2   
+Instance ID mapped from previously migrated bib records | 6   
 Number of files processed | 1   
-Number of objects in source data file | 1   
-Total rows in sierra_orders.tsv | 1   
+PO-lines merged into one PO | 1   
+Successfully matched Vendor against code | 3   
+Total rows in sierra_orders.tsv | 3   
 </details>   
    
 ## Default values added    
@@ -27,9 +28,9 @@ The values below was added to all records from the value field in the mapping fi
    
 Measure | Count   
 --- | ---:   
-From Schema: approved -> False | 1   
-From Schema: reEncumber -> False | 1   
-From Schema: workflowStatus -> Pending | 1   
+From Schema: approved -> False | 3   
+From Schema: reEncumber -> False | 3   
+From Schema: workflowStatus -> Pending | 3   
 </details>   
    
 ## Mapping details    
@@ -38,8 +39,20 @@ From Schema: workflowStatus -> Pending | 1
    
 Measure | Count   
 --- | ---:   
-Replaced s in ORD TYPE with Electronic Resource | 2   
-Replaced s in ORD TYPE with One-Time | 1   
+Replaced s in ORD TYPE with Electronic Resource | 6   
+Replaced s in ORD TYPE with One-Time | 3   
+</details>   
+   
+## Differences between generated orders with same Legacy Identifier    
+This is a technical report that helps you to identify differences in the mapped order fields.     
+<details><summary>Click to expand all 5 things</summary>     
+   
+Measure | Count   
+--- | ---:   
+root['compositePoLines'][0]['instanceId'] | 1   
+root['compositePoLines'][0]['titleOrPackage'] | 1   
+root['metadata']['createdDate'] | 2   
+root['metadata']['updatedDate'] | 2   
 </details>   
 
 ## Mapped FOLIO fields
@@ -54,7 +67,7 @@ FOLIO Field | Mapped | Unmapped
 
 Legacy Field | Present | Mapped | Unmapped  
 --- | --- | --- | ---:  
-ORD TYPE | 1 (100.0%) | 1 (100%) | 0  
-RECORD #(Order) | 1 (100.0%) | 1 (100%) | 0  
-VENDOR | 1 (100.0%) | 1 (100%) | 0  
+ORD TYPE | 3 (100.0%) | 3 (100%) | 0  
+RECORD #(Order) | 3 (100.0%) | 3 (100%) | 0  
+VENDOR | 3 (100.0%) | 3 (100%) | 0  
 </details>   

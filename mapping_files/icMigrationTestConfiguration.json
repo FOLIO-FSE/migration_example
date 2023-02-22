@@ -428,9 +428,9 @@
                 }
             ],
             "ordersMappingFileName": "composite_order_mapping.json",
-            "orderTypeMapFileName": "orderTypeMap.tsv",
             "acquisitionMethodMapFileName": "acquisitionMethodMap.tsv",
-            "orderFormatMapFileName": "orderFormatMap.tsv",
+            "locationMapFileName":"",
+            "materialTypesMapFileName":"",
             "organizationsCodeMapFileName": "organizationCodeMap.tsv"
         }
     ]
