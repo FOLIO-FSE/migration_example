@@ -1,41 +1,41 @@
-2023-01-18 13:01:26,373	Logging set up	transform_bw_holdings	migration_task_base.py:214
-2023-01-18 13:01:26,374	Mapping files folder is /home/theodor/client_data/migration_ic-migration-test/mapping_files	transform_bw_holdings	folder_structure.py:47
-2023-01-18 13:01:26,374	Git ignore is set up correctly	transform_bw_holdings	folder_structure.py:48
-2023-01-18 13:01:26,374	Base folder is /home/theodor/client_data/migration_ic-migration-test	transform_bw_holdings	folder_structure.py:49
-2023-01-18 13:01:26,374	Reports and logs folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports	transform_bw_holdings	folder_structure.py:50
-2023-01-18 13:01:26,374	Results folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results	transform_bw_holdings	folder_structure.py:51
-2023-01-18 13:01:26,374	Data folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/source_data	transform_bw_holdings	folder_structure.py:52
-2023-01-18 13:01:26,375	Source records files folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/source_data/holdings	transform_bw_holdings	folder_structure.py:53
-2023-01-18 13:01:26,375	Log file will be located at /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports/log_holdings_transform_bw_holdings.log	transform_bw_holdings	folder_structure.py:54
-2023-01-18 13:01:26,375	Extra data will be stored at/home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/extradata_transform_bw_holdings.extradata	transform_bw_holdings	folder_structure.py:55
-2023-01-18 13:01:26,375	Data issue reports /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports/data_issues_log_transform_bw_holdings.tsv	transform_bw_holdings	folder_structure.py:56
-2023-01-18 13:01:26,375	Created objects will be stored at  /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/folio_holdings_transform_bw_holdings.json	transform_bw_holdings	folder_structure.py:57
-2023-01-18 13:01:26,375	Migration report file will be saved at /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports/report_transform_bw_holdings.md	transform_bw_holdings	folder_structure.py:58
-2023-01-18 13:01:26,375	MigrationTaskBase init done	transform_bw_holdings	migration_task_base.py:78
-2023-01-18 13:01:26,376	47 fields in holdings mapping file map	transform_bw_holdings	holdings_csv_transformer.py:179
-2023-01-18 13:01:26,376	9 mapped fields in holdings mapping file map	transform_bw_holdings	holdings_csv_transformer.py:183
-2023-01-18 13:01:26,376	Found 5 rows in location map	transform_bw_holdings	holdings_csv_transformer.py:171
-2023-01-18 13:01:26,377	Found 2 rows in call number type map	transform_bw_holdings	holdings_csv_transformer.py:171
-2023-01-18 13:01:26,377	Loaded 14 migrated IDs	transform_bw_holdings	migration_task_base.py:153
-2023-01-18 13:01:26,377	Using GITHB_TOKEN environment variable for Gihub API Access	transform_bw_holdings	FolioClient.py:229
-2023-01-18 13:01:26,952	MapperBase initiating	transform_bw_holdings	mapper_base.py:35
-2023-01-18 13:01:26,952	Legacy identifier will be mapped from RECORD #(ITEM)	transform_bw_holdings	mapping_file_mapper_base.py:147
-2023-01-18 13:01:26,952	Mapped values:
+2023-02-16 22:52:29,462	Logging set up	transform_bw_holdings	migration_task_base.py:214
+2023-02-16 22:52:29,462	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	transform_bw_holdings	folder_structure.py:47
+2023-02-16 22:52:29,462	Git ignore is set up correctly	transform_bw_holdings	folder_structure.py:48
+2023-02-16 22:52:29,462	Base folder is /home/theodor/client_data/migration_example	transform_bw_holdings	folder_structure.py:49
+2023-02-16 22:52:29,462	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	transform_bw_holdings	folder_structure.py:50
+2023-02-16 22:52:29,463	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	transform_bw_holdings	folder_structure.py:51
+2023-02-16 22:52:29,463	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	transform_bw_holdings	folder_structure.py:52
+2023-02-16 22:52:29,463	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data/holdings	transform_bw_holdings	folder_structure.py:53
+2023-02-16 22:52:29,463	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_holdings_transform_bw_holdings.log	transform_bw_holdings	folder_structure.py:54
+2023-02-16 22:52:29,463	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_transform_bw_holdings.extradata	transform_bw_holdings	folder_structure.py:55
+2023-02-16 22:52:29,463	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_transform_bw_holdings.tsv	transform_bw_holdings	folder_structure.py:56
+2023-02-16 22:52:29,463	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_holdings_transform_bw_holdings.json	transform_bw_holdings	folder_structure.py:57
+2023-02-16 22:52:29,463	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_transform_bw_holdings.md	transform_bw_holdings	folder_structure.py:58
+2023-02-16 22:52:29,463	MigrationTaskBase init done	transform_bw_holdings	migration_task_base.py:78
+2023-02-16 22:52:29,464	47 fields in holdings mapping file map	transform_bw_holdings	holdings_csv_transformer.py:185
+2023-02-16 22:52:29,464	9 mapped fields in holdings mapping file map	transform_bw_holdings	holdings_csv_transformer.py:189
+2023-02-16 22:52:29,465	Found 5 rows in location map	transform_bw_holdings	holdings_csv_transformer.py:177
+2023-02-16 22:52:29,466	Found 2 rows in call number type map	transform_bw_holdings	holdings_csv_transformer.py:177
+2023-02-16 22:52:29,466	Loaded 14 migrated IDs	transform_bw_holdings	migration_task_base.py:153
+2023-02-16 22:52:30,212	Using GITHB_TOKEN environment variable for Gihub API Access	transform_bw_holdings	FolioClient.py:257
+2023-02-16 22:52:30,284	MapperBase initiating	transform_bw_holdings	mapper_base.py:34
+2023-02-16 22:52:30,285	Legacy identifier will be mapped from RECORD #(ITEM)	transform_bw_holdings	mapping_file_mapper_base.py:147
+2023-02-16 22:52:30,285	Mapped values:
 {
     "notes[0].holdingsNoteTypeId": "97fbb130-beb4-4eec-84a6-c69768ca3eea",
     "notes[0].staffOnly": "true"
 }	transform_bw_holdings	mapping_file_mapper_base.py:71
-2023-01-18 13:01:26,952	Statistical codes map is not set up	transform_bw_holdings	mapping_file_mapper_base.py:120
-2023-01-18 13:01:26,953	Mapped legacy fields:
+2023-02-16 22:52:30,285	Statistical codes map is not set up	transform_bw_holdings	mapping_file_mapper_base.py:120
+2023-02-16 22:52:30,285	Mapped legacy fields:
 [
     "",
-    "RECORD #(BIBLIO)",
+    "VOLUME",
+    "RECORD #(ITEM)",
     "LOCATION",
     "CALL #(BIBLIO)",
-    "RECORD #(ITEM)",
-    "VOLUME"
+    "RECORD #(BIBLIO)"
 ]	transform_bw_holdings	mapping_file_mapper_base.py:97
-2023-01-18 13:01:26,953	Mapped FOLIO fields:
+2023-02-16 22:52:30,286	Mapped FOLIO fields:
 [
     "callNumber",
     "legacyIdentifier",
@@ -47,48 +47,48 @@
     "notes[0].staffOnly",
     "permanentLocationId"
 ]	transform_bw_holdings	mapping_file_mapper_base.py:101
-2023-01-18 13:01:26,953	locations reference data mapping. Initializing	transform_bw_holdings	ref_data_mapping.py:23
-2023-01-18 13:01:26,953	Fetching locations reference data from FOLIO	transform_bw_holdings	ref_data_mapping.py:24
-2023-01-18 13:01:28,467	Values from locations ref data in FOLIO that are not in the map: ['CeeDee']	transform_bw_holdings	ref_data_mapping.py:158
-2023-01-18 13:01:28,468	Set migration as default locations mapping	transform_bw_holdings	ref_data_mapping.py:56
-2023-01-18 13:01:28,468	Loaded 4 mappings for 5 locations in FOLIO	transform_bw_holdings	ref_data_mapping.py:89
-2023-01-18 13:01:28,468	loaded 0 hybrid mappings for 5 locations in FOLIO	transform_bw_holdings	ref_data_mapping.py:93
-2023-01-18 13:01:28,468	locations reference data mapping. Done init	transform_bw_holdings	ref_data_mapping.py:35
-2023-01-18 13:01:28,468	callNumberTypes reference data mapping. Initializing	transform_bw_holdings	ref_data_mapping.py:23
-2023-01-18 13:01:28,468	Fetching callNumberTypes reference data from FOLIO	transform_bw_holdings	ref_data_mapping.py:24
-2023-01-18 13:01:29,932	Values from callNumberTypes ref data in FOLIO that are not in the map: ['MOYS', 'Library of Congress classification', 'UDC', 'Source specified in subfield $2', 'LC Modified', 'Shelving control number', 'National Library of Medicine classification', 'Title', 'Superintendent of Documents classification', 'Shelved separately']	transform_bw_holdings	ref_data_mapping.py:158
-2023-01-18 13:01:29,932	Set Other scheme as default callNumberTypes mapping	transform_bw_holdings	ref_data_mapping.py:56
-2023-01-18 13:01:29,932	Loaded 1 mappings for 12 callNumberTypes in FOLIO	transform_bw_holdings	ref_data_mapping.py:89
-2023-01-18 13:01:29,933	loaded 0 hybrid mappings for 12 callNumberTypes in FOLIO	transform_bw_holdings	ref_data_mapping.py:93
-2023-01-18 13:01:29,933	callNumberTypes reference data mapping. Done init	transform_bw_holdings	ref_data_mapping.py:35
-2023-01-18 13:01:29,933	Loaded 9 migrated IDs	transform_bw_holdings	migration_task_base.py:153
-2023-01-18 13:01:31,413	Fetched 2 holdingsRecordsSources from tenant	transform_bw_holdings	holdings_csv_transformer.py:463
-2023-01-18 13:01:31,413	{
+2023-02-16 22:52:30,286	locations reference data mapping. Initializing	transform_bw_holdings	ref_data_mapping.py:23
+2023-02-16 22:52:30,286	Fetching locations reference data from FOLIO	transform_bw_holdings	ref_data_mapping.py:24
+2023-02-16 22:52:31,761	Values from locations ref data in FOLIO that are not in the map: ['this&that', 'Main Open Shelves', 'CeeDee']	transform_bw_holdings	ref_data_mapping.py:158
+2023-02-16 22:52:31,761	Set migration as default locations mapping	transform_bw_holdings	ref_data_mapping.py:56
+2023-02-16 22:52:31,762	Loaded 4 mappings for 7 locations in FOLIO	transform_bw_holdings	ref_data_mapping.py:89
+2023-02-16 22:52:31,762	loaded 0 hybrid mappings for 7 locations in FOLIO	transform_bw_holdings	ref_data_mapping.py:93
+2023-02-16 22:52:31,762	locations reference data mapping. Done init	transform_bw_holdings	ref_data_mapping.py:35
+2023-02-16 22:52:31,762	callNumberTypes reference data mapping. Initializing	transform_bw_holdings	ref_data_mapping.py:23
+2023-02-16 22:52:31,762	Fetching callNumberTypes reference data from FOLIO	transform_bw_holdings	ref_data_mapping.py:24
+2023-02-16 22:52:33,246	Values from callNumberTypes ref data in FOLIO that are not in the map: ['Title', 'UDC', 'Source specified in subfield $2', 'Shelving control number', 'LC Modified', 'Superintendent of Documents classification', 'Shelved separately', 'MOYS', 'Library of Congress classification', 'National Library of Medicine classification']	transform_bw_holdings	ref_data_mapping.py:158
+2023-02-16 22:52:33,246	Set Other scheme as default callNumberTypes mapping	transform_bw_holdings	ref_data_mapping.py:56
+2023-02-16 22:52:33,246	Loaded 1 mappings for 12 callNumberTypes in FOLIO	transform_bw_holdings	ref_data_mapping.py:89
+2023-02-16 22:52:33,246	loaded 0 hybrid mappings for 12 callNumberTypes in FOLIO	transform_bw_holdings	ref_data_mapping.py:93
+2023-02-16 22:52:33,246	callNumberTypes reference data mapping. Done init	transform_bw_holdings	ref_data_mapping.py:35
+2023-02-16 22:52:33,246	Loaded 9 migrated IDs	transform_bw_holdings	migration_task_base.py:153
+2023-02-16 22:52:34,715	Fetched 2 holdingsRecordsSources from tenant	transform_bw_holdings	holdings_csv_transformer.py:469
+2023-02-16 22:52:34,716	{
     "FOLIO": "f32d531e-df79-46b3-8932-cdd35f7a2264",
     "MARC": "036ee84a-6afd-4c3c-9ad3-4a12ab875f59"
-}	transform_bw_holdings	holdings_csv_transformer.py:469
-2023-01-18 13:01:32,876	7	holdings types in tenant	transform_bw_holdings	holdings_csv_transformer.py:91
-2023-01-18 13:01:32,876	Using GITHB_TOKEN environment variable for Gihub API Access	transform_bw_holdings	FolioClient.py:229
-2023-01-18 13:01:33,471	dict_keys(['id', '_version', 'hrid', 'holdingsTypeId', 'formerIds', 'instanceId', 'permanentLocationId', 'permanentLocation', 'temporaryLocationId', 'effectiveLocationId', 'electronicAccess', 'callNumberTypeId', 'callNumberPrefix', 'callNumber', 'callNumberSuffix', 'shelvingTitle', 'acquisitionFormat', 'acquisitionMethod', 'receiptStatus', 'administrativeNotes', 'notes', 'illPolicyId', 'illPolicy', 'retentionPolicy', 'digitizationPolicy', 'holdingsStatements', 'holdingsStatementsForIndexes', 'holdingsStatementsForSupplements', 'copyNumber', 'numberOfItems', 'receivingHistory', 'discoverySuppress', 'statisticalCodeIds', 'holdingsItems', 'bareHoldingsItems', 'holdingsInstance', 'tags', 'metadata', 'sourceId'])	transform_bw_holdings	holdings_csv_transformer.py:261
-2023-01-18 13:01:33,472	['instanceId', 'permanentLocationId', 'callNumber']	transform_bw_holdings	holdings_csv_transformer.py:262
-2023-01-18 13:01:33,472	Files to process:	transform_bw_holdings	migration_task_base.py:130
-2023-01-18 13:01:33,472		/home/theodor/client_data/migration_ic-migration-test/iterations/test_run/source_data/items/bw_items.tsv	transform_bw_holdings	migration_task_base.py:132
-2023-01-18 13:01:33,472	Monograph will be used as default holdings type	transform_bw_holdings	holdings_csv_transformer.py:110
-2023-01-18 13:01:33,472	No file of legacy holdings setup.	transform_bw_holdings	holdings_csv_transformer.py:127
-2023-01-18 13:01:33,472	Init done	transform_bw_holdings	holdings_csv_transformer.py:148
-2023-01-18 13:01:33,472	Starting....	transform_bw_holdings	holdings_csv_transformer.py:202
-2023-01-18 13:01:33,472	Processing bw_items.tsv	transform_bw_holdings	holdings_csv_transformer.py:204
-2023-01-18 13:01:33,474	Source data file contains 10 rows	transform_bw_holdings	mapping_file_mapper_base.py:577
-2023-01-18 13:01:33,474	Source data file contains 0 empty rows	transform_bw_holdings	mapping_file_mapper_base.py:578
-2023-01-18 13:01:33,475	All maped legacy fields are in the legacy object	transform_bw_holdings	mapping_file_mapper_base.py:654
-2023-01-18 13:01:33,475	fetching current user..	transform_bw_holdings	FolioClient.py:37
-2023-01-18 13:01:34,323	Done processing bw_items.tsv containing 10 records. Total records processed: 10	transform_bw_holdings	holdings_csv_transformer.py:302
-2023-01-18 13:01:34,324	processed 10 records in 1 files	transform_bw_holdings	holdings_csv_transformer.py:215
-2023-01-18 13:01:34,324	Done. Transformer wrapping up...	transform_bw_holdings	holdings_csv_transformer.py:220
-2023-01-18 13:01:34,324	Saving holdings created to /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/folio_holdings_transform_bw_holdings.json	transform_bw_holdings	holdings_csv_transformer.py:223
-2023-01-18 13:01:34,326	Wrote legacy id map to /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/holdings_id_map.json	transform_bw_holdings	mapper_base.py:316
-2023-01-18 13:01:34,326	Elapsed time: 0:00:07.374150	transform_bw_holdings	migration_report.py:74
-2023-01-18 13:01:34,326	All done!	transform_bw_holdings	holdings_csv_transformer.py:255
-2023-01-18 13:01:34,327	Removing data issues file since it is empty	transform_bw_holdings	migration_task_base.py:89
-2023-01-18 13:01:34,327	Removed data issues file since it was empty	transform_bw_holdings	migration_task_base.py:91
-2023-01-18 13:01:34,327	Work done. Shutting down	transform_bw_holdings	__main__.py:98
+}	transform_bw_holdings	holdings_csv_transformer.py:475
+2023-02-16 22:52:36,243	7	holdings types in tenant	transform_bw_holdings	holdings_csv_transformer.py:92
+2023-02-16 22:52:36,244	Using GITHB_TOKEN environment variable for Gihub API Access	transform_bw_holdings	FolioClient.py:257
+2023-02-16 22:52:36,320	dict_keys(['id', '_version', 'hrid', 'holdingsTypeId', 'formerIds', 'instanceId', 'permanentLocationId', 'permanentLocation', 'temporaryLocationId', 'effectiveLocationId', 'electronicAccess', 'callNumberTypeId', 'callNumberPrefix', 'callNumber', 'callNumberSuffix', 'shelvingTitle', 'acquisitionFormat', 'acquisitionMethod', 'receiptStatus', 'administrativeNotes', 'notes', 'illPolicyId', 'illPolicy', 'retentionPolicy', 'digitizationPolicy', 'holdingsStatements', 'holdingsStatementsForIndexes', 'holdingsStatementsForSupplements', 'copyNumber', 'numberOfItems', 'receivingHistory', 'discoverySuppress', 'statisticalCodeIds', 'holdingsItems', 'bareHoldingsItems', 'holdingsInstance', 'tags', 'metadata', 'sourceId'])	transform_bw_holdings	holdings_csv_transformer.py:267
+2023-02-16 22:52:36,321	['instanceId', 'permanentLocationId', 'callNumber']	transform_bw_holdings	holdings_csv_transformer.py:268
+2023-02-16 22:52:36,321	Files to process:	transform_bw_holdings	migration_task_base.py:130
+2023-02-16 22:52:36,321		/home/theodor/client_data/migration_example/iterations/test_run/source_data/items/bw_items.tsv	transform_bw_holdings	migration_task_base.py:132
+2023-02-16 22:52:36,321	Monograph will be used as default holdings type	transform_bw_holdings	holdings_csv_transformer.py:111
+2023-02-16 22:52:36,321	No file of legacy holdings setup.	transform_bw_holdings	holdings_csv_transformer.py:128
+2023-02-16 22:52:36,322	Init done	transform_bw_holdings	holdings_csv_transformer.py:154
+2023-02-16 22:52:36,322	Starting....	transform_bw_holdings	holdings_csv_transformer.py:208
+2023-02-16 22:52:36,322	Processing bw_items.tsv	transform_bw_holdings	holdings_csv_transformer.py:210
+2023-02-16 22:52:36,325	Source data file contains 10 rows	transform_bw_holdings	mapping_file_mapper_base.py:605
+2023-02-16 22:52:36,325	Source data file contains 0 empty rows	transform_bw_holdings	mapping_file_mapper_base.py:606
+2023-02-16 22:52:36,325	All maped legacy fields are in the legacy object	transform_bw_holdings	mapping_file_mapper_base.py:682
+2023-02-16 22:52:36,326	fetching current user..	transform_bw_holdings	FolioClient.py:37
+2023-02-16 22:52:37,169	Done processing bw_items.tsv containing 10 records. Total records processed: 10	transform_bw_holdings	holdings_csv_transformer.py:308
+2023-02-16 22:52:37,169	processed 10 records in 1 files	transform_bw_holdings	holdings_csv_transformer.py:221
+2023-02-16 22:52:37,169	Done. Transformer wrapping up...	transform_bw_holdings	holdings_csv_transformer.py:226
+2023-02-16 22:52:37,169	Saving holdings created to /home/theodor/client_data/migration_example/iterations/test_run/results/folio_holdings_transform_bw_holdings.json	transform_bw_holdings	holdings_csv_transformer.py:229
+2023-02-16 22:52:37,170	Wrote legacy id map to /home/theodor/client_data/migration_example/iterations/test_run/results/holdings_id_map.json	transform_bw_holdings	mapper_base.py:291
+2023-02-16 22:52:37,170	Elapsed time: 0:00:06.885662	transform_bw_holdings	migration_report.py:74
+2023-02-16 22:52:37,171	All done!	transform_bw_holdings	holdings_csv_transformer.py:261
+2023-02-16 22:52:37,171	Removing data issues file since it is empty	transform_bw_holdings	migration_task_base.py:89
+2023-02-16 22:52:37,171	Removed data issues file since it was empty	transform_bw_holdings	migration_task_base.py:91
+2023-02-16 22:52:37,171	Work done. Shutting down	transform_bw_holdings	__main__.py:102

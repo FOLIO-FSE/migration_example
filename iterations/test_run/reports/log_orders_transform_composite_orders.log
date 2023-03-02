@@ -1,0 +1,166 @@
+2023-02-22 19:52:06,404	Logging set up	transform_composite_orders	migration_task_base.py:214
+2023-02-22 19:52:06,405	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	transform_composite_orders	folder_structure.py:47
+2023-02-22 19:52:06,405	Git ignore is set up correctly	transform_composite_orders	folder_structure.py:48
+2023-02-22 19:52:06,405	Base folder is /home/theodor/client_data/migration_example	transform_composite_orders	folder_structure.py:49
+2023-02-22 19:52:06,405	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	transform_composite_orders	folder_structure.py:50
+2023-02-22 19:52:06,406	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	transform_composite_orders	folder_structure.py:51
+2023-02-22 19:52:06,406	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	transform_composite_orders	folder_structure.py:52
+2023-02-22 19:52:06,406	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data/orders	transform_composite_orders	folder_structure.py:53
+2023-02-22 19:52:06,406	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_orders_transform_composite_orders.log	transform_composite_orders	folder_structure.py:54
+2023-02-22 19:52:06,406	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_transform_composite_orders.extradata	transform_composite_orders	folder_structure.py:55
+2023-02-22 19:52:06,406	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_transform_composite_orders.tsv	transform_composite_orders	folder_structure.py:56
+2023-02-22 19:52:06,406	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_orders_transform_composite_orders.json	transform_composite_orders	folder_structure.py:57
+2023-02-22 19:52:06,406	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_transform_composite_orders.md	transform_composite_orders	folder_structure.py:58
+2023-02-22 19:52:06,407	MigrationTaskBase init done	transform_composite_orders	migration_task_base.py:78
+2023-02-22 19:52:06,407	Files to process:	transform_composite_orders	orders_transformer.py:144
+2023-02-22 19:52:06,408		/home/theodor/client_data/migration_example/iterations/test_run/source_data/orders/sierra_orders.tsv	transform_composite_orders	orders_transformer.py:146
+2023-02-22 19:52:06,408	10 fields in mapping file map	transform_composite_orders	migration_task_base.py:219
+2023-02-22 19:52:06,409	8 Mapped fields in mapping file map	transform_composite_orders	migration_task_base.py:225
+2023-02-22 19:52:06,409	Loaded 14 migrated IDs	transform_composite_orders	migration_task_base.py:153
+2023-02-22 19:52:06,410	Found 2 rows in acquisitionMethod map	transform_composite_orders	migration_task_base.py:282
+2023-02-22 19:52:06,410	ORD TYPE, folio_value will be used for determinig acquisitionMethod	transform_composite_orders	migration_task_base.py:296
+2023-02-22 19:52:06,411	No mapping setup for paymentStatus	transform_composite_orders	migration_task_base.py:306
+2023-02-22 19:52:06,411	paymentStatus will have default mapping if any 	transform_composite_orders	migration_task_base.py:307
+2023-02-22 19:52:06,411	Add a file named /home/theodor/client_data/migration_example/mapping_files and add the field to the item.mapping.json file.	transform_composite_orders	migration_task_base.py:308
+2023-02-22 19:52:06,412	No mapping setup for receiptStatus	transform_composite_orders	migration_task_base.py:306
+2023-02-22 19:52:06,412	receiptStatus will have default mapping if any 	transform_composite_orders	migration_task_base.py:307
+2023-02-22 19:52:06,412	Add a file named /home/theodor/client_data/migration_example/mapping_files and add the field to the item.mapping.json file.	transform_composite_orders	migration_task_base.py:308
+2023-02-22 19:52:06,413	No mapping setup for workflowStatus	transform_composite_orders	migration_task_base.py:306
+2023-02-22 19:52:06,413	workflowStatus will have default mapping if any 	transform_composite_orders	migration_task_base.py:307
+2023-02-22 19:52:06,414	Add a file named /home/theodor/client_data/migration_example/mapping_files and add the field to the item.mapping.json file.	transform_composite_orders	migration_task_base.py:308
+2023-02-22 19:52:06,414	No mapping setup for locationMap	transform_composite_orders	migration_task_base.py:306
+2023-02-22 19:52:06,414	locationMap will have default mapping if any 	transform_composite_orders	migration_task_base.py:307
+2023-02-22 19:52:06,415	Add a file named /home/theodor/client_data/migration_example/mapping_files and add the field to the item.mapping.json file.	transform_composite_orders	migration_task_base.py:308
+2023-02-22 19:52:06,415	No mapping setup for fundsMap	transform_composite_orders	migration_task_base.py:306
+2023-02-22 19:52:06,416	fundsMap will have default mapping if any 	transform_composite_orders	migration_task_base.py:307
+2023-02-22 19:52:06,416	Add a file named /home/theodor/client_data/migration_example/mapping_files and add the field to the item.mapping.json file.	transform_composite_orders	migration_task_base.py:308
+2023-02-22 19:52:06,416	No mapping setup for fundsExpenseClassMap	transform_composite_orders	migration_task_base.py:306
+2023-02-22 19:52:06,417	fundsExpenseClassMap will have default mapping if any 	transform_composite_orders	migration_task_base.py:307
+2023-02-22 19:52:06,417	Add a file named /home/theodor/client_data/migration_example/mapping_files and add the field to the item.mapping.json file.	transform_composite_orders	migration_task_base.py:308
+2023-02-22 19:52:06,418	Using GITHB_TOKEN environment variable for Gihub API Access	transform_composite_orders	order_mapper.py:128
+2023-02-22 19:52:06,783	Using schemas from latest mod-orders release: v12.5.4	transform_composite_orders	order_mapper.py:194
+2023-02-22 19:52:07,556	Fecthing referenced schema for object id	transform_composite_orders	order_mapper.py:300
+2023-02-22 19:52:07,628	Fecthing referenced schema for object approvedById	transform_composite_orders	order_mapper.py:266
+2023-02-22 19:52:07,709	Fecthing referenced schema for object assignedTo	transform_composite_orders	order_mapper.py:300
+2023-02-22 19:52:07,788	Fecthing referenced schema for object billTo	transform_composite_orders	order_mapper.py:300
+2023-02-22 19:52:07,864	Fecthing referenced schema for object closeReason	transform_composite_orders	order_mapper.py:266
+2023-02-22 19:52:07,963	Fecthing referenced schema for object ongoing	transform_composite_orders	order_mapper.py:266
+2023-02-22 19:52:08,039	Fecthing referenced schema for object shipTo	transform_composite_orders	order_mapper.py:300
+2023-02-22 19:52:08,124	Fecthing referenced schema for object template	transform_composite_orders	order_mapper.py:300
+2023-02-22 19:52:08,207	Fecthing referenced schema for object vendor	transform_composite_orders	order_mapper.py:300
+2023-02-22 19:52:08,280	Fecthing referenced schema for object workflowStatus	transform_composite_orders	order_mapper.py:300
+2023-02-22 19:52:08,356	Fetching referenced schema for array object compositePoLines	transform_composite_orders	order_mapper.py:285
+2023-02-22 19:52:08,428	Fecthing referenced schema for object acquisitionMethod	transform_composite_orders	order_mapper.py:300
+2023-02-22 19:52:08,499	Fetching referenced schema for array object alerts	transform_composite_orders	order_mapper.py:285
+2023-02-22 19:52:08,576	Fetching referenced schema for array object claims	transform_composite_orders	order_mapper.py:285
+2023-02-22 19:52:08,646	Fetching referenced schema for array object contributors	transform_composite_orders	order_mapper.py:285
+2023-02-22 19:52:08,715	Fecthing referenced schema for object cost	transform_composite_orders	order_mapper.py:266
+2023-02-22 19:52:08,804	Fecthing referenced schema for object details	transform_composite_orders	order_mapper.py:266
+2023-02-22 19:52:08,867	Fetching referenced schema for array object productIds	transform_composite_orders	order_mapper.py:285
+2023-02-22 19:52:08,930	Property not yet supported: productIdType	transform_composite_orders	order_mapper.py:260
+2023-02-22 19:52:08,931	Property not yet supported: subscriptionFrom	transform_composite_orders	order_mapper.py:260
+2023-02-22 19:52:08,931	Property not yet supported: subscriptionTo	transform_composite_orders	order_mapper.py:260
+2023-02-22 19:52:08,931	Fecthing referenced schema for object eresource	transform_composite_orders	order_mapper.py:266
+2023-02-22 19:52:08,998	Fecthing referenced schema for object license	transform_composite_orders	order_mapper.py:266
+2023-02-22 19:52:09,092	Fetching referenced schema for array object fundDistribution	transform_composite_orders	order_mapper.py:285
+2023-02-22 19:52:09,215	Property not yet supported: code	transform_composite_orders	order_mapper.py:260
+2023-02-22 19:52:09,217	Property not yet supported: encumbrance	transform_composite_orders	order_mapper.py:260
+2023-02-22 19:52:09,217	Property not yet supported: fundId	transform_composite_orders	order_mapper.py:260
+2023-02-22 19:52:09,217	Property not yet supported: expenseClassId	transform_composite_orders	order_mapper.py:260
+2023-02-22 19:52:09,217	Fetching referenced schema for array object locations	transform_composite_orders	order_mapper.py:285
+2023-02-22 19:52:09,335	Fecthing referenced schema for object holdingId	transform_composite_orders	order_mapper.py:300
+2023-02-22 19:52:09,407	Fecthing referenced schema for object orderFormat	transform_composite_orders	order_mapper.py:266
+2023-02-22 19:52:09,474	Property not yet supported: packagePoLineId	transform_composite_orders	order_mapper.py:260
+2023-02-22 19:52:09,475	Fecthing referenced schema for object paymentStatus	transform_composite_orders	order_mapper.py:300
+2023-02-22 19:52:09,540	Fecthing referenced schema for object physical	transform_composite_orders	order_mapper.py:266
+2023-02-22 19:52:09,605	Property not yet supported: expectedReceiptDate	transform_composite_orders	order_mapper.py:260
+2023-02-22 19:52:09,605	Property not yet supported: receiptDue	transform_composite_orders	order_mapper.py:260
+2023-02-22 19:52:09,605	Property not yet supported: receiptDate	transform_composite_orders	order_mapper.py:260
+2023-02-22 19:52:09,606	Fecthing referenced schema for object receiptStatus	transform_composite_orders	order_mapper.py:266
+2023-02-22 19:52:09,676	Fetching referenced schema for array object reportingCodes	transform_composite_orders	order_mapper.py:285
+2023-02-22 19:52:09,741	Fecthing referenced schema for object source	transform_composite_orders	order_mapper.py:266
+2023-02-22 19:52:09,808	Fecthing referenced schema for object tags	transform_composite_orders	order_mapper.py:266
+2023-02-22 19:52:09,888	Fecthing referenced schema for object vendorDetail	transform_composite_orders	order_mapper.py:266
+2023-02-22 19:52:09,954	Property not yet supported: referenceNumbers	transform_composite_orders	order_mapper.py:260
+2023-02-22 19:52:09,955	Fecthing referenced schema for object metadata	transform_composite_orders	order_mapper.py:266
+2023-02-22 19:52:10,017	Fetching referenced schema for array object acqUnitIds	transform_composite_orders	order_mapper.py:285
+2023-02-22 19:52:10,077	Fecthing referenced schema for object tags	transform_composite_orders	order_mapper.py:266
+2023-02-22 19:52:10,134	Fecthing referenced schema for object metadata	transform_composite_orders	order_mapper.py:266
+2023-02-22 19:52:10,192	MapperBase initiating	transform_composite_orders	mapper_base.py:34
+2023-02-22 19:52:10,193	Legacy identifier will be mapped from RECORD #(Order)	transform_composite_orders	mapping_file_mapper_base.py:146
+2023-02-22 19:52:10,193	Mapped values:
+{
+    "compositePoLines[0].cost.currency": "USD",
+    "compositePoLines[0].source": "API"
+}	transform_composite_orders	mapping_file_mapper_base.py:70
+2023-02-22 19:52:10,193	Statistical codes map is not set up	transform_composite_orders	mapping_file_mapper_base.py:119
+2023-02-22 19:52:10,193	Mapped legacy fields:
+[
+    "",
+    "TITLE",
+    "VENDOR",
+    "ORD TYPE",
+    "RECORD #(Bibliographic)",
+    "RECORD #(Order)"
+]	transform_composite_orders	mapping_file_mapper_base.py:96
+2023-02-22 19:52:10,194	Mapped FOLIO fields:
+[
+    "legacyIdentifier",
+    "poNumber",
+    "vendor",
+    "orderType",
+    "compositePoLines[0].titleOrPackage",
+    "compositePoLines[0].instanceId",
+    "compositePoLines[0].source",
+    "compositePoLines[0].orderFormat",
+    "compositePoLines[0].acquisitionMethod",
+    "compositePoLines[0].cost.currency"
+]	transform_composite_orders	mapping_file_mapper_base.py:100
+2023-02-22 19:52:12,462	acquisitionMethods reference data mapping. Initializing	transform_composite_orders	ref_data_mapping.py:23
+2023-02-22 19:52:12,463	Fetching acquisitionMethods reference data from FOLIO	transform_composite_orders	ref_data_mapping.py:24
+2023-02-22 19:52:13,973	Values from acquisitionMethods ref data in FOLIO that are not in the map: ['Membership', 'Purchase At Vendor System', 'Internal transfer', 'Approval Plan', 'Gift', 'Technical', 'Evidence Based Acquisitions (EBA)', 'Depository', 'Demand Driven Acquisitions (DDA)', 'Free', 'Exchange']	transform_composite_orders	ref_data_mapping.py:158
+2023-02-22 19:52:13,974	Set Other as default acquisitionMethods mapping	transform_composite_orders	ref_data_mapping.py:56
+2023-02-22 19:52:13,974	Loaded 1 mappings for 13 acquisitionMethods in FOLIO	transform_composite_orders	ref_data_mapping.py:89
+2023-02-22 19:52:13,974	loaded 0 hybrid mappings for 13 acquisitionMethods in FOLIO	transform_composite_orders	ref_data_mapping.py:93
+2023-02-22 19:52:13,975	acquisitionMethods reference data mapping. Done init	transform_composite_orders	ref_data_mapping.py:35
+2023-02-22 19:52:13,975	Init done	transform_composite_orders	order_mapper.py:62
+2023-02-22 19:52:13,975	Getting started!	transform_composite_orders	orders_transformer.py:223
+2023-02-22 19:52:13,975	Processing /home/theodor/client_data/migration_example/iterations/test_run/source_data/orders/sierra_orders.tsv	transform_composite_orders	orders_transformer.py:225
+2023-02-22 19:52:13,977	Source data file contains 3 rows	transform_composite_orders	mapping_file_mapper_base.py:653
+2023-02-22 19:52:13,977	Source data file contains 0 empty rows	transform_composite_orders	mapping_file_mapper_base.py:654
+2023-02-22 19:52:13,978	First legacy record:	transform_composite_orders	orders_transformer.py:162
+2023-02-22 19:52:13,978	{
+    "RECORD #(Order)": "o12999x",
+    "RECORD #(Bibliographic)": "7611780",
+    "TITLE": "Do\\u0308da fallen i Avesta.",
+    "MAT TYPE": "a",
+    "CREATED": "06-27-2019",
+    "UPDATED": "06-07-2022",
+    "ODATE": "06-27-2019",
+    "ORD TYPE": "s",
+    "STATUS": "z",
+    "ORD NOTE": "-",
+    "E PRICE": "0",
+    "UNKNOWN": "mper",
+    "SELECTOR": "",
+    "VENDOR": "jisc",
+    "NOTE": "Another note. Here it is",
+    "INT. NOTE": "John dropped the book and damaged the sleeve",
+    "PAID": "",
+    "PAID DATE": "11-17-2022",
+    "INVOICE DATE": "11-07-2022",
+    "INVOICE NUMBER": "12345",
+    "AMT PAID": "26.91",
+    "VOUCHER #": "1313",
+    "COPIES": "1",
+    "SUB FROM": "- -",
+    "SUB TO": "- -"
+}	transform_composite_orders	orders_transformer.py:163
+2023-02-22 19:52:13,983	fetching current user..	transform_composite_orders	FolioClient.py:37
+2023-02-22 19:52:14,803	Done processing /home/theodor/client_data/migration_example/iterations/test_run/source_data/orders/sierra_orders.tsv containing 3 records. Total records processed: 3	transform_composite_orders	orders_transformer.py:215
+2023-02-22 19:52:14,804	Storing last record to disk	transform_composite_orders	orders_transformer.py:219
+2023-02-22 19:52:14,804	Done. Wrapping up...	transform_composite_orders	orders_transformer.py:239
+2023-02-22 19:52:14,804	Writing migration- and mapping report to /home/theodor/client_data/migration_example/iterations/test_run/reports/report_transform_composite_orders.md	transform_composite_orders	orders_transformer.py:241
+2023-02-22 19:52:14,804	Elapsed time: 0:00:09.232621	transform_composite_orders	migration_report.py:74
+2023-02-22 19:52:14,805	All done!	transform_composite_orders	orders_transformer.py:257
+2023-02-22 19:52:14,805	Work done. Shutting down	transform_composite_orders	__main__.py:102

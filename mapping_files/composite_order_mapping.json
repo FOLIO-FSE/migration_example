@@ -1,0 +1,80 @@
+{
+    "data": [
+        {
+            "folio_field": "legacyIdentifier",
+            "legacy_field": "RECORD #(Order)",
+            "value": "",
+            "description": ""
+        },
+        {
+            "folio_field": "poNumber",
+            "legacy_field": "RECORD #(Order)",
+            "value": "",
+            "description": ""
+        },
+        {
+            "folio_field": "vendor",
+            "legacy_field": "VENDOR",
+            "value": "",
+            "description": ""
+        },
+        {
+            "folio_field": "orderType",
+            "legacy_field": "ORD TYPE",
+            "value": "",
+            "description": "",
+            "rules": {
+                "replaceValues": {
+                    "s": "One-Time",
+                    "p": "Ongoing",
+                    "l": "Ongoing",
+                    "n": "One-Time"
+                }
+            }
+        },
+        {
+            "folio_field": "compositePoLines[0].titleOrPackage",
+            "legacy_field": "TITLE",
+            "value": "",
+            "description": ""
+        },
+        {
+            "folio_field": "compositePoLines[0].instanceId",
+            "legacy_field": "RECORD #(Bibliographic)",
+            "value": "",
+            "description": ""
+        },
+        {
+            "folio_field": "compositePoLines[0].source",
+            "legacy_field": "",
+            "value": "API",
+            "description": ""
+        },
+        {
+            "folio_field": "compositePoLines[0].orderFormat",
+            "legacy_field": "ORD TYPE",
+            "value": "",
+            "description": "",
+            "rules": {
+                "replaceValues": {
+                    "s": "Electronic Resource",
+                    "p": "P/E Mix",
+                    "f": "Physical Resource",
+                    "g": "Other"
+                }
+            }
+        },
+        {
+            "folio_field": "compositePoLines[0].acquisitionMethod",
+            "legacy_field": "ORD TYPE",
+            "value": "",
+            "description": ""
+        },
+        {
+            "folio_field": "compositePoLines[0].cost.currency",
+            "legacy_field": "",
+            "value": "USD",
+            "description": ""
+        }
+    ]
+}

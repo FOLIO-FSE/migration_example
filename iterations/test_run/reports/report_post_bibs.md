@@ -4,29 +4,18 @@
    
 Measure | Value   
 --- | ---:   
-Time Started: | 2023-01-20T13:53:25.524017+00:00   
-Time Finished: | 2023-01-20T13:53:30.172098+00:00   
-Elapsed time: | 0:00:04.648081   
+Time Started: | 2023-02-16T21:49:50.364020+00:00   
+Time Finished: | 2023-02-16T21:49:52.269711+00:00   
+Elapsed time: | 0:00:01.905691   
    
-## Details    
-    
-<details><summary>Click to expand all 2 things</summary>     
-   
-Measure | Count   
---- | ---:   
-Generic exceptions (see log for details) | 3   
-</details>   
-   
-##     
-    
-<details><summary>Click to expand all 6 things</summary>     
+## General statistics    
+A list of general counters to outline the transformation as a whole.    
+<details><summary>Click to expand all 5 things</summary>     
    
 Measure | Count   
 --- | ---:   
-Failed to post first time | 14   
-Failed to post second time | 15   
+Failed to post first time | 0   
 Records posted first time | 0   
-Records posted second time | 0   
 Records processed first time | 14   
-Records processed second time | 14   
+Set _version to -1 to enable upsert | 14   
 </details>   

@@ -1,7 +1,7 @@
 {
     "libraryInformation": {
         "tenantId": "icmigtst00",
-        "multiFieldDelimiter": "<^>",
+        "multiFieldDelimiter": ";",
         "okapiUrl": "https://okapi-ic-migration-test.int.aws.folio.org",
         "okapiUsername": "datamigration_manual",
         "libraryName": "FOLIO Reference env",
@@ -73,6 +73,7 @@
             "name": "post_bibs",
             "migrationTaskType": "BatchPoster",
             "objectType": "Instances",
+            "useSafeInventoryEndpoints": false,
             "batchSize": 250,
             "files": [
                 {
@@ -417,6 +418,20 @@
             "courseReserveFilePath": {
                 "fileName": "folio_course_reserve_item_barcode.tsv"
             }
+        },
+        {
+            "name": "transform_composite_orders",
+            "migrationTaskType": "OrdersTransformer",
+            "files": [
+                {
+                    "fileName": "sierra_orders.tsv"
+                }
+            ],
+            "ordersMappingFileName": "composite_order_mapping.json",
+            "acquisitionMethodMapFileName": "acquisitionMethodMap.tsv",
+            "locationMapFileName":"",
+            "materialTypesMapFileName":"",
+            "organizationsCodeMapFileName": "organizationCodeMap.tsv"
         }
     ]
 }

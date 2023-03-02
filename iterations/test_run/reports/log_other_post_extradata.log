@@ -1,25 +1,25 @@
-2023-01-18 13:03:06,658	Logging set up	post_extradata	migration_task_base.py:214
-2023-01-18 13:03:06,659	Mapping files folder is /home/theodor/client_data/migration_ic-migration-test/mapping_files	post_extradata	folder_structure.py:47
-2023-01-18 13:03:06,659	Git ignore is set up correctly	post_extradata	folder_structure.py:48
-2023-01-18 13:03:06,659	Base folder is /home/theodor/client_data/migration_ic-migration-test	post_extradata	folder_structure.py:49
-2023-01-18 13:03:06,659	Reports and logs folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports	post_extradata	folder_structure.py:50
-2023-01-18 13:03:06,659	Results folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results	post_extradata	folder_structure.py:51
-2023-01-18 13:03:06,659	Data folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/source_data	post_extradata	folder_structure.py:52
-2023-01-18 13:03:06,659	Source records files folder is /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/source_data	post_extradata	folder_structure.py:53
-2023-01-18 13:03:06,659	Log file will be located at /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports/log_other_post_extradata.log	post_extradata	folder_structure.py:54
-2023-01-18 13:03:06,660	Extra data will be stored at/home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/extradata_post_extradata.extradata	post_extradata	folder_structure.py:55
-2023-01-18 13:03:06,660	Data issue reports /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports/data_issues_log_post_extradata.tsv	post_extradata	folder_structure.py:56
-2023-01-18 13:03:06,660	Created objects will be stored at  /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/folio_other_post_extradata.json	post_extradata	folder_structure.py:57
-2023-01-18 13:03:06,660	Migration report file will be saved at /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/reports/report_post_extradata.md	post_extradata	folder_structure.py:58
-2023-01-18 13:03:06,660	MigrationTaskBase init done	post_extradata	migration_task_base.py:78
-2023-01-18 13:03:06,660	Batch size is 250	post_extradata	batch_poster.py:75
-2023-01-18 13:03:06,660	Running /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/extradata_transform_bw_holdings.extradata	post_extradata	batch_poster.py:94
-2023-01-18 13:03:19,715	Running /home/theodor/client_data/migration_ic-migration-test/iterations/test_run/results/extradata_user_transform.extradata	post_extradata	batch_poster.py:94
-2023-01-18 13:03:22,999	Done posting 4 records. 	post_extradata	batch_poster.py:148
-2023-01-18 13:03:22,999	Done. Wrapping up	post_extradata	batch_poster.py:355
-2023-01-18 13:03:22,999	Removing extradata file since it is empty	post_extradata	extradata_writer.py:46
-2023-01-18 13:03:22,999	Done posting 22 records. 0 failed	post_extradata	batch_poster.py:370
-2023-01-18 13:03:23,000	Elapsed time: 0:00:17.108941	post_extradata	migration_report.py:74
-2023-01-18 13:03:23,000	Removing data issues file since it is empty	post_extradata	migration_task_base.py:89
-2023-01-18 13:03:23,000	Removed data issues file since it was empty	post_extradata	migration_task_base.py:91
-2023-01-18 13:03:23,001	Work done. Shutting down	post_extradata	__main__.py:98
+2023-02-16 22:53:52,124	Logging set up	post_extradata	migration_task_base.py:214
+2023-02-16 22:53:52,124	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	post_extradata	folder_structure.py:47
+2023-02-16 22:53:52,124	Git ignore is set up correctly	post_extradata	folder_structure.py:48
+2023-02-16 22:53:52,124	Base folder is /home/theodor/client_data/migration_example	post_extradata	folder_structure.py:49
+2023-02-16 22:53:52,124	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	post_extradata	folder_structure.py:50
+2023-02-16 22:53:52,125	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	post_extradata	folder_structure.py:51
+2023-02-16 22:53:52,125	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	post_extradata	folder_structure.py:52
+2023-02-16 22:53:52,125	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	post_extradata	folder_structure.py:53
+2023-02-16 22:53:52,125	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_other_post_extradata.log	post_extradata	folder_structure.py:54
+2023-02-16 22:53:52,125	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_post_extradata.extradata	post_extradata	folder_structure.py:55
+2023-02-16 22:53:52,125	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_post_extradata.tsv	post_extradata	folder_structure.py:56
+2023-02-16 22:53:52,125	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_other_post_extradata.json	post_extradata	folder_structure.py:57
+2023-02-16 22:53:52,125	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_post_extradata.md	post_extradata	folder_structure.py:58
+2023-02-16 22:53:52,125	MigrationTaskBase init done	post_extradata	migration_task_base.py:78
+2023-02-16 22:53:52,125	Batch size is 250	post_extradata	batch_poster.py:90
+2023-02-16 22:53:52,126	Running /home/theodor/client_data/migration_example/iterations/test_run/results/extradata_transform_bw_holdings.extradata	post_extradata	batch_poster.py:109
+2023-02-16 22:54:05,478	Running /home/theodor/client_data/migration_example/iterations/test_run/results/extradata_user_transform.extradata	post_extradata	batch_poster.py:109
+2023-02-16 22:54:08,534	Done posting 4 records. 	post_extradata	batch_poster.py:155
+2023-02-16 22:54:08,535	Done. Wrapping up	post_extradata	batch_poster.py:384
+2023-02-16 22:54:08,535	Removing extradata file since it is empty	post_extradata	extradata_writer.py:46
+2023-02-16 22:54:08,536	Done posting 22 records. 0 failed	post_extradata	batch_poster.py:399
+2023-02-16 22:54:08,536	Elapsed time: 0:00:17.170547	post_extradata	migration_report.py:74
+2023-02-16 22:54:08,536	Removing data issues file since it is empty	post_extradata	migration_task_base.py:89
+2023-02-16 22:54:08,536	Removed data issues file since it was empty	post_extradata	migration_task_base.py:91
+2023-02-16 22:54:08,536	Work done. Shutting down	post_extradata	__main__.py:102
