@@ -1,6 +1,1 @@
-localMigrationTestConfiguration.jsonresults/
-results/
-archive/
-source_data/
-*.data
-!iterations/test_run
+localMigrationTestConfiguration.json
