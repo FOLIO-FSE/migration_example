@@ -205,6 +205,18 @@
          "description": ""
       },
       {
+         "folio_field": "contacts[0].categories[0]",
+         "legacy_field": "contact_1_categories",
+         "value": "",
+         "rules": {
+            "replaceValues": {
+               "mspt": "e193b0d1-4674-4a9e-818b-375f013d963f",
+               "sls": "604c2c9d-ed3a-46cd-bec4-69926c303b22"
+            }
+         },
+         "description": ""
+      },
+      {
          "folio_field": "contacts[0].notes",
          "legacy_field": "contact_1_note",
          "value": "",
@@ -302,7 +314,7 @@
       },
       {
          "folio_field": "description",
-         "legacy_field": "org_note",
+         "legacy_field": "",
          "value": "",
          "description": ""
       },
@@ -607,6 +619,96 @@
          "description": ""
       },
       {
+         "folio_field": "interfaces[0].name",
+         "legacy_field": "interface_1_name",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "interfaces[0].uri",
+         "legacy_field": "interface_1_uri",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "interfaces[0].interfaceCredential.username",
+         "legacy_field": "interface_1_username",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "interfaces[0].interfaceCredential.password",
+         "legacy_field": "interface_1_password",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "interfaces[0].type[0]",
+         "legacy_field": "interface_1_type",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "interfaces[0].notes",
+         "legacy_field": "interface_1_notes",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "interfaces[0].available",
+         "legacy_field": "",
+         "value": true,
+         "description": ""
+      },
+      {
+         "folio_field": "interfaces[0].deliveryMethod",
+         "legacy_field": "interface_1_delivery",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "interfaces[0].statisticsFormat",
+         "legacy_field": "interface_1_statFormat",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "interfaces[0].statisticsNotes",
+         "legacy_field": "interface_1_statNotes",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "interfaces[0].locallyStored",
+         "legacy_field": "interface_1_localLocation",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "interfaces[0].onlineLocation",
+         "legacy_field": "interface_1_onlineLocation",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "interfaces[1].uri",
+         "legacy_field": "interface_2_uri",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "interfaces[1].name",
+         "legacy_field": "interface_2_name",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "interfaces[1].type[0]",
+         "legacy_field": "interface_2_type",
+         "value": "Admin",
+         "description": ""
+      },
+      {
          "folio_field": "isVendor",
          "legacy_field": "Not mapped",
          "value": "",
@@ -784,7 +886,31 @@
          "folio_field": "organizationTypes",
          "legacy_field": "org_type",
          "value": "",
-         "description": "implemented in Morning Glory"
+         "description": ""
+      },
+      {
+         "folio_field": "notes[0].domain",
+         "legacy_field": "Not mapped",
+         "value": "organizations",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[0].typeId",
+         "legacy_field": "",
+         "value": "f5bba0d2-7732-4687-8311-a2cb0eaa12e5",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[0].title",
+         "legacy_field": "",
+         "value": "Migrated note",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[0].content",
+         "legacy_field": "org_note",
+         "value": "",
+         "description": ""
       }
    ]
 }
