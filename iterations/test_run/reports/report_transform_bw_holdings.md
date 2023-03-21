@@ -4,9 +4,9 @@
    
 Measure | Value   
 --- | ---:   
-Time Started: | 2023-02-16T21:52:30.285079+00:00   
-Time Finished: | 2023-02-16T21:52:37.170741+00:00   
-Elapsed time: | 0:00:06.885662   
+Time Started: | 2023-03-21T13:16:44.018218+00:00   
+Time Finished: | 2023-03-21T13:16:51.029353+00:00   
+Elapsed time: | 0:00:07.011135   
    
 ## General statistics    
 A list of general counters to outline the transformation as a whole.    
@@ -61,6 +61,15 @@ Measure | Count
 --- | ---:   
 97fbb130-beb4-4eec-84a6-c69768ca3eea added to notes[0].holdingsNoteTypeId | 10   
 true added to notes[0].staffOnly | 10   
+</details>   
+   
+## Unmapped properties    
+    
+<details><summary>Click to expand all 2 things</summary>     
+   
+Measure | Count   
+--- | ---:   
+receivingHistory.displayType | 10   
 </details>   
 
 ## Mapped FOLIO fields

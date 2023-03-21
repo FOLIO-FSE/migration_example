@@ -4,9 +4,9 @@
    
 Measure | Value   
 --- | ---:   
-Time Started: | 2023-02-16T21:51:18.947921+00:00   
-Time Finished: | 2023-02-16T21:51:37.302508+00:00   
-Elapsed time: | 0:00:18.354587   
+Time Started: | 2023-03-21T13:09:33.694390+00:00   
+Time Finished: | 2023-03-21T13:09:39.292298+00:00   
+Elapsed time: | 0:00:05.597908   
    
 ## General statistics    
 A list of general counters to outline the transformation as a whole.    
@@ -30,6 +30,15 @@ Measure | Count
 --- | ---:   
 5a15e0f8-2802-4cbf-a4de-8f0dedd3ed3a added to notes[0].itemNoteTypeId | 3   
 False added to notes[0].staffOnly | 3   
+</details>   
+   
+## Unmapped properties    
+    
+<details><summary>Click to expand all 2 things</summary>     
+   
+Measure | Count   
+--- | ---:   
+notes[0].staffOnly | 3   
 </details>   
    
 ## Status mapping    

@@ -4,22 +4,19 @@
    
 Measure | Value   
 --- | ---:   
-Time Started: | 2023-03-02T16:42:47.927311+00:00   
-Time Finished: | 2023-03-02T16:43:04.776195+00:00   
-Elapsed time: | 0:00:16.848884   
+Time Started: | 2023-03-21T13:22:45.645915+00:00   
+Time Finished: | 2023-03-21T13:22:58.603018+00:00   
+Elapsed time: | 0:00:12.957103   
    
 ## General statistics    
 A list of general counters to outline the transformation as a whole.    
-<details><summary>Click to expand all 10 things</summary>     
+<details><summary>Click to expand all 7 things</summary>     
    
 Measure | Count   
 --- | ---:   
 Empty rows in test_organizations.tsv | 0   
 Number of files processed | 1   
 Number of linked contacts created | 3   
-Number of linked interfaceCredential created | 2   
-Number of linked interfaces created | 4   
-Number of linked notes created | 3   
 Number of objects in source data file | 3   
 Number of organizations created | 3   
 Total rows in test_organizations.tsv | 3   
@@ -27,12 +24,16 @@ Total rows in test_organizations.tsv | 3
    
 ## Default values added    
 The values below was added to all records from the value field in the mapping file instead of coming from the source records    
-<details><summary>Click to expand all 3 things</summary>     
+<details><summary>Click to expand all 7 things</summary>     
    
 Measure | Count   
 --- | ---:   
 From Schema: exportToAccounting -> False | 3   
 From Schema: isVendor -> False | 3   
+True added to addresses[0].isPrimary | 3   
+True added to contacts[0].addresses[0].isPrimary | 12   
+True added to contacts[0].phoneNumbers[0].isPrimary | 12   
+True added to contacts[1].addresses[0].isPrimary | 9   
 </details>   
    
 ## Organization types    
@@ -41,7 +42,7 @@ Reference data mapping for Organization types.
    
 Measure | Count   
 --- | ---:   
-Unmapped (Default value was set) -- ast -> Unspecified | 1   
+Unmapped (Default value was set) -- ast -> General | 1   
 cst -> Consortium | 2   
 </details>   
    
@@ -59,23 +60,13 @@ tspt -> Technical Support | 1
    
 ## Sub-property removed due to missing required fields    
 Add the missing required information to the record in your current ILS to ensure that it can be migrated over.    
-<details><summary>Click to expand all 5 things</summary>     
+<details><summary>Click to expand all 4 things</summary>     
    
 Measure | Count   
 --- | ---:   
 accounts | 2   
 emails | 2   
-interfaces | 2   
 phoneNumbers | 1   
-</details>   
-   
-## Mapped note types    
-Library action: **REVIEW** <br/>The created FOLIO records contain the following Note type values.  <br/>The library should review the total number for each value against what they would expect to see mapped.    
-<details><summary>Click to expand all 2 things</summary>     
-   
-Measure | Count   
---- | ---:   
-f5bba0d2-7732-4687-8311-a2cb0eaa12e5 | 3   
 </details>   
 
 ## Mapped FOLIO fields
@@ -104,14 +95,13 @@ contacts.addresses | 3 (100%) | 0 (0%)
 contacts.addresses.addressLine1 | 2 (67%) | 1 (33%) 
 contacts.addresses.city | 1 (33%) | 2 (67%) 
 contacts.addresses.isPrimary | 3 (100%) | 0 (0%) 
-contacts.categories | 1 (33%) | 2 (67%) 
 contacts.firstName | 2 (67%) | 1 (33%) 
 contacts.lastName | 2 (67%) | 1 (33%) 
 contacts.notes | 2 (67%) | 1 (33%) 
 contacts.phoneNumbers | 3 (100%) | 0 (0%) 
 contacts.phoneNumbers.isPrimary | 3 (100%) | 0 (0%) 
 contacts.phoneNumbers.phoneNumber | 2 (67%) | 1 (33%) 
-description | 0 (0%) | 3 (100%) 
+description | 3 (100%) | 0 (0%) 
 discountPercent | 0 (0%) | 3 (100%) 
 edi | 0 (0%) | 3 (100%) 
 emails | 1 (33%) | 2 (67%) 
@@ -124,21 +114,7 @@ expectedReceiptInterval | 0 (0%) | 3 (100%)
 exportToAccounting | 3 (100%) | 0 (0%) 
 governmental | 0 (0%) | 3 (100%) 
 id | 3 (100%) | 0 (0%) 
-interfaces | 3 (100%) | 0 (0%) 
-interfaces.available | 3 (100%) | 0 (0%) 
-interfaces.deliveryMethod | 1 (33%) | 2 (67%) 
-interfaces.interfaceCredential | 3 (100%) | 0 (0%) 
-interfaces.interfaceCredential.interfaceId | 3 (100%) | 0 (0%) 
-interfaces.interfaceCredential.password | 2 (67%) | 1 (33%) 
-interfaces.interfaceCredential.username | 2 (67%) | 1 (33%) 
-interfaces.locallyStored | 1 (33%) | 2 (67%) 
-interfaces.name | 3 (100%) | 0 (0%) 
-interfaces.notes | 1 (33%) | 2 (67%) 
-interfaces.onlineLocation | 1 (33%) | 2 (67%) 
-interfaces.statisticsFormat | 1 (33%) | 2 (67%) 
-interfaces.statisticsNotes | 1 (33%) | 2 (67%) 
-interfaces.type | 2 (67%) | 1 (33%) 
-interfaces.uri | 3 (100%) | 0 (0%) 
+interfaces | 0 (0%) | 3 (100%) 
 isVendor | 3 (100%) | 0 (0%) 
 language | 0 (0%) | 3 (100%) 
 liableForVat | 0 (0%) | 3 (100%) 
@@ -171,7 +147,8 @@ vendorCurrencies | 0 (0%) | 3 (100%)
 
 Legacy Field | Present | Mapped | Unmapped  
 --- | --- | --- | ---:  
-VENNAME | 12 (400.0%) | 12 (400%) | 0  
+VENNAME | 3 (100.0%) | 3 (100%) | 0  
+org_note | 6 (200.0%) | 6 (200%) | 0  
 org_type | 3 (100.0%) | 3 (100%) | 0  
 status | 3 (100.0%) | 3 (100%) | 0  
 vendor_code | 3 (100.0%) | 3 (100%) | 0  

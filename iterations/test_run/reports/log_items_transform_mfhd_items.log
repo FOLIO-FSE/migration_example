@@ -1,60 +1,60 @@
-2023-02-16 22:51:17,828	Logging set up	transform_mfhd_items	migration_task_base.py:214
-2023-02-16 22:51:17,828	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	transform_mfhd_items	folder_structure.py:47
-2023-02-16 22:51:17,828	Git ignore is set up correctly	transform_mfhd_items	folder_structure.py:48
-2023-02-16 22:51:17,828	Base folder is /home/theodor/client_data/migration_example	transform_mfhd_items	folder_structure.py:49
-2023-02-16 22:51:17,828	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	transform_mfhd_items	folder_structure.py:50
-2023-02-16 22:51:17,828	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	transform_mfhd_items	folder_structure.py:51
-2023-02-16 22:51:17,828	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	transform_mfhd_items	folder_structure.py:52
-2023-02-16 22:51:17,829	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data/items	transform_mfhd_items	folder_structure.py:53
-2023-02-16 22:51:17,829	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_items_transform_mfhd_items.log	transform_mfhd_items	folder_structure.py:54
-2023-02-16 22:51:17,829	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_transform_mfhd_items.extradata	transform_mfhd_items	folder_structure.py:55
-2023-02-16 22:51:17,829	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_transform_mfhd_items.tsv	transform_mfhd_items	folder_structure.py:56
-2023-02-16 22:51:17,829	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_items_transform_mfhd_items.json	transform_mfhd_items	folder_structure.py:57
-2023-02-16 22:51:17,829	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_transform_mfhd_items.md	transform_mfhd_items	folder_structure.py:58
-2023-02-16 22:51:17,829	MigrationTaskBase init done	transform_mfhd_items	migration_task_base.py:78
-2023-02-16 22:51:17,830	Files to process:	transform_mfhd_items	migration_task_base.py:130
-2023-02-16 22:51:17,830		/home/theodor/client_data/migration_example/iterations/test_run/source_data/items/items_linked_to_mfhds.csv	transform_mfhd_items	migration_task_base.py:132
-2023-02-16 22:51:17,831	54 fields in mapping file map	transform_mfhd_items	migration_task_base.py:219
-2023-02-16 22:51:17,832	18 Mapped fields in mapping file map	transform_mfhd_items	migration_task_base.py:225
-2023-02-16 22:51:17,832	/home/theodor/client_data/migration_example/mapping_files/temp_loan_types.tsv not found. No temporary loan type mapping will be performed	transform_mfhd_items	items_transformer.py:97
-2023-02-16 22:51:17,832	 not found. No temporary location mapping will be performed	transform_mfhd_items	items_transformer.py:114
-2023-02-16 22:51:17,833	Found 3 rows in materialTypeId map	transform_mfhd_items	migration_task_base.py:280
-2023-02-16 22:51:17,833	folio_name,ITEM_TYPE_ID will be used for determinig materialTypeId	transform_mfhd_items	migration_task_base.py:285
-2023-02-16 22:51:17,834	Found 3 rows in permanentLoanTypeId map	transform_mfhd_items	migration_task_base.py:280
-2023-02-16 22:51:17,834	folio_name,ITEM_TYPE_ID will be used for determinig permanentLoanTypeId	transform_mfhd_items	migration_task_base.py:285
-2023-02-16 22:51:17,834	Found 5 rows in permanentLocationId map	transform_mfhd_items	migration_task_base.py:280
-2023-02-16 22:51:17,834	SUB_LIBRARY,PERM_LOCATION,legacy_code,folio_code will be used for determinig permanentLocationId	transform_mfhd_items	migration_task_base.py:285
-2023-02-16 22:51:17,835	No mapping setup for itemLevelCallNumberTypeId	transform_mfhd_items	migration_task_base.py:301
-2023-02-16 22:51:17,835	itemLevelCallNumberTypeId will have default mapping if any 	transform_mfhd_items	migration_task_base.py:302
-2023-02-16 22:51:17,835	Add a file named /home/theodor/client_data/migration_example/mapping_files/call_number_type_mapping.tsv and add the field to the item.mapping.json file.	transform_mfhd_items	migration_task_base.py:303
-2023-02-16 22:51:17,835	Loaded 4 migrated IDs	transform_mfhd_items	migration_task_base.py:153
-2023-02-16 22:51:17,836	No mapping setup for status.name	transform_mfhd_items	migration_task_base.py:301
-2023-02-16 22:51:17,836	status.name will have default mapping if any 	transform_mfhd_items	migration_task_base.py:302
-2023-02-16 22:51:17,836	Add a file named /home/theodor/client_data/migration_example/mapping_files/item_statuses.tsv and add the field to the item.mapping.json file.	transform_mfhd_items	migration_task_base.py:303
-2023-02-16 22:51:18,595	Using GITHB_TOKEN environment variable for Gihub API Access	transform_mfhd_items	FolioClient.py:257
-2023-02-16 22:51:18,947	MapperBase initiating	transform_mfhd_items	mapper_base.py:34
-2023-02-16 22:51:18,948	Legacy identifier will be mapped from ITEM_ID	transform_mfhd_items	mapping_file_mapper_base.py:147
-2023-02-16 22:51:18,948	Mapped values:
+2023-03-21 14:09:32,418	Logging set up	transform_mfhd_items	migration_task_base.py:213
+2023-03-21 14:09:32,419	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	transform_mfhd_items	folder_structure.py:47
+2023-03-21 14:09:32,419	Git ignore is set up correctly	transform_mfhd_items	folder_structure.py:48
+2023-03-21 14:09:32,419	Base folder is /home/theodor/client_data/migration_example	transform_mfhd_items	folder_structure.py:49
+2023-03-21 14:09:32,419	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	transform_mfhd_items	folder_structure.py:50
+2023-03-21 14:09:32,419	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	transform_mfhd_items	folder_structure.py:51
+2023-03-21 14:09:32,419	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	transform_mfhd_items	folder_structure.py:52
+2023-03-21 14:09:32,419	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data/items	transform_mfhd_items	folder_structure.py:53
+2023-03-21 14:09:32,419	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_items_transform_mfhd_items.log	transform_mfhd_items	folder_structure.py:54
+2023-03-21 14:09:32,420	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_transform_mfhd_items.extradata	transform_mfhd_items	folder_structure.py:55
+2023-03-21 14:09:32,420	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_transform_mfhd_items.tsv	transform_mfhd_items	folder_structure.py:56
+2023-03-21 14:09:32,420	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_items_transform_mfhd_items.json	transform_mfhd_items	folder_structure.py:57
+2023-03-21 14:09:32,420	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_transform_mfhd_items.md	transform_mfhd_items	folder_structure.py:58
+2023-03-21 14:09:32,420	MigrationTaskBase init done	transform_mfhd_items	migration_task_base.py:77
+2023-03-21 14:09:32,420	Files to process:	transform_mfhd_items	migration_task_base.py:129
+2023-03-21 14:09:32,421		/home/theodor/client_data/migration_example/iterations/test_run/source_data/items/items_linked_to_mfhds.csv	transform_mfhd_items	migration_task_base.py:131
+2023-03-21 14:09:32,421	54 fields in mapping file map	transform_mfhd_items	migration_task_base.py:218
+2023-03-21 14:09:32,421	18 Mapped fields in mapping file map	transform_mfhd_items	migration_task_base.py:224
+2023-03-21 14:09:32,422	/home/theodor/client_data/migration_example/mapping_files/temp_loan_types.tsv not found. No temporary loan type mapping will be performed	transform_mfhd_items	items_transformer.py:97
+2023-03-21 14:09:32,422	 not found. No temporary location mapping will be performed	transform_mfhd_items	items_transformer.py:114
+2023-03-21 14:09:32,422	Found 3 rows in materialTypeId map	transform_mfhd_items	migration_task_base.py:281
+2023-03-21 14:09:32,422	folio_name, ITEM_TYPE_ID will be used for determinig materialTypeId	transform_mfhd_items	migration_task_base.py:295
+2023-03-21 14:09:32,423	Found 3 rows in permanentLoanTypeId map	transform_mfhd_items	migration_task_base.py:281
+2023-03-21 14:09:32,423	folio_name, ITEM_TYPE_ID will be used for determinig permanentLoanTypeId	transform_mfhd_items	migration_task_base.py:295
+2023-03-21 14:09:32,423	Found 5 rows in permanentLocationId map	transform_mfhd_items	migration_task_base.py:281
+2023-03-21 14:09:32,423	SUB_LIBRARY, PERM_LOCATION, legacy_code, folio_code will be used for determinig permanentLocationId	transform_mfhd_items	migration_task_base.py:295
+2023-03-21 14:09:32,423	No mapping setup for itemLevelCallNumberTypeId	transform_mfhd_items	migration_task_base.py:305
+2023-03-21 14:09:32,423	itemLevelCallNumberTypeId will have default mapping if any 	transform_mfhd_items	migration_task_base.py:306
+2023-03-21 14:09:32,423	Add a file named /home/theodor/client_data/migration_example/mapping_files/call_number_type_mapping.tsv and add the field to the item.mapping.json file.	transform_mfhd_items	migration_task_base.py:307
+2023-03-21 14:09:32,426	Loaded 29 migrated IDs	transform_mfhd_items	migration_task_base.py:152
+2023-03-21 14:09:32,426	No mapping setup for status.name	transform_mfhd_items	migration_task_base.py:305
+2023-03-21 14:09:32,426	status.name will have default mapping if any 	transform_mfhd_items	migration_task_base.py:306
+2023-03-21 14:09:32,426	Add a file named /home/theodor/client_data/migration_example/mapping_files/item_statuses.tsv and add the field to the item.mapping.json file.	transform_mfhd_items	migration_task_base.py:307
+2023-03-21 14:09:33,237	Using GITHB_TOKEN environment variable for Gihub API Access	transform_mfhd_items	FolioClient.py:257
+2023-03-21 14:09:33,694	MapperBase initiating	transform_mfhd_items	mapper_base.py:33
+2023-03-21 14:09:33,694	Legacy identifier will be mapped from ITEM_ID	transform_mfhd_items	mapping_file_mapper_base.py:145
+2023-03-21 14:09:33,694	Mapped values:
 {
     "notes[0].itemNoteTypeId": "5a15e0f8-2802-4cbf-a4de-8f0dedd3ed3a",
     "notes[0].staffOnly": false
-}	transform_mfhd_items	mapping_file_mapper_base.py:71
-2023-02-16 22:51:18,948	Statistical codes map is not set up	transform_mfhd_items	mapping_file_mapper_base.py:120
-2023-02-16 22:51:18,948	Mapped legacy fields:
+}	transform_mfhd_items	mapping_file_mapper_base.py:69
+2023-03-21 14:09:33,694	Statistical codes map is not set up	transform_mfhd_items	mapping_file_mapper_base.py:118
+2023-03-21 14:09:33,696	Mapped legacy fields:
 [
-    "CHRON",
     "COPY_NUMBER",
-    "ITEM_LEVEL_CALL_NUMBER",
-    "ITEM_TYPE_ID",
     "MFHD_ID",
-    "ITEM_ID",
-    "ITEM_BARCODE",
     "ITEM_ENUM",
+    "ITEM_LEVEL_CALL_NUMBER",
+    "ITEM_BARCODE",
     "PIECES",
-    "YEAR",
-    "FREETEXT"
-]	transform_mfhd_items	mapping_file_mapper_base.py:97
-2023-02-16 22:51:18,949	Mapped FOLIO fields:
+    "ITEM_ID",
+    "FREETEXT",
+    "CHRON",
+    "ITEM_TYPE_ID",
+    "YEAR"
+]	transform_mfhd_items	mapping_file_mapper_base.py:95
+2023-03-21 14:09:33,696	Mapped FOLIO fields:
 [
     "barcode",
     "legacyIdentifier",
@@ -74,36 +74,36 @@
     "numberOfPieces",
     "permanentLoanTypeId",
     "yearCaption[0]"
-]	transform_mfhd_items	mapping_file_mapper_base.py:101
-2023-02-16 22:51:18,949	Using GITHB_TOKEN environment variable for Gihub API Access	transform_mfhd_items	FolioClient.py:257
-2023-02-16 22:51:19,017	loantypes reference data mapping. Initializing	transform_mfhd_items	ref_data_mapping.py:23
-2023-02-16 22:51:19,017	Fetching loantypes reference data from FOLIO	transform_mfhd_items	ref_data_mapping.py:24
-2023-02-16 22:51:20,531	Values from loantypes ref data in FOLIO that are not in the map: ['Course reserves', 'lisatest', 'Selected']	transform_mfhd_items	ref_data_mapping.py:158
-2023-02-16 22:51:20,531	Set Can circulate as default loantypes mapping	transform_mfhd_items	ref_data_mapping.py:56
-2023-02-16 22:51:20,532	Loaded 2 mappings for 5 loantypes in FOLIO	transform_mfhd_items	ref_data_mapping.py:89
-2023-02-16 22:51:20,532	loaded 0 hybrid mappings for 5 loantypes in FOLIO	transform_mfhd_items	ref_data_mapping.py:93
-2023-02-16 22:51:20,532	loantypes reference data mapping. Done init	transform_mfhd_items	ref_data_mapping.py:35
-2023-02-16 22:51:20,533	mtypes reference data mapping. Initializing	transform_mfhd_items	ref_data_mapping.py:23
-2023-02-16 22:51:20,533	Fetching mtypes reference data from FOLIO	transform_mfhd_items	ref_data_mapping.py:24
-2023-02-16 22:51:22,006	Values from mtypes ref data in FOLIO that are not in the map: ['lisatest']	transform_mfhd_items	ref_data_mapping.py:158
-2023-02-16 22:51:22,006	Set book as default mtypes mapping	transform_mfhd_items	ref_data_mapping.py:56
-2023-02-16 22:51:22,007	Loaded 2 mappings for 4 mtypes in FOLIO	transform_mfhd_items	ref_data_mapping.py:89
-2023-02-16 22:51:22,007	loaded 0 hybrid mappings for 4 mtypes in FOLIO	transform_mfhd_items	ref_data_mapping.py:93
-2023-02-16 22:51:22,007	mtypes reference data mapping. Done init	transform_mfhd_items	ref_data_mapping.py:35
-2023-02-16 22:51:22,008	locations reference data mapping. Initializing	transform_mfhd_items	ref_data_mapping.py:23
-2023-02-16 22:51:22,008	Fetching locations reference data from FOLIO	transform_mfhd_items	ref_data_mapping.py:24
-2023-02-16 22:51:23,469	Values from locations ref data in FOLIO that are not in the map: ['Main Open Shelves', 'this&that']	transform_mfhd_items	ref_data_mapping.py:158
-2023-02-16 22:51:23,470	Set migration as default locations mapping	transform_mfhd_items	ref_data_mapping.py:56
-2023-02-16 22:51:23,470	Loaded 2 mappings for 7 locations in FOLIO	transform_mfhd_items	ref_data_mapping.py:89
-2023-02-16 22:51:23,471	loaded 2 hybrid mappings for 7 locations in FOLIO	transform_mfhd_items	ref_data_mapping.py:93
-2023-02-16 22:51:23,471	locations reference data mapping. Done init	transform_mfhd_items	ref_data_mapping.py:35
-2023-02-16 22:51:23,471	Init done	transform_mfhd_items	items_transformer.py:168
-2023-02-16 22:51:23,471	Starting....	transform_mfhd_items	items_transformer.py:171
-2023-02-16 22:51:23,471	Processing /home/theodor/client_data/migration_example/iterations/test_run/source_data/items/items_linked_to_mfhds.csv	transform_mfhd_items	items_transformer.py:191
-2023-02-16 22:51:23,475	Source data file contains 3 rows	transform_mfhd_items	mapping_file_mapper_base.py:605
-2023-02-16 22:51:23,475	Source data file contains 0 empty rows	transform_mfhd_items	mapping_file_mapper_base.py:606
-2023-02-16 22:51:23,475	First legacy record:	transform_mfhd_items	items_transformer.py:199
-2023-02-16 22:51:23,476	{
+]	transform_mfhd_items	mapping_file_mapper_base.py:99
+2023-03-21 14:09:33,697	Using GITHB_TOKEN environment variable for Gihub API Access	transform_mfhd_items	FolioClient.py:257
+2023-03-21 14:09:33,765	loantypes reference data mapping. Initializing	transform_mfhd_items	ref_data_mapping.py:23
+2023-03-21 14:09:33,765	Fetching loantypes reference data from FOLIO	transform_mfhd_items	ref_data_mapping.py:24
+2023-03-21 14:09:35,397	Values from loantypes ref data in FOLIO that are not in the map: ['Course reserves', 'lisatest', 'Selected']	transform_mfhd_items	ref_data_mapping.py:158
+2023-03-21 14:09:35,398	Set Can circulate as default loantypes mapping	transform_mfhd_items	ref_data_mapping.py:56
+2023-03-21 14:09:35,398	Loaded 2 mappings for 5 loantypes in FOLIO	transform_mfhd_items	ref_data_mapping.py:89
+2023-03-21 14:09:35,398	loaded 0 hybrid mappings for 5 loantypes in FOLIO	transform_mfhd_items	ref_data_mapping.py:93
+2023-03-21 14:09:35,398	loantypes reference data mapping. Done init	transform_mfhd_items	ref_data_mapping.py:35
+2023-03-21 14:09:35,399	mtypes reference data mapping. Initializing	transform_mfhd_items	ref_data_mapping.py:23
+2023-03-21 14:09:35,399	Fetching mtypes reference data from FOLIO	transform_mfhd_items	ref_data_mapping.py:24
+2023-03-21 14:09:36,886	Values from mtypes ref data in FOLIO that are not in the map: ['lisatest']	transform_mfhd_items	ref_data_mapping.py:158
+2023-03-21 14:09:36,886	Set book as default mtypes mapping	transform_mfhd_items	ref_data_mapping.py:56
+2023-03-21 14:09:36,886	Loaded 2 mappings for 4 mtypes in FOLIO	transform_mfhd_items	ref_data_mapping.py:89
+2023-03-21 14:09:36,887	loaded 0 hybrid mappings for 4 mtypes in FOLIO	transform_mfhd_items	ref_data_mapping.py:93
+2023-03-21 14:09:36,887	mtypes reference data mapping. Done init	transform_mfhd_items	ref_data_mapping.py:35
+2023-03-21 14:09:36,887	locations reference data mapping. Initializing	transform_mfhd_items	ref_data_mapping.py:23
+2023-03-21 14:09:36,887	Fetching locations reference data from FOLIO	transform_mfhd_items	ref_data_mapping.py:24
+2023-03-21 14:09:38,372	Values from locations ref data in FOLIO that are not in the map: ['this&that', 'Main Open Shelves']	transform_mfhd_items	ref_data_mapping.py:158
+2023-03-21 14:09:38,375	Set migration as default locations mapping	transform_mfhd_items	ref_data_mapping.py:56
+2023-03-21 14:09:38,375	Loaded 2 mappings for 7 locations in FOLIO	transform_mfhd_items	ref_data_mapping.py:89
+2023-03-21 14:09:38,376	loaded 2 hybrid mappings for 7 locations in FOLIO	transform_mfhd_items	ref_data_mapping.py:93
+2023-03-21 14:09:38,376	locations reference data mapping. Done init	transform_mfhd_items	ref_data_mapping.py:35
+2023-03-21 14:09:38,376	Init done	transform_mfhd_items	items_transformer.py:168
+2023-03-21 14:09:38,377	Starting....	transform_mfhd_items	items_transformer.py:171
+2023-03-21 14:09:38,379	Processing /home/theodor/client_data/migration_example/iterations/test_run/source_data/items/items_linked_to_mfhds.csv	transform_mfhd_items	items_transformer.py:191
+2023-03-21 14:09:38,386	Source data file contains 3 rows	transform_mfhd_items	mapping_file_mapper_base.py:674
+2023-03-21 14:09:38,387	Source data file contains 0 empty rows	transform_mfhd_items	mapping_file_mapper_base.py:675
+2023-03-21 14:09:38,388	First legacy record:	transform_mfhd_items	items_transformer.py:199
+2023-03-21 14:09:38,388	{
     "ITEM_ID": "1433099",
     "MFHD_ID": "43500044",
     "ITEM_BARCODE": "001",
@@ -119,15 +119,15 @@
     "FREETEXT": "A note",
     "ITEM_LEVEL_CALL_NUMBER": "I.t.e.m:c.a11.numb3r"
 }	transform_mfhd_items	items_transformer.py:200
-2023-02-16 22:51:23,476	All maped legacy fields are in the legacy object	transform_mfhd_items	mapping_file_mapper_base.py:682
-2023-02-16 22:51:23,477	fetching current user..	transform_mfhd_items	FolioClient.py:37
-2023-02-16 22:51:37,296	First FOLIO record:	transform_mfhd_items	items_transformer.py:209
-2023-02-16 22:51:37,296	{
+2023-03-21 14:09:38,389	All maped legacy fields are in the legacy object	transform_mfhd_items	mapping_file_mapper_base.py:753
+2023-03-21 14:09:38,390	fetching current user..	transform_mfhd_items	FolioClient.py:37
+2023-03-21 14:09:39,270	First FOLIO record:	transform_mfhd_items	items_transformer.py:209
+2023-03-21 14:09:39,271	{
     "id": "01006508-da70-57b2-9161-072579f619c1",
     "metadata": {
-        "createdDate": "2023-02-16T21:51:24.249",
+        "createdDate": "2023-03-21T13:09:39.263",
         "createdByUserId": "bb78777e-d13b-4612-9383-54d2b17f6d5d",
-        "updatedDate": "2023-02-16T21:51:24.249",
+        "updatedDate": "2023-03-21T13:09:39.263",
         "updatedByUserId": "bb78777e-d13b-4612-9383-54d2b17f6d5d"
     },
     "hrid": "1433099",
@@ -149,23 +149,22 @@
     "notes": [
         {
             "itemNoteTypeId": "5a15e0f8-2802-4cbf-a4de-8f0dedd3ed3a",
-            "note": "A note",
-            "staffOnly": false
+            "note": "A note"
         }
     ],
     "status": {
         "name": "Available",
-        "date": "2023-02-16T21:51:37.294474"
+        "date": "2023-03-21T13:09:39.269368+00:00"
     },
     "materialTypeId": "4eea3f27-8910-46fc-9666-e2b44326c2b8",
     "permanentLoanTypeId": "2e48e713-17f3-4c13-a9f8-23845bb210a4"
 }	transform_mfhd_items	items_transformer.py:210
-2023-02-16 22:51:37,300	Done processing file_name='items_linked_to_mfhds.csv' suppressed=False staff_suppressed=False service_point_id='' containing 3 records. Total records processed: 3	transform_mfhd_items	items_transformer.py:238
-2023-02-16 22:51:37,301	processed 3 records in 1 files	transform_mfhd_items	items_transformer.py:185
-2023-02-16 22:51:37,301	Done. Transformer wrapping up...	transform_mfhd_items	items_transformer.py:285
-2023-02-16 22:51:37,302	Removing extradata file since it is empty	transform_mfhd_items	extradata_writer.py:46
-2023-02-16 22:51:37,302	Elapsed time: 0:00:18.354587	transform_mfhd_items	migration_report.py:74
-2023-02-16 22:51:37,303	Removing data issues file since it is empty	transform_mfhd_items	migration_task_base.py:89
-2023-02-16 22:51:37,303	Removed data issues file since it was empty	transform_mfhd_items	migration_task_base.py:91
-2023-02-16 22:51:37,303	All done!	transform_mfhd_items	items_transformer.py:298
-2023-02-16 22:51:37,303	Work done. Shutting down	transform_mfhd_items	__main__.py:102
+2023-03-21 14:09:39,290	Done processing file_name='items_linked_to_mfhds.csv' suppressed=False staff_suppressed=False service_point_id='' containing 3 records. Total records processed: 3	transform_mfhd_items	items_transformer.py:238
+2023-03-21 14:09:39,290	processed 3 records in 1 files	transform_mfhd_items	items_transformer.py:185
+2023-03-21 14:09:39,291	Done. Transformer wrapping up...	transform_mfhd_items	items_transformer.py:285
+2023-03-21 14:09:39,291	Removing extradata file since it is empty	transform_mfhd_items	extradata_writer.py:45
+2023-03-21 14:09:39,292	Elapsed time: 0:00:05.597908	transform_mfhd_items	migration_report.py:74
+2023-03-21 14:09:39,293	Removing data issues file since it is empty	transform_mfhd_items	migration_task_base.py:88
+2023-03-21 14:09:39,294	Removed data issues file since it was empty	transform_mfhd_items	migration_task_base.py:90
+2023-03-21 14:09:39,294	All done!	transform_mfhd_items	items_transformer.py:298
+2023-03-21 14:09:39,295	Work done. Shutting down	transform_mfhd_items	__main__.py:102

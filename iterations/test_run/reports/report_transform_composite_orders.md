@@ -4,9 +4,9 @@
    
 Measure | Value   
 --- | ---:   
-Time Started: | 2023-02-22T18:52:05.572314+00:00   
-Time Finished: | 2023-02-22T18:52:14.804935+00:00   
-Elapsed time: | 0:00:09.232621   
+Time Started: | 2023-03-21T13:23:34.481259+00:00   
+Time Finished: | 2023-03-21T13:23:48.518869+00:00   
+Elapsed time: | 0:00:14.037610   
    
 ## General statistics    
 A list of general counters to outline the transformation as a whole.    
@@ -24,13 +24,15 @@ Total rows in sierra_orders.tsv | 3
    
 ## Default values added    
 The values below was added to all records from the value field in the mapping file instead of coming from the source records    
-<details><summary>Click to expand all 4 things</summary>     
+<details><summary>Click to expand all 6 things</summary>     
    
 Measure | Count   
 --- | ---:   
+API added to compositePoLines[0].source | 6   
 From Schema: approved -> False | 3   
 From Schema: reEncumber -> False | 3   
 From Schema: workflowStatus -> Pending | 3   
+USD added to compositePoLines[0].cost.currency | 6   
 </details>   
    
 ## Mapping details    

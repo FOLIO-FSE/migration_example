@@ -4,9 +4,9 @@
    
 Measure | Value   
 --- | ---:   
-Time Started: | 2023-02-16T21:52:00.381956+00:00   
-Time Finished: | 2023-02-16T21:52:07.401142+00:00   
-Elapsed time: | 0:00:07.019186   
+Time Started: | 2023-03-21T13:13:50.550936+00:00   
+Time Finished: | 2023-03-21T13:13:57.478078+00:00   
+Elapsed time: | 0:00:06.927142   
    
 ## Holdings Merging    
     
@@ -32,7 +32,7 @@ Number of files processed | 1
 Records matched to Instances | 3   
 Total rows in csv_items.tsv | 3   
 Unique Holdings created from Items | 2   
-Unique ID:s written to legacy map | 9   
+Unique ID:s written to legacy map | 29   
 </details>   
    
 ## Bound-with mapping    
@@ -62,6 +62,15 @@ Measure | Count
 --- | ---:   
 True added to notes[0].staffOnly | 3   
 f453de0f-8b54-4e99-9180-52932529e3a6 added to notes[0].holdingsNoteTypeId | 3   
+</details>   
+   
+## Unmapped properties    
+    
+<details><summary>Click to expand all 2 things</summary>     
+   
+Measure | Count   
+--- | ---:   
+receivingHistory.displayType | 3   
 </details>   
 
 ## Mapped FOLIO fields

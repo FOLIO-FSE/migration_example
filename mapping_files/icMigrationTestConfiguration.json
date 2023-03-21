@@ -407,7 +407,7 @@
             "phoneCategoriesMapPath": "phone_categories.tsv",
             "files": [
                 {
-                    "file_name": "example_organizations.tsv"
+                    "file_name": "test_organizations.tsv"
                 }
             ]
         },
@@ -429,8 +429,8 @@
             ],
             "ordersMappingFileName": "composite_order_mapping.json",
             "acquisitionMethodMapFileName": "acquisitionMethodMap.tsv",
-            "locationMapFileName":"",
-            "materialTypesMapFileName":"",
+            "locationMapFileName": "",
+            "materialTypesMapFileName": "",
             "organizationsCodeMapFileName": "organizationCodeMap.tsv"
         }
     ]

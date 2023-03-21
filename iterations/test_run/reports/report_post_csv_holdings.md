@@ -1,20 +1,32 @@
-# Users loading report   
+# Holdings loading report   
 <br/>Data errors preventing records from being migrated are marked **FIX BEFORE MIGRATION**. The library is advised to clean up these errors in the source data.<br/><br/> The sections related to field counts and mapping results are marked **REVIEW**. These do not indicate errors preventing records from being migrated, but may point to data anomalies or in the mappings. The library should review these to make sure that the numbers are what one would expect, knowing the source data. Is this the expected number of serials? Is this the expected number of cartographic materials?
 ## Timings   
    
 Measure | Value   
 --- | ---:   
-Time Started: | 2023-03-21T13:18:30.636092+00:00   
-Time Finished: | 2023-03-21T13:18:32.457429+00:00   
-Elapsed time: | 0:00:01.821337   
+Time Started: | 2023-03-21T13:15:43.699498+00:00   
+Time Finished: | 2023-03-21T13:15:50.659054+00:00   
+Elapsed time: | 0:00:06.959556   
    
-##     
+## Details    
     
-<details><summary>Click to expand all 3 things</summary>     
+<details><summary>Click to expand all 2 things</summary>     
    
 Measure | Count   
 --- | ---:   
-Failed to post first time | 0   
-Records posted first time | 1   
-Records processed first time | 1   
+Generic exceptions (see log for details) | 5   
+</details>   
+   
+##     
+    
+<details><summary>Click to expand all 6 things</summary>     
+   
+Measure | Count   
+--- | ---:   
+Failed to post first time | 6   
+Failed to post second time | 4   
+Records posted first time | 0   
+Records posted second time | 0   
+Records processed first time | 6   
+Records processed second time | 6   
 </details>   

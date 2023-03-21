@@ -1,1 +1,6 @@
 localMigrationTestConfiguration.json
+results/
+archive/
+source_data/
+*.data
+.venv

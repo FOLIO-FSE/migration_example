@@ -4,17 +4,29 @@
    
 Measure | Value   
 --- | ---:   
-Time Started: | 2023-02-16T21:52:17.989390+00:00   
-Time Finished: | 2023-02-16T21:52:19.509738+00:00   
-Elapsed time: | 0:00:01.520348   
+Time Started: | 2023-03-21T13:17:30.874714+00:00   
+Time Finished: | 2023-03-21T13:17:35.410371+00:00   
+Elapsed time: | 0:00:04.535657   
    
-##     
+## Details    
     
-<details><summary>Click to expand all 3 things</summary>     
+<details><summary>Click to expand all 2 things</summary>     
    
 Measure | Count   
 --- | ---:   
-Failed to post first time | 0   
+Generic exceptions (see log for details) | 2   
+</details>   
+   
+##     
+    
+<details><summary>Click to expand all 6 things</summary>     
+   
+Measure | Count   
+--- | ---:   
+Failed to post first time | 3   
+Failed to post second time | 1   
 Records posted first time | 0   
+Records posted second time | 0   
 Records processed first time | 3   
+Records processed second time | 3   
 </details>   

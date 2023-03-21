@@ -1,106 +1,85 @@
-2023-03-02 17:42:48,840	Logging set up	transform_orgs	migration_task_base.py:213
-2023-03-02 17:42:48,840	Mapping files folder is ../../migration_example/mapping_files	transform_orgs	folder_structure.py:47
-2023-03-02 17:42:48,841	Git ignore is set up correctly	transform_orgs	folder_structure.py:48
-2023-03-02 17:42:48,841	Base folder is ../../migration_example	transform_orgs	folder_structure.py:49
-2023-03-02 17:42:48,841	Reports and logs folder is ../../migration_example/iterations/test_run/reports	transform_orgs	folder_structure.py:50
-2023-03-02 17:42:48,841	Results folder is ../../migration_example/iterations/test_run/results	transform_orgs	folder_structure.py:51
-2023-03-02 17:42:48,841	Data folder is ../../migration_example/iterations/test_run/source_data	transform_orgs	folder_structure.py:52
-2023-03-02 17:42:48,841	Source records files folder is ../../migration_example/iterations/test_run/source_data/organizations	transform_orgs	folder_structure.py:53
-2023-03-02 17:42:48,841	Log file will be located at ../../migration_example/iterations/test_run/reports/log_organizations_transform_orgs.log	transform_orgs	folder_structure.py:54
-2023-03-02 17:42:48,842	Extra data will be stored at../../migration_example/iterations/test_run/results/extradata_transform_orgs.extradata	transform_orgs	folder_structure.py:55
-2023-03-02 17:42:48,842	Data issue reports ../../migration_example/iterations/test_run/reports/data_issues_log_transform_orgs.tsv	transform_orgs	folder_structure.py:56
-2023-03-02 17:42:48,842	Created objects will be stored at  ../../migration_example/iterations/test_run/results/folio_organizations_transform_orgs.json	transform_orgs	folder_structure.py:57
-2023-03-02 17:42:48,842	Migration report file will be saved at ../../migration_example/iterations/test_run/reports/report_transform_orgs.md	transform_orgs	folder_structure.py:58
-2023-03-02 17:42:48,842	MigrationTaskBase init done	transform_orgs	migration_task_base.py:77
-2023-03-02 17:42:48,842	Files to process:	transform_orgs	organization_transformer.py:125
-2023-03-02 17:42:48,842		../../migration_example/iterations/test_run/source_data/organizations/test_organizations.tsv	transform_orgs	organization_transformer.py:127
-2023-03-02 17:42:48,843	151 fields in mapping file map	transform_orgs	migration_task_base.py:218
-2023-03-02 17:42:48,843	49 Mapped fields in mapping file map	transform_orgs	migration_task_base.py:224
-2023-03-02 17:42:48,844	Found 2 rows in organizationTypes map	transform_orgs	migration_task_base.py:281
-2023-03-02 17:42:48,844	org_type, folio_name will be used for determinig organizationTypes	transform_orgs	migration_task_base.py:295
-2023-03-02 17:42:48,845	Found 2 rows in addresses[0].categories[0] map	transform_orgs	migration_task_base.py:281
-2023-03-02 17:42:48,845	address_category, folio_value will be used for determinig addresses[0].categories[0]	transform_orgs	migration_task_base.py:295
-2023-03-02 17:42:48,845	Found 2 rows in emails[0].categories[0] map	transform_orgs	migration_task_base.py:281
-2023-03-02 17:42:48,845	email_category, folio_value will be used for determinig emails[0].categories[0]	transform_orgs	migration_task_base.py:295
-2023-03-02 17:42:48,846	Found 2 rows in phoneNumbers[0].categories[0] map	transform_orgs	migration_task_base.py:281
-2023-03-02 17:42:48,846	phone_category, folio_value will be used for determinig phoneNumbers[0].categories[0]	transform_orgs	migration_task_base.py:295
-2023-03-02 17:42:48,846	Using GITHB_TOKEN environment variable for Gihub API Access	transform_orgs	organization_mapper.py:36
-2023-03-02 17:42:49,112	Using schemas from latest mod-organizations-storage release: v4.5.0	transform_orgs	organization_mapper.py:258
-2023-03-02 17:42:51,520	Using schemas from latest mod-organizations-storage release: v4.5.0	transform_orgs	organization_mapper.py:258
-2023-03-02 17:42:52,849	Property not yet supported: metadata	transform_orgs	organization_mapper.py:351
-2023-03-02 17:42:53,390	Using schemas from latest mod-organizations-storage release: v4.5.0	transform_orgs	organization_mapper.py:258
-2023-03-02 17:42:54,449	Property not yet supported: metadata	transform_orgs	organization_mapper.py:351
-2023-03-02 17:42:54,723	Using schemas from latest mod-organizations-storage release: v4.5.0	transform_orgs	organization_mapper.py:258
-2023-03-02 17:42:56,237	Property not yet supported: metadata	transform_orgs	organization_mapper.py:351
-2023-03-02 17:42:56,237	MapperBase initiating	transform_orgs	mapper_base.py:33
-2023-03-02 17:42:56,238	Legacy identifier will be mapped from vendor_code	transform_orgs	mapping_file_mapper_base.py:146
-2023-03-02 17:42:56,238	Mapped values:
+2023-03-21 14:22:46,463	Logging set up	transform_orgs	migration_task_base.py:213
+2023-03-21 14:22:46,464	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	transform_orgs	folder_structure.py:47
+2023-03-21 14:22:46,464	Git ignore is set up correctly	transform_orgs	folder_structure.py:48
+2023-03-21 14:22:46,464	Base folder is /home/theodor/client_data/migration_example	transform_orgs	folder_structure.py:49
+2023-03-21 14:22:46,465	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	transform_orgs	folder_structure.py:50
+2023-03-21 14:22:46,465	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	transform_orgs	folder_structure.py:51
+2023-03-21 14:22:46,465	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	transform_orgs	folder_structure.py:52
+2023-03-21 14:22:46,465	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data/organizations	transform_orgs	folder_structure.py:53
+2023-03-21 14:22:46,465	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_organizations_transform_orgs.log	transform_orgs	folder_structure.py:54
+2023-03-21 14:22:46,465	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_transform_orgs.extradata	transform_orgs	folder_structure.py:55
+2023-03-21 14:22:46,466	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_transform_orgs.tsv	transform_orgs	folder_structure.py:56
+2023-03-21 14:22:46,466	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_organizations_transform_orgs.json	transform_orgs	folder_structure.py:57
+2023-03-21 14:22:46,466	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_transform_orgs.md	transform_orgs	folder_structure.py:58
+2023-03-21 14:22:46,467	MigrationTaskBase init done	transform_orgs	migration_task_base.py:77
+2023-03-21 14:22:46,467	Files to process:	transform_orgs	organization_transformer.py:125
+2023-03-21 14:22:46,468		/home/theodor/client_data/migration_example/iterations/test_run/source_data/organizations/test_organizations.tsv	transform_orgs	organization_transformer.py:127
+2023-03-21 14:22:46,469	131 fields in mapping file map	transform_orgs	migration_task_base.py:218
+2023-03-21 14:22:46,469	34 Mapped fields in mapping file map	transform_orgs	migration_task_base.py:224
+2023-03-21 14:22:46,470	Found 2 rows in organizationTypes map	transform_orgs	migration_task_base.py:281
+2023-03-21 14:22:46,471	org_type, folio_name will be used for determinig organizationTypes	transform_orgs	migration_task_base.py:295
+2023-03-21 14:22:46,471	Found 2 rows in addresses[0].categories[0] map	transform_orgs	migration_task_base.py:281
+2023-03-21 14:22:46,472	address_category, folio_value will be used for determinig addresses[0].categories[0]	transform_orgs	migration_task_base.py:295
+2023-03-21 14:22:46,472	Found 2 rows in emails[0].categories[0] map	transform_orgs	migration_task_base.py:281
+2023-03-21 14:22:46,472	email_category, folio_value will be used for determinig emails[0].categories[0]	transform_orgs	migration_task_base.py:295
+2023-03-21 14:22:46,473	Found 2 rows in phoneNumbers[0].categories[0] map	transform_orgs	migration_task_base.py:281
+2023-03-21 14:22:46,473	phone_category, folio_value will be used for determinig phoneNumbers[0].categories[0]	transform_orgs	migration_task_base.py:295
+2023-03-21 14:22:46,474	Using GITHB_TOKEN environment variable for Gihub API Access	transform_orgs	organization_mapper.py:38
+2023-03-21 14:22:46,766	Using schemas from latest mod-organizations-storage release: v4.5.0	transform_orgs	organization_mapper.py:258
+2023-03-21 14:22:47,965	Using schemas from latest mod-organizations-storage release: v4.5.0	transform_orgs	organization_mapper.py:258
+2023-03-21 14:22:48,822	Property not yet supported: metadata	transform_orgs	organization_mapper.py:351
+2023-03-21 14:22:49,205	Using schemas from latest mod-organizations-storage release: v4.5.0	transform_orgs	organization_mapper.py:258
+2023-03-21 14:22:49,903	Property not yet supported: metadata	transform_orgs	organization_mapper.py:351
+2023-03-21 14:22:50,204	Using schemas from latest mod-organizations-storage release: v4.5.0	transform_orgs	organization_mapper.py:258
+2023-03-21 14:22:50,888	Property not yet supported: metadata	transform_orgs	organization_mapper.py:351
+2023-03-21 14:22:50,889	MapperBase initiating	transform_orgs	mapper_base.py:33
+2023-03-21 14:22:50,889	Legacy identifier will be mapped from vendor_code	transform_orgs	mapping_file_mapper_base.py:145
+2023-03-21 14:22:50,890	Mapped values:
 {
     "addresses[0].isPrimary": true,
     "contacts[0].addresses[0].isPrimary": true,
     "contacts[0].emailAddresses[0].isPrimary": true,
     "contacts[0].phoneNumbers[0].isPrimary": true,
     "contacts[1].addresses[0].isPrimary": true,
-    "contacts[1].emailAddresses[0].isPrimary": true,
-    "interfaces[0].available": true,
-    "interfaces[1].type[0]": "Admin",
-    "notes[0].domain": "organizations",
-    "notes[0].title": "Migrated note",
-    "notes[0].typeId": "f5bba0d2-7732-4687-8311-a2cb0eaa12e5"
-}	transform_orgs	mapping_file_mapper_base.py:70
-2023-03-02 17:42:56,238	Statistical codes map is not set up	transform_orgs	mapping_file_mapper_base.py:119
-2023-03-02 17:42:56,240	Mapped legacy fields:
+    "contacts[1].emailAddresses[0].isPrimary": true
+}	transform_orgs	mapping_file_mapper_base.py:69
+2023-03-21 14:22:50,890	Statistical codes map is not set up	transform_orgs	mapping_file_mapper_base.py:118
+2023-03-21 14:22:50,892	Mapped legacy fields:
 [
     "",
-    "vendor_code",
-    "interface_1_type",
-    "interface_1_password",
-    "interface_1_onlineLocation",
-    "interface_2_uri",
-    "address_city",
-    "email_category",
-    "contact_1_categories",
-    "contact_2_address_city",
-    "PHONE NUM",
-    "interface_1_notes",
-    "interface_2_type",
-    "contact_2_note",
-    "contact_1_address_city",
     "contact_1_note",
-    "interface_1_statFormat",
-    "status",
-    "Alternative Names",
-    "address_state",
-    "contact_1_email",
-    "interface_1_name",
-    "address_category",
-    "contact_1_phone",
-    "contact_2_address_line1",
-    "interface_1_statNotes",
-    "contact_2_lname",
-    "EMAIL",
-    "org_type",
-    "contact_1_lname",
-    "interface_1_username",
-    "address_line_1",
-    "Alt name type",
-    "contact_1_address_line1",
     "address_zip",
-    "interface_2_name",
-    "Not mapped",
-    "VENNAME",
-    "contact_2_fname",
+    "PHONE NUM",
+    "contact_2_address_line1",
+    "address_line_1",
+    "contact_1_address_city",
+    "org_type",
+    "address_city",
     "contact_2_email",
-    "phone_category",
-    "Active",
-    "org_note",
-    "interface_1_uri",
-    "interface_1_delivery",
+    "contact_1_email",
     "contact_1_fname",
-    "interface_1_localLocation",
+    "Alternative Names",
+    "email_category",
+    "contact_1_address_line1",
+    "contact_1_phone",
+    "contact_2_address_city",
+    "contact_2_note",
+    "phone_category",
+    "org_note",
+    "status",
+    "VENNAME",
+    "Alt name type",
+    "contact_1_lname",
+    "address_state",
+    "EMAIL",
+    "Active",
+    "contact_2_fname",
+    "vendor_code",
+    "address_category",
+    "contact_2_lname",
     "ACCTNUM"
-]	transform_orgs	mapping_file_mapper_base.py:96
-2023-03-02 17:42:56,240	Mapped FOLIO fields:
+]	transform_orgs	mapping_file_mapper_base.py:95
+2023-03-21 14:22:50,892	Mapped FOLIO fields:
 [
     "accounts[0].accountNo",
     "accounts[0].accountStatus",
@@ -115,7 +94,6 @@
     "code",
     "contacts[0].firstName",
     "contacts[0].lastName",
-    "contacts[0].categories[0]",
     "contacts[0].notes",
     "contacts[0].emailAddresses[0].value",
     "contacts[0].emailAddresses[0].isPrimary",
@@ -132,132 +110,93 @@
     "contacts[1].addresses[0].addressLine1",
     "contacts[1].addresses[0].city",
     "contacts[1].addresses[0].isPrimary",
+    "description",
     "emails[0].categories[0]",
     "emails[0].value",
-    "interfaces[0].name",
-    "interfaces[0].uri",
-    "interfaces[0].interfaceCredential.username",
-    "interfaces[0].interfaceCredential.password",
-    "interfaces[0].type[0]",
-    "interfaces[0].notes",
-    "interfaces[0].available",
-    "interfaces[0].deliveryMethod",
-    "interfaces[0].statisticsFormat",
-    "interfaces[0].statisticsNotes",
-    "interfaces[0].locallyStored",
-    "interfaces[0].onlineLocation",
-    "interfaces[1].uri",
-    "interfaces[1].name",
-    "interfaces[1].type[0]",
     "legacyIdentifier",
     "name",
     "phoneNumbers[0].categories[0]",
     "phoneNumbers[0].phoneNumber",
     "status",
-    "organizationTypes",
-    "notes[0].domain",
-    "notes[0].typeId",
-    "notes[0].title",
-    "notes[0].content"
-]	transform_orgs	mapping_file_mapper_base.py:100
-2023-03-02 17:42:56,240	categories reference data mapping. Initializing	transform_orgs	ref_data_mapping.py:23
-2023-03-02 17:42:56,241	Fetching categories reference data from FOLIO	transform_orgs	ref_data_mapping.py:24
-2023-03-02 17:42:57,924	Values from categories ref data in FOLIO that are not in the map: ['Technical Support', 'Moral Support', 'Sales']	transform_orgs	ref_data_mapping.py:158
-2023-03-02 17:42:57,924	Set General as default categories mapping	transform_orgs	ref_data_mapping.py:56
-2023-03-02 17:42:57,924	Loaded 1 mappings for 5 categories in FOLIO	transform_orgs	ref_data_mapping.py:89
-2023-03-02 17:42:57,924	loaded 0 hybrid mappings for 5 categories in FOLIO	transform_orgs	ref_data_mapping.py:93
-2023-03-02 17:42:57,925	categories reference data mapping. Done init	transform_orgs	ref_data_mapping.py:35
-2023-03-02 17:42:57,925	categories reference data mapping. Initializing	transform_orgs	ref_data_mapping.py:23
-2023-03-02 17:42:57,925	Fetching categories reference data from FOLIO	transform_orgs	ref_data_mapping.py:24
-2023-03-02 17:42:59,330	Values from categories ref data in FOLIO that are not in the map: ['Moral Support', 'Returns', 'Sales']	transform_orgs	ref_data_mapping.py:158
-2023-03-02 17:42:59,331	Set General as default categories mapping	transform_orgs	ref_data_mapping.py:56
-2023-03-02 17:42:59,331	Loaded 1 mappings for 5 categories in FOLIO	transform_orgs	ref_data_mapping.py:89
-2023-03-02 17:42:59,331	loaded 0 hybrid mappings for 5 categories in FOLIO	transform_orgs	ref_data_mapping.py:93
-2023-03-02 17:42:59,331	categories reference data mapping. Done init	transform_orgs	ref_data_mapping.py:35
-2023-03-02 17:42:59,331	categories reference data mapping. Initializing	transform_orgs	ref_data_mapping.py:23
-2023-03-02 17:42:59,331	Fetching categories reference data from FOLIO	transform_orgs	ref_data_mapping.py:24
-2023-03-02 17:43:00,779	Values from categories ref data in FOLIO that are not in the map: ['Technical Support', 'Returns', 'Sales']	transform_orgs	ref_data_mapping.py:158
-2023-03-02 17:43:00,779	Set General as default categories mapping	transform_orgs	ref_data_mapping.py:56
-2023-03-02 17:43:00,779	Loaded 1 mappings for 5 categories in FOLIO	transform_orgs	ref_data_mapping.py:89
-2023-03-02 17:43:00,779	loaded 0 hybrid mappings for 5 categories in FOLIO	transform_orgs	ref_data_mapping.py:93
-2023-03-02 17:43:00,779	categories reference data mapping. Done init	transform_orgs	ref_data_mapping.py:35
-2023-03-02 17:43:00,779	organizationTypes reference data mapping. Initializing	transform_orgs	ref_data_mapping.py:23
-2023-03-02 17:43:00,780	Fetching organizationTypes reference data from FOLIO	transform_orgs	ref_data_mapping.py:24
-2023-03-02 17:43:02,363	Values from organizationTypes ref data in FOLIO that are not in the map: ['Vendor']	transform_orgs	ref_data_mapping.py:158
-2023-03-02 17:43:02,363	Set Unspecified as default organizationTypes mapping	transform_orgs	ref_data_mapping.py:56
-2023-03-02 17:43:02,363	Loaded 1 mappings for 3 organizationTypes in FOLIO	transform_orgs	ref_data_mapping.py:89
-2023-03-02 17:43:02,363	loaded 0 hybrid mappings for 3 organizationTypes in FOLIO	transform_orgs	ref_data_mapping.py:93
-2023-03-02 17:43:02,363	organizationTypes reference data mapping. Done init	transform_orgs	ref_data_mapping.py:35
-2023-03-02 17:43:03,148	Using GITHB_TOKEN environment variable for Gihub API Access	transform_orgs	FolioClient.py:257
-2023-03-02 17:43:03,474	Using GITHB_TOKEN environment variable for Gihub API Access	transform_orgs	FolioClient.py:257
-2023-03-02 17:43:03,855	MapperBase initiating	transform_orgs	mapper_base.py:33
-2023-03-02 17:43:03,856	Mapped values:
+    "organizationTypes"
+]	transform_orgs	mapping_file_mapper_base.py:99
+2023-03-21 14:22:50,892	categories reference data mapping. Initializing	transform_orgs	ref_data_mapping.py:23
+2023-03-21 14:22:50,893	Fetching categories reference data from FOLIO	transform_orgs	ref_data_mapping.py:24
+2023-03-21 14:22:52,377	Values from categories ref data in FOLIO that are not in the map: ['Sales', 'Technical Support', 'Moral Support']	transform_orgs	ref_data_mapping.py:158
+2023-03-21 14:22:52,378	Set General as default categories mapping	transform_orgs	ref_data_mapping.py:56
+2023-03-21 14:22:52,378	Loaded 1 mappings for 5 categories in FOLIO	transform_orgs	ref_data_mapping.py:89
+2023-03-21 14:22:52,379	loaded 0 hybrid mappings for 5 categories in FOLIO	transform_orgs	ref_data_mapping.py:93
+2023-03-21 14:22:52,379	categories reference data mapping. Done init	transform_orgs	ref_data_mapping.py:35
+2023-03-21 14:22:52,379	categories reference data mapping. Initializing	transform_orgs	ref_data_mapping.py:23
+2023-03-21 14:22:52,380	Fetching categories reference data from FOLIO	transform_orgs	ref_data_mapping.py:24
+2023-03-21 14:22:53,884	Values from categories ref data in FOLIO that are not in the map: ['Sales', 'Returns', 'Moral Support']	transform_orgs	ref_data_mapping.py:158
+2023-03-21 14:22:53,885	Set General as default categories mapping	transform_orgs	ref_data_mapping.py:56
+2023-03-21 14:22:53,885	Loaded 1 mappings for 5 categories in FOLIO	transform_orgs	ref_data_mapping.py:89
+2023-03-21 14:22:53,885	loaded 0 hybrid mappings for 5 categories in FOLIO	transform_orgs	ref_data_mapping.py:93
+2023-03-21 14:22:53,886	categories reference data mapping. Done init	transform_orgs	ref_data_mapping.py:35
+2023-03-21 14:22:53,886	categories reference data mapping. Initializing	transform_orgs	ref_data_mapping.py:23
+2023-03-21 14:22:53,886	Fetching categories reference data from FOLIO	transform_orgs	ref_data_mapping.py:24
+2023-03-21 14:22:55,338	Values from categories ref data in FOLIO that are not in the map: ['Sales', 'Technical Support', 'Returns']	transform_orgs	ref_data_mapping.py:158
+2023-03-21 14:22:55,339	Set General as default categories mapping	transform_orgs	ref_data_mapping.py:56
+2023-03-21 14:22:55,339	Loaded 1 mappings for 5 categories in FOLIO	transform_orgs	ref_data_mapping.py:89
+2023-03-21 14:22:55,339	loaded 0 hybrid mappings for 5 categories in FOLIO	transform_orgs	ref_data_mapping.py:93
+2023-03-21 14:22:55,339	categories reference data mapping. Done init	transform_orgs	ref_data_mapping.py:35
+2023-03-21 14:22:55,339	organizationTypes reference data mapping. Initializing	transform_orgs	ref_data_mapping.py:23
+2023-03-21 14:22:55,339	Fetching organizationTypes reference data from FOLIO	transform_orgs	ref_data_mapping.py:24
+2023-03-21 14:22:56,816	Values from organizationTypes ref data in FOLIO that are not in the map: ['Vendor', 'Unspecified']	transform_orgs	ref_data_mapping.py:158
+2023-03-21 14:22:56,816	Set General as default organizationTypes mapping	transform_orgs	ref_data_mapping.py:56
+2023-03-21 14:22:56,817	Loaded 1 mappings for 4 organizationTypes in FOLIO	transform_orgs	ref_data_mapping.py:89
+2023-03-21 14:22:56,817	loaded 0 hybrid mappings for 4 organizationTypes in FOLIO	transform_orgs	ref_data_mapping.py:93
+2023-03-21 14:22:56,817	organizationTypes reference data mapping. Done init	transform_orgs	ref_data_mapping.py:35
+2023-03-21 14:22:57,545	Using GITHB_TOKEN environment variable for Gihub API Access	transform_orgs	FolioClient.py:257
+2023-03-21 14:22:57,625	Using GITHB_TOKEN environment variable for Gihub API Access	transform_orgs	FolioClient.py:257
+2023-03-21 14:22:57,696	MapperBase initiating	transform_orgs	mapper_base.py:33
+2023-03-21 14:22:57,696	Mapped values:
 {
     "addresses[0].isPrimary": true,
     "contacts[0].addresses[0].isPrimary": true,
     "contacts[0].emailAddresses[0].isPrimary": true,
     "contacts[0].phoneNumbers[0].isPrimary": true,
     "contacts[1].addresses[0].isPrimary": true,
-    "contacts[1].emailAddresses[0].isPrimary": true,
-    "interfaces[0].available": true,
-    "interfaces[1].type[0]": "Admin",
-    "notes[0].domain": "organizations",
-    "notes[0].title": "Migrated note",
-    "notes[0].typeId": "f5bba0d2-7732-4687-8311-a2cb0eaa12e5"
-}	transform_orgs	mapping_file_mapper_base.py:70
-2023-03-02 17:43:03,856	Statistical codes map is not set up	transform_orgs	mapping_file_mapper_base.py:119
-2023-03-02 17:43:03,857	Mapped legacy fields:
+    "contacts[1].emailAddresses[0].isPrimary": true
+}	transform_orgs	mapping_file_mapper_base.py:69
+2023-03-21 14:22:57,697	Statistical codes map is not set up	transform_orgs	mapping_file_mapper_base.py:118
+2023-03-21 14:22:57,698	Mapped legacy fields:
 [
     "",
-    "vendor_code",
-    "interface_1_type",
-    "interface_1_password",
-    "interface_1_onlineLocation",
-    "interface_2_uri",
-    "address_city",
-    "email_category",
-    "contact_1_categories",
-    "contact_2_address_city",
-    "PHONE NUM",
-    "interface_1_notes",
-    "interface_2_type",
-    "contact_2_note",
-    "contact_1_address_city",
     "contact_1_note",
-    "interface_1_statFormat",
-    "status",
-    "Alternative Names",
-    "address_state",
-    "contact_1_email",
-    "interface_1_name",
-    "address_category",
-    "contact_1_phone",
-    "contact_2_address_line1",
-    "interface_1_statNotes",
-    "contact_2_lname",
-    "EMAIL",
-    "org_type",
-    "contact_1_lname",
-    "interface_1_username",
-    "address_line_1",
-    "Alt name type",
-    "contact_1_address_line1",
     "address_zip",
-    "interface_2_name",
-    "Not mapped",
-    "VENNAME",
-    "contact_2_fname",
+    "PHONE NUM",
+    "contact_2_address_line1",
+    "address_line_1",
+    "contact_1_address_city",
+    "org_type",
+    "address_city",
     "contact_2_email",
-    "phone_category",
-    "Active",
-    "org_note",
-    "interface_1_uri",
-    "interface_1_delivery",
+    "contact_1_email",
     "contact_1_fname",
-    "interface_1_localLocation",
+    "Alternative Names",
+    "email_category",
+    "contact_1_address_line1",
+    "contact_1_phone",
+    "contact_2_address_city",
+    "contact_2_note",
+    "phone_category",
+    "org_note",
+    "status",
+    "VENNAME",
+    "Alt name type",
+    "contact_1_lname",
+    "address_state",
+    "EMAIL",
+    "Active",
+    "contact_2_fname",
+    "vendor_code",
+    "address_category",
+    "contact_2_lname",
     "ACCTNUM"
-]	transform_orgs	mapping_file_mapper_base.py:96
-2023-03-02 17:43:03,857	Mapped FOLIO fields:
+]	transform_orgs	mapping_file_mapper_base.py:95
+2023-03-21 14:22:57,699	Mapped FOLIO fields:
 [
     "accounts[0].accountNo",
     "accounts[0].accountStatus",
@@ -272,7 +211,6 @@
     "code",
     "contacts[0].firstName",
     "contacts[0].lastName",
-    "contacts[0].categories[0]",
     "contacts[0].notes",
     "contacts[0].emailAddresses[0].value",
     "contacts[0].emailAddresses[0].isPrimary",
@@ -289,42 +227,24 @@
     "contacts[1].addresses[0].addressLine1",
     "contacts[1].addresses[0].city",
     "contacts[1].addresses[0].isPrimary",
+    "description",
     "emails[0].categories[0]",
     "emails[0].value",
-    "interfaces[0].name",
-    "interfaces[0].uri",
-    "interfaces[0].interfaceCredential.username",
-    "interfaces[0].interfaceCredential.password",
-    "interfaces[0].type[0]",
-    "interfaces[0].notes",
-    "interfaces[0].available",
-    "interfaces[0].deliveryMethod",
-    "interfaces[0].statisticsFormat",
-    "interfaces[0].statisticsNotes",
-    "interfaces[0].locallyStored",
-    "interfaces[0].onlineLocation",
-    "interfaces[1].uri",
-    "interfaces[1].name",
-    "interfaces[1].type[0]",
     "legacyIdentifier",
     "name",
     "phoneNumbers[0].categories[0]",
     "phoneNumbers[0].phoneNumber",
     "status",
-    "organizationTypes",
-    "notes[0].domain",
-    "notes[0].typeId",
-    "notes[0].title",
-    "notes[0].content"
-]	transform_orgs	mapping_file_mapper_base.py:100
-2023-03-02 17:43:03,857	Set 4 props used for note mapping	transform_orgs	notes_mapper.py:39
-2023-03-02 17:43:03,857	Initiated mapper for Notes	transform_orgs	notes_mapper.py:40
-2023-03-02 17:43:03,858	Getting started!	transform_orgs	organization_transformer.py:195
-2023-03-02 17:43:03,858	Processing ../../migration_example/iterations/test_run/source_data/organizations/test_organizations.tsv	transform_orgs	organization_transformer.py:197
-2023-03-02 17:43:03,860	Source data file contains 3 rows	transform_orgs	mapping_file_mapper_base.py:670
-2023-03-02 17:43:03,866	Source data file contains 0 empty rows	transform_orgs	mapping_file_mapper_base.py:671
-2023-03-02 17:43:03,866	First legacy record:	transform_orgs	organization_transformer.py:141
-2023-03-02 17:43:03,867	{
+    "organizationTypes"
+]	transform_orgs	mapping_file_mapper_base.py:99
+2023-03-21 14:22:57,699	Set 0 props used for note mapping	transform_orgs	notes_mapper.py:40
+2023-03-21 14:22:57,700	Initiated mapper for Notes	transform_orgs	notes_mapper.py:41
+2023-03-21 14:22:57,700	Getting started!	transform_orgs	organization_transformer.py:195
+2023-03-21 14:22:57,700	Processing /home/theodor/client_data/migration_example/iterations/test_run/source_data/organizations/test_organizations.tsv	transform_orgs	organization_transformer.py:197
+2023-03-21 14:22:57,703	Source data file contains 3 rows	transform_orgs	mapping_file_mapper_base.py:674
+2023-03-21 14:22:57,703	Source data file contains 0 empty rows	transform_orgs	mapping_file_mapper_base.py:675
+2023-03-21 14:22:57,704	First legacy record:	transform_orgs	organization_transformer.py:141
+2023-03-21 14:22:57,704	{
     "status": "Pending",
     "VENNAME": "Baskerville Estate",
     "Alternative Names": "The Baskervilles",
@@ -344,7 +264,6 @@
     "org_type": "cst",
     "contact_1_fname": "Henry",
     "contact_1_lname": "Baskerville",
-    "contact_1_categories": "mspt<^>sls",
     "contact_1_note": "Enquire via email about dog for sale. It's very adorable.",
     "contact_1_email": "ilovecats@thisisaficitonalemail.com",
     "contact_1_address_line1": "The reading room",
@@ -357,33 +276,21 @@
     "contact_2_email": "",
     "contact_2_address_line1": "",
     "contact_2_address_line2": "",
-    "contact_2_address_line3": "",
-    "interface_1_name": "British Beekeeper's Association",
-    "interface_1_uri": "https://www.bbka.org.uk/",
-    "interface_1_username": "",
-    "interface_1_password": "",
-    "interface_1_type": "Other",
-    "interface_1_notes": "",
-    "interface_1_delivery": "",
-    "interface_1_statFormat": "",
-    "interface_1_statNotes": "",
-    "interface_1_localLocation": "",
-    "interface_1_onlineLocation": "",
-    "interface_2_uri": "",
-    "interface_2_name": ""
+    "contact_2_address_city": ""
 }	transform_orgs	organization_transformer.py:142
-2023-03-02 17:43:03,868	fetching current user..	transform_orgs	FolioClient.py:37
-2023-03-02 17:43:04,759	First FOLIO record:	transform_orgs	organization_transformer.py:162
-2023-03-02 17:43:04,760	{
+2023-03-21 14:22:57,705	fetching current user..	transform_orgs	FolioClient.py:37
+2023-03-21 14:22:58,574	First FOLIO record:	transform_orgs	organization_transformer.py:162
+2023-03-21 14:22:58,574	{
     "id": "bbf61aa3-05ea-5d15-99c8-e3e547001543",
     "metadata": {
-        "createdDate": "2023-03-02T16:43:04.752",
-        "createdByUserId": "2ab89151-55d2-4a96-96a7-d5d8066e4044",
-        "updatedDate": "2023-03-02T16:43:04.752",
-        "updatedByUserId": "2ab89151-55d2-4a96-96a7-d5d8066e4044"
+        "createdDate": "2023-03-21T13:22:58.558",
+        "createdByUserId": "bb78777e-d13b-4612-9383-54d2b17f6d5d",
+        "updatedDate": "2023-03-21T13:22:58.558",
+        "updatedByUserId": "bb78777e-d13b-4612-9383-54d2b17f6d5d"
     },
     "name": "Baskerville Estate",
     "code": "BAE",
+    "description": "Watch out for dogs.",
     "exportToAccounting": false,
     "status": "Pending",
     "organizationTypes": [
@@ -414,18 +321,15 @@
         }
     ],
     "contacts": [
-        "ae5cd7ad-6cea-440a-9e30-6609df80e972"
-    ],
-    "interfaces": [
-        "86adcf0f-da9c-401a-9576-e64d39ce8c51"
+        "08af23ce-4e68-4c6e-bfa4-6ee96e36df5a"
     ],
     "isVendor": false
 }	transform_orgs	organization_transformer.py:163
-2023-03-02 17:43:04,775	Done processing ../../migration_example/iterations/test_run/source_data/organizations/test_organizations.tsv containing 3 records. Total records processed: 3	transform_orgs	organization_transformer.py:189
-2023-03-02 17:43:04,775	Done. Transformer wrapping up...	transform_orgs	organization_transformer.py:210
-2023-03-02 17:43:04,776	Writing migration- and mapping report to ../../migration_example/iterations/test_run/reports/report_transform_orgs.md	transform_orgs	organization_transformer.py:213
-2023-03-02 17:43:04,776	Elapsed time: 0:00:16.848884	transform_orgs	migration_report.py:74
-2023-03-02 17:43:04,777	Removing data issues file since it is empty	transform_orgs	migration_task_base.py:88
-2023-03-02 17:43:04,777	Removed data issues file since it was empty	transform_orgs	migration_task_base.py:90
-2023-03-02 17:43:04,777	All done!	transform_orgs	organization_transformer.py:230
-2023-03-02 17:43:04,777	Work done. Shutting down	transform_orgs	__main__.py:102
+2023-03-21 14:22:58,598	Done processing /home/theodor/client_data/migration_example/iterations/test_run/source_data/organizations/test_organizations.tsv containing 3 records. Total records processed: 3	transform_orgs	organization_transformer.py:189
+2023-03-21 14:22:58,599	Done. Transformer wrapping up...	transform_orgs	organization_transformer.py:210
+2023-03-21 14:22:58,601	Writing migration- and mapping report to /home/theodor/client_data/migration_example/iterations/test_run/reports/report_transform_orgs.md	transform_orgs	organization_transformer.py:213
+2023-03-21 14:22:58,603	Elapsed time: 0:00:12.957103	transform_orgs	migration_report.py:74
+2023-03-21 14:22:58,605	Removing data issues file since it is empty	transform_orgs	migration_task_base.py:88
+2023-03-21 14:22:58,607	Removed data issues file since it was empty	transform_orgs	migration_task_base.py:90
+2023-03-21 14:22:58,608	All done!	transform_orgs	organization_transformer.py:230
+2023-03-21 14:22:58,608	Work done. Shutting down	transform_orgs	__main__.py:102
