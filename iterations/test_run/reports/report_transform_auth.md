@@ -4,9 +4,9 @@
    
 Measure | Value   
 --- | ---:   
-Time Started: | 2023-02-16T21:36:44.759653+00:00   
-Time Finished: | 2023-02-16T21:38:30.674123+00:00   
-Elapsed time: | 0:01:45.914470   
+Time Started: | 2023-03-27T09:03:04.282795+00:00   
+Time Finished: | 2023-03-27T09:04:22.069571+00:00   
+Elapsed time: | 0:01:17.786776   
    
 ## General statistics    
 A list of general counters to outline the transformation as a whole.    
@@ -158,7 +158,7 @@ Source of heading or term: wikiped | 1
 </details>   
    
 ## Mapped note types    
-Library action: **REVIEW** <br/>The created FOLIO instances contain the following Note type values.  <br/>The library should review the total number for each value against what they would expect to see mapped.    
+Library action: **REVIEW** <br/>The created FOLIO records contain the following Note type values.  <br/>The library should review the total number for each value against what they would expect to see mapped.    
 <details><summary>Click to expand all 2 things</summary>     
    
 Measure | Count   

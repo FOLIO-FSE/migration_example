@@ -1,25 +1,25 @@
-2023-03-21 14:12:43,339	Logging set up	post_mfhd_items	migration_task_base.py:213
-2023-03-21 14:12:43,340	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	post_mfhd_items	folder_structure.py:47
-2023-03-21 14:12:43,340	Git ignore is set up correctly	post_mfhd_items	folder_structure.py:48
-2023-03-21 14:12:43,340	Base folder is /home/theodor/client_data/migration_example	post_mfhd_items	folder_structure.py:49
-2023-03-21 14:12:43,340	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	post_mfhd_items	folder_structure.py:50
-2023-03-21 14:12:43,340	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	post_mfhd_items	folder_structure.py:51
-2023-03-21 14:12:43,340	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	post_mfhd_items	folder_structure.py:52
-2023-03-21 14:12:43,341	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	post_mfhd_items	folder_structure.py:53
-2023-03-21 14:12:43,341	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_other_post_mfhd_items.log	post_mfhd_items	folder_structure.py:54
-2023-03-21 14:12:43,341	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_post_mfhd_items.extradata	post_mfhd_items	folder_structure.py:55
-2023-03-21 14:12:43,341	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_post_mfhd_items.tsv	post_mfhd_items	folder_structure.py:56
-2023-03-21 14:12:43,341	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_other_post_mfhd_items.json	post_mfhd_items	folder_structure.py:57
-2023-03-21 14:12:43,341	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_post_mfhd_items.md	post_mfhd_items	folder_structure.py:58
-2023-03-21 14:12:43,341	MigrationTaskBase init done	post_mfhd_items	migration_task_base.py:77
-2023-03-21 14:12:43,342	Batch size is 250	post_mfhd_items	batch_poster.py:90
-2023-03-21 14:12:43,342	Running /home/theodor/client_data/migration_example/iterations/test_run/results/folio_items_transform_mfhd_items.json	post_mfhd_items	batch_poster.py:109
-2023-03-21 14:12:43,342	{
+2023-03-27 11:34:26,590	Logging set up	post_mfhd_items	migration_task_base.py:213
+2023-03-27 11:34:26,591	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	post_mfhd_items	folder_structure.py:47
+2023-03-27 11:34:26,591	Git ignore is set up correctly	post_mfhd_items	folder_structure.py:48
+2023-03-27 11:34:26,591	Base folder is /home/theodor/client_data/migration_example	post_mfhd_items	folder_structure.py:49
+2023-03-27 11:34:26,591	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	post_mfhd_items	folder_structure.py:50
+2023-03-27 11:34:26,591	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	post_mfhd_items	folder_structure.py:51
+2023-03-27 11:34:26,591	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	post_mfhd_items	folder_structure.py:52
+2023-03-27 11:34:26,592	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	post_mfhd_items	folder_structure.py:53
+2023-03-27 11:34:26,592	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_other_post_mfhd_items.log	post_mfhd_items	folder_structure.py:54
+2023-03-27 11:34:26,592	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_post_mfhd_items.extradata	post_mfhd_items	folder_structure.py:55
+2023-03-27 11:34:26,592	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_post_mfhd_items.tsv	post_mfhd_items	folder_structure.py:56
+2023-03-27 11:34:26,592	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_other_post_mfhd_items.json	post_mfhd_items	folder_structure.py:57
+2023-03-27 11:34:26,592	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_post_mfhd_items.md	post_mfhd_items	folder_structure.py:58
+2023-03-27 11:34:26,592	MigrationTaskBase init done	post_mfhd_items	migration_task_base.py:77
+2023-03-27 11:34:26,592	Batch size is 250	post_mfhd_items	batch_poster.py:97
+2023-03-27 11:34:26,593	Running /home/theodor/client_data/migration_example/iterations/test_run/results/folio_items_transform_mfhd_items.json	post_mfhd_items	batch_poster.py:116
+2023-03-27 11:34:26,593	{
  "id": "01006508-da70-57b2-9161-072579f619c1",
  "metadata": {
-  "createdDate": "2023-03-21T13:09:39.263",
+  "createdDate": "2023-03-27T09:32:44.471",
   "createdByUserId": "bb78777e-d13b-4612-9383-54d2b17f6d5d",
-  "updatedDate": "2023-03-21T13:09:39.263",
+  "updatedDate": "2023-03-27T09:32:44.471",
   "updatedByUserId": "bb78777e-d13b-4612-9383-54d2b17f6d5d"
  },
  "hrid": "1433099",
@@ -46,17 +46,17 @@
  ],
  "status": {
   "name": "Available",
-  "date": "2023-03-21T13:09:39.269368+00:00"
+  "date": "2023-03-27T09:32:44.475339+00:00"
  },
  "materialTypeId": "4eea3f27-8910-46fc-9666-e2b44326c2b8",
  "permanentLoanTypeId": "2e48e713-17f3-4c13-a9f8-23845bb210a4"
-}	post_mfhd_items	batch_poster.py:172
-2023-03-21 14:12:44,120	Posting successful! Total rows: 3 Total failed: 0 in 0.77379s Batch Size: 3 Request size: 2.98KB 	post_mfhd_items	batch_poster.py:267
-2023-03-21 14:12:44,121	Done posting 3 records. 	post_mfhd_items	batch_poster.py:155
-2023-03-21 14:12:44,121	Done. Wrapping up	post_mfhd_items	batch_poster.py:384
-2023-03-21 14:12:44,122	Removing extradata file since it is empty	post_mfhd_items	extradata_writer.py:45
-2023-03-21 14:12:44,122	Failed records: 0 failed records in 0 failed batches. Failed records saved to /home/theodor/client_data/migration_example/iterations/test_run/results/failed_records_post_mfhd_items_20230321-141243.txt	post_mfhd_items	batch_poster.py:389
-2023-03-21 14:12:44,123	Elapsed time: 0:00:01.557479	post_mfhd_items	migration_report.py:74
-2023-03-21 14:12:44,124	Removing data issues file since it is empty	post_mfhd_items	migration_task_base.py:88
-2023-03-21 14:12:44,124	Removed data issues file since it was empty	post_mfhd_items	migration_task_base.py:90
-2023-03-21 14:12:44,124	Work done. Shutting down	post_mfhd_items	__main__.py:102
+}	post_mfhd_items	batch_poster.py:179
+2023-03-27 11:34:27,568	Posting successful! Total rows: 6 Total failed: 0 in 0.966926s Batch Size: 6 Request size: 5.48KB 	post_mfhd_items	batch_poster.py:274
+2023-03-27 11:34:27,568	Done posting 6 records. 	post_mfhd_items	batch_poster.py:162
+2023-03-27 11:34:27,569	Done. Wrapping up	post_mfhd_items	batch_poster.py:391
+2023-03-27 11:34:27,569	Removing extradata file since it is empty	post_mfhd_items	extradata_writer.py:45
+2023-03-27 11:34:27,569	Failed records: 0 failed records in 0 failed batches. Failed records saved to /home/theodor/client_data/migration_example/iterations/test_run/results/failed_records_post_mfhd_items_20230327-113426.txt	post_mfhd_items	batch_poster.py:396
+2023-03-27 11:34:27,570	Elapsed time: 0:00:01.996272	post_mfhd_items	migration_report.py:74
+2023-03-27 11:34:27,570	Removing data issues file since it is empty	post_mfhd_items	migration_task_base.py:88
+2023-03-27 11:34:27,570	Removed data issues file since it was empty	post_mfhd_items	migration_task_base.py:90
+2023-03-27 11:34:27,570	Work done. Shutting down	post_mfhd_items	__main__.py:102

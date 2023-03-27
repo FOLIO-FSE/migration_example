@@ -4,9 +4,9 @@
    
 Measure | Value   
 --- | ---:   
-Time Started: | 2023-03-21T13:12:25.532455+00:00   
-Time Finished: | 2023-03-21T13:12:27.212038+00:00   
-Elapsed time: | 0:00:01.679583   
+Time Started: | 2023-03-27T09:31:43.327450+00:00   
+Time Finished: | 2023-03-27T09:31:47.734694+00:00   
+Elapsed time: | 0:00:04.407244   
    
 ##     
     
@@ -16,5 +16,5 @@ Measure | Count
 --- | ---:   
 Failed to post first time | 0   
 Records posted first time | 0   
-Records processed first time | 4   
+Records processed first time | 10   
 </details>   

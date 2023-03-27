@@ -4,9 +4,9 @@
    
 Measure | Value   
 --- | ---:   
-Time Started: | 2023-02-16T21:49:50.364020+00:00   
-Time Finished: | 2023-02-16T21:49:52.269711+00:00   
-Elapsed time: | 0:00:01.905691   
+Time Started: | 2023-03-27T09:30:16.394102+00:00   
+Time Finished: | 2023-03-27T09:30:20.160219+00:00   
+Elapsed time: | 0:00:03.766117   
    
 ## General statistics    
 A list of general counters to outline the transformation as a whole.    
@@ -16,6 +16,6 @@ Measure | Count
 --- | ---:   
 Failed to post first time | 0   
 Records posted first time | 0   
-Records processed first time | 14   
-Set _version to -1 to enable upsert | 14   
+Records processed first time | 26   
+Set _version to -1 to enable upsert | 26   
 </details>   

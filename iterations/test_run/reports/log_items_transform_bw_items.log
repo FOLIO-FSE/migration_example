@@ -1,52 +1,52 @@
-2023-03-21 14:17:02,441	Logging set up	transform_bw_items	migration_task_base.py:213
-2023-03-21 14:17:02,442	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	transform_bw_items	folder_structure.py:47
-2023-03-21 14:17:02,442	Git ignore is set up correctly	transform_bw_items	folder_structure.py:48
-2023-03-21 14:17:02,442	Base folder is /home/theodor/client_data/migration_example	transform_bw_items	folder_structure.py:49
-2023-03-21 14:17:02,442	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	transform_bw_items	folder_structure.py:50
-2023-03-21 14:17:02,442	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	transform_bw_items	folder_structure.py:51
-2023-03-21 14:17:02,442	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	transform_bw_items	folder_structure.py:52
-2023-03-21 14:17:02,442	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data/items	transform_bw_items	folder_structure.py:53
-2023-03-21 14:17:02,442	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_items_transform_bw_items.log	transform_bw_items	folder_structure.py:54
-2023-03-21 14:17:02,443	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_transform_bw_items.extradata	transform_bw_items	folder_structure.py:55
-2023-03-21 14:17:02,443	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_transform_bw_items.tsv	transform_bw_items	folder_structure.py:56
-2023-03-21 14:17:02,443	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_items_transform_bw_items.json	transform_bw_items	folder_structure.py:57
-2023-03-21 14:17:02,443	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_transform_bw_items.md	transform_bw_items	folder_structure.py:58
-2023-03-21 14:17:02,443	MigrationTaskBase init done	transform_bw_items	migration_task_base.py:77
-2023-03-21 14:17:02,443	Files to process:	transform_bw_items	migration_task_base.py:129
-2023-03-21 14:17:02,443		/home/theodor/client_data/migration_example/iterations/test_run/source_data/items/bw_items.tsv	transform_bw_items	migration_task_base.py:131
-2023-03-21 14:17:02,444	54 fields in mapping file map	transform_bw_items	migration_task_base.py:218
-2023-03-21 14:17:02,444	9 Mapped fields in mapping file map	transform_bw_items	migration_task_base.py:224
-2023-03-21 14:17:02,444	/home/theodor/client_data/migration_example/mapping_files/temp_loan_types.tsv not found. No temporary loan type mapping will be performed	transform_bw_items	items_transformer.py:97
-2023-03-21 14:17:02,444	 not found. No temporary location mapping will be performed	transform_bw_items	items_transformer.py:114
-2023-03-21 14:17:02,445	Found 3 rows in materialTypeId map	transform_bw_items	migration_task_base.py:281
-2023-03-21 14:17:02,445	folio_name, MAT TYPE will be used for determinig materialTypeId	transform_bw_items	migration_task_base.py:295
-2023-03-21 14:17:02,445	Found 3 rows in permanentLoanTypeId map	transform_bw_items	migration_task_base.py:281
-2023-03-21 14:17:02,445	folio_name, I TYPE will be used for determinig permanentLoanTypeId	transform_bw_items	migration_task_base.py:295
-2023-03-21 14:17:02,446	Found 5 rows in permanentLocationId map	transform_bw_items	migration_task_base.py:281
-2023-03-21 14:17:02,446	LOCATION, folio_code will be used for determinig permanentLocationId	transform_bw_items	migration_task_base.py:295
-2023-03-21 14:17:02,446	No mapping setup for itemLevelCallNumberTypeId	transform_bw_items	migration_task_base.py:305
-2023-03-21 14:17:02,446	itemLevelCallNumberTypeId will have default mapping if any 	transform_bw_items	migration_task_base.py:306
-2023-03-21 14:17:02,446	Add a file named /home/theodor/client_data/migration_example/mapping_files/call_number_type_mapping.tsv and add the field to the item.mapping.json file.	transform_bw_items	migration_task_base.py:307
-2023-03-21 14:17:02,447	Loaded 29 migrated IDs	transform_bw_items	migration_task_base.py:152
-2023-03-21 14:17:02,447	No mapping setup for status.name	transform_bw_items	migration_task_base.py:305
-2023-03-21 14:17:02,447	status.name will have default mapping if any 	transform_bw_items	migration_task_base.py:306
-2023-03-21 14:17:02,447	Add a file named /home/theodor/client_data/migration_example/mapping_files/item_statuses.tsv and add the field to the item.mapping.json file.	transform_bw_items	migration_task_base.py:307
-2023-03-21 14:17:03,200	Using GITHB_TOKEN environment variable for Gihub API Access	transform_bw_items	FolioClient.py:257
-2023-03-21 14:17:03,495	MapperBase initiating	transform_bw_items	mapper_base.py:33
-2023-03-21 14:17:03,496	Legacy identifier will be mapped from RECORD #(ITEM)	transform_bw_items	mapping_file_mapper_base.py:145
-2023-03-21 14:17:03,496	Mapped values:
+2023-03-27 11:38:49,263	Logging set up	transform_bw_items	migration_task_base.py:213
+2023-03-27 11:38:49,264	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	transform_bw_items	folder_structure.py:47
+2023-03-27 11:38:49,264	Git ignore is set up correctly	transform_bw_items	folder_structure.py:48
+2023-03-27 11:38:49,264	Base folder is /home/theodor/client_data/migration_example	transform_bw_items	folder_structure.py:49
+2023-03-27 11:38:49,264	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	transform_bw_items	folder_structure.py:50
+2023-03-27 11:38:49,264	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	transform_bw_items	folder_structure.py:51
+2023-03-27 11:38:49,265	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	transform_bw_items	folder_structure.py:52
+2023-03-27 11:38:49,265	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data/items	transform_bw_items	folder_structure.py:53
+2023-03-27 11:38:49,265	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_items_transform_bw_items.log	transform_bw_items	folder_structure.py:54
+2023-03-27 11:38:49,265	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_transform_bw_items.extradata	transform_bw_items	folder_structure.py:55
+2023-03-27 11:38:49,265	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_transform_bw_items.tsv	transform_bw_items	folder_structure.py:56
+2023-03-27 11:38:49,265	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_items_transform_bw_items.json	transform_bw_items	folder_structure.py:57
+2023-03-27 11:38:49,266	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_transform_bw_items.md	transform_bw_items	folder_structure.py:58
+2023-03-27 11:38:49,266	MigrationTaskBase init done	transform_bw_items	migration_task_base.py:77
+2023-03-27 11:38:49,266	Files to process:	transform_bw_items	migration_task_base.py:129
+2023-03-27 11:38:49,266		/home/theodor/client_data/migration_example/iterations/test_run/source_data/items/bw_items.tsv	transform_bw_items	migration_task_base.py:131
+2023-03-27 11:38:49,267	54 fields in mapping file map	transform_bw_items	migration_task_base.py:218
+2023-03-27 11:38:49,267	9 Mapped fields in mapping file map	transform_bw_items	migration_task_base.py:224
+2023-03-27 11:38:49,267	/home/theodor/client_data/migration_example/mapping_files/temp_loan_types.tsv not found. No temporary loan type mapping will be performed	transform_bw_items	items_transformer.py:109
+2023-03-27 11:38:49,268	 not found. No temporary location mapping will be performed	transform_bw_items	items_transformer.py:140
+2023-03-27 11:38:49,268	Found 3 rows in materialTypeId map	transform_bw_items	migration_task_base.py:281
+2023-03-27 11:38:49,268	folio_name, MAT TYPE will be used for determinig materialTypeId	transform_bw_items	migration_task_base.py:295
+2023-03-27 11:38:49,269	Found 3 rows in permanentLoanTypeId map	transform_bw_items	migration_task_base.py:281
+2023-03-27 11:38:49,269	folio_name, I TYPE will be used for determinig permanentLoanTypeId	transform_bw_items	migration_task_base.py:295
+2023-03-27 11:38:49,269	Found 5 rows in permanentLocationId map	transform_bw_items	migration_task_base.py:281
+2023-03-27 11:38:49,269	LOCATION, folio_code will be used for determinig permanentLocationId	transform_bw_items	migration_task_base.py:295
+2023-03-27 11:38:49,269	No mapping setup for itemLevelCallNumberTypeId	transform_bw_items	migration_task_base.py:305
+2023-03-27 11:38:49,269	itemLevelCallNumberTypeId will have default mapping if any 	transform_bw_items	migration_task_base.py:306
+2023-03-27 11:38:49,270	Add a file named /home/theodor/client_data/migration_example/mapping_files/call_number_type_mapping.tsv and add the field to the item.mapping.json file.	transform_bw_items	migration_task_base.py:307
+2023-03-27 11:38:49,270	Loaded 35 migrated IDs	transform_bw_items	migration_task_base.py:152
+2023-03-27 11:38:49,271	No mapping setup for status.name	transform_bw_items	migration_task_base.py:305
+2023-03-27 11:38:49,271	status.name will have default mapping if any 	transform_bw_items	migration_task_base.py:306
+2023-03-27 11:38:49,271	Add a file named /home/theodor/client_data/migration_example/mapping_files/item_statuses.tsv and add the field to the item.mapping.json file.	transform_bw_items	migration_task_base.py:307
+2023-03-27 11:38:50,226	Using GITHB_TOKEN environment variable for Gihub API Access	transform_bw_items	FolioClient.py:257
+2023-03-27 11:38:50,494	MapperBase initiating	transform_bw_items	mapper_base.py:37
+2023-03-27 11:38:50,494	Legacy identifier will be mapped from RECORD #(ITEM)	transform_bw_items	mapping_file_mapper_base.py:145
+2023-03-27 11:38:50,495	Mapped values:
 {}	transform_bw_items	mapping_file_mapper_base.py:69
-2023-03-21 14:17:03,496	Statistical codes map is not set up	transform_bw_items	mapping_file_mapper_base.py:118
-2023-03-21 14:17:03,497	Mapped legacy fields:
+2023-03-27 11:38:50,495	Statistical codes map is not set up	transform_bw_items	mapping_file_mapper_base.py:118
+2023-03-27 11:38:50,498	Mapped legacy fields:
 [
-    "MAT TYPE",
     "RECORD #(ITEM)",
-    "BARCODE(ITEM)",
-    "CALL #(ITEM)",
     "I TYPE",
-    "RECORD #(BIBLIO)"
+    "MAT TYPE",
+    "RECORD #(BIBLIO)",
+    "BARCODE(ITEM)",
+    "CALL #(ITEM)"
 ]	transform_bw_items	mapping_file_mapper_base.py:95
-2023-03-21 14:17:03,497	Mapped FOLIO fields:
+2023-03-27 11:38:50,498	Mapped FOLIO fields:
 [
     "barcode",
     "legacyIdentifier",
@@ -58,35 +58,35 @@
     "materialTypeId",
     "permanentLoanTypeId"
 ]	transform_bw_items	mapping_file_mapper_base.py:99
-2023-03-21 14:17:03,497	Using GITHB_TOKEN environment variable for Gihub API Access	transform_bw_items	FolioClient.py:257
-2023-03-21 14:17:03,573	loantypes reference data mapping. Initializing	transform_bw_items	ref_data_mapping.py:23
-2023-03-21 14:17:03,573	Fetching loantypes reference data from FOLIO	transform_bw_items	ref_data_mapping.py:24
-2023-03-21 14:17:05,060	Values from loantypes ref data in FOLIO that are not in the map: ['Selected', 'Course reserves', 'lisatest']	transform_bw_items	ref_data_mapping.py:158
-2023-03-21 14:17:05,061	Set Can circulate as default loantypes mapping	transform_bw_items	ref_data_mapping.py:56
-2023-03-21 14:17:05,061	Loaded 2 mappings for 5 loantypes in FOLIO	transform_bw_items	ref_data_mapping.py:89
-2023-03-21 14:17:05,062	loaded 0 hybrid mappings for 5 loantypes in FOLIO	transform_bw_items	ref_data_mapping.py:93
-2023-03-21 14:17:05,062	loantypes reference data mapping. Done init	transform_bw_items	ref_data_mapping.py:35
-2023-03-21 14:17:05,062	mtypes reference data mapping. Initializing	transform_bw_items	ref_data_mapping.py:23
-2023-03-21 14:17:05,062	Fetching mtypes reference data from FOLIO	transform_bw_items	ref_data_mapping.py:24
-2023-03-21 14:17:06,541	Values from mtypes ref data in FOLIO that are not in the map: ['lisatest']	transform_bw_items	ref_data_mapping.py:158
-2023-03-21 14:17:06,541	Set book as default mtypes mapping	transform_bw_items	ref_data_mapping.py:56
-2023-03-21 14:17:06,541	Loaded 2 mappings for 4 mtypes in FOLIO	transform_bw_items	ref_data_mapping.py:89
-2023-03-21 14:17:06,541	loaded 0 hybrid mappings for 4 mtypes in FOLIO	transform_bw_items	ref_data_mapping.py:93
-2023-03-21 14:17:06,541	mtypes reference data mapping. Done init	transform_bw_items	ref_data_mapping.py:35
-2023-03-21 14:17:06,542	locations reference data mapping. Initializing	transform_bw_items	ref_data_mapping.py:23
-2023-03-21 14:17:06,542	Fetching locations reference data from FOLIO	transform_bw_items	ref_data_mapping.py:24
-2023-03-21 14:17:08,016	Values from locations ref data in FOLIO that are not in the map: ['this&that', 'CeeDee', 'Main Open Shelves']	transform_bw_items	ref_data_mapping.py:158
-2023-03-21 14:17:08,016	Set migration as default locations mapping	transform_bw_items	ref_data_mapping.py:56
-2023-03-21 14:17:08,017	Loaded 4 mappings for 7 locations in FOLIO	transform_bw_items	ref_data_mapping.py:89
-2023-03-21 14:17:08,017	loaded 0 hybrid mappings for 7 locations in FOLIO	transform_bw_items	ref_data_mapping.py:93
-2023-03-21 14:17:08,017	locations reference data mapping. Done init	transform_bw_items	ref_data_mapping.py:35
-2023-03-21 14:17:08,017	Init done	transform_bw_items	items_transformer.py:168
-2023-03-21 14:17:08,017	Starting....	transform_bw_items	items_transformer.py:171
-2023-03-21 14:17:08,018	Processing /home/theodor/client_data/migration_example/iterations/test_run/source_data/items/bw_items.tsv	transform_bw_items	items_transformer.py:191
-2023-03-21 14:17:08,019	Source data file contains 10 rows	transform_bw_items	mapping_file_mapper_base.py:674
-2023-03-21 14:17:08,019	Source data file contains 0 empty rows	transform_bw_items	mapping_file_mapper_base.py:675
-2023-03-21 14:17:08,019	First legacy record:	transform_bw_items	items_transformer.py:199
-2023-03-21 14:17:08,020	{
+2023-03-27 11:38:50,498	Using GITHB_TOKEN environment variable for Gihub API Access	transform_bw_items	FolioClient.py:257
+2023-03-27 11:38:50,565	loantypes reference data mapping. Initializing	transform_bw_items	ref_data_mapping.py:23
+2023-03-27 11:38:50,565	Fetching loantypes reference data from FOLIO	transform_bw_items	ref_data_mapping.py:24
+2023-03-27 11:38:53,060	Values from loantypes ref data in FOLIO that are not in the map: ['Course reserves', 'lisatest', 'Selected']	transform_bw_items	ref_data_mapping.py:158
+2023-03-27 11:38:53,061	Set Can circulate as default loantypes mapping	transform_bw_items	ref_data_mapping.py:56
+2023-03-27 11:38:53,061	Loaded 2 mappings for 5 loantypes in FOLIO	transform_bw_items	ref_data_mapping.py:89
+2023-03-27 11:38:53,061	loaded 0 hybrid mappings for 5 loantypes in FOLIO	transform_bw_items	ref_data_mapping.py:93
+2023-03-27 11:38:53,062	loantypes reference data mapping. Done init	transform_bw_items	ref_data_mapping.py:35
+2023-03-27 11:38:53,062	mtypes reference data mapping. Initializing	transform_bw_items	ref_data_mapping.py:23
+2023-03-27 11:38:53,062	Fetching mtypes reference data from FOLIO	transform_bw_items	ref_data_mapping.py:24
+2023-03-27 11:38:55,890	Values from mtypes ref data in FOLIO that are not in the map: ['lisatest']	transform_bw_items	ref_data_mapping.py:158
+2023-03-27 11:38:55,890	Set book as default mtypes mapping	transform_bw_items	ref_data_mapping.py:56
+2023-03-27 11:38:55,890	Loaded 2 mappings for 4 mtypes in FOLIO	transform_bw_items	ref_data_mapping.py:89
+2023-03-27 11:38:55,890	loaded 0 hybrid mappings for 4 mtypes in FOLIO	transform_bw_items	ref_data_mapping.py:93
+2023-03-27 11:38:55,890	mtypes reference data mapping. Done init	transform_bw_items	ref_data_mapping.py:35
+2023-03-27 11:38:55,890	locations reference data mapping. Initializing	transform_bw_items	ref_data_mapping.py:23
+2023-03-27 11:38:55,891	Fetching locations reference data from FOLIO	transform_bw_items	ref_data_mapping.py:24
+2023-03-27 11:38:59,869	Values from locations ref data in FOLIO that are not in the map: ['this&that', 'Main Open Shelves', 'CeeDee']	transform_bw_items	ref_data_mapping.py:158
+2023-03-27 11:38:59,870	Set migration as default locations mapping	transform_bw_items	ref_data_mapping.py:56
+2023-03-27 11:38:59,870	Loaded 4 mappings for 7 locations in FOLIO	transform_bw_items	ref_data_mapping.py:89
+2023-03-27 11:38:59,870	loaded 0 hybrid mappings for 7 locations in FOLIO	transform_bw_items	ref_data_mapping.py:93
+2023-03-27 11:38:59,871	locations reference data mapping. Done init	transform_bw_items	ref_data_mapping.py:35
+2023-03-27 11:38:59,871	Init done	transform_bw_items	items_transformer.py:195
+2023-03-27 11:38:59,871	Starting....	transform_bw_items	items_transformer.py:198
+2023-03-27 11:38:59,872	Processing /home/theodor/client_data/migration_example/iterations/test_run/source_data/items/bw_items.tsv	transform_bw_items	items_transformer.py:218
+2023-03-27 11:38:59,874	Source data file contains 10 rows	transform_bw_items	mapping_file_mapper_base.py:674
+2023-03-27 11:38:59,874	Source data file contains 0 empty rows	transform_bw_items	mapping_file_mapper_base.py:675
+2023-03-27 11:38:59,874	First legacy record:	transform_bw_items	items_transformer.py:226
+2023-03-27 11:38:59,874	{
     "RECORD #(BIBLIO)": "['18006871', 'oai:DiVA.org:kth-168252']",
     "RECORD #(ITEM)": "i10001037",
     "CALL #(ITEM)": "",
@@ -122,16 +122,16 @@
     "LOCATION": "jnlDesk  ",
     "I TYPE": "0",
     "MAT TYPE": "a  "
-}	transform_bw_items	items_transformer.py:200
-2023-03-21 14:17:08,020	All maped legacy fields are in the legacy object	transform_bw_items	mapping_file_mapper_base.py:753
-2023-03-21 14:17:08,021	fetching current user..	transform_bw_items	FolioClient.py:37
-2023-03-21 14:17:08,796	First FOLIO record:	transform_bw_items	items_transformer.py:209
-2023-03-21 14:17:08,796	{
+}	transform_bw_items	items_transformer.py:227
+2023-03-27 11:38:59,875	All maped legacy fields are in the legacy object	transform_bw_items	mapping_file_mapper_base.py:753
+2023-03-27 11:38:59,876	fetching current user..	transform_bw_items	FolioClient.py:37
+2023-03-27 11:39:02,355	First FOLIO record:	transform_bw_items	items_transformer.py:249
+2023-03-27 11:39:02,355	{
     "id": "03c81431-7c4d-5659-b95c-74a6b4dc24a8",
     "metadata": {
-        "createdDate": "2023-03-21T13:17:08.792",
+        "createdDate": "2023-03-27T09:39:02.351",
         "createdByUserId": "bb78777e-d13b-4612-9383-54d2b17f6d5d",
-        "updatedDate": "2023-03-21T13:17:08.792",
+        "updatedDate": "2023-03-27T09:39:02.351",
         "updatedByUserId": "bb78777e-d13b-4612-9383-54d2b17f6d5d"
     },
     "hrid": "i10001037",
@@ -143,17 +143,17 @@
     "barcode": "1-6073090204",
     "status": {
         "name": "Available",
-        "date": "2023-03-21T13:17:08.795595+00:00"
+        "date": "2023-03-27T09:39:02.353987+00:00"
     },
     "materialTypeId": "4eea3f27-8910-46fc-9666-e2b44326c2b8",
     "permanentLoanTypeId": "2b94c631-fca9-4892-a730-03ee529ffe27"
-}	transform_bw_items	items_transformer.py:210
-2023-03-21 14:17:08,812	Done processing file_name='bw_items.tsv' suppressed=False staff_suppressed=False service_point_id='' containing 10 records. Total records processed: 10	transform_bw_items	items_transformer.py:238
-2023-03-21 14:17:08,812	processed 10 records in 1 files	transform_bw_items	items_transformer.py:185
-2023-03-21 14:17:08,813	Done. Transformer wrapping up...	transform_bw_items	items_transformer.py:285
-2023-03-21 14:17:08,813	Removing extradata file since it is empty	transform_bw_items	extradata_writer.py:45
-2023-03-21 14:17:08,813	Elapsed time: 0:00:05.317980	transform_bw_items	migration_report.py:74
-2023-03-21 14:17:08,814	Removing data issues file since it is empty	transform_bw_items	migration_task_base.py:88
-2023-03-21 14:17:08,814	Removed data issues file since it was empty	transform_bw_items	migration_task_base.py:90
-2023-03-21 14:17:08,814	All done!	transform_bw_items	items_transformer.py:298
-2023-03-21 14:17:08,814	Work done. Shutting down	transform_bw_items	__main__.py:102
+}	transform_bw_items	items_transformer.py:250
+2023-03-27 11:39:02,375	Done processing file_name='bw_items.tsv' suppressed=False staff_suppressed=False service_point_id='' containing 10 records. Total records processed: 10	transform_bw_items	items_transformer.py:278
+2023-03-27 11:39:02,375	processed 10 records in 1 files	transform_bw_items	items_transformer.py:212
+2023-03-27 11:39:02,375	Done. Transformer wrapping up...	transform_bw_items	items_transformer.py:325
+2023-03-27 11:39:02,377	Removing extradata file since it is empty	transform_bw_items	extradata_writer.py:45
+2023-03-27 11:39:02,377	Elapsed time: 0:00:11.883262	transform_bw_items	migration_report.py:74
+2023-03-27 11:39:02,378	Removing data issues file since it is empty	transform_bw_items	migration_task_base.py:88
+2023-03-27 11:39:02,378	Removed data issues file since it was empty	transform_bw_items	migration_task_base.py:90
+2023-03-27 11:39:02,378	All done!	transform_bw_items	items_transformer.py:338
+2023-03-27 11:39:02,379	Work done. Shutting down	transform_bw_items	__main__.py:102

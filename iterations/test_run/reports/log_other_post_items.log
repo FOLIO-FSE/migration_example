@@ -1,0 +1,179 @@
+2023-03-27 11:43:34,173	Logging set up	post_items	migration_task_base.py:213
+2023-03-27 11:43:34,173	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	post_items	folder_structure.py:47
+2023-03-27 11:43:34,173	Git ignore is set up correctly	post_items	folder_structure.py:48
+2023-03-27 11:43:34,173	Base folder is /home/theodor/client_data/migration_example	post_items	folder_structure.py:49
+2023-03-27 11:43:34,173	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	post_items	folder_structure.py:50
+2023-03-27 11:43:34,173	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	post_items	folder_structure.py:51
+2023-03-27 11:43:34,173	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	post_items	folder_structure.py:52
+2023-03-27 11:43:34,173	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	post_items	folder_structure.py:53
+2023-03-27 11:43:34,173	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_other_post_items.log	post_items	folder_structure.py:54
+2023-03-27 11:43:34,173	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_post_items.extradata	post_items	folder_structure.py:55
+2023-03-27 11:43:34,174	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_post_items.tsv	post_items	folder_structure.py:56
+2023-03-27 11:43:34,174	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_other_post_items.json	post_items	folder_structure.py:57
+2023-03-27 11:43:34,174	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_post_items.md	post_items	folder_structure.py:58
+2023-03-27 11:43:34,174	MigrationTaskBase init done	post_items	migration_task_base.py:77
+2023-03-27 11:43:34,174	Batch size is 1	post_items	batch_poster.py:97
+2023-03-27 11:43:34,174	Running /home/theodor/client_data/migration_example/iterations/test_run/results/failed_records_post_items_20230327-114331.txt	post_items	batch_poster.py:116
+2023-03-27 11:43:34,175	{
+ "id": "01006508-da70-57b2-9161-072579f619c1",
+ "metadata": {
+  "createdDate": "2023-03-27T09:32:44.471",
+  "createdByUserId": "bb78777e-d13b-4612-9383-54d2b17f6d5d",
+  "updatedDate": "2023-03-27T09:32:44.471",
+  "updatedByUserId": "bb78777e-d13b-4612-9383-54d2b17f6d5d"
+ },
+ "hrid": "1433099",
+ "holdingsRecordId": "14c77278-fa4c-570d-84ad-0aa595ed5233",
+ "formerIds": [
+  "1433099",
+  "43500044"
+ ],
+ "barcode": "001",
+ "itemLevelCallNumber": "I.t.e.m:c.a11.numb3r",
+ "enumeration": "1",
+ "chronology": "3",
+ "yearCaption": [
+  "1990"
+ ],
+ "copyNumber": "1",
+ "numberOfPieces": "1",
+ "descriptionOfPieces": "1",
+ "notes": [
+  {
+   "itemNoteTypeId": "5a15e0f8-2802-4cbf-a4de-8f0dedd3ed3a",
+   "note": "A note"
+  }
+ ],
+ "status": {
+  "name": "Available",
+  "date": "2023-03-27T09:32:44.475339+00:00"
+ },
+ "materialTypeId": "4eea3f27-8910-46fc-9666-e2b44326c2b8",
+ "permanentLoanTypeId": "2e48e713-17f3-4c13-a9f8-23845bb210a4"
+}	post_items	batch_poster.py:179
+2023-03-27 11:43:36,604	Critical data issue. Record needs fixing		HTTP 422	Request size: 1.37KB2023-03-27T09:43:36.604331 UTC
+	{
+    "errors": [
+        {
+            "message": "id value already exists in table item: 01006508-da70-57b2-9161-072579f619c1",
+            "type": "1",
+            "code": "-1",
+            "parameters": [
+                {
+                    "key": "id",
+                    "value": "01006508-da70-57b2-9161-072579f619c1"
+                }
+            ]
+        }
+    ]
+}	post_items	batch_poster.py:242
+2023-03-27 11:43:36,605	Resetting batch...Number of failed batches: 1	post_items	batch_poster.py:248
+2023-03-27 11:43:39,374	Critical data issue. Record needs fixing		HTTP 422	Request size: 1.32KB2023-03-27T09:43:39.374302 UTC
+	{
+    "errors": [
+        {
+            "message": "id value already exists in table item: 1ddacbea-4876-563c-8bdd-fa75581a6925",
+            "type": "1",
+            "code": "-1",
+            "parameters": [
+                {
+                    "key": "id",
+                    "value": "1ddacbea-4876-563c-8bdd-fa75581a6925"
+                }
+            ]
+        }
+    ]
+}	post_items	batch_poster.py:242
+2023-03-27 11:43:39,375	Resetting batch...Number of failed batches: 2	post_items	batch_poster.py:248
+2023-03-27 11:43:41,303	Critical data issue. Record needs fixing		HTTP 422	Request size: 1.33KB2023-03-27T09:43:41.303343 UTC
+	{
+    "errors": [
+        {
+            "message": "id value already exists in table item: 14a15fbd-7848-57d7-8050-856a6529c5ff",
+            "type": "1",
+            "code": "-1",
+            "parameters": [
+                {
+                    "key": "id",
+                    "value": "14a15fbd-7848-57d7-8050-856a6529c5ff"
+                }
+            ]
+        }
+    ]
+}	post_items	batch_poster.py:242
+2023-03-27 11:43:41,304	Resetting batch...Number of failed batches: 3	post_items	batch_poster.py:248
+2023-03-27 11:43:42,173	Critical data issue. Record needs fixing		HTTP 422	Request size: 1.36KB2023-03-27T09:43:42.172957 UTC
+	{
+    "errors": [
+        {
+            "message": "id value already exists in table item: 656a610b-5b23-58c7-82e9-e32140eef304",
+            "type": "1",
+            "code": "-1",
+            "parameters": [
+                {
+                    "key": "id",
+                    "value": "656a610b-5b23-58c7-82e9-e32140eef304"
+                }
+            ]
+        }
+    ]
+}	post_items	batch_poster.py:242
+2023-03-27 11:43:42,173	Resetting batch...Number of failed batches: 4	post_items	batch_poster.py:248
+2023-03-27 11:43:45,333	Critical data issue. Record needs fixing		HTTP 422	Request size: 1.36KB2023-03-27T09:43:45.332905 UTC
+	{
+    "errors": [
+        {
+            "message": "id value already exists in table item: 73057659-a366-5066-9dfc-13b0c4f28b53",
+            "type": "1",
+            "code": "-1",
+            "parameters": [
+                {
+                    "key": "id",
+                    "value": "73057659-a366-5066-9dfc-13b0c4f28b53"
+                }
+            ]
+        }
+    ]
+}	post_items	batch_poster.py:242
+2023-03-27 11:43:45,333	Resetting batch...Number of failed batches: 5	post_items	batch_poster.py:248
+2023-03-27 11:43:47,386	Critical data issue. Record needs fixing		HTTP 422	Request size: 1.36KB2023-03-27T09:43:47.386010 UTC
+	{
+    "errors": [
+        {
+            "message": "id value already exists in table item: 0768064c-a501-528a-9715-9834fd9488fc",
+            "type": "1",
+            "code": "-1",
+            "parameters": [
+                {
+                    "key": "id",
+                    "value": "0768064c-a501-528a-9715-9834fd9488fc"
+                }
+            ]
+        }
+    ]
+}	post_items	batch_poster.py:242
+2023-03-27 11:43:47,386	Resetting batch...Number of failed batches: 6	post_items	batch_poster.py:248
+2023-03-27 11:43:49,507	Posting successful! Total rows: 7 Total failed: 6 in 2.118645s Batch Size: 1 Request size: 1.15KB 	post_items	batch_poster.py:274
+2023-03-27 11:43:50,486	Posting successful! Total rows: 8 Total failed: 6 in 0.974717s Batch Size: 1 Request size: 1.15KB 	post_items	batch_poster.py:274
+2023-03-27 11:43:52,298	Posting successful! Total rows: 9 Total failed: 6 in 1.80744s Batch Size: 1 Request size: 1.15KB 	post_items	batch_poster.py:274
+2023-03-27 11:43:53,148	Posting successful! Total rows: 10 Total failed: 6 in 0.845088s Batch Size: 1 Request size: 1.15KB 	post_items	batch_poster.py:274
+2023-03-27 11:43:54,222	Posting successful! Total rows: 11 Total failed: 6 in 1.070709s Batch Size: 1 Request size: 1.15KB 	post_items	batch_poster.py:274
+2023-03-27 11:43:57,476	Posting successful! Total rows: 12 Total failed: 6 in 3.251327s Batch Size: 1 Request size: 1.14KB 	post_items	batch_poster.py:274
+2023-03-27 11:43:59,754	Posting successful! Total rows: 13 Total failed: 6 in 2.274301s Batch Size: 1 Request size: 1.14KB 	post_items	batch_poster.py:274
+2023-03-27 11:44:01,760	Posting successful! Total rows: 14 Total failed: 6 in 2.003198s Batch Size: 1 Request size: 1.15KB 	post_items	batch_poster.py:274
+2023-03-27 11:44:03,007	Posting successful! Total rows: 15 Total failed: 6 in 1.241503s Batch Size: 1 Request size: 1.14KB 	post_items	batch_poster.py:274
+2023-03-27 11:44:04,245	Posting successful! Total rows: 16 Total failed: 6 in 1.232687s Batch Size: 1 Request size: 1.14KB 	post_items	batch_poster.py:274
+2023-03-27 11:44:06,997	Posting successful! Total rows: 17 Total failed: 6 in 2.747657s Batch Size: 1 Request size: 1.14KB 	post_items	batch_poster.py:274
+2023-03-27 11:44:09,407	Posting successful! Total rows: 18 Total failed: 6 in 2.40591s Batch Size: 1 Request size: 1.14KB 	post_items	batch_poster.py:274
+2023-03-27 11:44:10,258	Posting successful! Total rows: 19 Total failed: 6 in 0.848617s Batch Size: 1 Request size: 1.12KB 	post_items	batch_poster.py:274
+2023-03-27 11:44:10,259	Done posting 19 records. 	post_items	batch_poster.py:162
+2023-03-27 11:44:10,259	Done. Wrapping up	post_items	batch_poster.py:391
+2023-03-27 11:44:10,260	Removing extradata file since it is empty	post_items	extradata_writer.py:45
+2023-03-27 11:44:10,260	Failed records: 6 failed records in 6 failed batches. Failed records saved to /home/theodor/client_data/migration_example/iterations/test_run/results/failed_records_post_items_20230327-114334.txt	post_items	batch_poster.py:396
+2023-03-27 11:44:10,261	Task configured to not rerun failed records.  File with failed records is located at /home/theodor/client_data/migration_example/iterations/test_run/results/failed_records_post_items_20230327-114334.txt	post_items	batch_poster.py:452
+2023-03-27 11:44:10,262	Elapsed time: 0:00:39.918425	post_items	migration_report.py:74
+2023-03-27 11:44:10,263	Removing data issues file since it is empty	post_items	migration_task_base.py:88
+2023-03-27 11:44:10,263	Removed data issues file since it was empty	post_items	migration_task_base.py:90
+2023-03-27 11:44:10,263	Done rerunning the posting	post_items	batch_poster.py:447
+2023-03-27 11:44:10,264	Elapsed time: 0:00:39.920206	post_items	migration_report.py:74
+2023-03-27 11:44:10,264	Work done. Shutting down	post_items	__main__.py:102

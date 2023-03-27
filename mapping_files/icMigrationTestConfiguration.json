@@ -107,7 +107,9 @@
                     "suppressed": false
                 }
             ],
-            "neverUpdateHridSettings": true
+            "neverUpdateHridSettings": true,
+            "boundwithRelationshipFilePath": "voyager_bound_with_export.tsv",
+            "holdingsTypeUuidForBoundwiths": "072cf64f-1fbe-4bb4-bdee-2d72453aefad"
         },
         {
             "name": "post_holdingsrecords_from_mfhd",
@@ -188,17 +190,6 @@
             "neverUpdateHridSettings": true
         },
         {
-            "name": "post_csv_items",
-            "migrationTaskType": "BatchPoster",
-            "objectType": "Items",
-            "batchSize": 250,
-            "files": [
-                {
-                    "file_name": "folio_items_transform_csv_items.json"
-                }
-            ]
-        },
-        {
             "name": "transform_mfhd_items",
             "migrationTaskType": "ItemsTransformer",
             "defaultCallNumberTypeName": "Library of Congress classification",
@@ -215,16 +206,23 @@
                     "file_name": "items_linked_to_mfhds.csv"
                 }
             ],
-            "neverUpdateHridSettings": true
+            "neverUpdateHridSettings": true,
+            "boundwithRelationshipFilePath": "voyager_bound_with_export.tsv"
         },
         {
-            "name": "post_mfhd_items",
+            "name": "post_items",
             "migrationTaskType": "BatchPoster",
             "objectType": "Items",
             "batchSize": 250,
             "files": [
                 {
                     "file_name": "folio_items_transform_mfhd_items.json"
+                },
+                {
+                    "file_name": "folio_items_transform_csv_items.json"
+                },
+                {
+                    "file_name": "folio_items_transform_bw_items.json"
                 }
             ]
         },
@@ -291,17 +289,6 @@
             "neverUpdateHridSettings": true
         },
         {
-            "name": "post_bw_items",
-            "migrationTaskType": "BatchPoster",
-            "objectType": "Items",
-            "batchSize": 250,
-            "files": [
-                {
-                    "file_name": "folio_items_transform_bw_items.json"
-                }
-            ]
-        },
-        {
             "name": "post_extradata",
             "migrationTaskType": "BatchPoster",
             "objectType": "Extradata",
@@ -312,6 +299,9 @@
                 },
                 {
                     "file_name": "extradata_user_transform.extradata"
+                },
+                {
+                    "file_name": "extradata_transform_mfhd_items.extradata"
                 }
             ]
         },

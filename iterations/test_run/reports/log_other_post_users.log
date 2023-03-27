@@ -1,20 +1,20 @@
-2023-03-21 14:18:31,434	Logging set up	post_users	migration_task_base.py:213
-2023-03-21 14:18:31,434	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	post_users	folder_structure.py:47
-2023-03-21 14:18:31,434	Git ignore is set up correctly	post_users	folder_structure.py:48
-2023-03-21 14:18:31,435	Base folder is /home/theodor/client_data/migration_example	post_users	folder_structure.py:49
-2023-03-21 14:18:31,435	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	post_users	folder_structure.py:50
-2023-03-21 14:18:31,435	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	post_users	folder_structure.py:51
-2023-03-21 14:18:31,435	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	post_users	folder_structure.py:52
-2023-03-21 14:18:31,435	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	post_users	folder_structure.py:53
-2023-03-21 14:18:31,435	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_other_post_users.log	post_users	folder_structure.py:54
-2023-03-21 14:18:31,435	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_post_users.extradata	post_users	folder_structure.py:55
-2023-03-21 14:18:31,435	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_post_users.tsv	post_users	folder_structure.py:56
-2023-03-21 14:18:31,435	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_other_post_users.json	post_users	folder_structure.py:57
-2023-03-21 14:18:31,436	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_post_users.md	post_users	folder_structure.py:58
-2023-03-21 14:18:31,436	MigrationTaskBase init done	post_users	migration_task_base.py:77
-2023-03-21 14:18:31,436	Batch size is 250	post_users	batch_poster.py:90
-2023-03-21 14:18:31,436	Running /home/theodor/client_data/migration_example/iterations/test_run/results/folio_users_user_transform.json	post_users	batch_poster.py:109
-2023-03-21 14:18:31,437	{
+2023-03-27 11:44:45,333	Logging set up	post_users	migration_task_base.py:213
+2023-03-27 11:44:45,333	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	post_users	folder_structure.py:47
+2023-03-27 11:44:45,333	Git ignore is set up correctly	post_users	folder_structure.py:48
+2023-03-27 11:44:45,334	Base folder is /home/theodor/client_data/migration_example	post_users	folder_structure.py:49
+2023-03-27 11:44:45,334	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	post_users	folder_structure.py:50
+2023-03-27 11:44:45,334	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	post_users	folder_structure.py:51
+2023-03-27 11:44:45,334	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	post_users	folder_structure.py:52
+2023-03-27 11:44:45,334	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	post_users	folder_structure.py:53
+2023-03-27 11:44:45,334	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_other_post_users.log	post_users	folder_structure.py:54
+2023-03-27 11:44:45,334	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_post_users.extradata	post_users	folder_structure.py:55
+2023-03-27 11:44:45,334	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_post_users.tsv	post_users	folder_structure.py:56
+2023-03-27 11:44:45,334	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_other_post_users.json	post_users	folder_structure.py:57
+2023-03-27 11:44:45,334	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_post_users.md	post_users	folder_structure.py:58
+2023-03-27 11:44:45,335	MigrationTaskBase init done	post_users	migration_task_base.py:77
+2023-03-27 11:44:45,335	Batch size is 250	post_users	batch_poster.py:97
+2023-03-27 11:44:45,335	Running /home/theodor/client_data/migration_example/iterations/test_run/results/folio_users_user_transform.json	post_users	batch_poster.py:116
+2023-03-27 11:44:45,336	{
  "id": "508bab48-3da1-5fa3-b812-12ed7b77db65",
  "username": "tolya12",
  "externalSystemId": "tolya12",
@@ -27,7 +27,7 @@
   "email": "tolya@kuragin.ru",
   "phone": "001-1812",
   "mobilePhone": "1800-1812",
-  "dateOfBirth": "2023-03-21T13:18:10.537766+00:00",
+  "dateOfBirth": "2023-03-27T09:44:34.267699+00:00",
   "addresses": [
    {
     "addressLine1": "Sheremetyev Palace",
@@ -45,13 +45,13 @@
   "holdShelf": true,
   "delivery": false
  }
-}	post_users	batch_poster.py:172
-2023-03-21 14:18:32,454	Posting successful! Total rows: 1 Total failed: 0 created: 0 updated: 1 in 1.012159s Batch Size: 1 Request size: 1.20KB Message from server: Users were imported successfully.	post_users	batch_poster.py:301
-2023-03-21 14:18:32,455	Done posting 1 records. 	post_users	batch_poster.py:155
-2023-03-21 14:18:32,455	Done. Wrapping up	post_users	batch_poster.py:384
-2023-03-21 14:18:32,456	Removing extradata file since it is empty	post_users	extradata_writer.py:45
-2023-03-21 14:18:32,456	Failed records: 0 failed records in 0 failed batches. Failed records saved to /home/theodor/client_data/migration_example/iterations/test_run/results/failed_records_post_users_20230321-141831.txt	post_users	batch_poster.py:389
-2023-03-21 14:18:32,457	Elapsed time: 0:00:01.821337	post_users	migration_report.py:74
-2023-03-21 14:18:32,457	Removing data issues file since it is empty	post_users	migration_task_base.py:88
-2023-03-21 14:18:32,457	Removed data issues file since it was empty	post_users	migration_task_base.py:90
-2023-03-21 14:18:32,458	Work done. Shutting down	post_users	__main__.py:102
+}	post_users	batch_poster.py:179
+2023-03-27 11:44:46,433	Posting successful! Total rows: 1 Total failed: 0 created: 0 updated: 1 in 1.09149s Batch Size: 1 Request size: 1.20KB Message from server: Users were imported successfully.	post_users	batch_poster.py:308
+2023-03-27 11:44:46,433	Done posting 1 records. 	post_users	batch_poster.py:162
+2023-03-27 11:44:46,433	Done. Wrapping up	post_users	batch_poster.py:391
+2023-03-27 11:44:46,434	Removing extradata file since it is empty	post_users	extradata_writer.py:45
+2023-03-27 11:44:46,434	Failed records: 0 failed records in 0 failed batches. Failed records saved to /home/theodor/client_data/migration_example/iterations/test_run/results/failed_records_post_users_20230327-114445.txt	post_users	batch_poster.py:396
+2023-03-27 11:44:46,435	Elapsed time: 0:00:04.433055	post_users	migration_report.py:74
+2023-03-27 11:44:46,435	Removing data issues file since it is empty	post_users	migration_task_base.py:88
+2023-03-27 11:44:46,436	Removed data issues file since it was empty	post_users	migration_task_base.py:90
+2023-03-27 11:44:46,436	Work done. Shutting down	post_users	__main__.py:102

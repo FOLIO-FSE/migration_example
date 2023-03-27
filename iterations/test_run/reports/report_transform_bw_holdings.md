@@ -4,9 +4,9 @@
    
 Measure | Value   
 --- | ---:   
-Time Started: | 2023-03-21T13:16:44.018218+00:00   
-Time Finished: | 2023-03-21T13:16:51.029353+00:00   
-Elapsed time: | 0:00:07.011135   
+Time Started: | 2023-03-27T09:38:17.884748+00:00   
+Time Finished: | 2023-03-27T09:38:27.867721+00:00   
+Elapsed time: | 0:00:09.982973   
    
 ## General statistics    
 A list of general counters to outline the transformation as a whole.    
@@ -27,7 +27,7 @@ Records matched to Instances | 19
 Total rows in bw_items.tsv | 10   
 Unique BW Holdings created from Items | 16   
 Unique Holdings created from Items | 1   
-Unique ID:s written to legacy map | 29   
+Unique ID:s written to legacy map | 35   
 </details>   
    
 ## Bound-with mapping    

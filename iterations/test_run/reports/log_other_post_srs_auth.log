@@ -1,26 +1,26 @@
-2023-02-16 22:38:45,936	Logging set up	post_srs_auth	migration_task_base.py:214
-2023-02-16 22:38:45,937	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	post_srs_auth	folder_structure.py:47
-2023-02-16 22:38:45,937	Git ignore is set up correctly	post_srs_auth	folder_structure.py:48
-2023-02-16 22:38:45,937	Base folder is /home/theodor/client_data/migration_example	post_srs_auth	folder_structure.py:49
-2023-02-16 22:38:45,937	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	post_srs_auth	folder_structure.py:50
-2023-02-16 22:38:45,937	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	post_srs_auth	folder_structure.py:51
-2023-02-16 22:38:45,937	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	post_srs_auth	folder_structure.py:52
-2023-02-16 22:38:45,937	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	post_srs_auth	folder_structure.py:53
-2023-02-16 22:38:45,937	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_other_post_srs_auth.log	post_srs_auth	folder_structure.py:54
-2023-02-16 22:38:45,938	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_post_srs_auth.extradata	post_srs_auth	folder_structure.py:55
-2023-02-16 22:38:45,938	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_post_srs_auth.tsv	post_srs_auth	folder_structure.py:56
-2023-02-16 22:38:45,938	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_other_post_srs_auth.json	post_srs_auth	folder_structure.py:57
-2023-02-16 22:38:45,938	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_post_srs_auth.md	post_srs_auth	folder_structure.py:58
-2023-02-16 22:38:45,938	MigrationTaskBase init done	post_srs_auth	migration_task_base.py:78
-2023-02-16 22:38:45,938	Batch size is 250	post_srs_auth	batch_poster.py:90
-2023-02-16 22:38:46,727	Posted Snapshot to FOLIO: {
-    "jobExecutionId": "433881b0-3caf-48ec-b82b-4822a81b1677",
+2023-03-27 11:07:32,229	Logging set up	post_srs_auth	migration_task_base.py:213
+2023-03-27 11:07:32,230	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	post_srs_auth	folder_structure.py:47
+2023-03-27 11:07:32,230	Git ignore is set up correctly	post_srs_auth	folder_structure.py:48
+2023-03-27 11:07:32,230	Base folder is /home/theodor/client_data/migration_example	post_srs_auth	folder_structure.py:49
+2023-03-27 11:07:32,230	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	post_srs_auth	folder_structure.py:50
+2023-03-27 11:07:32,230	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	post_srs_auth	folder_structure.py:51
+2023-03-27 11:07:32,230	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	post_srs_auth	folder_structure.py:52
+2023-03-27 11:07:32,230	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	post_srs_auth	folder_structure.py:53
+2023-03-27 11:07:32,230	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_other_post_srs_auth.log	post_srs_auth	folder_structure.py:54
+2023-03-27 11:07:32,230	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_post_srs_auth.extradata	post_srs_auth	folder_structure.py:55
+2023-03-27 11:07:32,231	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_post_srs_auth.tsv	post_srs_auth	folder_structure.py:56
+2023-03-27 11:07:32,231	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_other_post_srs_auth.json	post_srs_auth	folder_structure.py:57
+2023-03-27 11:07:32,231	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_post_srs_auth.md	post_srs_auth	folder_structure.py:58
+2023-03-27 11:07:32,231	MigrationTaskBase init done	post_srs_auth	migration_task_base.py:77
+2023-03-27 11:07:32,231	Batch size is 250	post_srs_auth	batch_poster.py:97
+2023-03-27 11:07:33,052	Posted Snapshot to FOLIO: {
+    "jobExecutionId": "f12493a1-385a-4b67-98b1-d4c4f26fab90",
     "status": "PARSING_IN_PROGRESS",
-    "processingStartedDate": "2023-02-16T21:38:45.938"
-}	post_srs_auth	batch_poster.py:457
-2023-02-16 22:38:46,728	Sleeping while waiting for the snapshot to get created	post_srs_auth	batch_poster.py:461
-2023-02-16 22:38:52,529	Running /home/theodor/client_data/migration_example/iterations/test_run/results/folio_srs_authorities_transform_auth.json	post_srs_auth	batch_poster.py:109
-2023-02-16 22:38:52,532	{
+    "processingStartedDate": "2023-03-27T09:07:32.231"
+}	post_srs_auth	batch_poster.py:472
+2023-03-27 11:07:33,053	Sleeping while waiting for the snapshot to get created	post_srs_auth	batch_poster.py:476
+2023-03-27 11:07:39,390	Running /home/theodor/client_data/migration_example/iterations/test_run/results/folio_srs_authorities_transform_auth.json	post_srs_auth	batch_poster.py:116
+2023-03-27 11:07:39,392	{
  "id": "58ac1bb8-5865-5db1-9939-66e14098e5c3",
  "deleted": false,
  "matchedId": "58ac1bb8-5865-5db1-9939-66e14098e5c3",
@@ -147,246 +147,82 @@
   "authorityHrid": "383378"
  },
  "metadata": {
-  "createdDate": "2023-02-16T21:37:00.487",
+  "createdDate": "2023-03-27T09:03:15.793",
   "createdByUserId": "bb78777e-d13b-4612-9383-54d2b17f6d5d",
-  "updatedDate": "2023-02-16T21:37:00.487",
+  "updatedDate": "2023-03-27T09:03:15.793",
   "updatedByUserId": "bb78777e-d13b-4612-9383-54d2b17f6d5d"
  },
  "state": "ACTUAL",
  "leaderRecordStatus": "n",
- "snapshotId": "433881b0-3caf-48ec-b82b-4822a81b1677"
-}	post_srs_auth	batch_poster.py:172
-2023-02-16 22:38:55,183	Posting successful! Total rows: 250 Total failed: 0 in 2.272638s Batch Size: 250 Request size: 920.75KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:38:57,919	Posting successful! Total rows: 500 Total failed: 0 in 2.19452s Batch Size: 250 Request size: 914.83KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:39:00,511	Posting successful! Total rows: 750 Total failed: 0 in 2.222727s Batch Size: 250 Request size: 945.97KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:39:03,128	Posting successful! Total rows: 1000 Total failed: 0 in 2.202617s Batch Size: 250 Request size: 932.26KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:39:05,877	Posting successful! Total rows: 1250 Total failed: 0 in 2.208601s Batch Size: 250 Request size: 981.53KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:39:08,451	Posting successful! Total rows: 1500 Total failed: 0 in 2.200403s Batch Size: 250 Request size: 911.98KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:39:11,142	Posting successful! Total rows: 1750 Total failed: 0 in 2.161869s Batch Size: 250 Request size: 929.72KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:39:13,645	Posting successful! Total rows: 2000 Total failed: 0 in 2.142223s Batch Size: 250 Request size: 937.33KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:39:16,361	Posting successful! Total rows: 2250 Total failed: 0 in 2.168696s Batch Size: 250 Request size: 917.10KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:39:19,235	Posting successful! Total rows: 2500 Total failed: 0 in 2.2467s Batch Size: 250 Request size: 895.44KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:39:21,742	Posting successful! Total rows: 2750 Total failed: 0 in 2.122094s Batch Size: 250 Request size: 891.44KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:39:24,432	Posting successful! Total rows: 3000 Total failed: 0 in 2.148043s Batch Size: 250 Request size: 902.00KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:39:26,939	Posting successful! Total rows: 3250 Total failed: 0 in 2.134844s Batch Size: 250 Request size: 890.76KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:39:29,439	Posting successful! Total rows: 3500 Total failed: 0 in 2.132327s Batch Size: 250 Request size: 916.54KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:39:32,152	Posting successful! Total rows: 3750 Total failed: 0 in 2.137758s Batch Size: 250 Request size: 907.43KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:39:34,807	Posting successful! Total rows: 4000 Total failed: 0 in 2.208082s Batch Size: 250 Request size: 916.76KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:39:37,360	Posting successful! Total rows: 4250 Total failed: 0 in 2.164783s Batch Size: 250 Request size: 906.38KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:39:40,116	Posting successful! Total rows: 4500 Total failed: 0 in 2.164978s Batch Size: 250 Request size: 942.95KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:39:43,155	Posting successful! Total rows: 4750 Total failed: 0 in 2.357477s Batch Size: 250 Request size: 947.67KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:39:45,630	Posting successful! Total rows: 5000 Total failed: 0 in 2.027488s Batch Size: 250 Request size: 873.21KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:39:48,253	Posting successful! Total rows: 5250 Total failed: 0 in 2.240481s Batch Size: 250 Request size: 893.28KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:39:50,866	Posting successful! Total rows: 5500 Total failed: 0 in 2.181981s Batch Size: 250 Request size: 907.09KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:39:53,417	Posting successful! Total rows: 5750 Total failed: 0 in 2.186238s Batch Size: 250 Request size: 893.53KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:39:55,846	Posting successful! Total rows: 6000 Total failed: 0 in 2.056748s Batch Size: 250 Request size: 884.52KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:39:58,438	Posting successful! Total rows: 6250 Total failed: 0 in 2.219522s Batch Size: 250 Request size: 909.84KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:40:01,159	Posting successful! Total rows: 6500 Total failed: 0 in 2.185292s Batch Size: 250 Request size: 925.22KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:40:03,670	Posting successful! Total rows: 6750 Total failed: 0 in 2.130653s Batch Size: 250 Request size: 918.38KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:40:06,436	Posting successful! Total rows: 7000 Total failed: 0 in 2.156305s Batch Size: 250 Request size: 923.06KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:40:09,042	Posting successful! Total rows: 7250 Total failed: 0 in 2.197473s Batch Size: 250 Request size: 954.27KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:40:11,608	Posting successful! Total rows: 7500 Total failed: 0 in 2.180001s Batch Size: 250 Request size: 900.89KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:40:14,268	Posting successful! Total rows: 7750 Total failed: 0 in 2.098633s Batch Size: 250 Request size: 888.18KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:40:16,923	Posting successful! Total rows: 8000 Total failed: 0 in 2.112673s Batch Size: 250 Request size: 900.32KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:40:19,630	Posting successful! Total rows: 8250 Total failed: 0 in 2.170679s Batch Size: 250 Request size: 940.65KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:40:22,189	Posting successful! Total rows: 8500 Total failed: 0 in 2.163188s Batch Size: 250 Request size: 915.92KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:40:24,718	Posting successful! Total rows: 8750 Total failed: 0 in 2.156197s Batch Size: 250 Request size: 899.91KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:40:27,420	Posting successful! Total rows: 9000 Total failed: 0 in 2.155003s Batch Size: 250 Request size: 920.04KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:40:30,134	Posting successful! Total rows: 9250 Total failed: 0 in 2.158356s Batch Size: 250 Request size: 925.99KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:40:32,882	Posting successful! Total rows: 9500 Total failed: 0 in 2.205279s Batch Size: 250 Request size: 922.80KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:40:35,425	Posting successful! Total rows: 9750 Total failed: 0 in 2.169922s Batch Size: 250 Request size: 906.75KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:40:38,100	Posting successful! Total rows: 10000 Total failed: 0 in 2.247415s Batch Size: 250 Request size: 935.36KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:40:40,846	Posting successful! Total rows: 10250 Total failed: 0 in 2.184129s Batch Size: 250 Request size: 944.65KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:40:43,436	Posting successful! Total rows: 10500 Total failed: 0 in 2.21548s Batch Size: 250 Request size: 961.51KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:40:46,135	Posting successful! Total rows: 10750 Total failed: 0 in 2.153718s Batch Size: 250 Request size: 938.52KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:40:48,888	Posting successful! Total rows: 11000 Total failed: 0 in 2.209998s Batch Size: 250 Request size: 934.29KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:40:51,339	Posting successful! Total rows: 11250 Total failed: 0 in 2.080707s Batch Size: 250 Request size: 886.76KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:40:54,062	Posting successful! Total rows: 11500 Total failed: 0 in 2.319017s Batch Size: 250 Request size: 938.22KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:40:56,800	Posting successful! Total rows: 11750 Total failed: 0 in 2.189862s Batch Size: 250 Request size: 939.46KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:40:59,544	Posting successful! Total rows: 12000 Total failed: 0 in 2.346885s Batch Size: 250 Request size: 942.32KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:41:02,215	Posting successful! Total rows: 12250 Total failed: 0 in 2.302263s Batch Size: 250 Request size: 942.42KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:41:04,936	Posting successful! Total rows: 12500 Total failed: 0 in 2.350883s Batch Size: 250 Request size: 913.29KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:41:07,651	Posting successful! Total rows: 12750 Total failed: 0 in 2.167333s Batch Size: 250 Request size: 911.57KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:41:10,425	Posting successful! Total rows: 13000 Total failed: 0 in 2.18286s Batch Size: 250 Request size: 906.36KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:41:13,090	Posting successful! Total rows: 13250 Total failed: 0 in 2.126294s Batch Size: 250 Request size: 873.12KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:41:15,658	Posting successful! Total rows: 13500 Total failed: 0 in 2.185972s Batch Size: 250 Request size: 897.54KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:41:18,220	Posting successful! Total rows: 13750 Total failed: 0 in 2.181978s Batch Size: 250 Request size: 935.21KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:41:20,937	Posting successful! Total rows: 14000 Total failed: 0 in 2.343521s Batch Size: 250 Request size: 925.25KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:41:23,630	Posting successful! Total rows: 14250 Total failed: 0 in 2.31869s Batch Size: 250 Request size: 924.13KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:41:26,371	Posting successful! Total rows: 14500 Total failed: 0 in 2.156689s Batch Size: 250 Request size: 922.42KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:41:28,988	Posting successful! Total rows: 14750 Total failed: 0 in 2.245129s Batch Size: 250 Request size: 884.61KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:41:31,550	Posting successful! Total rows: 15000 Total failed: 0 in 2.19387s Batch Size: 250 Request size: 913.33KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:41:34,275	Posting successful! Total rows: 15250 Total failed: 0 in 2.185811s Batch Size: 250 Request size: 930.09KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:41:37,065	Posting successful! Total rows: 15500 Total failed: 0 in 2.418749s Batch Size: 250 Request size: 920.27KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:41:39,610	Posting successful! Total rows: 15750 Total failed: 0 in 2.171114s Batch Size: 250 Request size: 918.27KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:41:42,326	Posting successful! Total rows: 16000 Total failed: 0 in 2.156623s Batch Size: 250 Request size: 931.44KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:41:45,061	Posting successful! Total rows: 16250 Total failed: 0 in 2.196457s Batch Size: 250 Request size: 913.67KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:41:47,984	Posting successful! Total rows: 16500 Total failed: 0 in 2.560047s Batch Size: 250 Request size: 911.95KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:41:50,708	Posting successful! Total rows: 16750 Total failed: 0 in 2.357845s Batch Size: 250 Request size: 915.57KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:41:53,453	Posting successful! Total rows: 17000 Total failed: 0 in 2.377179s Batch Size: 250 Request size: 919.95KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:41:56,011	Posting successful! Total rows: 17250 Total failed: 0 in 2.196685s Batch Size: 250 Request size: 924.21KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:41:58,752	Posting successful! Total rows: 17500 Total failed: 0 in 2.169281s Batch Size: 250 Request size: 932.93KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:42:01,317	Posting successful! Total rows: 17750 Total failed: 0 in 2.196099s Batch Size: 250 Request size: 935.74KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:42:04,177	Posting successful! Total rows: 18000 Total failed: 0 in 2.315674s Batch Size: 250 Request size: 937.59KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:42:06,737	Posting successful! Total rows: 18250 Total failed: 0 in 2.19401s Batch Size: 250 Request size: 911.27KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:42:09,443	Posting successful! Total rows: 18500 Total failed: 0 in 2.337626s Batch Size: 250 Request size: 937.52KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:42:12,137	Posting successful! Total rows: 18750 Total failed: 0 in 2.158054s Batch Size: 250 Request size: 925.60KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:42:14,886	Posting successful! Total rows: 19000 Total failed: 0 in 2.183157s Batch Size: 250 Request size: 921.57KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:42:17,605	Posting successful! Total rows: 19250 Total failed: 0 in 2.350723s Batch Size: 250 Request size: 940.67KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:42:20,276	Posting successful! Total rows: 19500 Total failed: 0 in 2.140324s Batch Size: 250 Request size: 939.71KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:42:22,938	Posting successful! Total rows: 19750 Total failed: 0 in 2.126348s Batch Size: 250 Request size: 930.35KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:42:25,619	Posting successful! Total rows: 20000 Total failed: 0 in 2.139698s Batch Size: 250 Request size: 910.02KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:42:28,337	Posting successful! Total rows: 20250 Total failed: 0 in 2.178314s Batch Size: 250 Request size: 918.78KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:42:31,249	Posting successful! Total rows: 20500 Total failed: 0 in 2.525751s Batch Size: 250 Request size: 931.63KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:42:33,973	Posting successful! Total rows: 20750 Total failed: 0 in 2.19322s Batch Size: 250 Request size: 914.12KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:42:36,707	Posting successful! Total rows: 21000 Total failed: 0 in 2.196949s Batch Size: 250 Request size: 926.13KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:42:39,437	Posting successful! Total rows: 21250 Total failed: 0 in 2.191354s Batch Size: 250 Request size: 941.64KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:42:42,207	Posting successful! Total rows: 21500 Total failed: 0 in 2.394807s Batch Size: 250 Request size: 937.00KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:42:44,880	Posting successful! Total rows: 21750 Total failed: 0 in 2.307631s Batch Size: 250 Request size: 917.46KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:42:47,675	Posting successful! Total rows: 22000 Total failed: 0 in 2.230298s Batch Size: 250 Request size: 928.08KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:42:50,335	Posting successful! Total rows: 22250 Total failed: 0 in 2.123933s Batch Size: 250 Request size: 914.75KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:42:53,015	Posting successful! Total rows: 22500 Total failed: 0 in 2.144063s Batch Size: 250 Request size: 910.62KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:42:55,736	Posting successful! Total rows: 22750 Total failed: 0 in 2.1837s Batch Size: 250 Request size: 921.90KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:42:58,378	Posting successful! Total rows: 23000 Total failed: 0 in 2.282974s Batch Size: 250 Request size: 908.09KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:43:01,138	Posting successful! Total rows: 23250 Total failed: 0 in 2.215562s Batch Size: 250 Request size: 915.62KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:43:03,842	Posting successful! Total rows: 23500 Total failed: 0 in 2.150594s Batch Size: 250 Request size: 915.10KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:43:06,511	Posting successful! Total rows: 23750 Total failed: 0 in 2.304275s Batch Size: 250 Request size: 918.06KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:43:09,202	Posting successful! Total rows: 24000 Total failed: 0 in 2.149247s Batch Size: 250 Request size: 921.56KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:43:11,715	Posting successful! Total rows: 24250 Total failed: 0 in 2.145199s Batch Size: 250 Request size: 898.20KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:43:19,384	Posting successful! Total rows: 24500 Total failed: 0 in 7.30157s Batch Size: 250 Request size: 925.46KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:43:22,053	Posting successful! Total rows: 24750 Total failed: 0 in 2.135409s Batch Size: 250 Request size: 918.50KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:43:24,617	Posting successful! Total rows: 25000 Total failed: 0 in 2.183609s Batch Size: 250 Request size: 909.50KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:43:27,190	Posting successful! Total rows: 25250 Total failed: 0 in 2.201519s Batch Size: 250 Request size: 925.34KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:43:29,965	Posting successful! Total rows: 25500 Total failed: 0 in 2.242466s Batch Size: 250 Request size: 925.71KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:43:32,708	Posting successful! Total rows: 25750 Total failed: 0 in 2.208432s Batch Size: 250 Request size: 939.27KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:43:35,407	Posting successful! Total rows: 26000 Total failed: 0 in 2.171978s Batch Size: 250 Request size: 900.11KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:43:38,104	Posting successful! Total rows: 26250 Total failed: 0 in 2.15407s Batch Size: 250 Request size: 919.95KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:43:41,012	Posting successful! Total rows: 26500 Total failed: 0 in 2.345068s Batch Size: 250 Request size: 913.52KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:43:43,565	Posting successful! Total rows: 26750 Total failed: 0 in 2.189419s Batch Size: 250 Request size: 899.16KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:43:46,253	Posting successful! Total rows: 27000 Total failed: 0 in 2.15701s Batch Size: 250 Request size: 913.39KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:43:48,907	Posting successful! Total rows: 27250 Total failed: 0 in 2.120105s Batch Size: 250 Request size: 914.30KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:43:51,646	Posting successful! Total rows: 27500 Total failed: 0 in 2.178737s Batch Size: 250 Request size: 916.63KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:43:54,320	Posting successful! Total rows: 27750 Total failed: 0 in 2.137534s Batch Size: 250 Request size: 910.23KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:43:57,071	Posting successful! Total rows: 28000 Total failed: 0 in 2.158652s Batch Size: 250 Request size: 894.64KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:43:59,769	Posting successful! Total rows: 28250 Total failed: 0 in 2.163023s Batch Size: 250 Request size: 924.49KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:44:02,578	Posting successful! Total rows: 28500 Total failed: 0 in 2.277418s Batch Size: 250 Request size: 933.11KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:44:05,164	Posting successful! Total rows: 28750 Total failed: 0 in 2.223445s Batch Size: 250 Request size: 892.70KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:44:07,693	Posting successful! Total rows: 29000 Total failed: 0 in 2.161719s Batch Size: 250 Request size: 916.44KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:44:10,434	Posting successful! Total rows: 29250 Total failed: 0 in 2.203388s Batch Size: 250 Request size: 913.89KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:44:13,152	Posting successful! Total rows: 29500 Total failed: 0 in 2.325867s Batch Size: 250 Request size: 913.34KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:44:16,124	Posting successful! Total rows: 29750 Total failed: 0 in 2.434857s Batch Size: 250 Request size: 937.12KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:44:18,653	Posting successful! Total rows: 30000 Total failed: 0 in 2.163092s Batch Size: 250 Request size: 891.83KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:44:21,355	Posting successful! Total rows: 30250 Total failed: 0 in 2.168546s Batch Size: 250 Request size: 921.56KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:44:24,134	Posting successful! Total rows: 30500 Total failed: 0 in 2.233102s Batch Size: 250 Request size: 946.27KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:44:26,658	Posting successful! Total rows: 30750 Total failed: 0 in 2.160101s Batch Size: 250 Request size: 906.53KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:44:29,450	Posting successful! Total rows: 31000 Total failed: 0 in 2.228519s Batch Size: 250 Request size: 915.91KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:44:32,172	Posting successful! Total rows: 31250 Total failed: 0 in 2.188839s Batch Size: 250 Request size: 915.51KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:44:34,876	Posting successful! Total rows: 31500 Total failed: 0 in 2.167977s Batch Size: 250 Request size: 934.04KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:44:37,584	Posting successful! Total rows: 31750 Total failed: 0 in 2.179s Batch Size: 250 Request size: 935.10KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:44:40,265	Posting successful! Total rows: 32000 Total failed: 0 in 2.147561s Batch Size: 250 Request size: 935.54KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:44:43,023	Posting successful! Total rows: 32250 Total failed: 0 in 2.388647s Batch Size: 250 Request size: 930.82KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:44:45,763	Posting successful! Total rows: 32500 Total failed: 0 in 2.186797s Batch Size: 250 Request size: 903.48KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:44:48,498	Posting successful! Total rows: 32750 Total failed: 0 in 2.194917s Batch Size: 250 Request size: 918.18KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:44:51,032	Posting successful! Total rows: 33000 Total failed: 0 in 2.165893s Batch Size: 250 Request size: 906.92KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:44:53,747	Posting successful! Total rows: 33250 Total failed: 0 in 2.170815s Batch Size: 250 Request size: 953.67KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:44:56,540	Posting successful! Total rows: 33500 Total failed: 0 in 2.256425s Batch Size: 250 Request size: 920.41KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:44:59,282	Posting successful! Total rows: 33750 Total failed: 0 in 2.204822s Batch Size: 250 Request size: 926.07KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:45:02,028	Posting successful! Total rows: 34000 Total failed: 0 in 2.179171s Batch Size: 250 Request size: 932.23KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:45:04,980	Posting successful! Total rows: 34250 Total failed: 0 in 2.587808s Batch Size: 250 Request size: 929.80KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:45:07,700	Posting successful! Total rows: 34500 Total failed: 0 in 2.175777s Batch Size: 250 Request size: 935.60KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:45:10,408	Posting successful! Total rows: 34750 Total failed: 0 in 2.346381s Batch Size: 250 Request size: 923.98KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:45:13,119	Posting successful! Total rows: 35000 Total failed: 0 in 2.342924s Batch Size: 250 Request size: 906.43KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:45:15,670	Posting successful! Total rows: 35250 Total failed: 0 in 2.179573s Batch Size: 250 Request size: 917.33KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:45:18,410	Posting successful! Total rows: 35500 Total failed: 0 in 2.176096s Batch Size: 250 Request size: 933.54KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:45:21,214	Posting successful! Total rows: 35750 Total failed: 0 in 2.261759s Batch Size: 250 Request size: 920.82KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:45:23,947	Posting successful! Total rows: 36000 Total failed: 0 in 2.192888s Batch Size: 250 Request size: 905.48KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:45:26,637	Posting successful! Total rows: 36250 Total failed: 0 in 2.328366s Batch Size: 250 Request size: 910.91KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:45:29,323	Posting successful! Total rows: 36500 Total failed: 0 in 2.312843s Batch Size: 250 Request size: 892.56KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:45:31,924	Posting successful! Total rows: 36750 Total failed: 0 in 2.22236s Batch Size: 250 Request size: 936.65KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:45:34,641	Posting successful! Total rows: 37000 Total failed: 0 in 2.133298s Batch Size: 250 Request size: 898.50KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:45:37,413	Posting successful! Total rows: 37250 Total failed: 0 in 2.211708s Batch Size: 250 Request size: 918.69KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:45:40,100	Posting successful! Total rows: 37500 Total failed: 0 in 2.147549s Batch Size: 250 Request size: 903.44KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:45:42,815	Posting successful! Total rows: 37750 Total failed: 0 in 2.331859s Batch Size: 250 Request size: 924.58KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:45:45,502	Posting successful! Total rows: 38000 Total failed: 0 in 2.31909s Batch Size: 250 Request size: 932.15KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:45:48,179	Posting successful! Total rows: 38250 Total failed: 0 in 2.140115s Batch Size: 250 Request size: 901.61KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:45:50,912	Posting successful! Total rows: 38500 Total failed: 0 in 2.166753s Batch Size: 250 Request size: 903.56KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:45:53,563	Posting successful! Total rows: 38750 Total failed: 0 in 2.277705s Batch Size: 250 Request size: 923.53KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:45:56,082	Posting successful! Total rows: 39000 Total failed: 0 in 2.149225s Batch Size: 250 Request size: 898.17KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:45:58,812	Posting successful! Total rows: 39250 Total failed: 0 in 2.366359s Batch Size: 250 Request size: 914.82KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:46:01,574	Posting successful! Total rows: 39500 Total failed: 0 in 2.218734s Batch Size: 250 Request size: 894.87KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:46:04,321	Posting successful! Total rows: 39750 Total failed: 0 in 2.364237s Batch Size: 250 Request size: 889.27KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:46:07,106	Posting successful! Total rows: 40000 Total failed: 0 in 2.188756s Batch Size: 250 Request size: 906.85KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:46:09,875	Posting successful! Total rows: 40250 Total failed: 0 in 2.203609s Batch Size: 250 Request size: 896.98KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:46:12,569	Posting successful! Total rows: 40500 Total failed: 0 in 2.156115s Batch Size: 250 Request size: 893.40KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:46:15,139	Posting successful! Total rows: 40750 Total failed: 0 in 2.181887s Batch Size: 250 Request size: 900.39KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:46:17,950	Posting successful! Total rows: 41000 Total failed: 0 in 2.248945s Batch Size: 250 Request size: 897.36KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:46:20,764	Posting successful! Total rows: 41250 Total failed: 0 in 2.253406s Batch Size: 250 Request size: 916.50KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:46:23,535	Posting successful! Total rows: 41500 Total failed: 0 in 2.371492s Batch Size: 250 Request size: 908.23KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:46:26,250	Posting successful! Total rows: 41750 Total failed: 0 in 2.168773s Batch Size: 250 Request size: 910.51KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:46:29,007	Posting successful! Total rows: 42000 Total failed: 0 in 2.216528s Batch Size: 250 Request size: 888.73KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:46:31,717	Posting successful! Total rows: 42250 Total failed: 0 in 2.346968s Batch Size: 250 Request size: 917.12KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:46:34,321	Posting successful! Total rows: 42500 Total failed: 0 in 2.236293s Batch Size: 250 Request size: 853.06KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:46:37,072	Posting successful! Total rows: 42750 Total failed: 0 in 2.181775s Batch Size: 250 Request size: 929.58KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:46:39,782	Posting successful! Total rows: 43000 Total failed: 0 in 2.164397s Batch Size: 250 Request size: 957.74KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:46:42,535	Posting successful! Total rows: 43250 Total failed: 0 in 2.206275s Batch Size: 250 Request size: 967.28KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:46:45,240	Posting successful! Total rows: 43500 Total failed: 0 in 2.165434s Batch Size: 250 Request size: 1001.58KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:46:48,039	Posting successful! Total rows: 43750 Total failed: 0 in 2.419031s Batch Size: 250 Request size: 1.02MB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:46:50,820	Posting successful! Total rows: 44000 Total failed: 0 in 2.385069s Batch Size: 250 Request size: 1.01MB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:46:53,694	Posting successful! Total rows: 44250 Total failed: 0 in 2.318703s Batch Size: 250 Request size: 1.06MB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:46:56,408	Posting successful! Total rows: 44500 Total failed: 0 in 2.181989s Batch Size: 250 Request size: 958.46KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:46:58,950	Posting successful! Total rows: 44750 Total failed: 0 in 2.18015s Batch Size: 250 Request size: 820.31KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:47:01,689	Posting successful! Total rows: 45000 Total failed: 0 in 2.375599s Batch Size: 250 Request size: 916.63KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:47:04,052	Posting successful! Total rows: 45250 Total failed: 0 in 2.171336s Batch Size: 250 Request size: 806.01KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:47:06,372	Posting successful! Total rows: 45500 Total failed: 0 in 2.131201s Batch Size: 250 Request size: 791.36KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:47:08,715	Posting successful! Total rows: 45750 Total failed: 0 in 1.975027s Batch Size: 250 Request size: 789.36KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:47:11,070	Posting successful! Total rows: 46000 Total failed: 0 in 1.986157s Batch Size: 250 Request size: 793.60KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:47:13,480	Posting successful! Total rows: 46250 Total failed: 0 in 2.034101s Batch Size: 250 Request size: 837.38KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:47:16,178	Posting successful! Total rows: 46500 Total failed: 0 in 2.171357s Batch Size: 250 Request size: 894.07KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:47:18,614	Posting successful! Total rows: 46750 Total failed: 0 in 2.06874s Batch Size: 250 Request size: 855.94KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:47:21,124	Posting successful! Total rows: 47000 Total failed: 0 in 2.139709s Batch Size: 250 Request size: 947.09KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:47:23,653	Posting successful! Total rows: 47250 Total failed: 0 in 2.139291s Batch Size: 250 Request size: 909.72KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:47:26,197	Posting successful! Total rows: 47500 Total failed: 0 in 2.183292s Batch Size: 250 Request size: 905.02KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:47:28,971	Posting successful! Total rows: 47750 Total failed: 0 in 2.239659s Batch Size: 250 Request size: 930.11KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:47:31,726	Posting successful! Total rows: 48000 Total failed: 0 in 2.218136s Batch Size: 250 Request size: 960.63KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:47:34,479	Posting successful! Total rows: 48250 Total failed: 0 in 2.210541s Batch Size: 250 Request size: 1008.95KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:47:37,245	Posting successful! Total rows: 48500 Total failed: 0 in 2.217096s Batch Size: 250 Request size: 1.06MB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:47:40,019	Posting successful! Total rows: 48750 Total failed: 0 in 2.202753s Batch Size: 250 Request size: 1.04MB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:47:42,830	Posting successful! Total rows: 49000 Total failed: 0 in 2.269671s Batch Size: 250 Request size: 1.10MB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:47:45,566	Posting successful! Total rows: 49250 Total failed: 0 in 2.201612s Batch Size: 250 Request size: 1.09MB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:47:48,325	Posting successful! Total rows: 49500 Total failed: 0 in 2.217599s Batch Size: 250 Request size: 1.04MB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:47:51,088	Posting successful! Total rows: 49750 Total failed: 0 in 2.200564s Batch Size: 250 Request size: 1.08MB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:47:53,893	Posting successful! Total rows: 50000 Total failed: 0 in 2.195483s Batch Size: 250 Request size: 1.06MB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:47:56,686	Posting successful! Total rows: 50250 Total failed: 0 in 2.254736s Batch Size: 250 Request size: 1.02MB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:47:59,479	Posting successful! Total rows: 50500 Total failed: 0 in 2.259219s Batch Size: 250 Request size: 1.16MB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:48:02,209	Posting successful! Total rows: 50750 Total failed: 0 in 2.189568s Batch Size: 250 Request size: 1014.59KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:48:04,983	Posting successful! Total rows: 51000 Total failed: 0 in 2.233909s Batch Size: 250 Request size: 1.08MB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:48:07,741	Posting successful! Total rows: 51250 Total failed: 0 in 2.218365s Batch Size: 250 Request size: 1021.54KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:48:10,462	Posting successful! Total rows: 51500 Total failed: 0 in 2.186967s Batch Size: 250 Request size: 1.01MB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:48:13,195	Posting successful! Total rows: 51750 Total failed: 0 in 2.196305s Batch Size: 250 Request size: 1.04MB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:48:16,008	Posting successful! Total rows: 52000 Total failed: 0 in 2.270785s Batch Size: 250 Request size: 1.11MB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:48:18,791	Posting successful! Total rows: 52250 Total failed: 0 in 2.249977s Batch Size: 250 Request size: 1.08MB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:48:21,665	Posting successful! Total rows: 52500 Total failed: 0 in 2.333358s Batch Size: 250 Request size: 1.01MB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:48:24,355	Posting successful! Total rows: 52750 Total failed: 0 in 2.161623s Batch Size: 250 Request size: 974.49KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:48:27,149	Posting successful! Total rows: 53000 Total failed: 0 in 2.265399s Batch Size: 250 Request size: 1.03MB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:48:29,874	Posting successful! Total rows: 53250 Total failed: 0 in 2.190556s Batch Size: 250 Request size: 1.02MB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:48:32,635	Posting successful! Total rows: 53500 Total failed: 0 in 2.222634s Batch Size: 250 Request size: 991.17KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:48:35,354	Posting successful! Total rows: 53750 Total failed: 0 in 2.191886s Batch Size: 250 Request size: 997.81KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:48:38,152	Posting successful! Total rows: 54000 Total failed: 0 in 2.23433s Batch Size: 250 Request size: 1.04MB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:48:40,936	Posting successful! Total rows: 54250 Total failed: 0 in 2.246117s Batch Size: 250 Request size: 1.11MB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:48:43,702	Posting successful! Total rows: 54500 Total failed: 0 in 2.232423s Batch Size: 250 Request size: 1.10MB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:48:46,433	Posting successful! Total rows: 54750 Total failed: 0 in 2.193285s Batch Size: 250 Request size: 1.05MB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:48:49,148	Posting successful! Total rows: 55000 Total failed: 0 in 2.173892s Batch Size: 250 Request size: 1.01MB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:48:51,909	Posting successful! Total rows: 55250 Total failed: 0 in 2.216727s Batch Size: 250 Request size: 1.01MB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:48:54,191	Posting successful! Total rows: 55420 Total failed: 0 in 1.925683s Batch Size: 170 Request size: 708.21KB 	post_srs_auth	batch_poster.py:267
-2023-02-16 22:48:54,191	Done posting 55420 records. 	post_srs_auth	batch_poster.py:155
-2023-02-16 22:48:54,193	Done. Wrapping up	post_srs_auth	batch_poster.py:384
-2023-02-16 22:48:54,193	Removing extradata file since it is empty	post_srs_auth	extradata_writer.py:46
-2023-02-16 22:48:54,946	Posted Committed snapshot to FOLIO: {
-    "jobExecutionId": "433881b0-3caf-48ec-b82b-4822a81b1677",
-    "status": "COMMITTED"
-}	post_srs_auth	batch_poster.py:480
-2023-02-16 22:48:54,946	Failed records: 0 failed records in 0 failed batches. Failed records saved to /home/theodor/client_data/migration_example/iterations/test_run/results/failed_records_post_srs_auth_20230216-223845.txt	post_srs_auth	batch_poster.py:389
-2023-02-16 22:48:54,947	Elapsed time: 0:10:09.807107	post_srs_auth	migration_report.py:74
-2023-02-16 22:48:54,948	Removing data issues file since it is empty	post_srs_auth	migration_task_base.py:89
-2023-02-16 22:48:54,948	Removed data issues file since it was empty	post_srs_auth	migration_task_base.py:91
-2023-02-16 22:48:54,948	Work done. Shutting down	post_srs_auth	__main__.py:102
+ "snapshotId": "f12493a1-385a-4b67-98b1-d4c4f26fab90"
+}	post_srs_auth	batch_poster.py:179
+2023-03-27 11:07:44,253	Posting successful! Total rows: 250 Total failed: 0 in 3.389052s Batch Size: 250 Request size: 920.75KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:07:56,954	Posting successful! Total rows: 500 Total failed: 0 in 12.208082s Batch Size: 250 Request size: 914.83KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:08:01,938	Posting successful! Total rows: 750 Total failed: 0 in 4.410334s Batch Size: 250 Request size: 945.97KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:08:25,718	Posting successful! Total rows: 1000 Total failed: 0 in 23.055203s Batch Size: 250 Request size: 932.26KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:08:42,250	Posting successful! Total rows: 1250 Total failed: 0 in 11.313581s Batch Size: 250 Request size: 981.53KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:09:05,727	Posting successful! Total rows: 1500 Total failed: 0 in 21.147579s Batch Size: 250 Request size: 911.98KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:09:10,363	Posting successful! Total rows: 1750 Total failed: 0 in 2.815297s Batch Size: 250 Request size: 929.72KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:09:43,181	Posting successful! Total rows: 2000 Total failed: 0 in 29.346325s Batch Size: 250 Request size: 937.33KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:10:03,809	Posting successful! Total rows: 2250 Total failed: 0 in 19.145845s Batch Size: 250 Request size: 917.10KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:10:17,982	Posting successful! Total rows: 2500 Total failed: 0 in 11.181863s Batch Size: 250 Request size: 895.44KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:10:21,402	Posting successful! Total rows: 2750 Total failed: 0 in 2.944195s Batch Size: 250 Request size: 891.44KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:10:25,375	Posting successful! Total rows: 3000 Total failed: 0 in 3.285442s Batch Size: 250 Request size: 902.00KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:10:37,374	Posting successful! Total rows: 3250 Total failed: 0 in 10.639818s Batch Size: 250 Request size: 890.76KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:10:45,755	Posting successful! Total rows: 3500 Total failed: 0 in 7.302237s Batch Size: 250 Request size: 916.54KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:10:59,745	Posting successful! Total rows: 3750 Total failed: 0 in 12.997185s Batch Size: 250 Request size: 907.43KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:11:05,980	Posting successful! Total rows: 4000 Total failed: 0 in 5.678388s Batch Size: 250 Request size: 916.76KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:11:10,483	Posting successful! Total rows: 4250 Total failed: 0 in 3.960635s Batch Size: 250 Request size: 906.38KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:11:15,455	Posting successful! Total rows: 4500 Total failed: 0 in 4.000957s Batch Size: 250 Request size: 942.95KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:11:18,524	Posting successful! Total rows: 4750 Total failed: 0 in 2.625052s Batch Size: 250 Request size: 947.67KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:11:23,231	Posting successful! Total rows: 5000 Total failed: 0 in 4.262231s Batch Size: 250 Request size: 873.21KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:11:29,571	Posting successful! Total rows: 5250 Total failed: 0 in 5.271485s Batch Size: 250 Request size: 893.28KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:11:34,270	Posting successful! Total rows: 5500 Total failed: 0 in 3.464776s Batch Size: 250 Request size: 907.09KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:11:47,470	Posting successful! Total rows: 5750 Total failed: 0 in 10.929013s Batch Size: 250 Request size: 893.53KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:11:52,693	Posting successful! Total rows: 6000 Total failed: 0 in 4.322188s Batch Size: 250 Request size: 884.52KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:11:56,476	Posting successful! Total rows: 6250 Total failed: 0 in 2.242216s Batch Size: 250 Request size: 909.84KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:12:09,761	Posting successful! Total rows: 6500 Total failed: 0 in 9.492116s Batch Size: 250 Request size: 925.22KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:12:30,503	Posting successful! Total rows: 6750 Total failed: 0 in 18.326419s Batch Size: 250 Request size: 918.38KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:12:34,215	Posting successful! Total rows: 7000 Total failed: 0 in 2.687547s Batch Size: 250 Request size: 923.06KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:12:50,087	Posting successful! Total rows: 7250 Total failed: 0 in 11.952845s Batch Size: 250 Request size: 954.27KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:12:58,885	Posting successful! Total rows: 7500 Total failed: 0 in 7.121293s Batch Size: 250 Request size: 900.89KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:13:03,776	Posting successful! Total rows: 7750 Total failed: 0 in 4.110788s Batch Size: 250 Request size: 888.18KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:13:06,895	Posting successful! Total rows: 8000 Total failed: 0 in 2.4767s Batch Size: 250 Request size: 900.32KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:13:14,591	Posting successful! Total rows: 8250 Total failed: 0 in 6.468979s Batch Size: 250 Request size: 940.65KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:13:25,498	Posting successful! Total rows: 8500 Total failed: 0 in 8.118766s Batch Size: 250 Request size: 915.92KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:13:42,796	Posting successful! Total rows: 8750 Total failed: 0 in 12.337651s Batch Size: 250 Request size: 899.91KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:13:54,861	Posting successful! Total rows: 9000 Total failed: 0 in 8.651321s Batch Size: 250 Request size: 920.04KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:14:08,733	Posting successful! Total rows: 9250 Total failed: 0 in 12.140095s Batch Size: 250 Request size: 925.99KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:14:16,422	Posting successful! Total rows: 9500 Total failed: 0 in 5.298594s Batch Size: 250 Request size: 922.80KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:14:19,527	Posting successful! Total rows: 9750 Total failed: 0 in 2.337128s Batch Size: 250 Request size: 906.75KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:14:23,573	Posting successful! Total rows: 10000 Total failed: 0 in 2.813945s Batch Size: 250 Request size: 935.36KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:14:33,656	Posting successful! Total rows: 10250 Total failed: 0 in 6.993363s Batch Size: 250 Request size: 944.65KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:15:09,953	Posting successful! Total rows: 10500 Total failed: 0 in 32.250945s Batch Size: 250 Request size: 961.51KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:15:15,801	Posting successful! Total rows: 10750 Total failed: 0 in 3.678488s Batch Size: 250 Request size: 938.52KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:15:25,901	Posting successful! Total rows: 11000 Total failed: 0 in 7.620094s Batch Size: 250 Request size: 934.29KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:15:35,500	Posting successful! Total rows: 11250 Total failed: 0 in 7.871233s Batch Size: 250 Request size: 886.76KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:15:47,477	Posting successful! Total rows: 11500 Total failed: 0 in 8.81197s Batch Size: 250 Request size: 938.22KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:15:51,670	Posting successful! Total rows: 11750 Total failed: 0 in 2.514173s Batch Size: 250 Request size: 939.46KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:15:57,204	Posting successful! Total rows: 12000 Total failed: 0 in 4.0755s Batch Size: 250 Request size: 942.32KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:16:11,181	Posting successful! Total rows: 12250 Total failed: 0 in 12.536033s Batch Size: 250 Request size: 942.42KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:16:23,492	Posting successful! Total rows: 12500 Total failed: 0 in 10.759654s Batch Size: 250 Request size: 913.29KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:16:33,170	Posting successful! Total rows: 12750 Total failed: 0 in 7.564803s Batch Size: 250 Request size: 911.57KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:16:39,231	Posting successful! Total rows: 13000 Total failed: 0 in 4.834959s Batch Size: 250 Request size: 906.36KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:16:45,148	Posting successful! Total rows: 13250 Total failed: 0 in 4.850469s Batch Size: 250 Request size: 873.12KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:16:52,971	Posting successful! Total rows: 13500 Total failed: 0 in 4.889831s Batch Size: 250 Request size: 897.54KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:17:10,337	Posting successful! Total rows: 13750 Total failed: 0 in 13.379701s Batch Size: 250 Request size: 935.21KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:17:17,112	Posting successful! Total rows: 14000 Total failed: 0 in 5.500671s Batch Size: 250 Request size: 925.25KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:17:32,067	Posting successful! Total rows: 14250 Total failed: 0 in 11.702151s Batch Size: 250 Request size: 924.13KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:17:36,855	Posting successful! Total rows: 14500 Total failed: 0 in 3.269898s Batch Size: 250 Request size: 922.42KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:17:51,872	Posting successful! Total rows: 14750 Total failed: 0 in 13.12498s Batch Size: 250 Request size: 884.61KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:17:57,486	Posting successful! Total rows: 15000 Total failed: 0 in 4.220312s Batch Size: 250 Request size: 913.33KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:18:03,398	Posting successful! Total rows: 15250 Total failed: 0 in 3.681396s Batch Size: 250 Request size: 930.09KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:18:11,281	Posting successful! Total rows: 15500 Total failed: 0 in 4.693655s Batch Size: 250 Request size: 920.27KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:18:26,349	Posting successful! Total rows: 15750 Total failed: 0 in 10.41005s Batch Size: 250 Request size: 918.27KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:18:56,380	Posting successful! Total rows: 16000 Total failed: 0 in 23.09258s Batch Size: 250 Request size: 931.44KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:19:02,183	Posting successful! Total rows: 16250 Total failed: 0 in 3.981293s Batch Size: 250 Request size: 913.67KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:19:40,500	Posting successful! Total rows: 16500 Total failed: 0 in 36.167457s Batch Size: 250 Request size: 911.95KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:20:17,902	Posting successful! Total rows: 16750 Total failed: 0 in 36.216614s Batch Size: 250 Request size: 915.57KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:20:33,831	Posting successful! Total rows: 17000 Total failed: 0 in 12.63859s Batch Size: 250 Request size: 919.95KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:20:52,189	Posting successful! Total rows: 17250 Total failed: 0 in 14.896069s Batch Size: 250 Request size: 924.21KB 	post_srs_auth	batch_poster.py:274
+2023-03-27 11:21:03,540	Posting successful! Total rows: 17500 Total failed: 0 in 9.37837s Batch Size: 250 Request size: 932.93KB 	post_srs_auth	batch_poster.py:274
