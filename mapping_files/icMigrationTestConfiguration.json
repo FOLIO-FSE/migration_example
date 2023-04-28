@@ -398,6 +398,18 @@
             ]
         },
         {
+            "name": "transform_manual_feefines",
+            "migrationTaskType": "ManualFeeFinesTransformer",
+            "feefinesMap": "manual_feefines_map.json",
+            "feefinesOwnerMap": "feefine_owners.tsv",
+            "feefinesTypeMap": "feefine_types.tsv",
+            "files": [
+                {
+                    "file_name": "test_feefimes.tsv"
+                }
+            ]
+        },
+        {
             "name": "transform_orgs",
             "migrationTaskType": "OrganizationTransformer",
             "organizationMapPath": "organization_mapping.json",

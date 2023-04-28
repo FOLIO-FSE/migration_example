@@ -1,1 +1,4 @@
-localMigrationTestConfiguration.json
+localMigrationTestConfiguration.jsonresults/
+archive/
+source_data/
+*.data

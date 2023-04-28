@@ -1,0 +1,6 @@
+account	{"amount": "100", "remaining": "80", "paymentStatus": {"name": "Outstanding"}, "userId": "pb11234", "itemId": "ib5588", "feeFineId": "031836ec-521a-4493-9f76-0e02c2e7d241", "ownerId": "5abfff3f-50eb-432a-9a43-21f8f7a70194", "id": "d30d0824-3892-4ba0-a95c-889f17f81eab"}
+feefineaction	{"dateAction": "2023-01-07", "accountId": "d30d0824-3892-4ba0-a95c-889f17f81eab", "userId": "pb11234", "id": "bd5ac7a9-568d-40a7-a5bf-bfebf932e838"}
+account	{"amount": "20", "remaining": "20", "paymentStatus": {"name": "Outstanding"}, "userId": "pb11234", "itemId": "ib2588", "feeFineId": "a2906696-be6e-4b1f-b2b9-3ce0e905526b", "ownerId": "62a0eb54-de96-46ee-b184-5be6c8114a19", "id": "2feadfc9-f2c8-4f42-87b8-192d6c470806"}
+feefineaction	{"dateAction": "2023-02-03", "accountId": "2feadfc9-f2c8-4f42-87b8-192d6c470806", "userId": "pb11234", "id": "657b80e7-f5f2-42d4-b4ba-c3054e9e3721"}
+account	{"amount": "20", "remaining": "20", "paymentStatus": {"name": "Outstanding"}, "userId": "pb66234", "itemId": "ib25668", "feeFineId": "a2906696-be6e-4b1f-b2b9-3ce0e905526b", "ownerId": "62a0eb54-de96-46ee-b184-5be6c8114a19", "id": "6937003c-3c11-48ca-a494-75b7845e5dd9"}
+feefineaction	{"dateAction": "2012-09-08", "accountId": "6937003c-3c11-48ca-a494-75b7845e5dd9", "userId": "pb66234", "id": "6725f941-9aaa-43bd-a1cf-d9fd72cf6443"}

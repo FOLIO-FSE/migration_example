@@ -4,9 +4,9 @@
    
 Measure | Value   
 --- | ---:   
-Time Started: | 2023-03-02T16:42:47.927311+00:00   
-Time Finished: | 2023-03-02T16:43:04.776195+00:00   
-Elapsed time: | 0:00:16.848884   
+Time Started: | 2023-03-23T15:54:40.934879+00:00   
+Time Finished: | 2023-03-23T15:54:54.003196+00:00   
+Elapsed time: | 0:00:13.068317   
    
 ## General statistics    
 A list of general counters to outline the transformation as a whole.    
@@ -27,12 +27,21 @@ Total rows in test_organizations.tsv | 3
    
 ## Default values added    
 The values below was added to all records from the value field in the mapping file instead of coming from the source records    
-<details><summary>Click to expand all 3 things</summary>     
+<details><summary>Click to expand all 12 things</summary>     
    
 Measure | Count   
 --- | ---:   
+Admin added to interfaces[1].type[0] | 3   
 From Schema: exportToAccounting -> False | 3   
 From Schema: isVendor -> False | 3   
+Migrated note added to notes[0].title | 3   
+True added to addresses[0].isPrimary | 3   
+True added to contacts[0].addresses[0].isPrimary | 12   
+True added to contacts[0].phoneNumbers[0].isPrimary | 12   
+True added to contacts[1].addresses[0].isPrimary | 9   
+True added to interfaces[0].available | 6   
+f5bba0d2-7732-4687-8311-a2cb0eaa12e5 added to notes[0].typeId | 3   
+organizations added to notes[0].domain | 3   
 </details>   
    
 ## Organization types    
@@ -171,7 +180,38 @@ vendorCurrencies | 0 (0%) | 3 (100%)
 
 Legacy Field | Present | Mapped | Unmapped  
 --- | --- | --- | ---:  
-VENNAME | 12 (400.0%) | 12 (400%) | 0  
+ACCTNUM | 3 (100.0%) | 3 (100%) | 0  
+Active | 3 (100.0%) | 3 (100%) | 0  
+Alt name type | 3 (100.0%) | 3 (100%) | 0  
+Alternative Names | 3 (100.0%) | 3 (100%) | 0  
+EMAIL | 3 (100.0%) | 3 (100%) | 0  
+PHONE NUM | 3 (100.0%) | 3 (100%) | 0  
+VENNAME | 3 (100.0%) | 3 (100%) | 0  
+address_city | 3 (100.0%) | 3 (100%) | 0  
+address_line_1 | 3 (100.0%) | 3 (100%) | 0  
+address_state | 3 (100.0%) | 3 (100%) | 0  
+address_zip | 3 (100.0%) | 3 (100%) | 0  
+contact_1_address_city | 24 (800.0%) | 24 (800%) | 0  
+contact_1_address_line1 | 12 (400.0%) | 12 (400%) | 0  
+contact_1_fname | 12 (400.0%) | 12 (400%) | 0  
+contact_1_lname | 12 (400.0%) | 12 (400%) | 0  
+contact_1_note | 12 (400.0%) | 12 (400%) | 0  
+contact_1_phone | 12 (400.0%) | 12 (400%) | 0  
+contact_2_address_city | 18 (600.0%) | 18 (600%) | 0  
+contact_2_address_line1 | 9 (300.0%) | 9 (300%) | 0  
+contact_2_fname | 9 (300.0%) | 9 (300%) | 0  
+contact_2_lname | 9 (300.0%) | 9 (300%) | 0  
+contact_2_note | 9 (300.0%) | 9 (300%) | 0  
+interface_1_delivery | 6 (200.0%) | 6 (200%) | 0  
+interface_1_localLocation | 6 (200.0%) | 6 (200%) | 0  
+interface_1_name | 6 (200.0%) | 6 (200%) | 0  
+interface_1_notes | 6 (200.0%) | 6 (200%) | 0  
+interface_1_onlineLocation | 6 (200.0%) | 6 (200%) | 0  
+interface_1_statFormat | 6 (200.0%) | 6 (200%) | 0  
+interface_1_statNotes | 6 (200.0%) | 6 (200%) | 0  
+interface_1_uri | 6 (200.0%) | 6 (200%) | 0  
+interface_2_name | 3 (100.0%) | 3 (100%) | 0  
+interface_2_uri | 3 (100.0%) | 3 (100%) | 0  
 org_type | 3 (100.0%) | 3 (100%) | 0  
 status | 3 (100.0%) | 3 (100%) | 0  
 vendor_code | 3 (100.0%) | 3 (100%) | 0  

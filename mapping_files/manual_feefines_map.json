@@ -1,0 +1,76 @@
+{
+    "data": [
+        {
+            "folio_field": "legacyIdentifier",
+            "legacy_field": "",
+            "value": "",
+            "description": ""
+        },
+        {
+            "folio_field": "account.amount",
+            "legacy_field": "amount",
+            "value": "",
+            "description": ""
+        },
+        {
+            "folio_field": "account.remaining",
+            "legacy_field": "remaining",
+            "value": "",
+            "description": ""
+        },
+        {
+            "folio_field": "account.paymentStatus.name",
+            "legacy_field": "",
+            "value": "Outstanding",
+            "description": ""
+        },
+        {
+            "folio_field": "account.userId",
+            "legacy_field": "patron_barcode",
+            "value": "",
+            "description": ""
+        },
+        {
+            "folio_field": "account.itemId",
+            "legacy_field": "item_barcode",
+            "value": "",
+            "description": ""
+        },
+        {
+            "folio_field": "account.feeFineId",
+            "legacy_field": "type",
+            "value": "",
+            "description": "This is the feefine type."
+        },
+        {
+            "folio_field": "account.ownerId",
+            "legacy_field": "lending_library",
+            "value": "",
+            "description": ""
+        },
+        {
+            "folio_field": "feefineaction.accountId",
+            "legacy_field": "",
+            "value": "",
+            "description": "will contain the uuid of the account"
+        },
+        {
+            "folio_field": "feefineaction.userId",
+            "legacy_field": "patron_barcode",
+            "value": "",
+            "description": ""
+        },
+        {
+            "folio_field": "feefineaction.dateAction",
+            "legacy_field": "billed_date",
+            "value": "",
+            "description": ""
+        },
+        {
+            "folio_field": "feefineaction.comments",
+            "legacy_field": "legacy_comment",
+            "value": "",
+            "description": ""
+        }
+    ]
+}
