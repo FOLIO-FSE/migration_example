@@ -4,9 +4,9 @@
    
 Measure | Value   
 --- | ---:   
-Time Started: | 2023-02-16T21:53:23.292065+00:00   
-Time Finished: | 2023-02-16T21:53:29.943668+00:00   
-Elapsed time: | 0:00:06.651603   
+Time Started: | 2023-03-27T09:44:27.295295+00:00   
+Time Finished: | 2023-03-27T09:44:34.275298+00:00   
+Elapsed time: | 0:00:06.980003   
    
 ## User group mapping    
     
@@ -15,6 +15,15 @@ Elapsed time: | 0:00:06.651603
 Measure | Count   
 --- | ---:   
 STAF -> staff | 1   
+</details>   
+   
+## DateTime conversions    
+Some date and date time strings are converted to UTC DateTime objects and then printed accoding to ISO standard.    
+<details><summary>Click to expand all 2 things</summary>     
+   
+Measure | Count   
+--- | ---:   
+Parsing error! personal.dateOfBirth: . NOW() was returned | 1   
 </details>   
    
 ## Details    
@@ -26,22 +35,44 @@ Measure | Count
 ['HOMEADDRESS2', 'HOMEADDRESS3'] were concatenated | 1   
 </details>   
    
-## Mapped note types    
-Library action: **REVIEW** <br/>The created FOLIO instances contain the following Note type values.  <br/>The library should review the total number for each value against what they would expect to see mapped.    
-<details><summary>Click to expand all 2 things</summary>     
+## Default values added    
+The values below was added to all records from the value field in the mapping file instead of coming from the source records    
+<details><summary>Click to expand all 14 things</summary>     
    
 Measure | Count   
 --- | ---:   
-4745c93f-855c-4c4f-bdab-71b4581ceccf | 4   
+4745c93f-855c-4c4f-bdab-71b4581ceccf added to notes[0].typeId | 1   
+4745c93f-855c-4c4f-bdab-71b4581ceccf added to notes[1].typeId | 1   
+4745c93f-855c-4c4f-bdab-71b4581ceccf added to notes[2].typeId | 1   
+True added to notes[0].popUpOnCheckOut | 1   
+True added to notes[0].popUpOnUser | 1   
+True added to notes[1].popUpOnCheckOut | 1   
+True added to notes[1].popUpOnUser | 1   
+True added to notes[2].popUpOnCheckOut | 1   
+True added to notes[2].popUpOnUser | 1   
+True added to personal.addresses[0].primaryAddress | 1   
+users added to notes[0].domain | 1   
+users added to notes[1].domain | 1   
+users added to notes[2].domain | 1   
 </details>   
    
 ## General statistics    
 A list of general counters to outline the transformation as a whole.    
+<details><summary>Click to expand all 3 things</summary>     
+   
+Measure | Count   
+--- | ---:   
+Number of linked notes created | 3   
+Successful user transformations | 1   
+</details>   
+   
+## Mapped note types    
+Library action: **REVIEW** <br/>The created FOLIO records contain the following Note type values.  <br/>The library should review the total number for each value against what they would expect to see mapped.    
 <details><summary>Click to expand all 2 things</summary>     
    
 Measure | Count   
 --- | ---:   
-Successful user transformations | 1   
+4745c93f-855c-4c4f-bdab-71b4581ceccf | 3   
 </details>   
 
 ## Mapped FOLIO fields
@@ -67,6 +98,7 @@ personal.addresses.city | 1 (100%) | 0 (0%)
 personal.addresses.postalCode | 1 (100%) | 0 (0%) 
 personal.addresses.primaryAddress | 1 (100%) | 0 (0%) 
 personal.addresses.region | 1 (100%) | 0 (0%) 
+personal.dateOfBirth | 1 (100%) | 0 (0%) 
 personal.email | 1 (100%) | 0 (0%) 
 personal.firstName | 1 (100%) | 0 (0%) 
 personal.lastName | 1 (100%) | 0 (0%) 

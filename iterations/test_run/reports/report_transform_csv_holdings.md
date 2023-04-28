@@ -4,17 +4,18 @@
    
 Measure | Value   
 --- | ---:   
-Time Started: | 2023-02-16T21:52:00.381956+00:00   
-Time Finished: | 2023-02-16T21:52:07.401142+00:00   
-Elapsed time: | 0:00:07.019186   
+Time Started: | 2023-03-27T09:34:42.645643+00:00   
+Time Finished: | 2023-03-27T09:35:00.786658+00:00   
+Elapsed time: | 0:00:18.141015   
    
 ## Holdings Merging    
     
-<details><summary>Click to expand all 3 things</summary>     
+<details><summary>Click to expand all 4 things</summary>     
    
 Measure | Count   
 --- | ---:   
-Previously transformed holdings record loaded | 4   
+Holding prevented from merging by holdingsTypeId | 6   
+Previously transformed holdings record loaded | 10   
 callNumber empty or not set | 3   
 </details>   
    
@@ -25,14 +26,14 @@ A list of general counters to outline the transformation as a whole.
 Measure | Count   
 --- | ---:   
 Empty rows in csv_items.tsv | 0   
-Holdings Records Written to disk | 6   
+Holdings Records Written to disk | 12   
 Holdings already created from Item | 1   
 Number of Legacy items in file | 3   
 Number of files processed | 1   
 Records matched to Instances | 3   
 Total rows in csv_items.tsv | 3   
 Unique Holdings created from Items | 2   
-Unique ID:s written to legacy map | 9   
+Unique ID:s written to legacy map | 15   
 </details>   
    
 ## Bound-with mapping    
@@ -62,6 +63,15 @@ Measure | Count
 --- | ---:   
 True added to notes[0].staffOnly | 3   
 f453de0f-8b54-4e99-9180-52932529e3a6 added to notes[0].holdingsNoteTypeId | 3   
+</details>   
+   
+## Unmapped properties    
+    
+<details><summary>Click to expand all 2 things</summary>     
+   
+Measure | Count   
+--- | ---:   
+receivingHistory.displayType | 3   
 </details>   
 
 ## Mapped FOLIO fields

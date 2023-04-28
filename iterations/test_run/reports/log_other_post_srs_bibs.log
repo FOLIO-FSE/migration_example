@@ -1,26 +1,26 @@
-2023-02-16 22:50:05,318	Logging set up	post_srs_bibs	migration_task_base.py:214
-2023-02-16 22:50:05,318	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	post_srs_bibs	folder_structure.py:47
-2023-02-16 22:50:05,319	Git ignore is set up correctly	post_srs_bibs	folder_structure.py:48
-2023-02-16 22:50:05,319	Base folder is /home/theodor/client_data/migration_example	post_srs_bibs	folder_structure.py:49
-2023-02-16 22:50:05,319	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	post_srs_bibs	folder_structure.py:50
-2023-02-16 22:50:05,319	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	post_srs_bibs	folder_structure.py:51
-2023-02-16 22:50:05,319	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	post_srs_bibs	folder_structure.py:52
-2023-02-16 22:50:05,319	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	post_srs_bibs	folder_structure.py:53
-2023-02-16 22:50:05,319	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_other_post_srs_bibs.log	post_srs_bibs	folder_structure.py:54
-2023-02-16 22:50:05,319	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_post_srs_bibs.extradata	post_srs_bibs	folder_structure.py:55
-2023-02-16 22:50:05,319	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_post_srs_bibs.tsv	post_srs_bibs	folder_structure.py:56
-2023-02-16 22:50:05,319	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_other_post_srs_bibs.json	post_srs_bibs	folder_structure.py:57
-2023-02-16 22:50:05,319	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_post_srs_bibs.md	post_srs_bibs	folder_structure.py:58
-2023-02-16 22:50:05,319	MigrationTaskBase init done	post_srs_bibs	migration_task_base.py:78
-2023-02-16 22:50:05,320	Batch size is 250	post_srs_bibs	batch_poster.py:90
-2023-02-16 22:50:06,069	Posted Snapshot to FOLIO: {
-    "jobExecutionId": "300f1cbb-c3e3-49d7-bab9-e8ced51bc23e",
+2023-03-27 11:30:29,052	Logging set up	post_srs_bibs	migration_task_base.py:213
+2023-03-27 11:30:29,052	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	post_srs_bibs	folder_structure.py:47
+2023-03-27 11:30:29,052	Git ignore is set up correctly	post_srs_bibs	folder_structure.py:48
+2023-03-27 11:30:29,053	Base folder is /home/theodor/client_data/migration_example	post_srs_bibs	folder_structure.py:49
+2023-03-27 11:30:29,053	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	post_srs_bibs	folder_structure.py:50
+2023-03-27 11:30:29,053	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	post_srs_bibs	folder_structure.py:51
+2023-03-27 11:30:29,053	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	post_srs_bibs	folder_structure.py:52
+2023-03-27 11:30:29,053	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	post_srs_bibs	folder_structure.py:53
+2023-03-27 11:30:29,053	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_other_post_srs_bibs.log	post_srs_bibs	folder_structure.py:54
+2023-03-27 11:30:29,054	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_post_srs_bibs.extradata	post_srs_bibs	folder_structure.py:55
+2023-03-27 11:30:29,054	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_post_srs_bibs.tsv	post_srs_bibs	folder_structure.py:56
+2023-03-27 11:30:29,054	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_other_post_srs_bibs.json	post_srs_bibs	folder_structure.py:57
+2023-03-27 11:30:29,054	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_post_srs_bibs.md	post_srs_bibs	folder_structure.py:58
+2023-03-27 11:30:29,055	MigrationTaskBase init done	post_srs_bibs	migration_task_base.py:77
+2023-03-27 11:30:29,056	Batch size is 250	post_srs_bibs	batch_poster.py:97
+2023-03-27 11:30:29,897	Posted Snapshot to FOLIO: {
+    "jobExecutionId": "537403a9-6373-42a8-8bb5-6ce0674c2426",
     "status": "PARSING_IN_PROGRESS",
-    "processingStartedDate": "2023-02-16T21:50:05.320"
-}	post_srs_bibs	batch_poster.py:457
-2023-02-16 22:50:06,070	Sleeping while waiting for the snapshot to get created	post_srs_bibs	batch_poster.py:461
-2023-02-16 22:50:11,815	Running /home/theodor/client_data/migration_example/iterations/test_run/results/folio_srs_instances_transform_bibs.json	post_srs_bibs	batch_poster.py:109
-2023-02-16 22:50:11,821	{
+    "processingStartedDate": "2023-03-27T09:30:29.056"
+}	post_srs_bibs	batch_poster.py:472
+2023-03-27 11:30:29,897	Sleeping while waiting for the snapshot to get created	post_srs_bibs	batch_poster.py:476
+2023-03-27 11:30:37,577	Running /home/theodor/client_data/migration_example/iterations/test_run/results/folio_srs_instances_transform_bibs.json	post_srs_bibs	batch_poster.py:116
+2023-03-27 11:30:37,583	{
  "id": "8c437245-cf04-5e86-b594-54a443a805e6",
  "deleted": false,
  "matchedId": "8c437245-cf04-5e86-b594-54a443a805e6",
@@ -399,25 +399,25 @@
   "instanceHrid": "7611780"
  },
  "metadata": {
-  "createdDate": "2023-02-16T21:49:32.564",
+  "createdDate": "2023-03-27T09:05:48.527",
   "createdByUserId": "bb78777e-d13b-4612-9383-54d2b17f6d5d",
-  "updatedDate": "2023-02-16T21:49:32.564",
+  "updatedDate": "2023-03-27T09:05:48.527",
   "updatedByUserId": "bb78777e-d13b-4612-9383-54d2b17f6d5d"
  },
  "state": "ACTUAL",
  "leaderRecordStatus": "c",
- "snapshotId": "300f1cbb-c3e3-49d7-bab9-e8ced51bc23e"
-}	post_srs_bibs	batch_poster.py:172
-2023-02-16 22:50:13,182	Posting successful! Total rows: 14 Total failed: 0 in 1.351957s Batch Size: 14 Request size: 129.63KB 	post_srs_bibs	batch_poster.py:267
-2023-02-16 22:50:13,182	Done posting 14 records. 	post_srs_bibs	batch_poster.py:155
-2023-02-16 22:50:13,182	Done. Wrapping up	post_srs_bibs	batch_poster.py:384
-2023-02-16 22:50:13,183	Removing extradata file since it is empty	post_srs_bibs	extradata_writer.py:46
-2023-02-16 22:50:13,977	Posted Committed snapshot to FOLIO: {
-    "jobExecutionId": "300f1cbb-c3e3-49d7-bab9-e8ced51bc23e",
+ "snapshotId": "537403a9-6373-42a8-8bb5-6ce0674c2426"
+}	post_srs_bibs	batch_poster.py:179
+2023-03-27 11:30:45,395	Posting successful! Total rows: 26 Total failed: 0 in 5.906069s Batch Size: 26 Request size: 351.36KB 	post_srs_bibs	batch_poster.py:274
+2023-03-27 11:30:45,396	Done posting 26 records. 	post_srs_bibs	batch_poster.py:162
+2023-03-27 11:30:45,396	Done. Wrapping up	post_srs_bibs	batch_poster.py:391
+2023-03-27 11:30:45,397	Removing extradata file since it is empty	post_srs_bibs	extradata_writer.py:45
+2023-03-27 11:30:46,864	Posted Committed snapshot to FOLIO: {
+    "jobExecutionId": "537403a9-6373-42a8-8bb5-6ce0674c2426",
     "status": "COMMITTED"
-}	post_srs_bibs	batch_poster.py:480
-2023-02-16 22:50:13,977	Failed records: 0 failed records in 0 failed batches. Failed records saved to /home/theodor/client_data/migration_example/iterations/test_run/results/failed_records_post_srs_bibs_20230216-225005.txt	post_srs_bibs	batch_poster.py:389
-2023-02-16 22:50:13,978	Elapsed time: 0:00:09.419303	post_srs_bibs	migration_report.py:74
-2023-02-16 22:50:13,978	Removing data issues file since it is empty	post_srs_bibs	migration_task_base.py:89
-2023-02-16 22:50:13,978	Removed data issues file since it was empty	post_srs_bibs	migration_task_base.py:91
-2023-02-16 22:50:13,978	Work done. Shutting down	post_srs_bibs	__main__.py:102
+}	post_srs_bibs	batch_poster.py:495
+2023-03-27 11:30:46,864	Failed records: 0 failed records in 0 failed batches. Failed records saved to /home/theodor/client_data/migration_example/iterations/test_run/results/failed_records_post_srs_bibs_20230327-113029.txt	post_srs_bibs	batch_poster.py:396
+2023-03-27 11:30:46,865	Elapsed time: 0:00:18.792176	post_srs_bibs	migration_report.py:74
+2023-03-27 11:30:46,865	Removing data issues file since it is empty	post_srs_bibs	migration_task_base.py:88
+2023-03-27 11:30:46,865	Removed data issues file since it was empty	post_srs_bibs	migration_task_base.py:90
+2023-03-27 11:30:46,865	Work done. Shutting down	post_srs_bibs	__main__.py:102

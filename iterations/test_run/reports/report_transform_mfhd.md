@@ -4,21 +4,22 @@
    
 Measure | Value   
 --- | ---:   
-Time Started: | 2023-02-16T21:50:23.502490+00:00   
-Time Finished: | 2023-02-16T21:50:40.959307+00:00   
-Elapsed time: | 0:00:17.456817   
+Time Started: | 2023-03-27T09:30:58.864063+00:00   
+Time Finished: | 2023-03-27T09:31:31.304126+00:00   
+Elapsed time: | 0:00:32.440063   
    
 ## General statistics    
 A list of general counters to outline the transformation as a whole.    
-<details><summary>Click to expand all 6 things</summary>     
+<details><summary>Click to expand all 7 things</summary>     
    
 Measure | Count   
 --- | ---:   
-Inventory records written to disk | 4   
-Records in file before parsing | 4   
-Records successfully decoded from MARC21 | 4   
-SRS records written to disk | 4   
-Unique ID:s written to legacy map | 4   
+Bound-with holdings created | 6   
+Inventory records written to disk | 10   
+Records in file before parsing | 7   
+Records successfully decoded from MARC21 | 7   
+SRS records written to disk | 7   
+Unique ID:s written to legacy map | 7   
 </details>   
    
 ## Record status (leader pos 5)    
@@ -27,7 +28,7 @@ Library action: **All values that are not a, c, d, n or p will be set to c. If t
    
 Measure | Count   
 --- | ---:   
-n | 4   
+n | 7   
 </details>   
    
 ## Trivia    
@@ -36,7 +37,7 @@ n | 4
    
 Measure | Count   
 --- | ---:   
-Total number of Tags processed | 20   
+Total number of Tags processed | 35   
 </details>   
    
 ## Holdings type mapping    
@@ -45,8 +46,8 @@ Total number of Tags processed | 20
    
 Measure | Count   
 --- | ---:   
-Condition in rules hit | 4   
-x -> Monograph -> Monograph (03c9c400-b9e3-4a07-ac0e-05ab470233ed | 4   
+Condition in rules hit | 7   
+x -> Monograph -> Monograph (03c9c400-b9e3-4a07-ac0e-05ab470233ed | 7   
 </details>   
    
 ## Callnumber type mapping    
@@ -55,7 +56,7 @@ Call number types in MFHDs are mapped from 852, Indicator 1 according to a certa
    
 Measure | Count   
 --- | ---:   
-Mapped from Indicator 1 0 -> Library of Congress classification | 4   
+Mapped from Indicator 1 0 -> Library of Congress classification | 7   
 </details>   
    
 ## Location mapping    
@@ -67,9 +68,9 @@ Measure | Count
 'cd' (CeeDee) -> CD ROM Carousel | 1   
 'infoOff' (InOFF) -> Info Office | 1   
 'jnlDesk' (migration) -> Migration Fallback | 1   
-'maps' (MAPZ) -> Maps closet | 1   
+'maps' (MAPZ) -> Maps closet | 4   
 Fallback mapping: jnlDesk->migration | 1   
-Set 852 to FOLIO location code | 4   
+Set 852 to FOLIO location code | 7   
 </details>   
    
 ## HRID and 001/035 handling    
@@ -78,7 +79,7 @@ There are two ways of handling HRIDs. The default behaviour is to take the curre
    
 Measure | Count   
 --- | ---:   
-Took HRID from 001 | 4   
+Took HRID from 001 | 7   
 </details>   
    
 ## Suppression    
@@ -87,7 +88,7 @@ What records got assigned what suppression setting in the records.
    
 Measure | Count   
 --- | ---:   
-Suppressed from discovery = False | 4   
+Suppressed from discovery = False | 7   
 </details>   
    
 ## MARC21 validation issues found in records    
@@ -104,49 +105,49 @@ Measure | Count
 
 FOLIO Field | Mapped | Unmapped  
 --- | --- | ---:  
-_version | 0 (0%) | 4 (100%) 
-acquisitionFormat | 0 (0%) | 4 (100%) 
-acquisitionMethod | 0 (0%) | 4 (100%) 
-administrativeNotes | 4 (100%) | 0 (0%) 
-bareHoldingsItems | 0 (0%) | 4 (100%) 
-callNumber | 4 (100%) | 0 (0%) 
-callNumberPrefix | 0 (0%) | 4 (100%) 
-callNumberSuffix | 0 (0%) | 4 (100%) 
-callNumberTypeId | 4 (100%) | 0 (0%) 
-copyNumber | 0 (0%) | 4 (100%) 
-digitizationPolicy | 0 (0%) | 4 (100%) 
-discoverySuppress | 4 (100%) | 0 (0%) 
-effectiveLocationId | 0 (0%) | 4 (100%) 
-electronicAccess | 0 (0%) | 4 (100%) 
-formerIds | 4 (100%) | 0 (0%) 
-holdingsInstance | 0 (0%) | 4 (100%) 
-holdingsItems | 0 (0%) | 4 (100%) 
-holdingsStatements | 0 (0%) | 4 (100%) 
-holdingsStatementsForIndexes | 0 (0%) | 4 (100%) 
-holdingsStatementsForSupplements | 0 (0%) | 4 (100%) 
-holdingsTypeId | 4 (100%) | 0 (0%) 
-hrid | 4 (100%) | 0 (0%) 
-id | 4 (100%) | 0 (0%) 
-illPolicy | 0 (0%) | 4 (100%) 
-illPolicyId | 0 (0%) | 4 (100%) 
-instanceId | 4 (100%) | 0 (0%) 
-metadata | 4 (100%) | 0 (0%) 
-metadata.createdByUserId | 4 (100%) | 0 (0%) 
-metadata.createdDate | 4 (100%) | 0 (0%) 
-metadata.updatedByUserId | 4 (100%) | 0 (0%) 
-metadata.updatedDate | 4 (100%) | 0 (0%) 
-notes | 0 (0%) | 4 (100%) 
-numberOfItems | 0 (0%) | 4 (100%) 
-permanentLocation | 0 (0%) | 4 (100%) 
-permanentLocationId | 4 (100%) | 0 (0%) 
-receiptStatus | 0 (0%) | 4 (100%) 
-receivingHistory | 0 (0%) | 4 (100%) 
-retentionPolicy | 0 (0%) | 4 (100%) 
-shelvingTitle | 0 (0%) | 4 (100%) 
-sourceId | 4 (100%) | 0 (0%) 
-statisticalCodeIds | 0 (0%) | 4 (100%) 
-tags | 0 (0%) | 4 (100%) 
-temporaryLocationId | 0 (0%) | 4 (100%) 
+_version | 0 (0%) | 7 (100%) 
+acquisitionFormat | 0 (0%) | 7 (100%) 
+acquisitionMethod | 0 (0%) | 7 (100%) 
+administrativeNotes | 7 (100%) | 0 (0%) 
+bareHoldingsItems | 0 (0%) | 7 (100%) 
+callNumber | 7 (100%) | 0 (0%) 
+callNumberPrefix | 0 (0%) | 7 (100%) 
+callNumberSuffix | 0 (0%) | 7 (100%) 
+callNumberTypeId | 7 (100%) | 0 (0%) 
+copyNumber | 0 (0%) | 7 (100%) 
+digitizationPolicy | 0 (0%) | 7 (100%) 
+discoverySuppress | 7 (100%) | 0 (0%) 
+effectiveLocationId | 0 (0%) | 7 (100%) 
+electronicAccess | 0 (0%) | 7 (100%) 
+formerIds | 7 (100%) | 0 (0%) 
+holdingsInstance | 0 (0%) | 7 (100%) 
+holdingsItems | 0 (0%) | 7 (100%) 
+holdingsStatements | 0 (0%) | 7 (100%) 
+holdingsStatementsForIndexes | 0 (0%) | 7 (100%) 
+holdingsStatementsForSupplements | 0 (0%) | 7 (100%) 
+holdingsTypeId | 7 (100%) | 0 (0%) 
+hrid | 7 (100%) | 0 (0%) 
+id | 7 (100%) | 0 (0%) 
+illPolicy | 0 (0%) | 7 (100%) 
+illPolicyId | 0 (0%) | 7 (100%) 
+instanceId | 7 (100%) | 0 (0%) 
+metadata | 7 (100%) | 0 (0%) 
+metadata.createdByUserId | 7 (100%) | 0 (0%) 
+metadata.createdDate | 7 (100%) | 0 (0%) 
+metadata.updatedByUserId | 7 (100%) | 0 (0%) 
+metadata.updatedDate | 7 (100%) | 0 (0%) 
+notes | 0 (0%) | 7 (100%) 
+numberOfItems | 0 (0%) | 7 (100%) 
+permanentLocation | 0 (0%) | 7 (100%) 
+permanentLocationId | 7 (100%) | 0 (0%) 
+receiptStatus | 0 (0%) | 7 (100%) 
+receivingHistory | 0 (0%) | 7 (100%) 
+retentionPolicy | 0 (0%) | 7 (100%) 
+shelvingTitle | 0 (0%) | 7 (100%) 
+sourceId | 7 (100%) | 0 (0%) 
+statisticalCodeIds | 0 (0%) | 7 (100%) 
+tags | 0 (0%) | 7 (100%) 
+temporaryLocationId | 0 (0%) | 7 (100%) 
 </details>   
 
 ## Mapped Legacy fields
@@ -154,9 +155,9 @@ temporaryLocationId | 0 (0%) | 4 (100%)
 
 Legacy Field | Present | Mapped | Unmapped  
 --- | --- | --- | ---:  
-001 | 4 (100.0%) | 4 (100%) | 0  
-004 | 4 (100.0%) | 0 (0%) | 4  
-005 | 4 (100.0%) | 0 (0%) | 4  
-008 | 4 (100.0%) | 0 (0%) | 4  
-852 | 4 (100.0%) | 4 (100%) | 0  
+001 | 7 (100.0%) | 7 (100%) | 0  
+004 | 7 (100.0%) | 0 (0%) | 7  
+005 | 7 (100.0%) | 0 (0%) | 7  
+008 | 7 (100.0%) | 0 (0%) | 7  
+852 | 7 (100.0%) | 7 (100%) | 0  
 </details>   

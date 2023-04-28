@@ -1,4 +1,13 @@
+<<<<<<< HEAD
 localMigrationTestConfiguration.jsonresults/
 archive/
 source_data/
 *.data
+=======
+localMigrationTestConfiguration.json
+results/
+archive/
+source_data/
+*.data
+.venv
+>>>>>>> 6584efd107d94c396d1f02038fb3b0aa34aaf1b7

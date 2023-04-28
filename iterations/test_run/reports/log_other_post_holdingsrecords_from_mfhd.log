@@ -1,24 +1,24 @@
-2023-02-16 22:50:48,921	Logging set up	post_holdingsrecords_from_mfhd	migration_task_base.py:214
-2023-02-16 22:50:48,922	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	post_holdingsrecords_from_mfhd	folder_structure.py:47
-2023-02-16 22:50:48,922	Git ignore is set up correctly	post_holdingsrecords_from_mfhd	folder_structure.py:48
-2023-02-16 22:50:48,922	Base folder is /home/theodor/client_data/migration_example	post_holdingsrecords_from_mfhd	folder_structure.py:49
-2023-02-16 22:50:48,922	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	post_holdingsrecords_from_mfhd	folder_structure.py:50
-2023-02-16 22:50:48,922	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	post_holdingsrecords_from_mfhd	folder_structure.py:51
-2023-02-16 22:50:48,922	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	post_holdingsrecords_from_mfhd	folder_structure.py:52
-2023-02-16 22:50:48,922	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	post_holdingsrecords_from_mfhd	folder_structure.py:53
-2023-02-16 22:50:48,922	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_other_post_holdingsrecords_from_mfhd.log	post_holdingsrecords_from_mfhd	folder_structure.py:54
-2023-02-16 22:50:48,923	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_post_holdingsrecords_from_mfhd.extradata	post_holdingsrecords_from_mfhd	folder_structure.py:55
-2023-02-16 22:50:48,923	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_post_holdingsrecords_from_mfhd.tsv	post_holdingsrecords_from_mfhd	folder_structure.py:56
-2023-02-16 22:50:48,923	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_other_post_holdingsrecords_from_mfhd.json	post_holdingsrecords_from_mfhd	folder_structure.py:57
-2023-02-16 22:50:48,923	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_post_holdingsrecords_from_mfhd.md	post_holdingsrecords_from_mfhd	folder_structure.py:58
-2023-02-16 22:50:48,923	MigrationTaskBase init done	post_holdingsrecords_from_mfhd	migration_task_base.py:78
-2023-02-16 22:50:48,923	Batch size is 250	post_holdingsrecords_from_mfhd	batch_poster.py:90
-2023-02-16 22:50:48,923	Running /home/theodor/client_data/migration_example/iterations/test_run/results/folio_holdings_transform_mfhd.json	post_holdingsrecords_from_mfhd	batch_poster.py:109
-2023-02-16 22:50:48,924	{
+2023-03-27 11:31:44,486	Logging set up	post_holdingsrecords_from_mfhd	migration_task_base.py:213
+2023-03-27 11:31:44,486	Mapping files folder is /home/theodor/client_data/migration_example/mapping_files	post_holdingsrecords_from_mfhd	folder_structure.py:47
+2023-03-27 11:31:44,486	Git ignore is set up correctly	post_holdingsrecords_from_mfhd	folder_structure.py:48
+2023-03-27 11:31:44,486	Base folder is /home/theodor/client_data/migration_example	post_holdingsrecords_from_mfhd	folder_structure.py:49
+2023-03-27 11:31:44,487	Reports and logs folder is /home/theodor/client_data/migration_example/iterations/test_run/reports	post_holdingsrecords_from_mfhd	folder_structure.py:50
+2023-03-27 11:31:44,487	Results folder is /home/theodor/client_data/migration_example/iterations/test_run/results	post_holdingsrecords_from_mfhd	folder_structure.py:51
+2023-03-27 11:31:44,487	Data folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	post_holdingsrecords_from_mfhd	folder_structure.py:52
+2023-03-27 11:31:44,487	Source records files folder is /home/theodor/client_data/migration_example/iterations/test_run/source_data	post_holdingsrecords_from_mfhd	folder_structure.py:53
+2023-03-27 11:31:44,487	Log file will be located at /home/theodor/client_data/migration_example/iterations/test_run/reports/log_other_post_holdingsrecords_from_mfhd.log	post_holdingsrecords_from_mfhd	folder_structure.py:54
+2023-03-27 11:31:44,487	Extra data will be stored at/home/theodor/client_data/migration_example/iterations/test_run/results/extradata_post_holdingsrecords_from_mfhd.extradata	post_holdingsrecords_from_mfhd	folder_structure.py:55
+2023-03-27 11:31:44,487	Data issue reports /home/theodor/client_data/migration_example/iterations/test_run/reports/data_issues_log_post_holdingsrecords_from_mfhd.tsv	post_holdingsrecords_from_mfhd	folder_structure.py:56
+2023-03-27 11:31:44,487	Created objects will be stored at  /home/theodor/client_data/migration_example/iterations/test_run/results/folio_other_post_holdingsrecords_from_mfhd.json	post_holdingsrecords_from_mfhd	folder_structure.py:57
+2023-03-27 11:31:44,487	Migration report file will be saved at /home/theodor/client_data/migration_example/iterations/test_run/reports/report_post_holdingsrecords_from_mfhd.md	post_holdingsrecords_from_mfhd	folder_structure.py:58
+2023-03-27 11:31:44,487	MigrationTaskBase init done	post_holdingsrecords_from_mfhd	migration_task_base.py:77
+2023-03-27 11:31:44,488	Batch size is 250	post_holdingsrecords_from_mfhd	batch_poster.py:97
+2023-03-27 11:31:44,488	Running /home/theodor/client_data/migration_example/iterations/test_run/results/folio_holdings_transform_mfhd.json	post_holdingsrecords_from_mfhd	batch_poster.py:116
+2023-03-27 11:31:44,488	{
  "metadata": {
-  "createdDate": "2023-02-16T21:50:40.946",
+  "createdDate": "2023-03-27T09:31:31.288",
   "createdByUserId": "bb78777e-d13b-4612-9383-54d2b17f6d5d",
-  "updatedDate": "2023-02-16T21:50:40.946",
+  "updatedDate": "2023-03-27T09:31:31.288",
   "updatedByUserId": "bb78777e-d13b-4612-9383-54d2b17f6d5d"
  },
  "id": "0ea781ef-9ed4-5d82-bf48-e4415820ca90",
@@ -37,13 +37,13 @@
  "holdingsTypeId": "03c9c400-b9e3-4a07-ac0e-05ab470233ed",
  "discoverySuppress": false,
  "sourceId": "036ee84a-6afd-4c3c-9ad3-4a12ab875f59"
-}	post_holdingsrecords_from_mfhd	batch_poster.py:172
-2023-02-16 22:50:49,687	Posting successful! Total rows: 4 Total failed: 0 in 0.758494s Batch Size: 4 Request size: 3.46KB 	post_holdingsrecords_from_mfhd	batch_poster.py:267
-2023-02-16 22:50:49,687	Done posting 4 records. 	post_holdingsrecords_from_mfhd	batch_poster.py:155
-2023-02-16 22:50:49,688	Done. Wrapping up	post_holdingsrecords_from_mfhd	batch_poster.py:384
-2023-02-16 22:50:49,688	Removing extradata file since it is empty	post_holdingsrecords_from_mfhd	extradata_writer.py:46
-2023-02-16 22:50:49,689	Failed records: 0 failed records in 0 failed batches. Failed records saved to /home/theodor/client_data/migration_example/iterations/test_run/results/failed_records_post_holdingsrecords_from_mfhd_20230216-225048.txt	post_holdingsrecords_from_mfhd	batch_poster.py:389
-2023-02-16 22:50:49,689	Elapsed time: 0:00:01.521776	post_holdingsrecords_from_mfhd	migration_report.py:74
-2023-02-16 22:50:49,690	Removing data issues file since it is empty	post_holdingsrecords_from_mfhd	migration_task_base.py:89
-2023-02-16 22:50:49,690	Removed data issues file since it was empty	post_holdingsrecords_from_mfhd	migration_task_base.py:91
-2023-02-16 22:50:49,690	Work done. Shutting down	post_holdingsrecords_from_mfhd	__main__.py:102
+}	post_holdingsrecords_from_mfhd	batch_poster.py:179
+2023-03-27 11:31:47,733	Posting successful! Total rows: 10 Total failed: 0 in 3.239349s Batch Size: 10 Request size: 8.35KB 	post_holdingsrecords_from_mfhd	batch_poster.py:274
+2023-03-27 11:31:47,733	Done posting 10 records. 	post_holdingsrecords_from_mfhd	batch_poster.py:162
+2023-03-27 11:31:47,733	Done. Wrapping up	post_holdingsrecords_from_mfhd	batch_poster.py:391
+2023-03-27 11:31:47,734	Removing extradata file since it is empty	post_holdingsrecords_from_mfhd	extradata_writer.py:45
+2023-03-27 11:31:47,734	Failed records: 0 failed records in 0 failed batches. Failed records saved to /home/theodor/client_data/migration_example/iterations/test_run/results/failed_records_post_holdingsrecords_from_mfhd_20230327-113144.txt	post_holdingsrecords_from_mfhd	batch_poster.py:396
+2023-03-27 11:31:47,734	Elapsed time: 0:00:04.407244	post_holdingsrecords_from_mfhd	migration_report.py:74
+2023-03-27 11:31:47,735	Removing data issues file since it is empty	post_holdingsrecords_from_mfhd	migration_task_base.py:88
+2023-03-27 11:31:47,735	Removed data issues file since it was empty	post_holdingsrecords_from_mfhd	migration_task_base.py:90
+2023-03-27 11:31:47,735	Work done. Shutting down	post_holdingsrecords_from_mfhd	__main__.py:102
