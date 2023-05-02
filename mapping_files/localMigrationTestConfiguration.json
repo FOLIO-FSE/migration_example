@@ -446,7 +446,7 @@
             ]
         },
         {
-            "name": "post_feefines_extradata",
+            "name": "post_feefines",
             "migrationTaskType": "BatchPoster",
             "objectType": "Extradata",
             "batchSize": 1,
