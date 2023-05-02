@@ -1,0 +1,139 @@
+2023-05-02 18:26:32,837	Logging set up	transform_manual_feefines	migration_task_base.py:213
+2023-05-02 18:26:32,838	Mapping files folder is ../../migration_example/mapping_files	transform_manual_feefines	folder_structure.py:47
+2023-05-02 18:26:32,839	Git ignore is set up correctly	transform_manual_feefines	folder_structure.py:48
+2023-05-02 18:26:32,839	Base folder is ../../migration_example	transform_manual_feefines	folder_structure.py:49
+2023-05-02 18:26:32,840	Reports and logs folder is ../../migration_example/iterations/test_run/reports	transform_manual_feefines	folder_structure.py:50
+2023-05-02 18:26:32,840	Results folder is ../../migration_example/iterations/test_run/results	transform_manual_feefines	folder_structure.py:51
+2023-05-02 18:26:32,841	Data folder is ../../migration_example/iterations/test_run/source_data	transform_manual_feefines	folder_structure.py:52
+2023-05-02 18:26:32,843	Source records files folder is ../../migration_example/iterations/test_run/source_data/feefines	transform_manual_feefines	folder_structure.py:53
+2023-05-02 18:26:32,844	Log file will be located at ../../migration_example/iterations/test_run/reports/log_feefines_transform_manual_feefines.log	transform_manual_feefines	folder_structure.py:54
+2023-05-02 18:26:32,845	Extra data will be stored at../../migration_example/iterations/test_run/results/extradata_transform_manual_feefines.extradata	transform_manual_feefines	folder_structure.py:55
+2023-05-02 18:26:32,845	Data issue reports ../../migration_example/iterations/test_run/reports/data_issues_log_transform_manual_feefines.tsv	transform_manual_feefines	folder_structure.py:56
+2023-05-02 18:26:32,846	Created objects will be stored at  ../../migration_example/iterations/test_run/results/folio_feefines_transform_manual_feefines.json	transform_manual_feefines	folder_structure.py:57
+2023-05-02 18:26:32,847	Migration report file will be saved at ../../migration_example/iterations/test_run/reports/report_transform_manual_feefines.md	transform_manual_feefines	folder_structure.py:58
+2023-05-02 18:26:32,848	MigrationTaskBase init done	transform_manual_feefines	migration_task_base.py:77
+2023-05-02 18:26:32,849	Files to process:	transform_manual_feefines	manual_fee_fines_transformer.py:110
+2023-05-02 18:26:32,849		../../migration_example/iterations/test_run/source_data/feefines/test_feefimes.tsv	transform_manual_feefines	manual_fee_fines_transformer.py:112
+2023-05-02 18:26:32,849	14 fields present in record mapping file	transform_manual_feefines	migration_task_base.py:218
+2023-05-02 18:26:32,850	10 fields mapped in record mapping file	transform_manual_feefines	migration_task_base.py:224
+2023-05-02 18:26:32,850	Found 3 rows in account.ownerId map	transform_manual_feefines	migration_task_base.py:282
+2023-05-02 18:26:32,851	lending_library, folio_owner will be used for determinig account.ownerId	transform_manual_feefines	migration_task_base.py:296
+2023-05-02 18:26:32,851	Found 3 rows in account.feeFineId map	transform_manual_feefines	migration_task_base.py:282
+2023-05-02 18:26:32,851	type, folio_feeFineType will be used for determinig account.feeFineId	transform_manual_feefines	migration_task_base.py:296
+2023-05-02 18:26:32,852	Found 3 rows in feefineaction.createdAt map	transform_manual_feefines	migration_task_base.py:282
+2023-05-02 18:26:32,852	borrowing_desk, folio_name will be used for determinig feefineaction.createdAt	transform_manual_feefines	migration_task_base.py:296
+2023-05-02 18:26:32,852	Using GITHB_TOKEN environment variable for Gihub API Access	transform_manual_feefines	FolioClient.py:229
+2023-05-02 18:26:33,365	Using GITHB_TOKEN environment variable for Gihub API Access	transform_manual_feefines	FolioClient.py:229
+2023-05-02 18:26:33,840	MapperBase initiating	transform_manual_feefines	mapper_base.py:37
+2023-05-02 18:26:33,840	Mapped values:
+{
+    "account.paymentStatus.name": "Outstanding",
+    "account.status.name": "Open"
+}	transform_manual_feefines	mapping_file_mapper_base.py:69
+2023-05-02 18:26:33,840	Statistical codes map is not set up	transform_manual_feefines	mapping_file_mapper_base.py:118
+2023-05-02 18:26:33,841	Mapped legacy fields:
+[
+    "",
+    "remaining",
+    "billed_date",
+    "type",
+    "amount",
+    "borrowing_desk",
+    "item_barcode",
+    "lending_library",
+    "patron_barcode",
+    "legacy_comment"
+]	transform_manual_feefines	mapping_file_mapper_base.py:95
+2023-05-02 18:26:33,841	Mapped FOLIO fields:
+[
+    "account.amount",
+    "account.remaining",
+    "account.paymentStatus.name",
+    "account.status.name",
+    "account.userId",
+    "account.itemId",
+    "account.feeFineId",
+    "account.ownerId",
+    "feefineaction.userId",
+    "feefineaction.dateAction",
+    "feefineaction.comments",
+    "feefineaction.createdAt"
+]	transform_manual_feefines	mapping_file_mapper_base.py:99
+2023-05-02 18:26:33,841	owners reference data mapping. Initializing	transform_manual_feefines	ref_data_mapping.py:23
+2023-05-02 18:26:33,841	Fetching owners reference data from FOLIO	transform_manual_feefines	ref_data_mapping.py:24
+2023-05-02 18:26:35,355	Set The Best Fee Fine Owner as default owners mapping	transform_manual_feefines	ref_data_mapping.py:56
+2023-05-02 18:26:35,356	Loaded 2 mappings for 2 owners in FOLIO	transform_manual_feefines	ref_data_mapping.py:89
+2023-05-02 18:26:35,356	loaded 0 hybrid mappings for 2 owners in FOLIO	transform_manual_feefines	ref_data_mapping.py:93
+2023-05-02 18:26:35,356	owners reference data mapping. Done init	transform_manual_feefines	ref_data_mapping.py:35
+2023-05-02 18:26:35,356	feefines reference data mapping. Initializing	transform_manual_feefines	ref_data_mapping.py:23
+2023-05-02 18:26:35,356	Fetching feefines reference data from FOLIO	transform_manual_feefines	ref_data_mapping.py:24
+2023-05-02 18:26:36,804	Values from feefines ref data in FOLIO that are not in the map: ['Lost item fee', 'Lost item fee (actual cost)', 'Lost item processing fee', 'Replacement processing fee', 'Overdue fine']	transform_manual_feefines	ref_data_mapping.py:158
+2023-05-02 18:26:36,804	Set Other charges as default feefines mapping	transform_manual_feefines	ref_data_mapping.py:56
+2023-05-02 18:26:36,804	Loaded 2 mappings for 8 feefines in FOLIO	transform_manual_feefines	ref_data_mapping.py:89
+2023-05-02 18:26:36,805	loaded 0 hybrid mappings for 8 feefines in FOLIO	transform_manual_feefines	ref_data_mapping.py:93
+2023-05-02 18:26:36,805	feefines reference data mapping. Done init	transform_manual_feefines	ref_data_mapping.py:35
+2023-05-02 18:26:36,805	servicepoints reference data mapping. Initializing	transform_manual_feefines	ref_data_mapping.py:23
+2023-05-02 18:26:36,805	Fetching servicepoints reference data from FOLIO	transform_manual_feefines	ref_data_mapping.py:24
+2023-05-02 18:26:38,229	Values from servicepoints ref data in FOLIO that are not in the map: ['lisatest2 :) <3 ', 'lisatest']	transform_manual_feefines	ref_data_mapping.py:158
+2023-05-02 18:26:38,230	Set Migration as default servicepoints mapping	transform_manual_feefines	ref_data_mapping.py:56
+2023-05-02 18:26:38,231	Loaded 2 mappings for 5 servicepoints in FOLIO	transform_manual_feefines	ref_data_mapping.py:89
+2023-05-02 18:26:38,231	loaded 0 hybrid mappings for 5 servicepoints in FOLIO	transform_manual_feefines	ref_data_mapping.py:93
+2023-05-02 18:26:38,232	servicepoints reference data mapping. Done init	transform_manual_feefines	ref_data_mapping.py:35
+2023-05-02 18:26:38,232	Getting started!	transform_manual_feefines	manual_fee_fines_transformer.py:116
+2023-05-02 18:26:38,233	Processing ../../migration_example/iterations/test_run/source_data/feefines/test_feefimes.tsv	transform_manual_feefines	manual_fee_fines_transformer.py:118
+2023-05-02 18:26:38,237	Source data file contains 4 rows	transform_manual_feefines	mapping_file_mapper_base.py:684
+2023-05-02 18:26:38,239	Source data file contains 0 empty rows	transform_manual_feefines	mapping_file_mapper_base.py:685
+2023-05-02 18:26:38,240	First legacy record:	transform_manual_feefines	manual_fee_fines_transformer.py:138
+2023-05-02 18:26:38,241	{
+    "amount": "100",
+    "remaining": "80",
+    "patron_barcode": "333444555",
+    "item_barcode": "950-10",
+    "billed_date": "2023-01-07",
+    "lending_library": "library1",
+    "type": "spill",
+    "borrowing_desk": "desk1"
+}	transform_manual_feefines	manual_fee_fines_transformer.py:139
+2023-05-02 18:26:39,896	First FOLIO record:	transform_manual_feefines	manual_fee_fines_transformer.py:156
+2023-05-02 18:26:39,897	{
+    "account": {
+        "amount": 100.0,
+        "remaining": 80.0,
+        "status": {
+            "name": "Open"
+        },
+        "paymentStatus": {
+            "name": "Outstanding"
+        },
+        "userId": "2f105b8f-fc44-4711-bb94-d68647767c23",
+        "itemId": "69e0aa66-1a4d-51cf-b2a9-bb2b38a01056",
+        "feeFineId": "6e8dc178-f667-45cd-90b5-338c78c3a85c",
+        "ownerId": "5abfff3f-50eb-432a-9a43-21f8f7a70194",
+        "id": "9191a0bb-f4c1-4b1f-b5e4-a42c83499e58",
+        "feeFineOwner": "The Best Fee Fine Owner",
+        "feeFineType": "Coffee spill",
+        "title": "Do\u0308da fallen i Avesta.",
+        "barcode": "950-10",
+        "callNumber": "QB611 .C44",
+        "materialType": "sound recording",
+        "materialTypeId": "4eea3f27-8910-46fc-9666-e2b44326c2b8",
+        "location": "Migration Fallback"
+    },
+    "feefineaction": {
+        "dateAction": "2023-01-07T00:00:00",
+        "createdAt": "ee1f72ad-2317-4994-9786-b489f35404d8",
+        "accountId": "9191a0bb-f4c1-4b1f-b5e4-a42c83499e58",
+        "userId": "2f105b8f-fc44-4711-bb94-d68647767c23",
+        "id": "5749585c-169e-467e-9446-1d174aa4fc53",
+        "typeAction": "Coffee spill",
+        "source": "lsjogren",
+        "notify": false,
+        "amountAction": 100.0,
+        "balance": 80.0,
+        "comments": "MIGRATION NOTE : This fee/fine was migrated to FOLIO from a previous library management system. The following is the original data: Amount: 100; Remaining: 80; Patron_Barcode: 333444555; Item_Barcode: 950-10; Billed_Date: 2023-01-07; Lending_Library: library1; Type: spill; Borrowing_Desk: desk1"
+    }
+}	transform_manual_feefines	manual_fee_fines_transformer.py:157
+2023-05-02 18:26:39,906	Done. Transformer wrapping up...	transform_manual_feefines	manual_fee_fines_transformer.py:180
+2023-05-02 18:26:39,907	Writing migration- and mapping report to ../../migration_example/iterations/test_run/reports/report_transform_manual_feefines.md	transform_manual_feefines	manual_fee_fines_transformer.py:183
+2023-05-02 18:26:39,908	Elapsed time: 0:00:07.887042	transform_manual_feefines	migration_report.py:74
+2023-05-02 18:26:39,909	Work done. Shutting down	transform_manual_feefines	__main__.py:102

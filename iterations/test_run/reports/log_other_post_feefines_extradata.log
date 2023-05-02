@@ -1,0 +1,24 @@
+2023-05-02 18:26:57,983	Logging set up	post_feefines_extradata	migration_task_base.py:213
+2023-05-02 18:26:57,983	Mapping files folder is ../../migration_example/mapping_files	post_feefines_extradata	folder_structure.py:47
+2023-05-02 18:26:57,983	Git ignore is set up correctly	post_feefines_extradata	folder_structure.py:48
+2023-05-02 18:26:57,983	Base folder is ../../migration_example	post_feefines_extradata	folder_structure.py:49
+2023-05-02 18:26:57,983	Reports and logs folder is ../../migration_example/iterations/test_run/reports	post_feefines_extradata	folder_structure.py:50
+2023-05-02 18:26:57,983	Results folder is ../../migration_example/iterations/test_run/results	post_feefines_extradata	folder_structure.py:51
+2023-05-02 18:26:57,984	Data folder is ../../migration_example/iterations/test_run/source_data	post_feefines_extradata	folder_structure.py:52
+2023-05-02 18:26:57,984	Source records files folder is ../../migration_example/iterations/test_run/source_data	post_feefines_extradata	folder_structure.py:53
+2023-05-02 18:26:57,984	Log file will be located at ../../migration_example/iterations/test_run/reports/log_other_post_feefines_extradata.log	post_feefines_extradata	folder_structure.py:54
+2023-05-02 18:26:57,984	Extra data will be stored at../../migration_example/iterations/test_run/results/extradata_post_feefines_extradata.extradata	post_feefines_extradata	folder_structure.py:55
+2023-05-02 18:26:57,984	Data issue reports ../../migration_example/iterations/test_run/reports/data_issues_log_post_feefines_extradata.tsv	post_feefines_extradata	folder_structure.py:56
+2023-05-02 18:26:57,984	Created objects will be stored at  ../../migration_example/iterations/test_run/results/folio_other_post_feefines_extradata.json	post_feefines_extradata	folder_structure.py:57
+2023-05-02 18:26:57,985	Migration report file will be saved at ../../migration_example/iterations/test_run/reports/report_post_feefines_extradata.md	post_feefines_extradata	folder_structure.py:58
+2023-05-02 18:26:57,985	MigrationTaskBase init done	post_feefines_extradata	migration_task_base.py:77
+2023-05-02 18:26:57,985	Batch size is 1	post_feefines_extradata	batch_poster.py:97
+2023-05-02 18:26:57,986	Running ../../migration_example/iterations/test_run/results/extradata_transform_manual_feefines.extradata	post_feefines_extradata	batch_poster.py:116
+2023-05-02 18:27:02,340	Done posting 6 records. 	post_feefines_extradata	batch_poster.py:162
+2023-05-02 18:27:02,340	Done. Wrapping up	post_feefines_extradata	batch_poster.py:391
+2023-05-02 18:27:02,341	Removing extradata file since it is empty	post_feefines_extradata	extradata_writer.py:45
+2023-05-02 18:27:02,341	Done posting 6 records. 0 failed	post_feefines_extradata	batch_poster.py:406
+2023-05-02 18:27:02,341	Elapsed time: 0:00:05.086425	post_feefines_extradata	migration_report.py:74
+2023-05-02 18:27:02,342	Removing data issues file since it is empty	post_feefines_extradata	migration_task_base.py:88
+2023-05-02 18:27:02,342	Removed data issues file since it was empty	post_feefines_extradata	migration_task_base.py:90
+2023-05-02 18:27:02,342	Work done. Shutting down	post_feefines_extradata	__main__.py:102
