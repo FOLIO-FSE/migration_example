@@ -434,6 +434,30 @@
             "locationMapFileName": "",
             "materialTypesMapFileName": "",
             "organizationsCodeMapFileName": "organizationCodeMap.tsv"
+        },
+        {
+            "name": "transform_manual_feefines",
+            "migrationTaskType": "ManualFeeFinesTransformer",
+            "feefinesMap": "manual_feefines_map.json",
+            "feefinesOwnerMap": "feefine_owners.tsv",
+            "feefinesTypeMap": "feefine_types.tsv",
+            "servicePointMap": "feefines_service_points.tsv",
+            "files": [
+                {
+                    "file_name": "test_feefimes.tsv"
+                }
+            ]
+        },
+        {
+            "name": "post_feefines_extradata",
+            "migrationTaskType": "BatchPoster",
+            "objectType": "Extradata",
+            "batchSize": 1,
+            "files": [
+                {
+                    "file_name": "extradata_transform_manual_feefines.extradata"
+                }
+            ]
         }
     ]
 }

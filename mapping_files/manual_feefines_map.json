@@ -25,6 +25,12 @@
             "description": ""
         },
         {
+            "folio_field": "account.status.name",
+            "legacy_field": "",
+            "value": "Open",
+            "description": ""
+        },
+        {
             "folio_field": "account.userId",
             "legacy_field": "patron_barcode",
             "value": "",
@@ -71,6 +77,13 @@
             "legacy_field": "legacy_comment",
             "value": "",
             "description": ""
+        },
+        {
+            "folio_field": "feefineaction.createdAt",
+            "legacy_field": "borrowing_desk",
+            "value": "",
+            "description": ""
         }
+
     ]
 }
