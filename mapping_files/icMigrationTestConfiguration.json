@@ -444,7 +444,7 @@
             "servicePointMap": "feefines_service_points.tsv",
             "files": [
                 {
-                    "file_name": "test_feefimes.tsv"
+                    "file_name": "test_feefines.tsv"
                 }
             ]
         },
