@@ -1,0 +1,8 @@
+amount	remaining	patron_barcode	item_barcode	billed_date	lending_library	type	borrowing_desk
+100	80	333444555	950-10	2023-01-07	library1	spill	desk1
+20	20	333444555	950-10	2023-02-03	library2	card	desk2
+20	20	333444555	950-10	yesterday	library10	other	
+too much money	femtielva	333444555	950-10	2017-10-27	library1	other	desk1
+90	75	not_in_folio	950-10	2017-10-27	library1	other	desk1
+20	20	333444555	not_in_folio	2023-02-03	library2	card	desk2
+
