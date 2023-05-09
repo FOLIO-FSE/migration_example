@@ -436,6 +436,20 @@
             "organizationsCodeMapFileName": "organizationCodeMap.tsv"
         },
         {
+            "name": "transform_composite_orders_multiple_pols",
+            "migrationTaskType": "OrdersTransformer",
+            "files": [
+                {
+                    "fileName": "sierra_orders_with_blanket_orders.tsv"
+                }
+            ],
+            "ordersMappingFileName": "composite_order_mapping_multiple_pols.json",
+            "acquisitionMethodMapFileName": "acquisitionMethodMap.tsv",
+            "locationMapFileName": "locations_bw.tsv",
+            "materialTypesMapFileName": "material_types.tsv",
+            "organizationsCodeMapFileName": "organizationCodeMap.tsv"
+        },
+        {
             "name": "transform_manual_feefines",
             "migrationTaskType": "ManualFeeFinesTransformer",
             "feefinesMap": "manual_feefines_map.json",
