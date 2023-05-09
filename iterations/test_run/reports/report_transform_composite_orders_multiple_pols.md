@@ -4,19 +4,20 @@
    
 Measure | Value   
 --- | ---:   
-Time Started: | 2023-05-09T11:14:28.233526+00:00   
-Time Finished: | 2023-05-09T11:14:39.493347+00:00   
-Elapsed time: | 0:00:11.259821   
+Time Started: | 2023-05-09T16:11:39.065687+00:00   
+Time Finished: | 2023-05-09T16:11:56.083316+00:00   
+Elapsed time: | 0:00:17.017629   
    
 ## General statistics    
 A list of general counters to outline the transformation as a whole.    
-<details><summary>Click to expand all 12 things</summary>     
+<details><summary>Click to expand all 13 things</summary>     
    
 Measure | Count   
 --- | ---:   
 DATA ISSUE Vendors not matched to FOLIO Organizations | 1   
 FAILED Records failed due to an error | 1   
-Instances not matched to migrated bib records | 24   
+Instances matched to migrated bib records | 3   
+Instances not matched to migrated bib records | 21   
 Notes without content that were discarded. Set some default value if you only intend to set the note title | 8   
 Number of empty rows in sierra_orders_with_blanket_orders.tsv | 0   
 Number of files processed | 1   
@@ -40,12 +41,13 @@ Replaced s in ORD TYPE with One-Time | 5
    
 ## POL Acquisition Method Mapping    
     
-<details><summary>Click to expand all 3 things</summary>     
+<details><summary>Click to expand all 4 things</summary>     
    
 Measure | Count   
 --- | ---:   
-p -> Purchase | 12   
-s -> Purchase | 12   
+Unmapped (Default value was set) -- v -> Other | 3   
+p -> Purchase | 18   
+s -> Purchase | 3   
 </details>   
    
 ## POL location mapping    
@@ -91,7 +93,7 @@ root['compositePoLines'][0]['cost']['currency'] | 1
 root['compositePoLines'][0]['cost']['poLineEstimatedPrice'] | 3   
 root['compositePoLines'][0]['cost']['quantityPhysical'] | 1   
 root['compositePoLines'][0]['id'] | 3   
-root['compositePoLines'][0]['instanceId'] | 3   
+root['compositePoLines'][0]['instanceId'] | 2   
 root['compositePoLines'][0]['locations'][0]['quantity'] | 1   
 root['compositePoLines'][0]['titleOrPackage'] | 3   
 root['compositePoLines'][1] | 1   
@@ -118,7 +120,7 @@ compositePoLines.cost.currency | 8 (89%) | 1 (11%)
 compositePoLines.cost.poLineEstimatedPrice | 8 (89%) | 1 (11%) 
 compositePoLines.cost.quantityPhysical | 8 (89%) | 1 (11%) 
 compositePoLines.id | 8 (89%) | 1 (11%) 
-compositePoLines.instanceId | 7 (78%) | 2 (22%) 
+compositePoLines.instanceId | 1 (11%) | 8 (89%) 
 compositePoLines.locations | 8 (89%) | 1 (11%) 
 compositePoLines.locations.locationId | 8 (89%) | 1 (11%) 
 compositePoLines.locations.quantity | 8 (89%) | 1 (11%) 
