@@ -52,7 +52,7 @@
         },
         {
             "folio_field": "compositePoLines[0].acquisitionMethod",
-            "legacy_field": "ORD TYPE",
+            "legacy_field": "ACQ TYPE",
             "value": "",
             "description": ""
         },

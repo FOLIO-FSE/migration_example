@@ -1,116 +1,117 @@
-2023-05-09 11:52:58,023	Logging set up	transform_composite_orders_multiple_pols	migration_task_base.py:213
-2023-05-09 11:52:58,024	Mapping files folder is ../../migration_example/mapping_files	transform_composite_orders_multiple_pols	folder_structure.py:47
-2023-05-09 11:52:58,024	Git ignore is set up correctly	transform_composite_orders_multiple_pols	folder_structure.py:48
-2023-05-09 11:52:58,024	Base folder is ../../migration_example	transform_composite_orders_multiple_pols	folder_structure.py:49
-2023-05-09 11:52:58,024	Reports and logs folder is ../../migration_example/iterations/test_run/reports	transform_composite_orders_multiple_pols	folder_structure.py:50
-2023-05-09 11:52:58,024	Results folder is ../../migration_example/iterations/test_run/results	transform_composite_orders_multiple_pols	folder_structure.py:51
-2023-05-09 11:52:58,025	Data folder is ../../migration_example/iterations/test_run/source_data	transform_composite_orders_multiple_pols	folder_structure.py:52
-2023-05-09 11:52:58,025	Source records files folder is ../../migration_example/iterations/test_run/source_data/orders	transform_composite_orders_multiple_pols	folder_structure.py:53
-2023-05-09 11:52:58,025	Log file will be located at ../../migration_example/iterations/test_run/reports/log_orders_transform_composite_orders_multiple_pols.log	transform_composite_orders_multiple_pols	folder_structure.py:54
-2023-05-09 11:52:58,025	Extra data will be stored at../../migration_example/iterations/test_run/results/extradata_transform_composite_orders_multiple_pols.extradata	transform_composite_orders_multiple_pols	folder_structure.py:55
-2023-05-09 11:52:58,025	Data issue reports ../../migration_example/iterations/test_run/reports/data_issues_log_transform_composite_orders_multiple_pols.tsv	transform_composite_orders_multiple_pols	folder_structure.py:56
-2023-05-09 11:52:58,025	Created objects will be stored at  ../../migration_example/iterations/test_run/results/folio_orders_transform_composite_orders_multiple_pols.json	transform_composite_orders_multiple_pols	folder_structure.py:57
-2023-05-09 11:52:58,025	Migration report file will be saved at ../../migration_example/iterations/test_run/reports/report_transform_composite_orders_multiple_pols.md	transform_composite_orders_multiple_pols	folder_structure.py:58
-2023-05-09 11:52:58,025	MigrationTaskBase init done	transform_composite_orders_multiple_pols	migration_task_base.py:77
-2023-05-09 11:52:58,026	Files to process:	transform_composite_orders_multiple_pols	orders_transformer.py:144
-2023-05-09 11:52:58,026		../../migration_example/iterations/test_run/source_data/orders/sierra_orders_with_blanket_orders.tsv	transform_composite_orders_multiple_pols	orders_transformer.py:146
-2023-05-09 11:52:58,026	20 fields present in record mapping file	transform_composite_orders_multiple_pols	migration_task_base.py:218
-2023-05-09 11:52:58,026	15 fields mapped in record mapping file	transform_composite_orders_multiple_pols	migration_task_base.py:224
-2023-05-09 11:52:58,027	Loaded 26 migrated IDs	transform_composite_orders_multiple_pols	migration_task_base.py:152
-2023-05-09 11:52:58,027	Found 3 rows in acquisitionMethod map	transform_composite_orders_multiple_pols	migration_task_base.py:282
-2023-05-09 11:52:58,028	ORD TYPE, folio_value will be used for determinig acquisitionMethod	transform_composite_orders_multiple_pols	migration_task_base.py:296
-2023-05-09 11:52:58,028	No mapping setup for paymentStatus	transform_composite_orders_multiple_pols	migration_task_base.py:306
-2023-05-09 11:52:58,028	paymentStatus will have default mapping if any 	transform_composite_orders_multiple_pols	migration_task_base.py:307
-2023-05-09 11:52:58,028	Add a file named ../../migration_example/mapping_files and add the field to the item.mapping.json file.	transform_composite_orders_multiple_pols	migration_task_base.py:308
-2023-05-09 11:52:58,028	No mapping setup for receiptStatus	transform_composite_orders_multiple_pols	migration_task_base.py:306
-2023-05-09 11:52:58,028	receiptStatus will have default mapping if any 	transform_composite_orders_multiple_pols	migration_task_base.py:307
-2023-05-09 11:52:58,028	Add a file named ../../migration_example/mapping_files and add the field to the item.mapping.json file.	transform_composite_orders_multiple_pols	migration_task_base.py:308
-2023-05-09 11:52:58,028	No mapping setup for workflowStatus	transform_composite_orders_multiple_pols	migration_task_base.py:306
-2023-05-09 11:52:58,029	workflowStatus will have default mapping if any 	transform_composite_orders_multiple_pols	migration_task_base.py:307
-2023-05-09 11:52:58,029	Add a file named ../../migration_example/mapping_files and add the field to the item.mapping.json file.	transform_composite_orders_multiple_pols	migration_task_base.py:308
-2023-05-09 11:52:58,029	Found 5 rows in locationMap map	transform_composite_orders_multiple_pols	migration_task_base.py:282
-2023-05-09 11:52:58,029	LOCATION, folio_code will be used for determinig locationMap	transform_composite_orders_multiple_pols	migration_task_base.py:296
-2023-05-09 11:52:58,029	No mapping setup for fundsMap	transform_composite_orders_multiple_pols	migration_task_base.py:306
-2023-05-09 11:52:58,029	fundsMap will have default mapping if any 	transform_composite_orders_multiple_pols	migration_task_base.py:307
-2023-05-09 11:52:58,030	Add a file named ../../migration_example/mapping_files and add the field to the item.mapping.json file.	transform_composite_orders_multiple_pols	migration_task_base.py:308
-2023-05-09 11:52:58,030	No mapping setup for fundsExpenseClassMap	transform_composite_orders_multiple_pols	migration_task_base.py:306
-2023-05-09 11:52:58,030	fundsExpenseClassMap will have default mapping if any 	transform_composite_orders_multiple_pols	migration_task_base.py:307
-2023-05-09 11:52:58,030	Add a file named ../../migration_example/mapping_files and add the field to the item.mapping.json file.	transform_composite_orders_multiple_pols	migration_task_base.py:308
-2023-05-09 11:52:58,030	Using GITHB_TOKEN environment variable for Gihub API Access	transform_composite_orders_multiple_pols	order_mapper.py:167
-2023-05-09 11:52:58,282	Using schemas from latest mod-orders release: v12.6.6	transform_composite_orders_multiple_pols	order_mapper.py:233
-2023-05-09 11:52:59,078	Fecthing referenced schema for object id	transform_composite_orders_multiple_pols	order_mapper.py:334
-2023-05-09 11:52:59,356	Fecthing referenced schema for object approvedById	transform_composite_orders_multiple_pols	order_mapper.py:301
-2023-05-09 11:52:59,408	Fecthing referenced schema for object assignedTo	transform_composite_orders_multiple_pols	order_mapper.py:334
-2023-05-09 11:52:59,470	Fecthing referenced schema for object billTo	transform_composite_orders_multiple_pols	order_mapper.py:334
-2023-05-09 11:52:59,519	Fecthing referenced schema for object closeReason	transform_composite_orders_multiple_pols	order_mapper.py:301
-2023-05-09 11:52:59,767	Fecthing referenced schema for object ongoing	transform_composite_orders_multiple_pols	order_mapper.py:301
-2023-05-09 11:53:00,067	Fecthing referenced schema for object shipTo	transform_composite_orders_multiple_pols	order_mapper.py:334
-2023-05-09 11:53:00,132	Fecthing referenced schema for object template	transform_composite_orders_multiple_pols	order_mapper.py:334
-2023-05-09 11:53:00,192	Fecthing referenced schema for object vendor	transform_composite_orders_multiple_pols	order_mapper.py:334
-2023-05-09 11:53:00,242	Fecthing referenced schema for object workflowStatus	transform_composite_orders_multiple_pols	order_mapper.py:334
-2023-05-09 11:53:00,498	Fetching referenced schema for array object compositePoLines	transform_composite_orders_multiple_pols	order_mapper.py:319
-2023-05-09 11:53:00,763	Fecthing referenced schema for object acquisitionMethod	transform_composite_orders_multiple_pols	order_mapper.py:334
-2023-05-09 11:53:00,838	Fetching referenced schema for array object alerts	transform_composite_orders_multiple_pols	order_mapper.py:319
-2023-05-09 11:53:01,092	Fetching referenced schema for array object claims	transform_composite_orders_multiple_pols	order_mapper.py:319
-2023-05-09 11:53:01,357	Fetching referenced schema for array object contributors	transform_composite_orders_multiple_pols	order_mapper.py:319
-2023-05-09 11:53:01,674	Fecthing referenced schema for object cost	transform_composite_orders_multiple_pols	order_mapper.py:301
-2023-05-09 11:53:02,042	Fecthing referenced schema for object details	transform_composite_orders_multiple_pols	order_mapper.py:301
-2023-05-09 11:53:02,330	Fetching referenced schema for array object productIds	transform_composite_orders_multiple_pols	order_mapper.py:319
-2023-05-09 11:53:02,599	Property not yet supported: productIdType	transform_composite_orders_multiple_pols	order_mapper.py:296
-2023-05-09 11:53:02,599	Property not yet supported: subscriptionFrom	transform_composite_orders_multiple_pols	order_mapper.py:296
-2023-05-09 11:53:02,599	Property not yet supported: subscriptionTo	transform_composite_orders_multiple_pols	order_mapper.py:296
-2023-05-09 11:53:02,599	Fecthing referenced schema for object eresource	transform_composite_orders_multiple_pols	order_mapper.py:301
-2023-05-09 11:53:02,886	Fecthing referenced schema for object license	transform_composite_orders_multiple_pols	order_mapper.py:301
-2023-05-09 11:53:03,146	Fetching referenced schema for array object fundDistribution	transform_composite_orders_multiple_pols	order_mapper.py:319
-2023-05-09 11:53:03,421	Property not yet supported: code	transform_composite_orders_multiple_pols	order_mapper.py:296
-2023-05-09 11:53:03,421	Property not yet supported: encumbrance	transform_composite_orders_multiple_pols	order_mapper.py:296
-2023-05-09 11:53:03,421	Property not yet supported: fundId	transform_composite_orders_multiple_pols	order_mapper.py:296
-2023-05-09 11:53:03,421	Property not yet supported: expenseClassId	transform_composite_orders_multiple_pols	order_mapper.py:296
-2023-05-09 11:53:03,422	Fetching referenced schema for array object locations	transform_composite_orders_multiple_pols	order_mapper.py:319
-2023-05-09 11:53:03,688	Fecthing referenced schema for object holdingId	transform_composite_orders_multiple_pols	order_mapper.py:334
-2023-05-09 11:53:03,770	Fecthing referenced schema for object orderFormat	transform_composite_orders_multiple_pols	order_mapper.py:301
-2023-05-09 11:53:04,061	Property not yet supported: packagePoLineId	transform_composite_orders_multiple_pols	order_mapper.py:296
-2023-05-09 11:53:04,062	Fecthing referenced schema for object paymentStatus	transform_composite_orders_multiple_pols	order_mapper.py:334
-2023-05-09 11:53:04,394	Fecthing referenced schema for object physical	transform_composite_orders_multiple_pols	order_mapper.py:301
-2023-05-09 11:53:04,726	Property not yet supported: expectedReceiptDate	transform_composite_orders_multiple_pols	order_mapper.py:296
-2023-05-09 11:53:04,726	Property not yet supported: receiptDue	transform_composite_orders_multiple_pols	order_mapper.py:296
-2023-05-09 11:53:04,726	Property not yet supported: receiptDate	transform_composite_orders_multiple_pols	order_mapper.py:296
-2023-05-09 11:53:04,726	Fecthing referenced schema for object receiptStatus	transform_composite_orders_multiple_pols	order_mapper.py:301
-2023-05-09 11:53:04,995	Fetching referenced schema for array object reportingCodes	transform_composite_orders_multiple_pols	order_mapper.py:319
-2023-05-09 11:53:05,343	Fecthing referenced schema for object source	transform_composite_orders_multiple_pols	order_mapper.py:301
-2023-05-09 11:53:05,631	Fecthing referenced schema for object tags	transform_composite_orders_multiple_pols	order_mapper.py:301
-2023-05-09 11:53:05,882	Fecthing referenced schema for object vendorDetail	transform_composite_orders_multiple_pols	order_mapper.py:301
-2023-05-09 11:53:06,243	Property not yet supported: referenceNumbers	transform_composite_orders_multiple_pols	order_mapper.py:296
-2023-05-09 11:53:06,244	Fecthing referenced schema for object metadata	transform_composite_orders_multiple_pols	order_mapper.py:301
-2023-05-09 11:53:06,490	Fetching referenced schema for array object acqUnitIds	transform_composite_orders_multiple_pols	order_mapper.py:319
-2023-05-09 11:53:06,580	Fecthing referenced schema for object tags	transform_composite_orders_multiple_pols	order_mapper.py:301
-2023-05-09 11:53:06,652	Fecthing referenced schema for object metadata	transform_composite_orders_multiple_pols	order_mapper.py:301
-2023-05-09 11:53:06,737	MapperBase initiating	transform_composite_orders_multiple_pols	mapper_base.py:37
-2023-05-09 11:53:06,737	Legacy identifier will be mapped from BLANKET PO	transform_composite_orders_multiple_pols	mapping_file_mapper_base.py:145
-2023-05-09 11:53:06,737	Mapped values:
+2023-05-09 13:14:29,050	Logging set up	transform_composite_orders_multiple_pols	migration_task_base.py:216
+2023-05-09 13:14:29,051	Mapping files folder is ../../migration_example/mapping_files	transform_composite_orders_multiple_pols	folder_structure.py:47
+2023-05-09 13:14:29,052	Git ignore is set up correctly	transform_composite_orders_multiple_pols	folder_structure.py:48
+2023-05-09 13:14:29,052	Base folder is ../../migration_example	transform_composite_orders_multiple_pols	folder_structure.py:49
+2023-05-09 13:14:29,053	Reports and logs folder is ../../migration_example/iterations/test_run/reports	transform_composite_orders_multiple_pols	folder_structure.py:50
+2023-05-09 13:14:29,053	Results folder is ../../migration_example/iterations/test_run/results	transform_composite_orders_multiple_pols	folder_structure.py:51
+2023-05-09 13:14:29,054	Data folder is ../../migration_example/iterations/test_run/source_data	transform_composite_orders_multiple_pols	folder_structure.py:52
+2023-05-09 13:14:29,054	Source records files folder is ../../migration_example/iterations/test_run/source_data/orders	transform_composite_orders_multiple_pols	folder_structure.py:53
+2023-05-09 13:14:29,055	Log file will be located at ../../migration_example/iterations/test_run/reports/log_orders_transform_composite_orders_multiple_pols.log	transform_composite_orders_multiple_pols	folder_structure.py:54
+2023-05-09 13:14:29,056	Extra data will be stored at../../migration_example/iterations/test_run/results/extradata_transform_composite_orders_multiple_pols.extradata	transform_composite_orders_multiple_pols	folder_structure.py:55
+2023-05-09 13:14:29,057	Data issue reports ../../migration_example/iterations/test_run/reports/data_issues_log_transform_composite_orders_multiple_pols.tsv	transform_composite_orders_multiple_pols	folder_structure.py:56
+2023-05-09 13:14:29,057	Created objects will be stored at  ../../migration_example/iterations/test_run/results/folio_orders_transform_composite_orders_multiple_pols.json	transform_composite_orders_multiple_pols	folder_structure.py:57
+2023-05-09 13:14:29,058	Migration report file will be saved at ../../migration_example/iterations/test_run/reports/report_transform_composite_orders_multiple_pols.md	transform_composite_orders_multiple_pols	folder_structure.py:58
+2023-05-09 13:14:29,058	MigrationTaskBase init done	transform_composite_orders_multiple_pols	migration_task_base.py:77
+2023-05-09 13:14:29,059	Files to process:	transform_composite_orders_multiple_pols	orders_transformer.py:144
+2023-05-09 13:14:29,059		../../migration_example/iterations/test_run/source_data/orders/sierra_orders_with_blanket_orders.tsv	transform_composite_orders_multiple_pols	orders_transformer.py:146
+2023-05-09 13:14:29,060	20 fields present in record mapping file	transform_composite_orders_multiple_pols	migration_task_base.py:221
+2023-05-09 13:14:29,060	15 fields mapped in record mapping file	transform_composite_orders_multiple_pols	migration_task_base.py:227
+2023-05-09 13:14:29,061	Loaded 26 migrated IDs	transform_composite_orders_multiple_pols	migration_task_base.py:155
+2023-05-09 13:14:29,062	Found 3 rows in acquisitionMethod map	transform_composite_orders_multiple_pols	migration_task_base.py:285
+2023-05-09 13:14:29,062	ORD TYPE, folio_value will be used for determinig acquisitionMethod	transform_composite_orders_multiple_pols	migration_task_base.py:299
+2023-05-09 13:14:29,062	No mapping setup for paymentStatus	transform_composite_orders_multiple_pols	migration_task_base.py:309
+2023-05-09 13:14:29,063	paymentStatus will have default mapping if any 	transform_composite_orders_multiple_pols	migration_task_base.py:310
+2023-05-09 13:14:29,063	Add a file named ../../migration_example/mapping_files and add the field to the item.mapping.json file.	transform_composite_orders_multiple_pols	migration_task_base.py:311
+2023-05-09 13:14:29,063	No mapping setup for receiptStatus	transform_composite_orders_multiple_pols	migration_task_base.py:309
+2023-05-09 13:14:29,064	receiptStatus will have default mapping if any 	transform_composite_orders_multiple_pols	migration_task_base.py:310
+2023-05-09 13:14:29,064	Add a file named ../../migration_example/mapping_files and add the field to the item.mapping.json file.	transform_composite_orders_multiple_pols	migration_task_base.py:311
+2023-05-09 13:14:29,064	No mapping setup for workflowStatus	transform_composite_orders_multiple_pols	migration_task_base.py:309
+2023-05-09 13:14:29,064	workflowStatus will have default mapping if any 	transform_composite_orders_multiple_pols	migration_task_base.py:310
+2023-05-09 13:14:29,065	Add a file named ../../migration_example/mapping_files and add the field to the item.mapping.json file.	transform_composite_orders_multiple_pols	migration_task_base.py:311
+2023-05-09 13:14:29,065	Found 5 rows in locationMap map	transform_composite_orders_multiple_pols	migration_task_base.py:285
+2023-05-09 13:14:29,065	LOCATION, folio_code will be used for determinig locationMap	transform_composite_orders_multiple_pols	migration_task_base.py:299
+2023-05-09 13:14:29,066	No mapping setup for fundsMap	transform_composite_orders_multiple_pols	migration_task_base.py:309
+2023-05-09 13:14:29,066	fundsMap will have default mapping if any 	transform_composite_orders_multiple_pols	migration_task_base.py:310
+2023-05-09 13:14:29,066	Add a file named ../../migration_example/mapping_files and add the field to the item.mapping.json file.	transform_composite_orders_multiple_pols	migration_task_base.py:311
+2023-05-09 13:14:29,067	No mapping setup for fundsExpenseClassMap	transform_composite_orders_multiple_pols	migration_task_base.py:309
+2023-05-09 13:14:29,067	fundsExpenseClassMap will have default mapping if any 	transform_composite_orders_multiple_pols	migration_task_base.py:310
+2023-05-09 13:14:29,067	Add a file named ../../migration_example/mapping_files and add the field to the item.mapping.json file.	transform_composite_orders_multiple_pols	migration_task_base.py:311
+2023-05-09 13:14:29,068	Using GITHB_TOKEN environment variable for Gihub API Access	transform_composite_orders_multiple_pols	order_mapper.py:177
+2023-05-09 13:14:29,383	Using schemas from latest mod-orders release: v12.6.6	transform_composite_orders_multiple_pols	order_mapper.py:243
+2023-05-09 13:14:30,044	Fetching referenced schema for object id	transform_composite_orders_multiple_pols	order_mapper.py:344
+2023-05-09 13:14:30,095	Fecthing referenced schema for object approvedById	transform_composite_orders_multiple_pols	order_mapper.py:311
+2023-05-09 13:14:30,177	Fetching referenced schema for object assignedTo	transform_composite_orders_multiple_pols	order_mapper.py:344
+2023-05-09 13:14:30,243	Fetching referenced schema for object billTo	transform_composite_orders_multiple_pols	order_mapper.py:344
+2023-05-09 13:14:30,304	Fecthing referenced schema for object closeReason	transform_composite_orders_multiple_pols	order_mapper.py:311
+2023-05-09 13:14:30,363	Fecthing referenced schema for object ongoing	transform_composite_orders_multiple_pols	order_mapper.py:311
+2023-05-09 13:14:30,421	Fetching referenced schema for object shipTo	transform_composite_orders_multiple_pols	order_mapper.py:344
+2023-05-09 13:14:30,478	Fetching referenced schema for object template	transform_composite_orders_multiple_pols	order_mapper.py:344
+2023-05-09 13:14:30,535	Fetching referenced schema for object vendor	transform_composite_orders_multiple_pols	order_mapper.py:344
+2023-05-09 13:14:30,608	Fetching referenced schema for object workflowStatus	transform_composite_orders_multiple_pols	order_mapper.py:344
+2023-05-09 13:14:30,676	Fetching referenced schema for array object compositePoLines	transform_composite_orders_multiple_pols	order_mapper.py:329
+2023-05-09 13:14:30,746	Fetching referenced schema for object acquisitionMethod	transform_composite_orders_multiple_pols	order_mapper.py:344
+2023-05-09 13:14:30,807	Fetching referenced schema for array object alerts	transform_composite_orders_multiple_pols	order_mapper.py:329
+2023-05-09 13:14:30,873	Fetching referenced schema for array object claims	transform_composite_orders_multiple_pols	order_mapper.py:329
+2023-05-09 13:14:30,938	Fetching referenced schema for array object contributors	transform_composite_orders_multiple_pols	order_mapper.py:329
+2023-05-09 13:14:31,003	Fecthing referenced schema for object cost	transform_composite_orders_multiple_pols	order_mapper.py:311
+2023-05-09 13:14:31,068	Fecthing referenced schema for object details	transform_composite_orders_multiple_pols	order_mapper.py:311
+2023-05-09 13:14:31,128	Fetching referenced schema for array object productIds	transform_composite_orders_multiple_pols	order_mapper.py:329
+2023-05-09 13:14:31,192	Property not yet supported: productIdType	transform_composite_orders_multiple_pols	order_mapper.py:306
+2023-05-09 13:14:31,193	Property not yet supported: subscriptionFrom	transform_composite_orders_multiple_pols	order_mapper.py:306
+2023-05-09 13:14:31,193	Property not yet supported: subscriptionTo	transform_composite_orders_multiple_pols	order_mapper.py:306
+2023-05-09 13:14:31,193	Fecthing referenced schema for object eresource	transform_composite_orders_multiple_pols	order_mapper.py:311
+2023-05-09 13:14:31,268	Fecthing referenced schema for object license	transform_composite_orders_multiple_pols	order_mapper.py:311
+2023-05-09 13:14:31,336	Fetching referenced schema for array object fundDistribution	transform_composite_orders_multiple_pols	order_mapper.py:329
+2023-05-09 13:14:31,403	Property not yet supported: code	transform_composite_orders_multiple_pols	order_mapper.py:306
+2023-05-09 13:14:31,403	Property not yet supported: encumbrance	transform_composite_orders_multiple_pols	order_mapper.py:306
+2023-05-09 13:14:31,403	Property not yet supported: fundId	transform_composite_orders_multiple_pols	order_mapper.py:306
+2023-05-09 13:14:31,403	Property not yet supported: expenseClassId	transform_composite_orders_multiple_pols	order_mapper.py:306
+2023-05-09 13:14:31,403	Fetching referenced schema for array object locations	transform_composite_orders_multiple_pols	order_mapper.py:329
+2023-05-09 13:14:31,467	Fetching referenced schema for object holdingId	transform_composite_orders_multiple_pols	order_mapper.py:344
+2023-05-09 13:14:31,530	Fecthing referenced schema for object orderFormat	transform_composite_orders_multiple_pols	order_mapper.py:311
+2023-05-09 13:14:31,610	Property not yet supported: packagePoLineId	transform_composite_orders_multiple_pols	order_mapper.py:306
+2023-05-09 13:14:31,610	Fetching referenced schema for object paymentStatus	transform_composite_orders_multiple_pols	order_mapper.py:344
+2023-05-09 13:14:31,669	Fecthing referenced schema for object physical	transform_composite_orders_multiple_pols	order_mapper.py:311
+2023-05-09 13:14:31,734	Property not yet supported: expectedReceiptDate	transform_composite_orders_multiple_pols	order_mapper.py:306
+2023-05-09 13:14:31,734	Property not yet supported: receiptDue	transform_composite_orders_multiple_pols	order_mapper.py:306
+2023-05-09 13:14:31,735	Property not yet supported: receiptDate	transform_composite_orders_multiple_pols	order_mapper.py:306
+2023-05-09 13:14:31,735	Fecthing referenced schema for object receiptStatus	transform_composite_orders_multiple_pols	order_mapper.py:311
+2023-05-09 13:14:31,802	Fetching referenced schema for array object reportingCodes	transform_composite_orders_multiple_pols	order_mapper.py:329
+2023-05-09 13:14:31,865	Fecthing referenced schema for object source	transform_composite_orders_multiple_pols	order_mapper.py:311
+2023-05-09 13:14:31,930	Fecthing referenced schema for object tags	transform_composite_orders_multiple_pols	order_mapper.py:311
+2023-05-09 13:14:32,011	Fecthing referenced schema for object vendorDetail	transform_composite_orders_multiple_pols	order_mapper.py:311
+2023-05-09 13:14:32,070	Property not yet supported: referenceNumbers	transform_composite_orders_multiple_pols	order_mapper.py:306
+2023-05-09 13:14:32,070	Fecthing referenced schema for object metadata	transform_composite_orders_multiple_pols	order_mapper.py:311
+2023-05-09 13:14:32,131	Fetching referenced schema for array object acqUnitIds	transform_composite_orders_multiple_pols	order_mapper.py:329
+2023-05-09 13:14:32,201	Fecthing referenced schema for object tags	transform_composite_orders_multiple_pols	order_mapper.py:311
+2023-05-09 13:14:32,286	Fecthing referenced schema for object metadata	transform_composite_orders_multiple_pols	order_mapper.py:311
+2023-05-09 13:14:32,358	MapperBase initiating	transform_composite_orders_multiple_pols	mapper_base.py:37
+2023-05-09 13:14:32,358	Legacy identifier will be mapped from BLANKET PO	transform_composite_orders_multiple_pols	mapping_file_mapper_base.py:145
+2023-05-09 13:14:32,358	Mapped values:
 {
     "compositePoLines[0].source": "API",
     "notes[0].domain": "orders",
     "notes[0].title": "A migrated note",
     "notes[0].typeId": "f5bba0d2-7732-4687-8311-a2cb0eaa12e5"
 }	transform_composite_orders_multiple_pols	mapping_file_mapper_base.py:69
-2023-05-09 11:53:06,738	Statistical codes map is not set up	transform_composite_orders_multiple_pols	mapping_file_mapper_base.py:118
-2023-05-09 11:53:06,738	Mapped legacy fields:
+2023-05-09 13:14:32,359	Statistical codes map is not set up	transform_composite_orders_multiple_pols	mapping_file_mapper_base.py:118
+2023-05-09 13:14:32,359	Mapped legacy fields:
 [
-    "",
-    "Note",
-    "TITLE",
-    "E PRICE",
+    "ACQ TYPE",
     "RECORD #(BIBLIO)",
-    "LOCATION",
-    "COPIES",
-    "BLANKET PO",
-    "FORM",
-    "Not mapped",
+    "VENDOR",
+    "",
+    "E PRICE",
     "ORD TYPE",
-    "VENDOR"
+    "Not mapped",
+    "COPIES",
+    "TITLE",
+    "Note",
+    "FORM",
+    "LOCATION",
+    "BLANKET PO"
 ]	transform_composite_orders_multiple_pols	mapping_file_mapper_base.py:95
-2023-05-09 11:53:06,739	Mapped FOLIO fields:
+2023-05-09 13:14:32,359	Mapped FOLIO fields:
 [
     "legacyIdentifier",
     "poNumber",
@@ -132,48 +133,49 @@
     "notes[0].title",
     "notes[0].content"
 ]	transform_composite_orders_multiple_pols	mapping_file_mapper_base.py:99
-2023-05-09 11:53:09,148	acquisitionMethods reference data mapping. Initializing	transform_composite_orders_multiple_pols	ref_data_mapping.py:23
-2023-05-09 11:53:09,148	Fetching acquisitionMethods reference data from FOLIO	transform_composite_orders_multiple_pols	ref_data_mapping.py:24
-2023-05-09 11:53:10,615	Values from acquisitionMethods ref data in FOLIO that are not in the map: ['Demand Driven Acquisitions (DDA)', 'Exchange', 'Technical', 'Approval Plan', 'Purchase At Vendor System', 'Gift', 'Depository', 'Evidence Based Acquisitions (EBA)', 'Membership', 'Free', 'Internal transfer']	transform_composite_orders_multiple_pols	ref_data_mapping.py:158
-2023-05-09 11:53:10,616	Set Other as default acquisitionMethods mapping	transform_composite_orders_multiple_pols	ref_data_mapping.py:56
-2023-05-09 11:53:10,616	Loaded 2 mappings for 13 acquisitionMethods in FOLIO	transform_composite_orders_multiple_pols	ref_data_mapping.py:89
-2023-05-09 11:53:10,617	loaded 0 hybrid mappings for 13 acquisitionMethods in FOLIO	transform_composite_orders_multiple_pols	ref_data_mapping.py:93
-2023-05-09 11:53:10,618	acquisitionMethods reference data mapping. Done init	transform_composite_orders_multiple_pols	ref_data_mapping.py:35
-2023-05-09 11:53:10,619	Init done	transform_composite_orders_multiple_pols	order_mapper.py:64
-2023-05-09 11:53:10,620	locations reference data mapping. Initializing	transform_composite_orders_multiple_pols	ref_data_mapping.py:23
-2023-05-09 11:53:10,620	Fetching locations reference data from FOLIO	transform_composite_orders_multiple_pols	ref_data_mapping.py:24
-2023-05-09 11:53:12,123	Values from locations ref data in FOLIO that are not in the map: ['LBE', 'Main Open Shelves', 'this&that', 'LFRA', 'CeeDee']	transform_composite_orders_multiple_pols	ref_data_mapping.py:158
-2023-05-09 11:53:12,123	Set migration as default locations mapping	transform_composite_orders_multiple_pols	ref_data_mapping.py:56
-2023-05-09 11:53:12,124	Loaded 4 mappings for 9 locations in FOLIO	transform_composite_orders_multiple_pols	ref_data_mapping.py:89
-2023-05-09 11:53:12,125	loaded 0 hybrid mappings for 9 locations in FOLIO	transform_composite_orders_multiple_pols	ref_data_mapping.py:93
-2023-05-09 11:53:12,125	locations reference data mapping. Done init	transform_composite_orders_multiple_pols	ref_data_mapping.py:35
-2023-05-09 11:53:12,842	Using GITHB_TOKEN environment variable for Gihub API Access	transform_composite_orders_multiple_pols	FolioClient.py:257
-2023-05-09 11:53:13,117	Using GITHB_TOKEN environment variable for Gihub API Access	transform_composite_orders_multiple_pols	FolioClient.py:257
-2023-05-09 11:53:13,435	MapperBase initiating	transform_composite_orders_multiple_pols	mapper_base.py:37
-2023-05-09 11:53:13,435	Mapped values:
+2023-05-09 13:14:34,651	acquisitionMethods reference data mapping. Initializing	transform_composite_orders_multiple_pols	ref_data_mapping.py:23
+2023-05-09 13:14:34,652	Fetching acquisitionMethods reference data from FOLIO	transform_composite_orders_multiple_pols	ref_data_mapping.py:24
+2023-05-09 13:14:36,204	Values from acquisitionMethods ref data in FOLIO that are not in the map: ['Internal transfer', 'Exchange', 'Approval Plan', 'Gift', 'Membership', 'Free', 'Purchase At Vendor System', 'Depository', 'Demand Driven Acquisitions (DDA)', 'Evidence Based Acquisitions (EBA)', 'Technical']	transform_composite_orders_multiple_pols	ref_data_mapping.py:158
+2023-05-09 13:14:36,205	Set Other as default acquisitionMethods mapping	transform_composite_orders_multiple_pols	ref_data_mapping.py:56
+2023-05-09 13:14:36,206	Loaded 2 mappings for 13 acquisitionMethods in FOLIO	transform_composite_orders_multiple_pols	ref_data_mapping.py:89
+2023-05-09 13:14:36,207	loaded 0 hybrid mappings for 13 acquisitionMethods in FOLIO	transform_composite_orders_multiple_pols	ref_data_mapping.py:93
+2023-05-09 13:14:36,207	acquisitionMethods reference data mapping. Done init	transform_composite_orders_multiple_pols	ref_data_mapping.py:35
+2023-05-09 13:14:36,208	Init done	transform_composite_orders_multiple_pols	order_mapper.py:65
+2023-05-09 13:14:36,208	locations reference data mapping. Initializing	transform_composite_orders_multiple_pols	ref_data_mapping.py:23
+2023-05-09 13:14:36,209	Fetching locations reference data from FOLIO	transform_composite_orders_multiple_pols	ref_data_mapping.py:24
+2023-05-09 13:14:37,707	Values from locations ref data in FOLIO that are not in the map: ['this&that', 'LBE', 'LFRA', 'CeeDee', 'Main Open Shelves']	transform_composite_orders_multiple_pols	ref_data_mapping.py:158
+2023-05-09 13:14:37,708	Set migration as default locations mapping	transform_composite_orders_multiple_pols	ref_data_mapping.py:56
+2023-05-09 13:14:37,709	Loaded 4 mappings for 9 locations in FOLIO	transform_composite_orders_multiple_pols	ref_data_mapping.py:89
+2023-05-09 13:14:37,710	loaded 0 hybrid mappings for 9 locations in FOLIO	transform_composite_orders_multiple_pols	ref_data_mapping.py:93
+2023-05-09 13:14:37,710	locations reference data mapping. Done init	transform_composite_orders_multiple_pols	ref_data_mapping.py:35
+2023-05-09 13:14:38,448	Using GITHB_TOKEN environment variable for Gihub API Access	transform_composite_orders_multiple_pols	FolioClient.py:257
+2023-05-09 13:14:38,525	Using GITHB_TOKEN environment variable for Gihub API Access	transform_composite_orders_multiple_pols	FolioClient.py:257
+2023-05-09 13:14:38,587	MapperBase initiating	transform_composite_orders_multiple_pols	mapper_base.py:37
+2023-05-09 13:14:38,587	Mapped values:
 {
     "compositePoLines[0].source": "API",
     "notes[0].domain": "orders",
     "notes[0].title": "A migrated note",
     "notes[0].typeId": "f5bba0d2-7732-4687-8311-a2cb0eaa12e5"
 }	transform_composite_orders_multiple_pols	mapping_file_mapper_base.py:69
-2023-05-09 11:53:13,436	Statistical codes map is not set up	transform_composite_orders_multiple_pols	mapping_file_mapper_base.py:118
-2023-05-09 11:53:13,436	Mapped legacy fields:
+2023-05-09 13:14:38,587	Statistical codes map is not set up	transform_composite_orders_multiple_pols	mapping_file_mapper_base.py:118
+2023-05-09 13:14:38,588	Mapped legacy fields:
 [
-    "",
-    "Note",
-    "TITLE",
-    "E PRICE",
+    "ACQ TYPE",
     "RECORD #(BIBLIO)",
-    "LOCATION",
-    "COPIES",
-    "BLANKET PO",
-    "FORM",
-    "Not mapped",
+    "VENDOR",
+    "",
+    "E PRICE",
     "ORD TYPE",
-    "VENDOR"
+    "Not mapped",
+    "COPIES",
+    "TITLE",
+    "Note",
+    "FORM",
+    "LOCATION",
+    "BLANKET PO"
 ]	transform_composite_orders_multiple_pols	mapping_file_mapper_base.py:95
-2023-05-09 11:53:13,436	Mapped FOLIO fields:
+2023-05-09 13:14:38,588	Mapped FOLIO fields:
 [
     "legacyIdentifier",
     "poNumber",
@@ -195,19 +197,19 @@
     "notes[0].title",
     "notes[0].content"
 ]	transform_composite_orders_multiple_pols	mapping_file_mapper_base.py:99
-2023-05-09 11:53:13,438	Set 4 props used for note mapping	transform_composite_orders_multiple_pols	notes_mapper.py:37
-2023-05-09 11:53:13,439	Initiated mapper for Notes	transform_composite_orders_multiple_pols	notes_mapper.py:38
-2023-05-09 11:53:13,439	Getting started!	transform_composite_orders_multiple_pols	orders_transformer.py:210
-2023-05-09 11:53:13,439	Processing ../../migration_example/iterations/test_run/source_data/orders/sierra_orders_with_blanket_orders.tsv	transform_composite_orders_multiple_pols	orders_transformer.py:212
-2023-05-09 11:53:13,451	Source data file contains 8 rows	transform_composite_orders_multiple_pols	mapping_file_mapper_base.py:684
-2023-05-09 11:53:13,451	Source data file contains 0 empty rows	transform_composite_orders_multiple_pols	mapping_file_mapper_base.py:685
-2023-05-09 11:53:13,452	First legacy record:	transform_composite_orders_multiple_pols	orders_transformer.py:162
-2023-05-09 11:53:13,452	{
+2023-05-09 13:14:38,588	Set 4 props used for note mapping	transform_composite_orders_multiple_pols	notes_mapper.py:37
+2023-05-09 13:14:38,588	Initiated mapper for Notes	transform_composite_orders_multiple_pols	notes_mapper.py:38
+2023-05-09 13:14:38,588	Getting started!	transform_composite_orders_multiple_pols	orders_transformer.py:210
+2023-05-09 13:14:38,588	Processing ../../migration_example/iterations/test_run/source_data/orders/sierra_orders_with_blanket_orders.tsv	transform_composite_orders_multiple_pols	orders_transformer.py:212
+2023-05-09 13:14:38,589	Source data file contains 9 rows	transform_composite_orders_multiple_pols	mapping_file_mapper_base.py:691
+2023-05-09 13:14:38,589	Source data file contains 0 empty rows	transform_composite_orders_multiple_pols	mapping_file_mapper_base.py:692
+2023-05-09 13:14:38,590	First legacy record:	transform_composite_orders_multiple_pols	orders_transformer.py:162
+2023-05-09 13:14:38,590	{
     "RECORD #(Order)": "o10071337",
     "RECORD #(BIBLIO)": "b10558731",
     "TITLE": "My Favorite Cats",
     "BLANKET PO": "BO354348",
-    "ACQ TYPE": "p",
+    "ACQ TYPE": "v",
     "LOCATION": "cjos ",
     "CDATE": "  -  -  ",
     "CLAIM": "-",
@@ -245,11 +247,11 @@
     "Sub To": "",
     "Note": ""
 }	transform_composite_orders_multiple_pols	orders_transformer.py:163
-2023-05-09 11:53:13,452	fetching current user..	transform_composite_orders_multiple_pols	FolioClient.py:37
-2023-05-09 11:53:14,321	Done processing ../../migration_example/iterations/test_run/source_data/orders/sierra_orders_with_blanket_orders.tsv containing 8 records. Total records processed: 8	transform_composite_orders_multiple_pols	orders_transformer.py:200
-2023-05-09 11:53:14,321	Storing last record to disk	transform_composite_orders_multiple_pols	orders_transformer.py:204
-2023-05-09 11:53:14,321	Done. Wrapping up...	transform_composite_orders_multiple_pols	orders_transformer.py:226
-2023-05-09 11:53:14,322	Writing migration- and mapping report to ../../migration_example/iterations/test_run/reports/report_transform_composite_orders_multiple_pols.md	transform_composite_orders_multiple_pols	orders_transformer.py:228
-2023-05-09 11:53:14,322	Elapsed time: 0:00:17.100324	transform_composite_orders_multiple_pols	migration_report.py:74
-2023-05-09 11:53:14,322	All done!	transform_composite_orders_multiple_pols	orders_transformer.py:244
-2023-05-09 11:53:14,322	Work done. Shutting down	transform_composite_orders_multiple_pols	__main__.py:102
+2023-05-09 13:14:38,590	fetching current user..	transform_composite_orders_multiple_pols	FolioClient.py:37
+2023-05-09 13:14:39,492	Done processing ../../migration_example/iterations/test_run/source_data/orders/sierra_orders_with_blanket_orders.tsv containing 9 records. Total records processed: 9	transform_composite_orders_multiple_pols	orders_transformer.py:201
+2023-05-09 13:14:39,492	Storing last record to disk	transform_composite_orders_multiple_pols	orders_transformer.py:205
+2023-05-09 13:14:39,493	Done. Wrapping up...	transform_composite_orders_multiple_pols	orders_transformer.py:226
+2023-05-09 13:14:39,493	Writing migration- and mapping report to ../../migration_example/iterations/test_run/reports/report_transform_composite_orders_multiple_pols.md	transform_composite_orders_multiple_pols	orders_transformer.py:228
+2023-05-09 13:14:39,493	Elapsed time: 0:00:11.259821	transform_composite_orders_multiple_pols	migration_report.py:74
+2023-05-09 13:14:39,493	All done!	transform_composite_orders_multiple_pols	orders_transformer.py:244
+2023-05-09 13:14:39,493	Work done. Shutting down	transform_composite_orders_multiple_pols	__main__.py:102
