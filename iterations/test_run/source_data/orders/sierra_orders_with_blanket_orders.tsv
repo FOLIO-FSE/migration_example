@@ -1,9 +1,9 @@
-RECORD #(Order)	RECORD #(BIBLIO)	BLANKET PO	ACQ TYPE	LOCATION	CDATE	CLAIM	COPIES	CODE1	E PRICE	FORM	FUND	ODATE	ORD TYPE	RDATE	RLOC	BLOC	STATUS	VENDOR	LANG	VOLUMES	CREATED(Order)	UPDATED(Order)	NOTE(Order)	MESSAGE	DONOR	REQUESTOR	VEN ADDR	VEN NOTE	COSTCENTRE	GL ACCOUNT	Paid Date	Invoice Date	Invoice Num	Amount Paid	Voucher Num	Copies	Sub From	Sub To	Note
-o10071337	b10558731	BO354348	p	cjos 	  -  -  	-	1	m	NAD$700.00	b	myfund	24-08-2020	f	  -  -  	a  	p  	o	9727	eng	1	21-08-2020	26-04-2022																	
-o10072135	b10603827	BO354837	p	masl 	  -  -  	-	3	m	NAD$100.00	b	myfund	26-10-2020	f	  -  -  	a  	p  	o	9727	eng	1	20-10-2020	26-04-2022																	
-o10072147	b10603724	BO354837	p	masl 	  -  -  	-	3	m	NAD$156.00	b	myfund	26-10-2020	f	  -  -  	a  	p  	o	9727	eng	1	20-10-2020	26-04-2022																	
-o10072160	b10602628	BO354837	p	masl 	  -  -  	-	3	m	NAD$921.00	b	myfund	26-10-2020	f	  -  -  	a  	p  	o	9727	eng	1	20-10-2020	26-04-2022																	
-o10072421	b1055743x	BO355351	p	cjos 	  -  -  	-	1	m	NAD$200.00	b	myfund	18-35-2020	f	  -  -  	a  	p  	o	9727	eng	1	28-10-2020	26-04-2022																	
-o10073504	b1059758x	BO355875	p	masl 	  -  -  	-	3	m	NAD$300.10	b	myfund	24-02-2022	f	  -  -  	a  	p  	o	9274	eng	1	17-02-2022	25-02-2022																	
-o10073528	b10599447	BO355875	p	maos 	  -  -  	-	1	m	NAD$120.70	b	myfund	24-02-2022	f	  -  -  	a  	p  	o	9274	eng	1	17-02-2022	25-02-2022																	
-o10073541	b1060604x	BO355874	p	maos 	  -  -  	-	1	m	NAD$295.00	b	myfund	24-02-2022	f	  -  -  	a  	p  	o	9274	eng	1	17-02-2022	25-02-2022																	
+RECORD #(Order)	RECORD #(BIBLIO)	TITLE	BLANKET PO	ACQ TYPE	LOCATION	CDATE	CLAIM	COPIES	CODE1	E PRICE	FORM	FUND	ODATE	ORD TYPE	RDATE	RLOC	BLOC	STATUS	VENDOR	LANG	VOLUMES	CREATED(Order)	UPDATED(Order)	NOTE(Order)	MESSAGE	DONOR	REQUESTOR	VEN ADDR	VEN NOTE	COSTCENTRE	GL ACCOUNT	Paid Date	Invoice Date	Invoice Num	Amount Paid	Voucher Num	Copies	Sub From	Sub To	Note
+o10071337	b10558731	My Favorite Cats	BO354348	p	cjos 	  -  -  	-	1	m	USD$700.00	b	myfund	24-08-2020	p	  -  -  	a  	p  	o	SHCD	eng	1	21-08-2020	26-04-2022																	
+o10072135	b10603827	My Favorite Dogs	BO354837	p	masl 	  -  -  	-	3	m	USD$100.00	b	myfund	26-10-2020	s	  -  -  	a  	p  	o	SHCD	eng	1	20-10-2020	26-04-2022																	
+o10072147	b10603724	My Favorite Horses	BO354837	p	masl 	  -  -  	-	3	m	USD$156.00	b	myfund	26-10-2020	s	  -  -  	a  	p  	o	SHCD	eng	1	20-10-2020	26-04-2022																	
+o10072160	b10602628	My Favorite Pigs	BO354837	p	masl 	  -  -  	-	3	m	USD$921.00	b	myfund	26-10-2020	s	  -  -  	a  	p  	o	SHCD	eng	1	20-10-2020	26-04-2022																	
+o10072421	b1055743x	My Favorite Parrots	BO355351	p	cjos 	  -  -  	-	1	m	USD$200.00	b	myfund	18-35-2020	s	  -  -  	a  	p  	o	SHCD	eng	1	28-10-2020	26-04-2022																	
+o10073504	b1059758x	My Favorite Hamsters	BO355875	p	masl 	  -  -  	-	3	m	NAD$300.10	b	myfund	24-02-2022	p	  -  -  	a  	p  	o	DM	eng	1	17-02-2022	25-02-2022																	
+o10073528	b10599447	My Favorite Cows	BO355875	p	maos 	  -  -  	-	1	m	USD$120.70	b	myfund	24-02-2022	p	  -  -  	a  	p  	o	DM	eng	1	17-02-2022	25-02-2022																	
+o10073541	b1060604x	My Favorite Butterflies	BO355874	p	maos 	  -  -  	-	1	m	USD$295.00	b	myfund	24-02-2022	s	  -  -  	a  	p  	o	DM	eng	1	17-02-2022	25-02-2022																	

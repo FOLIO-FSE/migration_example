@@ -1,0 +1,143 @@
+{
+    "data": [
+        {
+            "folio_field": "legacyIdentifier",
+            "legacy_field": "BLANKET PO",
+            "value": "",
+            "description": ""
+        },
+        {
+            "folio_field": "poNumber",
+            "legacy_field": "BLANKET PO",
+            "value": "",
+            "description": ""
+        },
+        {
+            "folio_field": "vendor",
+            "legacy_field": "VENDOR",
+            "value": "",
+            "description": ""
+        },
+        {
+            "folio_field": "orderType",
+            "legacy_field": "ORD TYPE",
+            "value": "",
+            "description": "",
+            "rules": {
+                "replaceValues": {
+                    "s": "One-Time",
+                    "p": "Ongoing",
+                    "l": "Ongoing",
+                    "n": "One-Time"
+                }
+            }
+        },
+        {
+            "folio_field": "compositePoLines[0].id",
+            "legacy_field": "BLANKET PO",
+            "value": "",
+            "description": ""
+        },
+        {
+            "folio_field": "compositePoLines[0].titleOrPackage",
+            "legacy_field": "TITLE",
+            "value": "",
+            "description": ""
+        },
+        {
+            "folio_field": "compositePoLines[0].instanceId",
+            "legacy_field": "RECORD #(BIBLIO)",
+            "value": "",
+            "description": ""
+        },
+        {
+            "folio_field": "compositePoLines[0].acquisitionMethod",
+            "legacy_field": "ORD TYPE",
+            "value": "",
+            "description": ""
+        },
+        {
+            "folio_field": "compositePoLines[0].orderFormat",
+            "legacy_field": "FORM",
+            "value": "",
+            "description": "",
+            "rules": {
+                "replaceValues": {
+                    "b": "Physical Resource"
+                }
+            }
+        },
+        {
+            "folio_field": "compositePoLines[0].cost.quantityPhysical",
+            "legacy_field": "COPIES",
+            "value": "",
+            "description": ""
+        },
+        {
+            "folio_field": "compositePoLines[0].cost.quantityElectronic",
+            "legacy_field": "",
+            "value": "",
+            "description": ""
+        },
+        {
+            "folio_field": "compositePoLines[0].cost.poLineEstimatedPrice",
+            "legacy_field": "E PRICE",
+            "value": "",
+            "rules": {
+                "regexGetFirstMatchOrEmpty": "(?<=\\$).*"
+            },
+            "description": ""
+        },
+        {
+            "folio_field": "compositePoLines[0].cost.currency",
+            "legacy_field": "E PRICE",
+            "value": "",
+            "rules": {
+                "regexGetFirstMatchOrEmpty": "(.*)\\$"
+            },
+            "description": ""
+        },
+        {
+            "folio_field": "compositePoLines[0].source",
+            "legacy_field": "",
+            "value": "API",
+            "description": ""
+        },
+        {
+            "folio_field": "compositePoLines[0].locations[0].quantity",
+            "legacy_field": "COPIES",
+            "value": "",
+            "description": ""
+        },
+        {
+            "folio_field": "compositePoLines[0].locations[0].locationId",
+            "legacy_field": "LOCATION",
+            "value": "",
+            "description": ""
+        },
+        {
+            "folio_field": "notes[0].domain",
+            "legacy_field": "Not mapped",
+            "value": "orders",
+            "description": ""
+        },
+        {
+            "folio_field": "notes[0].typeId",
+            "legacy_field": "",
+            "value": "f5bba0d2-7732-4687-8311-a2cb0eaa12e5",
+            "description": ""
+        },
+        {
+            "folio_field": "notes[0].title",
+            "legacy_field": "",
+            "value": "A migrated note",
+            "description": ""
+        },
+        {
+            "folio_field": "notes[0].content",
+            "legacy_field": "Note",
+            "value": "",
+            "description": ""
+        }
+    ]
+}
