@@ -1,22 +1,8 @@
-DATA ISSUE	BO354348	No matching bib/instance for bibliographic record ID:	b10558731
-DATA ISSUE	BO354348	No matching bib/instance for bibliographic record ID:	b10558731
-DATA ISSUE	BO354348	No matching bib/instance for bibliographic record ID:	b10558731
-DATA ISSUE	BO354837	No matching bib/instance for bibliographic record ID:	b10603724
-DATA ISSUE	BO354837	No matching bib/instance for bibliographic record ID:	b10603724
-DATA ISSUE	BO354837	No matching bib/instance for bibliographic record ID:	b10603724
-DATA ISSUE	BO354837	No matching bib/instance for bibliographic record ID:	b10602628
-DATA ISSUE	BO354837	No matching bib/instance for bibliographic record ID:	b10602628
-DATA ISSUE	BO354837	No matching bib/instance for bibliographic record ID:	b10602628
-DATA ISSUE	BO355351	No matching bib/instance for bibliographic record ID:	b1055743x
-DATA ISSUE	BO355351	No matching bib/instance for bibliographic record ID:	b1055743x
-DATA ISSUE	BO355351	No matching bib/instance for bibliographic record ID:	b1055743x
-DATA ISSUE	BO355875	No matching bib/instance for bibliographic record ID:	b1059758x
-DATA ISSUE	BO355875	No matching bib/instance for bibliographic record ID:	b1059758x
-DATA ISSUE	BO355875	No matching bib/instance for bibliographic record ID:	b1059758x
-DATA ISSUE	BO355875	No matching bib/instance for bibliographic record ID:	b10599447
-DATA ISSUE	BO355875	No matching bib/instance for bibliographic record ID:	b10599447
-DATA ISSUE	BO355875	No matching bib/instance for bibliographic record ID:	b10599447
-DATA ISSUE	BO355874	No matching bib/instance for bibliographic record ID:	
-DATA ISSUE	BO355874	No matching bib/instance for bibliographic record ID:	
-DATA ISSUE	BO355874	No matching bib/instance for bibliographic record ID:	
-RECORD FAILED	BO355884	No matching organizaiton in FOLIO for vendor code	LocalBookstore
+DATA ISSUE	BO354348	No matching instance for bib identifier	b10558731
+DATA ISSUE	BO354837	No matching instance for bib identifier	b10603724
+DATA ISSUE	BO354837	No matching instance for bib identifier	b10602628
+DATA ISSUE	BO355351	No matching instance for bib identifier	b1055743x
+DATA ISSUE	BO355875	No matching instance for bib identifier	b1059758x
+DATA ISSUE	BO355875	No matching instance for bib identifier	b10599447
+DATA ISSUE	BO355874	No matching instance for bib identifier	
+RECORD FAILED	BO355884	No matching Organization for organization identifier	LocalBookstore

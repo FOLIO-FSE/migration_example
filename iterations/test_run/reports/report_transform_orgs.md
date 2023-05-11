@@ -4,9 +4,9 @@
    
 Measure | Value   
 --- | ---:   
-Time Started: | 2023-03-23T15:54:40.934879+00:00   
-Time Finished: | 2023-03-23T15:54:54.003196+00:00   
-Elapsed time: | 0:00:13.068317   
+Time Started: | 2023-05-11T11:15:31.626009+00:00   
+Time Finished: | 2023-05-11T11:15:48.933279+00:00   
+Elapsed time: | 0:00:17.307270   
    
 ## General statistics    
 A list of general counters to outline the transformation as a whole.    
@@ -14,7 +14,7 @@ A list of general counters to outline the transformation as a whole.
    
 Measure | Count   
 --- | ---:   
-Empty rows in test_organizations.tsv | 0   
+Number of empty rows in test_organizations.tsv | 0   
 Number of files processed | 1   
 Number of linked contacts created | 3   
 Number of linked interfaceCredential created | 2   
@@ -22,26 +22,7 @@ Number of linked interfaces created | 4
 Number of linked notes created | 3   
 Number of objects in source data file | 3   
 Number of organizations created | 3   
-Total rows in test_organizations.tsv | 3   
-</details>   
-   
-## Default values added    
-The values below was added to all records from the value field in the mapping file instead of coming from the source records    
-<details><summary>Click to expand all 12 things</summary>     
-   
-Measure | Count   
---- | ---:   
-Admin added to interfaces[1].type[0] | 3   
-From Schema: exportToAccounting -> False | 3   
-From Schema: isVendor -> False | 3   
-Migrated note added to notes[0].title | 3   
-True added to addresses[0].isPrimary | 3   
-True added to contacts[0].addresses[0].isPrimary | 12   
-True added to contacts[0].phoneNumbers[0].isPrimary | 12   
-True added to contacts[1].addresses[0].isPrimary | 9   
-True added to interfaces[0].available | 6   
-f5bba0d2-7732-4687-8311-a2cb0eaa12e5 added to notes[0].typeId | 3   
-organizations added to notes[0].domain | 3   
+Number of rows in test_organizations.tsv | 3   
 </details>   
    
 ## Organization types    
@@ -52,6 +33,98 @@ Measure | Count
 --- | ---:   
 Unmapped (Default value was set) -- ast -> Unspecified | 1   
 cst -> Consortium | 2   
+</details>   
+   
+## FOLIO default values added    
+The below FOLIO default values were added to records that had no mapped value in the source data.    
+<details><summary>Click to expand all 68 things</summary>     
+   
+Measure | Count   
+--- | ---:   
+ added to accounts[0].accountNo | 1   
+ added to accounts[0].accountStatus | 3   
+ added to addresses[0].stateRegion | 3   
+ added to addresses[0].zipCode | 2   
+ added to aliases[0].description | 2   
+ added to aliases[0].value | 1   
+ added to contacts[0].addresses[0].addressLine1 | 4   
+ added to contacts[0].addresses[0].city | 8   
+ added to contacts[0].categories[0] | 8   
+ added to contacts[0].firstName | 4   
+ added to contacts[0].lastName | 4   
+ added to contacts[0].notes | 4   
+ added to contacts[0].phoneNumbers[0].phoneNumber | 4   
+ added to contacts[1].addresses[0].addressLine1 | 6   
+ added to contacts[1].addresses[0].city | 9   
+ added to contacts[1].firstName | 6   
+ added to contacts[1].lastName | 6   
+ added to contacts[1].notes | 6   
+ added to edi.ediFtp.ftpConnMode | 3   
+ added to edi.ediFtp.ftpFormat | 3   
+ added to edi.ediFtp.ftpMode | 3   
+ added to edi.ediFtp.ftpPort | 3   
+ added to edi.ediFtp.invoiceDirectory | 3   
+ added to edi.ediFtp.notes | 3   
+ added to edi.ediFtp.orderDirectory | 3   
+ added to edi.ediFtp.password | 3   
+ added to edi.ediFtp.serverAddress | 3   
+ added to edi.ediFtp.username | 3   
+ added to edi.ediJob.isFriday | 3   
+ added to edi.ediJob.isMonday | 3   
+ added to edi.ediJob.isSaturday | 3   
+ added to edi.ediJob.isSunday | 3   
+ added to edi.ediJob.isThursday | 3   
+ added to edi.ediJob.isTuesday | 3   
+ added to edi.ediJob.isWednesday | 3   
+ added to edi.ediJob.notifyAllEdi | 3   
+ added to edi.ediJob.notifyErrorOnly | 3   
+ added to edi.ediJob.notifyInvoiceOnly | 3   
+ added to edi.ediJob.scheduleEdi | 3   
+ added to edi.ediJob.schedulingDate | 3   
+ added to edi.ediJob.schedulingNotes | 3   
+ added to edi.ediJob.sendToEmails | 3   
+ added to edi.ediJob.time | 3   
+ added to edi.ediNamingConvention | 3   
+ added to edi.libEdiCode | 3   
+ added to edi.libEdiType | 3   
+ added to edi.notes | 3   
+ added to edi.prorateFees | 3   
+ added to edi.prorateTax | 3   
+ added to edi.sendAcctNum | 3   
+ added to edi.supportInvoice | 3   
+ added to edi.supportOrder | 3   
+ added to edi.vendorEdiCode | 3   
+ added to edi.vendorEdiType | 3   
+ added to emails[0].value | 2   
+ added to interfaces[0].deliveryMethod | 4   
+ added to interfaces[0].interfaceCredential.password | 2   
+ added to interfaces[0].interfaceCredential.username | 2   
+ added to interfaces[0].locallyStored | 4   
+ added to interfaces[0].notes | 4   
+ added to interfaces[0].onlineLocation | 4   
+ added to interfaces[0].statisticsFormat | 4   
+ added to interfaces[0].statisticsNotes | 4   
+ added to interfaces[0].type[0] | 2   
+ added to interfaces[1].name | 2   
+ added to interfaces[1].uri | 2   
+ added to phoneNumbers[0].phoneNumber | 1   
+</details>   
+   
+## Default values from mapping added    
+The values below were added to all records from the 'value' field in the mapping file, overriding any mapped values from the source data.    
+<details><summary>Click to expand all 10 things</summary>     
+   
+Measure | Count   
+--- | ---:   
+Admin added to interfaces[1].type[0] | 3   
+Migrated note added to notes[0].title | 3   
+True added to addresses[0].isPrimary | 3   
+True added to contacts[0].addresses[0].isPrimary | 12   
+True added to contacts[0].phoneNumbers[0].isPrimary | 12   
+True added to contacts[1].addresses[0].isPrimary | 9   
+True added to interfaces[0].available | 6   
+f5bba0d2-7732-4687-8311-a2cb0eaa12e5 added to notes[0].typeId | 3   
+organizations added to notes[0].domain | 3   
 </details>   
    
 ## Organization contact categories    
@@ -68,14 +141,24 @@ tspt -> Technical Support | 1
    
 ## Sub-property removed due to missing required fields    
 Add the missing required information to the record in your current ILS to ensure that it can be migrated over.    
-<details><summary>Click to expand all 5 things</summary>     
+<details><summary>Click to expand all 6 things</summary>     
    
 Measure | Count   
 --- | ---:   
 accounts | 2   
+contacts | 3   
 emails | 2   
 interfaces | 2   
 phoneNumbers | 1   
+</details>   
+   
+## Mapping details    
+    
+<details><summary>Click to expand all 2 things</summary>     
+   
+Measure | Count   
+--- | ---:   
+Replaced mspt<^>sls in contact_1_categories with e193b0d1-4674-4a9e-818b-375f013d963f<^>604c2c9d-ed3a-46cd-bec4-69926c303b22 | 4   
 </details>   
    
 ## Mapped note types    
@@ -108,17 +191,17 @@ aliases.value | 2 (67%) | 1 (33%)
 changelogs | 0 (0%) | 3 (100%) 
 claimingInterval | 0 (0%) | 3 (100%) 
 code | 3 (100%) | 0 (0%) 
-contacts | 3 (100%) | 0 (0%) 
-contacts.addresses | 3 (100%) | 0 (0%) 
+contacts | 2 (67%) | 1 (33%) 
+contacts.addresses | 2 (67%) | 1 (33%) 
 contacts.addresses.addressLine1 | 2 (67%) | 1 (33%) 
 contacts.addresses.city | 1 (33%) | 2 (67%) 
-contacts.addresses.isPrimary | 3 (100%) | 0 (0%) 
+contacts.addresses.isPrimary | 2 (67%) | 1 (33%) 
 contacts.categories | 1 (33%) | 2 (67%) 
 contacts.firstName | 2 (67%) | 1 (33%) 
 contacts.lastName | 2 (67%) | 1 (33%) 
 contacts.notes | 2 (67%) | 1 (33%) 
-contacts.phoneNumbers | 3 (100%) | 0 (0%) 
-contacts.phoneNumbers.isPrimary | 3 (100%) | 0 (0%) 
+contacts.phoneNumbers | 2 (67%) | 1 (33%) 
+contacts.phoneNumbers.isPrimary | 2 (67%) | 1 (33%) 
 contacts.phoneNumbers.phoneNumber | 2 (67%) | 1 (33%) 
 description | 0 (0%) | 3 (100%) 
 discountPercent | 0 (0%) | 3 (100%) 
@@ -130,7 +213,7 @@ erpCode | 0 (0%) | 3 (100%)
 expectedActivationInterval | 0 (0%) | 3 (100%) 
 expectedInvoiceInterval | 0 (0%) | 3 (100%) 
 expectedReceiptInterval | 0 (0%) | 3 (100%) 
-exportToAccounting | 3 (100%) | 0 (0%) 
+exportToAccounting | 0 (0%) | 3 (100%) 
 governmental | 0 (0%) | 3 (100%) 
 id | 3 (100%) | 0 (0%) 
 interfaces | 3 (100%) | 0 (0%) 
@@ -148,7 +231,7 @@ interfaces.statisticsFormat | 1 (33%) | 2 (67%)
 interfaces.statisticsNotes | 1 (33%) | 2 (67%) 
 interfaces.type | 2 (67%) | 1 (33%) 
 interfaces.uri | 3 (100%) | 0 (0%) 
-isVendor | 3 (100%) | 0 (0%) 
+isVendor | 0 (0%) | 3 (100%) 
 language | 0 (0%) | 3 (100%) 
 liableForVat | 0 (0%) | 3 (100%) 
 licensor | 0 (0%) | 3 (100%) 

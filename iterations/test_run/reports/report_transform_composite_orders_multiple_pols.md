@@ -4,28 +4,24 @@
    
 Measure | Value   
 --- | ---:   
-Time Started: | 2023-05-09T16:11:39.065687+00:00   
-Time Finished: | 2023-05-09T16:11:56.083316+00:00   
-Elapsed time: | 0:00:17.017629   
+Time Started: | 2023-05-11T12:45:31.926086+00:00   
+Time Finished: | 2023-05-11T12:45:43.895980+00:00   
+Elapsed time: | 0:00:11.969894   
    
 ## General statistics    
 A list of general counters to outline the transformation as a whole.    
-<details><summary>Click to expand all 13 things</summary>     
+<details><summary>Click to expand all 9 things</summary>     
    
 Measure | Count   
 --- | ---:   
-DATA ISSUE Vendors not matched to FOLIO Organizations | 1   
 FAILED Records failed due to an error | 1   
-Instances matched to migrated bib records | 3   
-Instances not matched to migrated bib records | 21   
-Notes without content that were discarded. Set some default value if you only intend to set the note title | 8   
+Number of discarded notes with no content | 8   
 Number of empty rows in sierra_orders_with_blanket_orders.tsv | 0   
 Number of files processed | 1   
 Number of rows in sierra_orders_with_blanket_orders.tsv | 9   
 Rows merged to create Purchase Orders | 3   
 TOTAL Purchase Order Lines created | 8   
 TOTAL Purchase Orders created | 5   
-Vendors matched to FOLIO Organizations | 8   
 </details>   
    
 ## Mapping details    
@@ -34,7 +30,7 @@ Vendors matched to FOLIO Organizations | 8
    
 Measure | Count   
 --- | ---:   
-Replaced b in FORM with Physical Resource | 24   
+Replaced b in FORM with Physical Resource | 27   
 Replaced p in ORD TYPE with Ongoing | 4   
 Replaced s in ORD TYPE with One-Time | 5   
 </details>   
@@ -46,7 +42,7 @@ Replaced s in ORD TYPE with One-Time | 5
 Measure | Count   
 --- | ---:   
 Unmapped (Default value was set) -- v -> Other | 3   
-p -> Purchase | 18   
+p -> Purchase | 21   
 s -> Purchase | 3   
 </details>   
    
@@ -57,7 +53,7 @@ This is the location for for the purchase order line.
 Measure | Count   
 --- | ---:   
 Unmapped (Default value was set) -- cjos  -> migration | 6   
-Unmapped (Default value was set) -- maos  -> migration | 6   
+Unmapped (Default value was set) -- maos  -> migration | 9   
 Unmapped (Default value was set) -- masl  -> migration | 12   
 </details>   
    
@@ -68,9 +64,30 @@ The values below were added to all records from the 'value' field in the mapping
 Measure | Count   
 --- | ---:   
 A migrated note added to notes[0].title | 8   
-API added to compositePoLines[0].source | 24   
+API added to compositePoLines[0].source | 27   
 f5bba0d2-7732-4687-8311-a2cb0eaa12e5 added to notes[0].typeId | 8   
 orders added to notes[0].domain | 8   
+</details>   
+   
+## Linked Organizations    
+All purchase orders must be linked to an organization.    
+<details><summary>Click to expand all 4 things</summary>     
+   
+Measure | Count   
+--- | ---:   
+LINKING FAILED Organization identifier not in ID map/FOLIO | 1   
+Organizations linked using organizations_id_map | 9   
+Organizations not in ID map, linked using FOLIO lookup | 1   
+</details>   
+   
+## Linked Instances    
+Purchase Oreder Lines can but do not have to be linked to instances    
+<details><summary>Click to expand all 3 things</summary>     
+   
+Measure | Count   
+--- | ---:   
+Instance linked using instances_id_map | 1   
+Istance not linked - bib identifier not in instances_id_map | 7   
 </details>   
    
 ## FOLIO default values added    
@@ -159,13 +176,13 @@ workflowStatus | 0 (0%) | 9 (100%)
 
 Legacy Field | Present | Mapped | Unmapped  
 --- | --- | --- | ---:  
-ACQ TYPE | 24 (266.7%) | 24 (267%) | 0  
-BLANKET PO | 33 (366.7%) | 33 (367%) | 0  
-COPIES | 24 (266.7%) | 24 (267%) | 0  
-FORM | 24 (266.7%) | 24 (267%) | 0  
-LOCATION | 24 (266.7%) | 24 (267%) | 0  
+ACQ TYPE | 27 (300.0%) | 27 (300%) | 0  
+BLANKET PO | 36 (400.0%) | 36 (400%) | 0  
+COPIES | 27 (300.0%) | 27 (300%) | 0  
+FORM | 27 (300.0%) | 27 (300%) | 0  
+LOCATION | 27 (300.0%) | 27 (300%) | 0  
 ORD TYPE | 9 (100.0%) | 9 (100%) | 0  
-RECORD #(BIBLIO) | 24 (266.7%) | 24 (267%) | 0  
-TITLE | 24 (266.7%) | 24 (267%) | 0  
-VENDOR | 8 (88.9%) | 8 (89%) | 0  
+RECORD #(BIBLIO) | 27 (300.0%) | 27 (300%) | 0  
+TITLE | 27 (300.0%) | 27 (300%) | 0  
+VENDOR | 9 (100.0%) | 9 (100%) | 0  
 </details>   
