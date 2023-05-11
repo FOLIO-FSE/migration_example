@@ -4,9 +4,9 @@
    
 Measure | Value   
 --- | ---:   
-Time Started: | 2023-05-11T12:45:31.926086+00:00   
-Time Finished: | 2023-05-11T12:45:43.895980+00:00   
-Elapsed time: | 0:00:11.969894   
+Time Started: | 2023-05-11T12:55:38.460217+00:00   
+Time Finished: | 2023-05-11T12:55:54.149727+00:00   
+Elapsed time: | 0:00:15.689510   
    
 ## General statistics    
 A list of general counters to outline the transformation as a whole.    
@@ -70,14 +70,14 @@ orders added to notes[0].domain | 8
 </details>   
    
 ## Linked Organizations    
-All purchase orders must be linked to an organization.    
+All purchase orders MUST be linked to an organization.    
 <details><summary>Click to expand all 4 things</summary>     
    
 Measure | Count   
 --- | ---:   
-LINKING FAILED Organization identifier not in ID map/FOLIO | 1   
 Organizations linked using organizations_id_map | 9   
 Organizations not in ID map, linked using FOLIO lookup | 1   
+RECORD FAILED Organization identifier not in ID map/FOLIO | 1   
 </details>   
    
 ## Linked Instances    
@@ -86,8 +86,8 @@ Purchase Oreder Lines can but do not have to be linked to instances
    
 Measure | Count   
 --- | ---:   
-Instance linked using instances_id_map | 1   
-Istance not linked - bib identifier not in instances_id_map | 7   
+Bib identifier not in instances_id_map, no instance linked | 7   
+Instances linked using instances_id_map | 1   
 </details>   
    
 ## FOLIO default values added    
