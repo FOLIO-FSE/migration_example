@@ -6,7 +6,7 @@
         "okapiUsername": "datamigration_manual",
         "libraryName": "FOLIO Reference env",
         "logLevelDebug": false,
-        "folioRelease": "morning-glory",
+        "folioRelease": "orchid",
         "addTimeStampToFileNames": false,
         "iterationIdentifier": "test_run"
     },
@@ -63,10 +63,10 @@
             "files": [
                 {
                     "file_name": "bibs.mrc",
-                    "suppressed": false
+                    "discovery_suppressed": false
                 }
             ],
-            "neverUpdateHridSettings": false,
+            "updateHridSettings": true,
             "hridHandling": "preserve001"
         },
         {
@@ -104,10 +104,10 @@
             "files": [
                 {
                     "file_name": "holding.mrc",
-                    "suppressed": false
+                    "discovery_suppressed": false
                 }
             ],
-            "neverUpdateHridSettings": true,
+            "updateHridSettings": false,
             "boundwithRelationshipFilePath": "voyager_bound_with_export.tsv",
             "holdingsTypeUuidForBoundwiths": "072cf64f-1fbe-4bb4-bdee-2d72453aefad"
         },
@@ -156,7 +156,7 @@
                     "file_name": "csv_items.tsv"
                 }
             ],
-            "neverUpdateHridSettings": true
+            "updateHridSettings": false
         },
         {
             "name": "post_csv_holdings",
@@ -168,7 +168,7 @@
                     "file_name": "folio_holdings_transform_csv_holdings.json"
                 }
             ],
-            "neverUpdateHridSettings": true
+            "updateHridSettings": false
         },
         {
             "name": "transform_csv_items",
@@ -187,7 +187,7 @@
                     "file_name": "csv_items.tsv"
                 }
             ],
-            "neverUpdateHridSettings": true
+            "updateHridSettings": false
         },
         {
             "name": "transform_mfhd_items",
@@ -206,7 +206,7 @@
                     "file_name": "items_linked_to_mfhds.csv"
                 }
             ],
-            "neverUpdateHridSettings": true,
+            "updateHridSettings": false,
             "boundwithRelationshipFilePath": "voyager_bound_with_export.tsv"
         },
         {
@@ -256,7 +256,7 @@
                     "file_name": "bw_items.tsv"
                 }
             ],
-            "neverUpdateHridSettings": true
+            "updateHridSettings": false
         },
         {
             "name": "post_bw_holdings",
@@ -286,7 +286,7 @@
                     "file_name": "bw_items.tsv"
                 }
             ],
-            "neverUpdateHridSettings": true
+            "updateHridSettings": false
         },
         {
             "name": "post_extradata",
