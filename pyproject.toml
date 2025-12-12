@@ -3,9 +3,10 @@ name = "migration-example"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.13,<3.14"
 dependencies = [
-    "folio-migration-tools>=1.9.0rc9",
+    "folio-data-import>=0.4.2",
+    "folio-migration-tools>=1.9.6",
     "pandas>=2.2.3",
     "polars>=1.28.1",
 ]
