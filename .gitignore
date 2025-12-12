@@ -9,3 +9,4 @@ archive/source_data/
 *.pyc
 .python-version
 .env
+reports/

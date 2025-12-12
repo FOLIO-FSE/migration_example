@@ -2,11 +2,11 @@
     "libraryInformation": {
         "tenantId": "icmigtst00",
         "multiFieldDelimiter": ";",
-        "okapiUrl": "https://okapi-ic-migration-test.int.aws.folio.org",
-        "okapiUsername": "datamigration_manual",
+        "okapiUrl": "https://kong-ic-migration-test.int.aws.folio.org",
+        "okapiUsername": "EBSCOMigration",
         "libraryName": "FOLIO Reference env",
         "logLevelDebug": false,
-        "folioRelease": "orchid",
+        "folioRelease": "sunflower",
         "addTimeStampToFileNames": false,
         "iterationIdentifier": "test_run"
     },
